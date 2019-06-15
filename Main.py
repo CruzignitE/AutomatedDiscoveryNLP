@@ -1,84 +1,49 @@
-# from nltk import *
+
 # from numpy import *
 # from PyRTF import *
 # from os import *
 # from pandoc import *
+# import re
+# from array import *
+import os
 
-# import regex as re
+import nltk
+import sklearn
 
+from Judge import Judge
 from LegalDoc import LegalDoc
 
 
 # ----Main method----
 def main():
-    testAll(True)
-    testSingle()
-    print(LegalDoc.GetExceptionData())
+    print('The nltk version is {}.'.format(nltk.__version__))
+    print('The scikit-learn version is {}.'.format(sklearn.__version__))
+
+    test_all(True)
+    print(LegalDoc.get_exception_data())
+    Judge.print_all()
     print("Done!")
 
 
 # Test all legal docs
-def testAll(aSaveFormattedFiles):
-    # Very slow when files throw exception due to bad formatting
-    try:
-        lPathList = [
-            "ERRORS1",
-            "ERRORS2",
-            # "ERRORS3",
+def test_all(a_save_formatted_files: bool):
+    l_legal_doc_list = []
 
-            "DPP v Blum",
-            "DPP v Bowden",
-            "DPP v Bux",
-            "DPP v Shaw",
-            "DPP v Skonis",
-            "DPP v Spokes",
-            "DPP v Taha",
-            "DPP v Tomuli"  # Needs additional work
-        ]
+    for filename in os.listdir("Resources/Input/txt single/"):
+        l_legal_doc = LegalDoc("Resources/Input/txt single/" + filename)
 
-        lLegalDocList = []
-        for i in range(0, len(lPathList)):
-            lLegalDoc = LegalDoc("Resources/Input/txt/" + lPathList[i] + ".txt")
+        if l_legal_doc.failed_init:
+            del l_legal_doc
+            continue
 
-            if lLegalDoc.FailedInit:
-                del lLegalDoc
-                continue
+        else:
+            l_legal_doc_list.append(l_legal_doc)
 
-            else:
-                lLegalDocList.append(lLegalDoc)
-
-                if aSaveFormattedFiles:
-                    lLegalDoc.Write()
-
-    except Exception:
-        raise
-
-
-# Test a selection of legal docs
-def testSingle():
-    try:
-        # lLegalDoc = "No Document specified"
-        lLegalDoc = LegalDoc("Resources/Input/txt/DPP v Blum.txt")    # Works
-        # lLegalDoc = LegalDoc("Resources/Input/txt/DPP v Bowden.txt")  # Works
-        # lLegalDoc = LegalDoc("Resources/Input/txt/DPP v Bux.txt")     # Works
-        # lLegalDoc = LegalDoc("Resources/Input/txt/DPP v Shaw.txt")    # Works
-        # lLegalDoc = LegalDoc("Resources/Input/txt/DPP v Skonis.txt")  # Works
-        # lLegalDoc = LegalDoc("Resources/Input/txt/DPP v Spokes.txt")  # Works
-        # lLegalDoc = LegalDoc("Resources/Input/txt/DPP v Taha.txt")    # Works
-        # lLegalDoc = LegalDoc("Resources/Input/txt/DPP v Tomuli.txt")    # Works
-
-        # lLegalDoc = LegalDoc("Resources/Input/txt/ERRORS1.txt")       # Works
-        # lLegalDoc = LegalDoc("Resources/Input/txt/ERRORS2.txt")       # Works
-        # lLegalDoc = LegalDoc("Resources/Input/txt/ERRORS3.txt")       # Works
-
-        print(lLegalDoc)
-
-    except Exception:
-        raise
+            # Write LegalDoc to .txt
+            if a_save_formatted_files:
+                l_legal_doc.write()
 
 
 # Define main method
 if __name__ == '__main__':
     main()
-
-
