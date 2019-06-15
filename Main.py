@@ -29,8 +29,8 @@ def main():
 def test_all(a_save_formatted_files: bool):
     l_legal_doc_list = []
 
-    for filename in os.listdir("Resources/Input/txt single/"):
-        l_legal_doc = LegalDoc("Resources/Input/txt single/" + filename)
+    for filename in os.listdir("Resources/Input/txt/"):
+        l_legal_doc = LegalDoc("Resources/Input/txt/" + filename)
 
         if l_legal_doc.failed_init:
             del l_legal_doc
