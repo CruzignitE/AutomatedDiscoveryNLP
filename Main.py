@@ -5,13 +5,11 @@
 # from pandoc import *
 # import re
 # from array import *
-import os
-
 import nltk
 import sklearn
-
-from Judge import Judge
+import os
 from LegalDoc import LegalDoc
+from Judge import Judge
 
 
 # ----Main method----

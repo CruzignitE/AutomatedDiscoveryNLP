@@ -5,20 +5,20 @@ pip install scikit-learn
 pip install sacremoses
 '''
 
-import ntpath
-import random
 import re
+import random
+import ntpath
 from typing import List
 
+from Judge import Judge
+
+from sacremoses import MosesDetokenizer
 import nltk.data
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
+from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.stem.wordnet import WordNetLemmatizer
-from nltk.tokenize import word_tokenize
-from sacremoses import MosesDetokenizer
 from sklearn.feature_extraction.text import TfidfVectorizer
-
-from Judge import Judge
 
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -115,7 +115,7 @@ class LegalDoc:
             self.__f_case_number = "NULL"
             self.__f_sentencing_document = False
             self.__f_failed_init = True
-            self.__f_corpora = None
+            self.__f_corpora = []
             self.__f_text_tfidf = None
 
             # Get file name
