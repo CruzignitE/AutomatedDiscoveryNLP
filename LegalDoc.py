@@ -115,7 +115,7 @@ class LegalDoc:
             self.__f_case_number = "NULL"
             self.__f_sentencing_document = False
             self.__f_failed_init = True
-            self.__f_corpora = None
+            self.__f_corpora = []
             self.__f_text_tfidf = None
 
             # Get file name
