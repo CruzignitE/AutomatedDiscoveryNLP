@@ -1,0 +1,161 @@
+FIELD DATA:
+	FILE NAME:
+		78.txt
+	CASE NUMBER:
+		1701790
+	JUDGE NAME:
+		SMALLWOOD
+	DEFENDANT NAME:
+		ISAAC JUDAH TUPOU
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		isaac judah tupou pleaded guilty one charge home invasion one charge affray one charge causing injury recklessly
+		crime carry maximum penalty 25 year five year five year respectively
+	Section:2
+		firstly pursuant s464zf crime act make order provide saliva sample dna purpose
+		order made must advise refuse provide sample police may use reasonable force take
+	Section:3
+		circumstance matter unusual indeed
+		18 year age 18 year age time offending
+		clearly youthful offender
+		prior conviction court appearance description
+		offending occurred within couple month within jurisdiction childrens court note 17old year brother childrens court received nonconviction disposition
+	Section:4
+		pleaded guilty earliest reasonable opportunity made full admission police take account well obvious profound remorse done
+		must also course get utilitarian benefit plea guilty
+	Section:5
+		letter apology sent earlier proceeding accept apology genuine
+		subsequent matter matter pending
+	Section:6
+		recent time commenced apprenticeship reference employer commenting capability
+		strong family support indeed grandparent flown tonga support
+		background matter describe moment offending occurs
+	Section:7
+		may last year concerned girlfriend still girlfriend bullied threatened badly spoken
+		19 may 2017 party held address mitcham
+		group year 11 student involved
+		approximately 1130 pm eight ten uninvited male led entered premise unlocked door
+		male wearing bandanna cover face
+		led group kitchen area leading back deck began demanding see david
+		holding mobile phone image david
+		present began asking julian tailen
+	Section:8
+		tailen backyard confronted
+		threatened facebook messenger group chat
+		assaulted able get premise
+		another male singled punched face another person
+		jonathan hardman intervened try stop occurring essentially hit
+		punched kicked ground give rise charge recklessly causing injury
+		entry premise obviously home invasion charge
+	Section:9
+		man called smith kicked stomped result suffered broken jaw
+		take account insofar charge affray concerned fear would invoke others
+		course charged assault smith
+		occurring picked large wooden seat threw
+		part affray well
+		hit chair group fled
+	Section:10
+		parent number guest called ambulance arrived mr hardman indicated subject assault charge
+	Section:11
+		arrested taken police station interviewed made full frank confession offending taken place
+		explained interview motivation position since night
+	Section:12
+		offending regarded serious involves confrontational home invasion
+		normal course event would call application general specific deterrence well denunciation obviously must appropriate punishment
+		gaol would often result offending someone age period time youth justice centre
+		however particular circumstance lead matter indicated unusual say least
+	Section:13
+		tendered behalf number reference taken account
+		importantly tendered behalf report heather thompson counsellor
+		eloquent term describes occurred lead
+		pointed reference speak respectful polite helpful young person
+		nothing past january last year would suggested would way shape form offended way
+	Section:14
+		description event occurred prefaced fact girlfriend saw defending sister committed suicide bullying exactly 12 month offending took place
+		simply done succinctly read report heather thompson
+		say isaac one young men involved bourke street incident early 2017
+		isaac 17 time incident
+		cousin boy attempted stop vehicle driver proceeded bourke street
+		way church youth group sporting event
+		near federation square became aware driver driving erratically causing people run safety
+		isaac cousin tried stop driver unsuccessful
+		felt people going harmed unless someone something stopping vehicle
+		one else anything stop vehicle
+		isaac felt disappointed time couldnt stop vehicle
+		became aware outcome driver action later day saw tv part medium coverage event city father called talk happenedisaac overwhelmed distress realised able stop car six people died
+		time treated medium many others hero felt overwhelmed regret able prevent murder six people died
+		family decided would best interest australian community discus happened way helping people come term horrific event
+		also felt good islander community two young men acting manner indicated sense duty community wellbeinghe dozen medium interview australian national network
+		monetary return interview however continued feel badly happened tried much possible avoid people
+		whenever tv footage replayed trying stop car would become traumatised memory happened could stop harm occurring
+		continues occur whenever footage shown discussed publicas result incident isaac experienced symptom depression anxiety
+		feel deep guilt unable prevent harm people died
+		vision broken pram footpath image event continue haunt
+		isaac felt able stop car six life would lost
+	Section:15
+		heavy burden 17year old boy carry
+		report go sayhis life significantly impacted event
+		provided counselling police service
+		family unaware support may available
+		initially unable return school due trauma
+		secured apprenticeship work successfully secured commenced another apprenticeshipthat june currently working benefiting routine sense purposethis significantly helping manage depressive symptom distraction issue past anxiety outcome matter court
+		around backdrop event fight occurred isaac trying prevent harm girlfriend bullied
+		girlfriend sister died suicide 12 month prior event
+		bullied
+	Section:16
+		word young man absolute best must frightening situation carry burden
+	Section:17
+		indicated already absolutely nothing else history suggest would guilty would commit sort offending taken place
+		gross error judgment error judgment view effectively child
+		done everything family since endeavour repair damage
+		indicated apology sent article newspaper tendered indicates even couple day event telling journalist plagued guilt
+		unfortunate people aware potential seriousness probability posttraumatic stress disorder nothing could done
+	Section:18
+		situation intend read reference tendered behalf simply one tendered father
+		eloquently describes impact family extended community
+		point tell accept always caring loving gentle person used babysit people child away
+	Section:19
+		brought younger sibling always protective nature sense empathy vulnerable
+		teacher say used comment many occasion student victim bullying social child would drawn sense acceptance safety isaac nonjudgmental way
+	Section:20
+		point succinctly thing done since writing apology undergone completed mental health plan doctor completed anger management course still receiving professional counselling person referred
+	Section:21
+		time since got probationary licence vehicle
+		point apprenticeship strict bail condition breached
+	Section:22
+		clear case come strong protective family hoped total confidence glitch life repeated
+		prospect rehabilitation excellent risk reoffending view low indeed
+		receiving appropriate treatment view impose form detention would simply unfair
+	Section:23
+		assessed community correction order crown demur position
+		give concern work hour significant seriousness offending occurred also mental health condition complying effectively event
+		really want young man involved people work hour unfortunately situation really think choice impose work hour
+	Section:24
+		accordingly charge placed agree community correction order
+		period three year
+		250 work hour mental health condition well supervision
+		unfortunately bearing mind age lack prior conviction seems home invasion crime least mean would inappropriate impose community correction order without conviction accordingly conviction significant punishment one young
+	Section:25
+		thing going put hour spent mental health treatment counted work hour component
+		also point upon completion hour mental health aspect place matter always brought back reviewed whether necessary continue order
+		get hour done see go
+	Section:26
+		right order made
+		simply say conclusion isaac learned doubt violence solution anything
+		understand totally situation arose
+		come strong proud family honour

@@ -1,0 +1,329 @@
+FIELD DATA:
+	FILE NAME:
+		63.txt
+	CASE NUMBER:
+		1701528
+	JUDGE NAME:
+		CARMODY
+	DEFENDANT NAME:
+		MATTHEW MCKEAN
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		matthew mckean 18 december 2017 found guilty seven charge rape jury peer latrobe county court
+		seven charge indictment noc1610861
+	Section:2
+		jury acquitted charge 5 indictment direction trial judge
+		maximum penalty seven charge rape 25 year imprisonmentthe circumstance offending
+	Section:3
+		4 april 2015 attended vicinity community centre cowes
+		accompanied coaccused howard younger brother andrew mckean
+		drinking vodka mixed solo
+		also marijuana possession
+		victim attended community centre area company young male friend
+		victim 15 year old girl
+		victim wanted cigarette provided group
+		victim young male friend comfortable socialising left went home
+		victim remained group joined male female friend community centre area
+	Section:4
+		mr howard younger brother andrew victim two friend walked rear nearby shop
+		behind shop present drinking alcohol smoking cannabis
+		victim obviously intoxicated started kissing younger brother andrew
+		time group decided leave area behind shop walk direction plover street cowes
+	Section:5
+		staying grandmother lived plover street cowes
+		mr bill dunn owned premise 18 plover street cowes
+		backyard mr dunns premise garage old disused car
+	Section:6
+		rear section yard disused ford vehicle
+		knew mr dunn living address day
+		told group wait backyard whilst went grandmother house two door street get marijuana smoking device bong
+		victim two friend want use bong decided leave property
+		victim decided stay got backseat ford vehicle brother andrew mckean
+		howard got front seat ford vehicle
+		victim andrew mckean kissing hooking word victim
+		victim want cannabis
+		howard started cajoling younger brother andrew along line fuck word effect
+		brother want sex victim
+		victim drunk
+		brother left ford vehicle go assist grandfather cleaning market cowes
+		victim remained back seat ford vehicle
+		howard front seat car
+	Section:7
+		respect offending make following finding fact consistent jury verdict guilty respect charge 1 2 3 4 6 7 8
+	Section:8
+		brother andrew left ford vehicle convinced victim give phone could use torch find item front car
+		climbed backseat ford vehicle victim still seated
+		removed underwear inserted finger vagina
+		put penis mouth
+		two rape put penis victim vagina
+		use condom
+		put finger anus
+		rotated body around relation victim put penis mouth second time also putting tongue vagina
+		final act sexual penetration inserting finger victim vagina either vomiting car shortly vomited car
+		course sexual penetration victim pulled hair slapped face behest mr howard
+		victim yelling cry protest attack
+		course attack went quiet
+		gagging gasping air trying vomit
+		attacked knowing drunk unable resist greater physique
+		performed humiliating heinous act knowing encouraged accompanied howard criminal behaviour
+	Section:9
+		offending serious form sexual offending
+		knew victim 15 year old
+		told
+		knew drunk diminutive stature
+		sickening hear matter fact manner victim recounted event night
+		doubt jury found victim honest reliable witnessthe victim impact statement
+	Section:10
+		case victim mother victim filed victim impact statement
+		victim impact statement exhibit plea
+		victim mother requested victim impact statement read open court
+		shown victim impact statement counsel
+		victim mother set level fear daughter suffer going alone
+		mother sell house cowes move new premise feel safe house
+		confirms daughter gone confident friendly kind child someone broken fearful
+	Section:11
+		victim also requested victim impact statement read open court
+		set result attack quit tafe course year 9 level
+		say leave house alone fearful
+		describes dancer since age four return dancing dance school near met mr howard
+		describes nightmare disturbed sleep
+		importantly go anywhere public unless accompanied male feel fearful vulnerable
+		state break lot time lost confidence outgoing
+	Section:12
+		offence significant effect young girl critical stage life
+		temporarily halted education left living state fear safety wellbeingpersonal circumstance
+	Section:13
+		turn personal circumstance
+		21 year old time offence
+		24 time sentence
+		endured upbringing childhood marked disadvantage disruption trauma
+		eldest child sibship four
+		never met father understand
+		whilst custody trial met one sister first time morwell
+		mother poly drug user prior birth
+		number partner mother younger year
+		witnessed abuse family home
+		move school numerous occasion managed complete year 11
+		commenced carpentry apprenticeship lasted short time
+		age 18 worked plasterer labourer
+	Section:14
+		time 14 smoking drinking point intoxication weekend
+		16 year onwards smoking cannabis
+		time offending using two three gram cannabis per day
+		19 partner lost child pregnancy
+		commenced using methamphetamine ice known time
+		also used ecstasy
+		course poly drug use one reported overdose required hospitalisation royal melbourne hospital september 2016
+	Section:15
+		significant number previous court appearance adult childrens court
+		offence include criminal damage burglary drug offence fraud arson
+		age 20 detained youth justice centre
+		record appears detention period three month reported dr omeara spent eight month detention youth training centre
+		whilst youth justice diagnosed bipolar affective disorder
+		medical like report tendered support diagnosis dr omeara diagnose disorder
+	Section:16
+		examined dr omeara neuropsychologist purpose plea
+		prepared report dated 22 january 2018
+		exhibit mk2
+		dr omeara conducted large number psychological test period three hour
+		examination test conducted port phillip prison
+		testing found lowaverage average general intellectual functioning
+		dr omearas opinion deficit cognitive function bearing criminal behaviour
+		reporting dr omeara vehemently denied ever engaged sexual relationship victim
+		consistent plea manner conduct trial jury
+	Section:17
+		support grandmother grandfather course trial plea
+		note today
+		visited custody
+		spent significant part time remand protective custody
+		expectation protective custody continue sentenced prisonersentencing consideration
+	Section:18
+		turn sentencing consideration
+		basic purpose court may impose sentence imprisonment punishment deterrence specific general rehabilitation denunciation action protection community
+		sentencing must regard range factor seriousness offending culpability personal circumstance victim
+		required balance interest interest community denouncing criminal conduct seeking ensure far possible offender rehabilitated reintegrated society
+	Section:19
+		part governing principle considered sentencing must take account current sentencing practice
+		inquiry directed particularly exclusively kind sentence imposed comparable case statistic time sentence
+		considered statistic current sentencing practice mindful case must considered light particular circumstance many case would distinguishable case indeed one another
+		course current sentencing practice one consideration take account fixing sentence
+	Section:20
+		found guilty jury seven charge rape
+		serious offender provision sentencing act 1991 convicted sentenced term imprisonment respect charge 1 2 required sexual offence charge thereafter regard protection community principal purpose sentence imposed
+		necessary order achieve purpose protecting community empowered s6d sentencing act impose sentence greater proportionate gravity offence
+	Section:21
+		mean sentencing task respect charge 3 4 6 7 8 indictment undertaken basis protection community principal purpose sentence imposed
+		achieve purpose sentence may imposed longer proportionate gravity offence considered light objective circumstance
+	Section:22
+		section 6e sentencing act also requires unless otherwise direct respect charge 3 4 6 7 8 indictment sentence impose served cumulatively
+		note prosecution call disproportionate sentence cumulation contemplated either s6d 6e sentencing act allowing matter outline
+	Section:23
+		view appropriate impose degree cumulation subsequently refer reflecting several event sexual offending
+		otherwise may produce sentence appropriate unjust
+	Section:24
+		counsel submitted due short period time relied evidence victim ten minute took commit seven offence appropriate ass charge facet course conduct
+		mr patton submitted substantial total concurrency ordered respect individual sentence
+		accept submission
+		appropriate manner sentence fix penalty individual charge impose cumulation properly reflects offending offence base sentence imposed
+		total cumulation sentence moderated principle totality crushing sentence imposed
+		totality sentence reflects punishment whole criminal behaviour night offence
+	Section:25
+		prior conviction sexual offence
+		nevertheless accumulated 40 conviction property damage theft burglary aggravated burglary drug charge
+		criminal history commenced geelong childrens court 10 june 2009 charge arson property offence last appearance geelong magistrate court 30 july 2014
+		sentenced youth training centre order past total three month
+		breached community correction order imposed 7 march 2014 geelong magistrate court
+	Section:26
+		criminal history breach supervision order indicator le fair prospect rehabilitation
+		note report dr rachel omeara continue vehemently deny engaged sexual relationship victim
+		failure accept jury verdict indicator prospect rehabilitation le fair
+		accept long delay 6 april 2015 date record interview august 2016 charged offence
+		delay way caused
+		time august 2016 december 2017 usual time delay relating court process date charging jury verdict
+		take account effect delay upon particular serious charge hanging head concern caused consider sentence
+	Section:27
+		counsel properly conceded verdin principle applicable case
+		nevertheless submitted behalf diagnosed suffering bipolar affective disorder detained juvenile detention
+	Section:28
+		dr omeara report noted reporting bipolar disorder however medical report confirm diagnosis bipolar affective disorder tendered plea hearing
+		submission made prison authority administering lexapro epilim medication ordinarily dispensed bipolar disorder
+		accept need current medication regime assessed reviewed
+		accept report dr omeara denied psychological symptom disturbed sleep
+		assessed lowaverage range cognitive function
+		accept given nature charge convicted rape 15 year old child serve majority sentence protection
+		already served time remand protection
+		accept prison time served protection onerous general prison population take account fixing sentence
+	Section:29
+		take account dysfunctional family dynamic subjected formative year
+		amongst consideration caused disruptive dislocated education finished year 11
+	Section:30
+		offending case serious nature
+		victim offending 15 year old girl
+		offence egregious degrading inhumane treatment victim
+		factor indicative seriousness offending follows
+		1 young age victim
+		15 year old child time offences2 supplied alcohol cannabis victim prior offending3 took secluded place disused car backyard absent owner4 victim vulnerable unable defend escape offending5 engaged multiple episode sexual assault upon victim6 use condom time sexual assault penetration victim7 slapped pulled hair victim sexual assault upon
+		act gratuitous violence additional sexual offending8 utilised victim sex object sexual gratification utter disregard victim every sense9 committed offence company support encouragement cooffender howard
+	Section:31
+		required report supervised provision sex offender registration act period 15 year
+		order made pursuant statute consideration take account sentencing seven charge rape
+		given copy order conclusion sentencing process
+	Section:32
+		time offence 21 year old
+		24
+		whilst properly described youthful offender relatively young offender
+		general rehabilitation consideration far important general deterrence young offender
+		case degree criminality offending requires sentencing objective deterrence specific general denunciation punishment protection community prominent sentencing calculus weight attached relative youth correspondingly reduced
+		moderated totality sentence take account age time offending time sentence
+	Section:33
+		role offence different dominant cooffender
+		difference significant criminal history remove principle parity sentencing case relative coaccused
+		totality offending call substantial term imprisonment mark consideration specific general deterrence denunciation offending protection community
+		fixed nonparole period allows take advantage parole system assist reenter society turn life around serving long term imprisonment someone age
+	Section:34
+		stand please
+	Section:35
+		mr mckean respect charge 1 convicted sentenced five year imprisonment
+	Section:36
+		respect charge 2 convicted sentenced seven year imprisonment
+	Section:37
+		respect charge 3 convicted sentenced seven half year imprisonment
+	Section:38
+		respect charge 4 convicted sentenced five year imprisonment
+	Section:39
+		respect charge 6 convicted sentenced seven year imprisonment
+	Section:40
+		respect charge 7 convicted sentenced five year imprisonment
+	Section:41
+		respect charge 8 convicted sentenced five year imprisonment
+	Section:42
+		order following cumulation
+		base sentence charge 3 seven half year sentence
+		cumulation follows
+	Section:43
+		sentence charge 1 four month
+	Section:44
+		sentence charge 2 six month
+	Section:45
+		sentence charge 3 four month
+	Section:46
+		sentence charge 6 six month
+	Section:47
+		sentence charge 7 four month
+	Section:48
+		sentence charge 8 four month served cumulatively upon base sentence
+		total effective sentence nine year ten month imprisonment
+		fix nonparole period seven year three month
+	Section:49
+		declare served 420 day
+		accurate calculation date
+	Section:50
+		mr patton thats correct
+	Section:51
+		honour yes
+	Section:52
+		mr mckenry yes honour
+	Section:53
+		honour four hundred twenty day presentence detention
+		order placed sex offender register period 15 year signed disposal order
+	Section:54
+		honour well two sex offender register paperwork prepared
+		cover issue member counsel
+	Section:55
+		mr patton yes honour
+	Section:56
+		m cannon yes honour
+	Section:57
+		honour thank
+	Section:58
+		mr mckenry honour could ask clarification accumulation mr matthew mckeans charge
+	Section:59
+		honour certainly
+	Section:60
+		mr mckenry hearing honour gave cumulation charge 3 rather charge 4
+	Section:61
+		honour
+		ill clarify fully
+		cumulation follows
+		base sentence charge 3 thats seven half year cumulation follows
+		charge 1 four month charge 2 six month charge 4 four month charge 6 six month charge 7 four month charge 8 four month
+	Section:62
+		mr mckenry thank honour
+	Section:63
+		honour understand
+	Section:64
+		mr mckenry yes honour
+	Section:65
+		honour yes thanks
+		sex offender register document printed ill ask counsel go explain
+	Section:66
+		mr patton yes honour
+	Section:67
+		m cannon yes honour
+	Section:68
+		honour thank
+		think completes sentencing process
+	Section:69
+		mr mckenry yes honour
+	Section:70
+		honour want thank counsel instructor course proceeding trial plea assistance conduct matter
+		obviously difficult everyone want thank
+	Section:71
+		m cannon honour plea
+	Section:72
+		mr patton honour plea

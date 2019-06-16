@@ -1,0 +1,242 @@
+FIELD DATA:
+	FILE NAME:
+		94.txt
+	CASE NUMBER:
+		1701173
+	JUDGE NAME:
+		LAWSON
+	DEFENDANT NAME:
+		MARK O
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		mark otoole pleaded guilty one charge causing serious injury intentionally
+	Section:2
+		admitted prior criminal history arraigned
+		32 court appearance spanning period 29 july 1993 7ly 2016
+	Section:3
+		particular relevance 1993 convicted recklessly cause serious injury received six month wholly suspended sentence geelong county court
+		given passage time poor memory detail incident could recalled
+		1998 dealt assault kicking unlawful assault assault police resist police drunk public place received aggregate term imprisonment one month
+		2003 gaoled charge extortion threat inflict injury robbery attempted robbery received aggregate term imprisonment two year
+		many conviction dishonesty type offending driving offence
+	Section:4
+		past criminal history part explained past drug use also chronic mental health issue refer later
+	Section:5
+		offending subject charge occurred 25 november 2016 230
+		concerned attending unit leonardo francavilla lived yooringa avenue norlane
+		occasion francavilla present partner julie betts known
+	Section:6
+		knocked front door unit francavilla answered saw standing front door
+		turned back walked back nearby lounge room
+		turned around realised attacked felt thought punch right kidney area
+	Section:7
+		fact stabbed francavilla stabbed two time right side neck left side chest
+		knife used white handled wiltshire knife
+		time yelling francavilla calling somebody whore
+	Section:8
+		francavilla realised stabbed backed corner lounge room get away
+		partner intervened stood francavilla stop attacking
+		also told leave unit
+		turned said dont go calling jack youre dead
+	Section:9
+		initially francavilla want call police ambulance however condition declined rapidly
+		police ambulance called attended unit 600
+	Section:10
+		conveyed geelong hospital lifethreatening injury recorded required urgent emergency surgery
+		significant amount blood found pooling sac around heart putting excessive pressure heart
+		cut open neck pubic bone
+		sternum broken doctor rib cage cut open allow access repair damage
+	Section:11
+		francavilla remained induced coma intensive care three day transferred ward remained 16 day
+		underwent treatment physiotherapy
+	Section:12
+		mr otoole charge intentionally causing serious injury serious offence reflected maximum penalty prescribed parliament 20 year imprisonment
+	Section:13
+		following arrest remanded custody
+	Section:14
+		time interviewed police respect offending denied knowing francavilla denied knowledge incident
+		knife used assault never recovered
+	Section:15
+		victim crime partner m betts declined make victim impact statement
+		known lived immediate neighbourhood
+	Section:16
+		mr otoole savage unprovoked attack serious physical consequence mr francavilla
+		episode would terrifying traumatic partner
+	Section:17
+		mr brugman behalf acknowledged seriousness offending
+		emphasised number mitigating feature described nature psychiatric condition operative time offending took place
+	Section:18
+		aged 42 disability support pensioner
+		lived mother time offending
+		two son aged 20 18 respectively regular contact
+		separated divorced mother
+	Section:19
+		close friend intimate relationship time offending
+		fully supported mother two brother two son
+	Section:20
+		entered plea guilty earliest opportunity 9 june 2016 committal mention
+		real utility plea
+		plea avoided cost expense trial importantly saved witness exposed trauma come court give evidence committal also trial
+		facilitated justice sentence discounted accordingly
+	Section:21
+		prepared accept plea guilty evidence remorse acceptance responsibility behalf offending
+	Section:22
+		mr brugman relied upon assessment report performed associate professor carroll consultant psychiatrist whose report dated 12 november 2017 tendered plea hearing
+		evidence unchallenged
+	Section:23
+		associate professor carroll examined port phillip prison 25 may 2017
+		described ongoing active psychotic symptom stated starting get better
+		dominant symptom auditory hallucination hearing voice
+		reported hearing four five voice indicated time voice could cause significant distress
+	Section:24
+		considered alert orientated evidence major cognitive deficit
+		noted accepted diagnosis schizophrenia need compliant taking medication
+	Section:25
+		indicated needed get straight including working propensity abuse illicit drug
+		recognise mental health problem worsened illicit drug use
+	Section:26
+		report confirms resident sts psychosocial unit port phillip prison treated schizophrenia
+	Section:27
+		noted working currently certificate food handling cooking awaiting drug alcohol course
+		receive weekly visit mother regular telephone contact two son
+		son also regularly visit
+	Section:28
+		associate professor carroll reviewed justice health clinical file stated established diagnosis paranoid schizophrenia
+		psychiatric admission prior admission st paul unit
+	Section:29
+		community seen psychiatrist drsarkas barwon health public mental health clinic corio around 2012 2013
+	Section:30
+		reported associate professor carroll mental problem commenced 2012
+		using four point ice per day several year began hearing voice head
+		commenced antipsychotic drug quetiapine took several month said kind helped
+		told associate professor carroll stage recommenced drug although could recall exact timeframe
+	Section:31
+		recepted prison remand reporting visual auditory hallucination
+		prescribed antipsychotic quetiapine
+		bizarre behaviour noted early time remand
+	Section:32
+		february 2017 worsening mental health active psychotic symptom including disorganisation thought auditory hallucination grandiose religiose delusion admitted st paul commenced different antipsychotic olanzapine
+	Section:33
+		improvement noted hallucination persisted
+		discharged st paul unit july 2017
+	Section:34
+		associate professor carroll confirmed onset psychotic symptom prominent hallucination associated religiose delusional belief commenced five year offending
+	Section:35
+		collateral history presentation interview considered consistent onset settled schizophrenic illness several year duration context methamphetamine use
+	Section:36
+		psychotic symptom continued month arrest peak severity around one two month incarceration even prolonged abstinence drug symptom resolved antipsychotic medication
+	Section:37
+		considered evidence therefore strongly indicated mental illness primary schizophrenic illness simply substanceinduced psychosis accept expressed opinion
+	Section:38
+		considered action led arrest stabbing francavilla entirely driven acute psychotic symptom
+		described stabbing prompted anger believed person insulting woman calling name belief secondary auditory hallucination
+	Section:39
+		taking relevant information including clinical trajectory postincarceration account associate professor carroll considered hallucination appear due relapse schizophrenia rather caused stimulant drug
+		opinion therefore clear causal nexus schizophrenic illness active time alleged offence offending behaviour
+	Section:40
+		therefore relevant time judgment severely impaired actively psychotic state would also led degree disinhibition
+		notably considered believe person including serious threat victim
+		notwithstanding psychotic state could find evidence would unable reason behaviour stabbing victim wrongful legally morally
+	Section:41
+		regard associate professor andrew carroll expressed opinion unchallenged satisfied principle outlined verdin r v verdin r v buckley r v vo 2007 16 vr 269 32
+		namely principle 1 4 inclusive enlivened
+	Section:42
+		therefore consider moral culpability reduced condition affect punishment circumstance denunciation le relevant sentencing objective
+		moderated need emphasise general specific deterrence extent
+		mental condition however underscore need protect community future
+	Section:43
+		way background married 24 year separated
+		second youngest three brother
+		father died 1990 15
+		experienced significant problem school truancy suspended expelled number occasion
+		behavioural issue school
+		left school year 8 done factory work employment past interrupted significant forensic history including number imprisonment
+		longest period worked one place 18 month
+		last worked approximately 2010
+	Section:44
+		history substance abuse commenced used alcohol age 11
+		used cannabis age 15 longstanding amphetamine use problem
+		main substance abuse past heroin
+		started using age 15 increasing time
+	Section:45
+		prescribed methadone 20 year also treated suboxone
+		never detoxification rehabilitation program drug alcohol counselling past
+	Section:46
+		stated earlier treated community dr psychiatrist respect psychotic symptom
+		never psychiatric admission prior offence
+	Section:47
+		mother lorraine otoole provided letter court confirms day month leading incident suffering delusion
+		confirmed diagnosed schizophrenia six year earlier considered losing touch reality seeing hearing voice expressing delusional thought
+	Section:48
+		following remand custody instigated treatment still delusional approximately two month remand
+		around time admitted st paul unit
+	Section:49
+		state prison settled well medication improved greatly
+		view consistent expressed opinion associate professor carroll also behaviour court
+		confirms ongoing support
+	Section:50
+		long commission offence released custody 18 october 2016 placed 15 month community correction order
+		fact contravened order reason offending aggravating feature
+		however need viewed context evolving psychiatric condition treated
+		noted however contravention report confirmed compliant order insofar attending arranged appointment respect assessment mental health also substance abuse noted
+	Section:51
+		accept victim totally wrong understand need court impose punishment expectation receive term imprisonment
+		expressed understanding connection psychiatric illness offending behaviour need continue take medication
+		insight feel much better understand need continue medication indefinite future take illicit drug
+	Section:52
+		regard settled psychiatric condition expressed insight commitment remain compliant medication avoid illicit drug factor combine relatively optimistic prospect rehabilitation future
+	Section:53
+		upon ultimate release necessary supported supervised monitored community ensure commitment remaining healthy mentally well continues
+		offer best prospect future avoid offending also provide best protection community
+	Section:54
+		note physical condition suffer namely osteomyelitis hepatitis significant liver fibrosis thigh abscess received treatment prison
+		regularly tested respect blood need ongoing lithium treatment
+	Section:55
+		conclusion mr otoole objectively find offending serious example serious offence
+		unprovoked savage attack upon friend neighbour home presence partner
+		wound inflicted several potentially lifethreatening
+		good fortune victim life saved
+		physical injury fully elaborated report dr nicole reid whose opinion read plea hearing
+		obvious suffer scarring consequence physical condition also suffers longterm medical consequence set report
+	Section:56
+		context offending suffering schizophrenic illness clear causal nexus illness offending
+	Section:57
+		regard matter put mitigation already announced satisfied verdin principle 1 4 enlivened moderated need general specific deterrence consider moral culpability le adjusted head sentence nonparole period accordingly
+	Section:58
+		sentencing must impose punishment provide protection community
+	Section:59
+		prior criminal history considered serious violent offender court must regard protection community principal purpose sentence imposed imposed may order achieve purpose impose sentence longer proportionate gravity offence considered light objective circumstance
+		sentencing act 1991 6d
+	Section:60
+		mr maguire behalf crown seek disproportionate sentence
+	Section:61
+		given seriousness offending conclude nothing short sentence wholly comprised immediate term imprisonment suffice satisfy requirement punishment
+	Section:62
+		allowed nonparole period shorter would otherwise enable early release considered appropriate structured fully supported manner appropriate treatment management psychiatric condition
+	Section:63
+		formal court order follows
+	Section:64
+		one charge intentionally causing serious injury convicted sentenced five year imprisonment serve three year nine month becoming eligible parole
+	Section:65
+		make following declaration pursuant 6aaa
+		plea guilty would imposed sentence seven year imprisonment serve five year
+	Section:66
+		declare served 446 day predetention direct entered record court
+	Section:67
+		pursuant 6f sentencing act 1991 direct entered record court sentenced serious offender offending
+		completes remark

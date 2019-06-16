@@ -1,0 +1,195 @@
+FIELD DATA:
+	FILE NAME:
+		76.txt
+	CASE NUMBER:
+		1700959
+	JUDGE NAME:
+		SMALLWOOD
+	DEFENDANT NAME:
+		PENEHURO FUIAVA
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		penehuro fuiava pleaded guilty one charge threat kill one charge stalking one charge theft one charge burglary two charge criminal damage
+		crime carry maximum penalty ten year imprisonment
+	Section:2
+		34 year age accept plea made early date
+		counsel expressed remorse must also course get utilitarian benefit plea guilty
+		prior finding guilt conviction violence including one involved domestic violence
+		understand history gaoled
+	Section:3
+		significantly matter subject deportation
+		sentence impose bring effect event told accept seen documentation decision made deport back december last year
+	Section:4
+		accordingly bearing mind four small child sentence basis undergo period imprisonment knowledge sense ultimately upon deportation difficulty contact
+		matter simply taken note ten seven five three
+	Section:5
+		offending view serious indeed
+		relationship victim matter approximately 15 month
+		went back brisbane period time try reunite mother four child
+		failed returned melbourne
+	Section:6
+		june 2016 come back m lawrence live together access home key
+		came went pleased
+		noted came back became jealous controlling verbally least abusive towards
+	Section:7
+		18 november 2016 work gym asked could finish work early
+		told meeting 3 oclock
+		realise come home early arrive home furious
+		angry yelling never called texted
+	Section:8
+		eventually grabbed carton milk threw
+		hit causing milk spill everywhere
+		told fucking clean
+		got towel started cleaning
+		continued yell contacting
+		eventually threw another carton milk also hit leaving covered milk
+	Section:9
+		distressed cry
+		asked could get changed
+		told could take top
+		got towel started clean floor
+		point grabbed 30 centimetre long knife knife block kitchen bench
+		yelled going kill
+	Section:10
+		fearing life went laundry next kitchen hid behind door
+		repeated threat kill four five time
+		time standing two metre away knife right hand cry hysterically
+		view serious example threat kill indeed
+		eventually calmed took knife hid kitchen
+	Section:11
+		returned lounge room resumed dinner screaming join
+		took mobile phone checked message
+		asked back said choice phone snap neck
+		terrifying experience indeed
+		pleaded return phone needed work
+	Section:12
+		claimed slept another woman better told leave
+		moved belonging struggled phone eventually gave back
+		following day sent several text respond
+	Section:13
+		work feeling safe got friend come help clean house
+		see text message sent
+		following day 20 november 2016 locksmith attended house changed lock
+		end day received 200 text message missed call
+	Section:14
+		continued receive call text following day
+		included question whereabouts threat burn house threat send people house work one message said see something bad house
+		break everything burn
+	Section:15
+		part charge 2 charge stalking view serious example indeed
+		24 november approximately 6 oclock went house collect belonging
+		later night spoke phone tried explain behaviour traumatised
+		simply said wanted kill would killed
+	Section:16
+		tried make arrangement collect thing want house
+		25 november spoke phone
+		angry threatened shoot shoot
+		apparently apologised said would stab
+		recorded mobile phone
+	Section:17
+		conversation continued call send text sent think need go detail text continued send remain part charge 2 stalking
+	Section:18
+		afternoon 26 november conversation went home find house trashed
+		broken glass floor picture frame pulled wall smashed drawer cupboard bathroom bedroom emptied content strewn floor
+		jewellery ornament smashed
+	Section:19
+		friend took photograph damage seen photograph tendered
+		police called attended house
+		totally gratuitous violent assault property obviously intended cause much emotional damage could
+	Section:20
+		two day later called four time sent text message need go part charge stalking
+		reply
+		friend called police attended house last message arrested driveway property
+		possession various item jewellery belonging university identification card car key
+		give rise charge theft
+	Section:21
+		police discovered flywire screen window removed window smashed
+		accordingly faced charge whilst flywire screen example great significance smashing personal property entry house knew lock changed continuing stalking threat kill series crime committed one person short timeframe show pattern ten day calculate threatening intimidating violent behaviour
+	Section:22
+		gaol inevitable
+		served 122 day upon release bail sentenced another month gaol another matter
+		immigration detention since middle december last year take account overall sentence
+	Section:23
+		discussed counsel party appropriate aggregate sentence imposed think indicated charge regard serious situation
+	Section:24
+		understand read victim impact statement content explained
+		think matter well child victim impact statement read understanding dreadful consequence sort conduct people woman particular
+	Section:25
+		say used feel strong independent embrace life offer zest
+		living independently confidently home eleven year
+		worked hard achieve dream purchasing home felt proud
+		also put great deal effort investment uniquely renovating painting decorating
+	Section:26
+		find profoundly distressing cherished home one made feel pride joy place refuge reminds destruction terror fear helplessness experienced result crime took place
+		due event safe sanctuary never home
+	Section:27
+		vibrant independent woman afraid
+		dependent trusted family friend assist accompany activity came easy
+		feel vulnerable stay safe rent small room family home
+		changed phone number daily routine vehicle even physical appearance
+	Section:28
+		go add addition mental anguish stress significant financial loss
+		also mention loss personal possession term smashing caused
+		said deep sentimental value irreplaceable
+	Section:29
+		say also profound obvious impact workplace
+		safety reason divulge personal sensitive information life
+		found confronting unsettling colleague know personal detail life particularly negative experience would never anticipated living
+	Section:30
+		workplace adopted additional safety measure security personnel escort vehicle day
+		hopefully necessary position next period time also express concern may get others harm
+		take account accept fear certainly suggesting would
+	Section:31
+		victim impact statement need go detail simply say one part never able get horrifying image head destruction violence memory ben assaulting
+	Section:32
+		term calculating sentence look personal matter
+		accept short period time bail attended cisp program
+		certificate
+		accept done course including anger management gaol certificate tendered
+	Section:33
+		reference church former partner
+		tendered counsel court today made apology towards victim
+		matter urged upon take account follows
+	Section:34
+		plea early accept
+		engage kisp bail situation
+		engaged salvation army also local church time large
+		good work history
+		complied intervention order made regard matter indicated immigration detention eight week indicated effect deported
+	Section:35
+		however circumstance indicated serious offending
+		specific deterrence obviously necessary denunciation together appropriate punishment
+		prospect rehabilitation guarded circumstance risk reoffending would significant
+	Section:36
+		put committed offence whilst situation loss child using ice
+		difficulty mr fuiava violent partner
+	Section:37
+		taking matter account significant sentence bearing mind maximum penalty matter
+		six charge sentenced imprisoned aggregate period three year
+		direct serve period two year becoming eligible parole
+	Section:38
+		direct 122 day reckoned served sentence
+		pursuant s6aaa sentencing act say plea guilty would sentenced imprisoned period four half year minimum term three described aggregate well
+		order make
+	Section:39
+		mr smallwood honour
+	Section:40
+		m lenthall honour
+	Section:41
+		honour thank
+		remove thank

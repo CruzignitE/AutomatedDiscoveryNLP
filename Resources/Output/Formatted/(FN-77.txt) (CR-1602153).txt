@@ -1,0 +1,139 @@
+FIELD DATA:
+	FILE NAME:
+		77.txt
+	CASE NUMBER:
+		1602153
+	JUDGE NAME:
+		SMALLWOOD
+	DEFENDANT NAME:
+		JOEL ASHLEIGH BROWN
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		joel ashleigh brown pleaded guilty one charge causing injury intentionally one charge theft
+		crime carry maximum penalty five year ten year respectively
+	Section:2
+		pleaded guilty earliest reasonable opportunity view made plea offer committal
+		must get benefit plea sense potentially least remorse though indicated record interview obviously utilitarian benefit
+		whilst offending may seem fairly trivial jurisdiction fully understand result settled indictment accordingly want buy way shape form seen way shape form criticism
+		
+	Section:3
+		prior criminal history dating back 2007 earlier
+		notice within certainly finding guilt stalking little bit concerning term happened
+		circumstance offending described fairly brief compass
+	Section:4
+		complainant worked moreland city council number year
+		approximately eight year time pair worked garbage truck run
+		complainant matter obviously issue posttraumatic stress disorder significant period time work
+		one stage september 2012 approximately eighteen month
+		returned march 2014 say noticed change
+		late 2014 relationship two deteriorated complainant took period time work
+		returned work council july 2015 stage resigned
+	Section:5
+		16 december 2015 450 arrived depot took truck arrived pallett street north coburg pick recycling bin outside commercial site
+		pulled two woman twenty side road asked use phone
+		left key ignition driver door open assisting making phone call
+	Section:6
+		obviously saw coming
+		turned around saw coming well
+		swung put arm shield
+		hit arm
+		hung onto adjoining mesh fence attacking pulling hair
+		recognised well obviously
+		punched head several time stopped let
+	Section:7
+		truck said key ignition still running
+		purpose sentence jumped truck simply get away went relatively short distance jumped truck tram
+		truck damaged found relatively shortly thereafter
+		accept theft sentencing purpose sentence incidental assault
+	Section:8
+		ambulance called
+		complainant suffered bruising superficial abrasion realistically physical term extent
+		obviously would received terrible fright circumstance victim impact statement filed properly conceded victim psychological psychiatric treatment past posttraumatic stress disorder embark serious injury disentanglement exercise
+	Section:9
+		circumstance simply sentence obviously take account psychological impact well physical complainant
+		attacked man early hour morning simply going job
+		normal situation would call application general deterrence specific deterrence
+		realised one would appear situational appropriate punishment
+		submission filed behalf effectively look daughter
+		mother ill look
+		gainfully employed
+		appear always pretty much always good work ethic like many young men come court
+	Section:10
+		35 year age
+		said look mother
+		still contact rest family seems overall despite unfortunate incident prospect rehabilitation good
+		completed year 12 school obviously unintelligent
+		seen psychologist number time offending
+		bail something excess two year offending since take matter account
+		obviously stable accommodation view community correction order appropriate disposition opposed crown
+	Section:11
+		situation see reason assessed condition simple work component
+		taken account reference tendered morning behalf would appear normal course event worthwhile member community
+	Section:12
+		must understand breach community correction order brought back
+		breached reason violence disposition different let assure
+		say seem offending situational unlikely repeated
+	Section:13
+		right circumstance direct placed community correction order
+		conviction punishment
+		period two year two year 150 hour community service work
+		insofar driver licence concerned pursuant s894 sentencing act suspend licence driver motor vehicle period one day
+		period commence one minute past twelve morning
+	Section:14
+		mr sim honour matter application forensic sample order
+		dont know whether thats opposed
+	Section:15
+		honour opposed
+	Section:16
+		mr bloemen opposed
+	Section:17
+		honour ive signed yes
+	Section:18
+		mr sim yes
+		thank honour
+		instructor completed blank
+	Section:19
+		honour yes situation like yes
+		nearest community correction centre
+	Section:20
+		offender reservoir thomastown
+	Section:21
+		mr bloemen reservoir think nearest
+	Section:22
+		honour reservoir
+		yes right
+		right yes ill sign dont mind
+		right pursuant s464zf crime act make order provide saliva sample dna purpose
+		order made must advise refuse provide fail provide sample police may use reasonable force take counsel explain need
+	Section:23
+		mr bloemen might approach dock honour
+	Section:24
+		honour yes
+		yes mr bloemen perhaps explain client forensic sample also explain sooner get work hour done sooner order stop
+	Section:25
+		mr bloemen yes honour
+	Section:26
+		honour he done hour right
+	Section:27
+		mr bloemen yes honour
+	Section:28
+		honour tell anything silly car tonight
+		he parked reservoir station probably anymore see luck hold
+		right thank much gentleman
+	Section:29
+		mr bloemen honour plea

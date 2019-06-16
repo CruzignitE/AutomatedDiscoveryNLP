@@ -1,0 +1,132 @@
+FIELD DATA:
+	FILE NAME:
+		83.txt
+	CASE NUMBER:
+		1701721
+	JUDGE NAME:
+		DEAN
+	DEFENDANT NAME:
+		WENTING YU
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		wenting yu pleaded guilty one charge dangerous driving causing death contrary s3191 crime act 1958
+		maximum penalty offence 10 year imprisonment
+	Section:2
+		pleaded guilty filing hearing magistrate court taken early plea account favour mitigation sentence
+	Section:3
+		high value plea spared community expense complex criminal trial number witness burden giving evidence traumatic event
+		also evidence deep remorse case taken plea account favour mitigation sentence
+	Section:4
+		prior conviction subsequent conviction outstanding charge indeed traffic infringement
+	Section:5
+		prosecution opening read court tendered evidence offending may summarised follows
+	Section:6
+		approximately 8 pm 4 march 2016 driving member family top mt dandenong observe sunset
+		carrying four passenger two grandparent melbourne visit holiday
+		return china following day
+	Section:7
+		time extremely inexperienced driver
+		held driver licence since january 2015 commenced driving purchased vehicle december 2015
+		three month prior collision
+	Section:8
+		apart driving lesson ever driven prior gaining licence due age required complete 120 hour driving required person 21
+	Section:9
+		evening question cousin experienced driver drive relative mt dandenong became ill task fell
+		entered mt dandenong tourist road approximately two kilometre collision scene drive mountain
+		road condition dry weather fine road winding complex single lane roadway
+	Section:10
+		four vehicle following driving 40 kilometre hour 70 kilometre zone
+		although advisory sign suggested vehicle travel 45 kilometre hour around tight bend
+	Section:11
+		concerned vehicle behind wrongly thinking roadway dual carriageway moved right lane let vehicle pas
+		remained position 15 20 second
+		blind right hand corner vehicle struck head oncoming vehicle carrying two person
+	Section:12
+		occupant vehicle suffer serious injury extremely fortunate done
+	Section:13
+		vehicle grandfather suffered injury died 5 march 2016 grandmother others also injured
+		collision caused confusion regarding carriageway great inexperience driver
+	Section:14
+		accept driving dangerous plea root cause described
+		consumed alcohol drug driving excess speed limit nothing deliberately reckless driving
+	Section:15
+		opinion offending fall lowest end scale seriousness offence vehicle crossed wrong side road significantly shorter period doubt charge could made
+	Section:16
+		tragic case tragic consequence whilst also required regard principle general deterrence punishment fixing sentence case doubt moral culpability offending also lowest end scale case
+	Section:17
+		also accept protection community important sentencing consideration case court must play role regard
+		however opinion based experience judge properly described exceptional case
+	Section:18
+		turn personal circumstance
+		born shanghai china 20 june 1990 aged 27
+		child unmarried dependent
+		completed secondary tertiary education china came australia student visa 2012 commenced master accounting degree university melbourne
+		completed degree 2014 qualified accountant
+		employed clothing design company
+		received evidence number character reference speak highly engaged community volunteering assisting disadvantaged person refugee
+		completed road trauma course defensive driving course since tragic collision
+	Section:19
+		also received evidence two psychological report mr patrick newton setting background psychological profile
+		deeply remorseful occurred including injury passenger vehicle developed depressive disorder result distress
+		require ongoing treatment counselling relation
+	Section:20
+		collision effect devastating impact upon mr newton firmly view require ongoing treatment community
+	Section:21
+		opinion little risk reoffending specific deterrence factor case
+		prospect rehabilitation may properly described excellent
+	Section:22
+		despite objective factor case referred prosecution submitted sentencing option available one imprisonment
+	Section:23
+		made clear hearing case agree
+		arriving conclusion regard sentencing statistic provided particular observation court appeal akoka 2017 vsca 214 regarding role mercy play sentencing synthesis
+		quite apart fact recounted case clearly opinion engages principle
+	Section:24
+		result assessed suitability community correction order assessed suitable regard
+		opinion purpose sentence imposed clearly met imposition disposition
+	Section:25
+		result sentence court follows
+	Section:26
+		without conviction released community correction order period two year usual condition
+	Section:27
+		direct undergo supervision period order carry 100 hour unpaid community work
+	Section:28
+		agree enter community correction order term
+	Section:29
+		offender yes
+	Section:30
+		honour thank
+		sign order well actually come dock sign order please
+	Section:31
+		driver licence held state victoria cancelled disqualified obtaining licence period 18 month
+	Section:32
+		propose make s464zf order case opinion interest justice
+	Section:33
+		order required mr raimondo
+	Section:34
+		mr raimondo honour
+	Section:35
+		honour mr shocker
+	Section:36
+		mr shocker honour
+	Section:37
+		honour thank
+		copy order made provided client explain
+	Section:38
+		mr shocker honour
+	Section:39
+		honour adjourn 1030

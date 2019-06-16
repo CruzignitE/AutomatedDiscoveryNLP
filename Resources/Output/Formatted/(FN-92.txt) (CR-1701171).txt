@@ -1,0 +1,300 @@
+FIELD DATA:
+	FILE NAME:
+		92.txt
+	CASE NUMBER:
+		1701171
+	JUDGE NAME:
+		LAWSON
+	DEFENDANT NAME:
+		LUKE ROBINSON
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		luke robinson pleaded guilty one charge armed robbery four associated charge obtain property deception
+	Section:2
+		offending concern armed robbery took place 12 march 2017 involving victim zahra rezaee
+		robbed m rezaee bag obtained wallet money two commonwealth bank australia credit card westpac bank debit card used obtain grocery item value 22275 cole belmont food item value 6 hungry jack belmont property value 127 kmart belmont property 7eleven north geelong totalling 5798
+	Section:3
+		mr robinson offending serious reflected maximum penalty prescribed law 25 year imprisonment armed robbery ten year imprisonment obtain property deception
+	Section:4
+		aged 23
+		22 time incident relatively youthful offender
+	Section:5
+		admitted prior criminal history extensive
+		prior criminal history commenced child aged 13 first appearance recorded geelong childrens court 7 february 2008 last appearance geelong childrens court recorded 9 may 2013
+		total 21 appearance childrens court
+		thereafter seven appearance recorded adult jurisdiction appearance recorded magistrate court span period 5 february 2014 13 october 2016
+	Section:6
+		particular relevance child prior court appearance respect armed robbery 2009 2010 dishonesty offending also offence involving violence person
+	Section:7
+		13 october 2016 geelong magistrate court convicted intentionally cause injury false imprisonment threat inflict serious injury contravene family violence intervention order unlawful assault make threat kill beat animal received aggregate term imprisonment 116 day followed one year community correction order special condition involving supervision treatment mental health offending behaviour program together unpaid community work
+	Section:8
+		current offending therefore breach order aggravating factor
+	Section:9
+		yet dealt respect contravention community correction order
+		outstanding offence remain dealt court involve charge burglary theft drive whilst suspended
+	Section:10
+		past noted court afforded degree leniency unfortunate take opportunity granted
+	Section:11
+		variety sentencing disposition imposed including without conviction adjourned undertaking probation youth supervision order youth justice centre order fine community correction order imprisonment
+	Section:12
+		number occasion past dealt respect breach court order including contravention community correction order 2016 breach probation order 2010 breach youth supervision order 2010
+	Section:13
+		shall proceed sentence respect indictment basis summary prosecution opening plea hearing
+	Section:14
+		sunday 12 march 2017 approximately 230 pm unnamed female associate
+		two travelled local shopping strip detroit street corio motorbike
+		female associate remained motorbike incident
+	Section:15
+		wearing full face motorcycle helmet possession small jemmy bar
+		saw m rezaee walking along street footpath outside supermarket
+		carrying small bag
+		walking along footpath ran towards attempted grab bag holding
+		initially resisted pushed
+		consequence fell ground striking head ground
+		ran bag
+	Section:16
+		viewed cctv footage showed final stage armed robbery
+		seen clearly holding jemmy bar hand time snatching bag fact constitute charge 1 armed robbery
+	Section:17
+		bag possession ran nearby street left scene motorbike unnamed female associate
+		arrested wednesday 15 march 2017 since dealt childrens court respect obtain property deception charge received youth supervision order
+		regard different age charge need disparity sentence recorded respect offending
+	Section:18
+		following incident m rezaee reported suffering minor pain require ongoing medical treatment
+		wallet contained 100 cash two commonwealth bank australia credit card westpac bank debit card
+	Section:19
+		four charge obtaining property deception relate female associate using card 12 march 2017 13 march 2017 various place identified namely cole hungry jack kmart belmont 7eleven north geelong
+		obtained various property detailed earlier
+		total value property obtained 41373 none item purchased bank card recovered police
+	Section:20
+		arrest taken geelong police station formally interviewed interview made full admission
+	Section:21
+		told police 5 time offending waiting outside shop thinking robbing laundromat change crow bar
+	Section:22
+		saw victim approach footpath went towards grabbed purse whilst crow bar hand
+		said grabbing purse pushed bumped woman fell hit head
+	Section:23
+		said police mean push victim
+		instead bumped apologised fell
+	Section:24
+		told police used monies buy cigarette drink used victim card 7eleven north geelong used 100 cash purse buy marijuana
+		also admitted attending kmart cole belmont buy clothes food camping equipment victim card used purchase item
+		said probably attended hungry jack belmont shortly thereafter obtain food
+		said threw victim card away somewhere
+	Section:25
+		mr robinson victim m rezaee suffered greatly consequence action reflected victim impact statement read plea hearing learned prosecutor
+	Section:26
+		m rezaee originally afghanistan recent arrival australia
+		living geelong
+		experience real issue fearful time consequence offending extends even fearful home
+		fear going alone month crime even leave house
+		lead secluded life fearful stranger
+	Section:27
+		sadly victim state consider fear abate remain lengthy period time
+		reaction understandable given circumstance offending
+	Section:28
+		therefore experience following robbery impacted greatly upon life experience life settling australia
+	Section:29
+		physically head sore consequence fall took pain relief month
+		fortunately able recoup financial loss aid others
+	Section:30
+		procedurally matter proceeded way straight handup brief 9 june 2017
+		first committal mention pleaded guilty
+	Section:31
+		noted delay hearing plea due matter beyond control taken account
+	Section:32
+		remand since 15 march 2017 329 day presentence detention declared
+	Section:33
+		23 22 time arrest
+		born geelong third seven child born parent
+		experienced difficult disrupted childhood
+		parent separated stage childhood repartnered two child
+		met stepsiblings
+	Section:34
+		upbringing characterised one constant trauma neglect instability
+	Section:35
+		life punctuated witnessing multiple incident family violence committed father mother severe neglect inappropriate supervision
+		stage life life sibling removed care parent various stage
+		department health human service real involvement life early age
+	Section:36
+		multiple placement foster home age seven lived residential care multiple occasion
+	Section:37
+		past fiveyear relationship person known april met residential care relationship ceased context violent towards
+	Section:38
+		little way formal education completed grade 5
+		primary school expelled numerous different school attributable serious behavioural issue described disruptive attention seeking class
+		never attended secondary school
+	Section:39
+		commenced course victorian certificate advanced learning wyndham community education centre 2014 whilst initially progressed well complete educational program
+	Section:40
+		regard content letter written teresa vizintin manager program
+		letter dated 5 august 2014 confirms engaged fulltime senior secondary program 2014
+		noted attendance commitment program good described willing active positive contributor towards class took pride schoolwork project
+	Section:41
+		sadly complete program
+		real difficulty literacy
+	Section:42
+		never employed capacity
+		undertook volunteer work riding disabled aged 12 14
+	Section:43
+		long term connection criminal justice system attributed part longstanding difficulty polysubstance abuse
+		commenced abusing alcohol age 12 significant bingedrinking problem
+		age ten commenced smoking marijuana graduating heavy use year
+		methylamphetamines also feature life age 20 described frequent daily user
+		smoked use intravenously
+		level methylamphetamines use significant around time offending said using 3 4 gram methylamphetamines per day
+	Section:44
+		accept offending occurred context heavy drug use whilst provides context explanation behaviour way excuse behaviour
+		find moral culpability high
+	Section:45
+		released prison october 2016 serve community correction order
+		following release lived mother initially able maintain abstinence drug support
+		also compliant term order first two month following release prison
+		changed however took friend met gaol also known drug user
+	Section:46
+		began use methylamphetamines leading life spiralling control
+		mother asked leave home began living transient lifestyle street associated heavy drug use commission offending
+	Section:47
+		9 march 2017 younger brother sentenced respect manslaughter charge received term imprisonment ten year minimum fixed six year six month
+		brother situation impacted greatly upon began bingeing heavily drug ice sleeping
+		desperate time
+	Section:48
+		material provided court way neuropsychological report prepared susan carey
+		clinical neuropsychologist report dated 25 september 2017 tendered content read regard
+		also regard content earlier psychological assessment performed dr julie janev 23 september 2016 content report also read taken account
+	Section:49
+		m carey noted academically poor skill term literacy mathematics crystallised knowledge found mild deficit verbal fluency attention shifting moderate deficit verbal abstract reasoning visuoconstructional skill impulse control
+		severe deficit evident new learning information likely secondary attentional difficulty
+	Section:50
+		noted earlier diagnosis confirmed dr janev 2016 posttraumatic stress disorder cannabis use disorder stimulus use disorder antisocial personality disorder
+	Section:51
+		addition considered assessment revealed specific learning disorder reading written expression mathematics moderate severity
+		confirmed acquired brain injury mild severity associated number risk factor including chronic heavy cannabis use recent heavy use methylamphetamines history multiple mild traumatic head injury
+	Section:52
+		considered cognitive impairment together substance use history consistent diagnosis substancerelated acquired brain injury considered longstanding learning behavioural difficulty occur context unstable childhood including exposure violence substance abuse together poor academic engagement
+		also demonstrated feature consistent attention deficit hyperactivity disorder
+	Section:53
+		considered partial relationship cognitive impairment current offending behaviour
+		view moderated moral culpability small extent
+	Section:54
+		saw incarcerated since midmarch 2017 noted experienced decline mental health report psychiatric phenomenon
+	Section:55
+		considered low risk experiencing decline mental health custody overall considered number aspect custodial placement may find arduous would case person without cognitive psychological difficulty
+		however potential challenge could ameliorated appropriate adaptation outlined report
+	Section:56
+		copy report provided correctional authority assistance making appropriate adjustment whilst custody
+	Section:57
+		recommended engage modified drug alcohol counselling regard significant extensive prior criminal history strongly recommended future best supported ultimately return community
+	Section:58
+		discussed counsel mr bloemen course plea hearing consider evidence establish causal link offending behaviour condition described m carey enliven verdin principle
+	Section:59
+		however regard finding also finding dr julie janev 2016 general sense formulating appropriate sentence
+	Section:60
+		regard majority high court decision bugmy v queen
+		2013 302 alr 192
+		effect background significant deprivation diminish time repeated offending given full weight formulating sentence impose
+	Section:61
+		mr bloemen put number matter mitigation accept
+	Section:62
+		accept pleaded guilty earliest possible stage proceeding
+		plea entered committal mention
+	Section:63
+		plea real utilitarian value
+		plea avoided cost inconvenience trial conducted particular spared victim ordeal come court give evidence trial
+		facilitated justice discount sentence applied accordingly
+	Section:64
+		consider plea guilty indication remorse behalf acceptance responsibility wrongdoing
+	Section:65
+		noted since remand drug free
+		evidence placed court concerning result drug screen test
+		accept explanation offered mr bloemen find difficult provide urine sample screening personal embarrassment
+		revealed subject inappropriate sexual misbehaviour past make difficult accept presence others whilst asked provide sample
+	Section:66
+		custody time weight increased 60 kilogram 99 kilogram
+		physical condition much improved since incarceration
+	Section:67
+		unfortunately delay court listing plea hearing considerable time elapsed impacted upon ability avail various program address offending behaviour custody
+		keen drug alcohol counselling
+		commenced oneonone counselling recently established level rapport trust practitioner
+		keen explore
+	Section:68
+		difficult court ass prospect rehabilitation
+		however remain optimistically guarded
+		ultimate rehabilitation determined basis whether live community remain drug free
+		sadly support accommodation prospect employment upon ultimate release
+	Section:69
+		incumbent upon correctional authority whilst remain custody direct program enable address literacy numeracy issue enable complete least basic level education
+		real need focus developing life skill assist independent living also employment skill equip future
+	Section:70
+		significantly real need address underlying offending behaviour program directed addressing psychological issue alcohol drug dependency issue offence behaviour
+	Section:71
+		noted submission mr bloemen relation difficulty experienced recently whilst kept port phillip prison
+		two incident one assaulted concerned threatened assault
+		evidence led concerning incident
+	Section:72
+		held melbourne remand centre protection area away mainstream prisoner time custody hard isolated
+	Section:73
+		accept reason personal circumstance current confinement time custody going continue isolated
+	Section:74
+		ultimately enhance prospect rehabilitation require assistance following release ensure transition community one real chance successful
+		need secure accommodation effort made address treatment support community
+	Section:75
+		counsel prosecutor mr maguire submitted immediate term imprisonment served appropriate disposition regard gravity offending antecedent plea guilty
+	Section:76
+		sentencing regard circumstance offending
+		charge armed robbery serious offence reflected high maximum penalty consider serious example offence
+		general deterrence important
+		attacked vulnerable lone female whilst present busy shopping centre
+		entitled able feel safe attending place broad daylight public place
+		need ensure message sent anybody considers type offending handbag snatch type armed robbery face stern punishment apprehended
+		violence matter significant public concern
+		also need specifically deterred future offending
+	Section:77
+		overall consider make decision rob person last minute offending opportunistic
+		however degree planning involving motorbike mean escaping readily nearby also weapon jemmy bar person
+		noted brandish weapon victim
+		however clearly available hand time commission offence
+		use degree violence forcibly snatched victim bag ran
+		effectively disguised wearing full face helmet time
+		stated earlier offending committed breach community correction order aggravating feature
+	Section:78
+		regard purpose sentence must imposed namely punishment deterrence general specific denunciation action protection community consider appropriate sentence imposed term imprisonment immediately served
+	Section:79
+		sentence impose aggregate sentence regard fact charge effectively arise series event consider sentence appropriate
+		regard principle totality proportionality
+	Section:80
+		ask stand please mr robinson announce formal court order
+	Section:81
+		respect one charge armed robbery four charge obtaining property deception convicted sentenced aggregate term three year imprisonment fix nonparole period 18 month imprisonment
+	Section:82
+		pursuant s6aaa sentencing act 1991 plea guilty would imposed sentence four year imprisonment nonparole period two half year
+	Section:83
+		declare served 329 day presentence detention direct deducted administratively sentence fact presentence detention noted record court
+	Section:84
+		finally make order taking forensic sample pursuant s464zf2 crime act 1958
+		regard circumstance offending consider order public interest make order accordingly
+		note consented order
+	Section:85
+		thing need tell mr robinson time taking forensic sample consent consent taking sample using cotton bud inside mouth police may use reasonable force enable forensic sample taken would blood sample
+	Section:86
+		concludes matter
+		think ancillary order need make
+		forensic order taking forensic order
+		provide order crown
+	Section:87
+		right adjourn matter

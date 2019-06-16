@@ -1,0 +1,250 @@
+FIELD DATA:
+	FILE NAME:
+		48.txt
+	CASE NUMBER:
+		1701704
+	JUDGE NAME:
+		HANNAN
+	DEFENDANT NAME:
+		HARLEY SMITH
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		harley smith harley smith pseudonym pleaded guilty one charge incest contrary s444 crime act
+		maximum penalty offence five year imprisonment
+	Section:2
+		pleaded guilty one charge making child pornography contrary s681 crime act maximum penalty offence 10 year imprisonment
+	Section:3
+		fact found charge brief compass follows victim brother offending took place occasion 1 january 2009 31 december 2010 time fourteen fifteen seven eight
+	Section:4
+		relevant occasion asked victim go upstairs bedroom complied
+		instructed take clothes
+		took photograph naked phone
+		stage instructed spread leg pushed leg instructing hold
+		took photograph vagina
+		conduct found charge 1 making producing child pornography
+	Section:5
+		seems later occasion time penetrated victim vagina finger
+		describes moving finger around told take
+		stage asked dressing leaving room
+		time tell anybody occurred
+		sometime later told mother occurred parent conversation telling conduct wrong could go gaol
+		accessed material internet view explaining matter
+		apologised victim assuring would never
+	Section:6
+		19 february 2017 year later victim told school counsellor occurred matter reported dhhs police
+		interviewed made admission regard conduct
+	Section:7
+		type offending nature serious albeit accept purpose sentencing conduct lower end range offence type
+	Section:8
+		prior conviction appearance fall sentenced basis apart matter man good character
+		note victim declined make victim impact statement told sought proceed prosecution
+		course end day matter community wider interest
+	Section:9
+		aged 21 born 13 april 1996
+		eldest sibship four
+		number health issue resulted suffering seems stroke prior birth
+		required heart surgery early year
+		complication result needed colostomy bag age 10 issue could resolved operatively
+		continued suffer throughout year mild cerebral palsy
+		treatment teenager required interfered school attendance
+	Section:10
+		regard education physical clear social difficulty required teacher aide classroom
+		accept bullied seems fell behind result medical issue
+		time reluctant go school think fair say result main medical issue education significantly compromised
+	Section:11
+		always seems social difficulty apart current girlfriend close friend
+		situation throughout childhood
+		report however maintaining close relationship family including victim
+	Section:12
+		experienced episode depression anxiety seen psychologist six month ago put place dhhs
+		report treating psychologist accept engaged well issue relevant reducing risk reoffending continue addressed
+	Section:13
+		lived home family age 20 matter reported police dhhs
+		context required leave family home
+		note current partner appears court today support parent
+		current relationship 12 month
+		note relationship first intimate relationship
+	Section:14
+		time offending family moved melbourne new south wale
+		father working long hour dealing significant health issue
+		socially isolated immature sexually nave
+		none excuse offending context always relevant
+	Section:15
+		completed year 11 vcal basis hospitality business administration subsequently determined pursue career
+		completed diploma business management found work parent continue financially support
+	Section:16
+		however assisting father insurance broking business hopeful become full time position march year
+		accept based father evidence character role play industry
+	Section:17
+		received report mr matthew staios consultant psychologist
+		mr staioss opinion collective issue resulted limited capacity exercise appropriate judgement social scenario due pervasive difficulty engaging age appropriate peer lack opportunity form learn intimate relation limited exposure wider range social network course life ultimately cascading effect impacted understanding social emotional boundary
+	Section:18
+		mr staioss opinion current offending likely reflection limited social contact outside immediate family network limited understanding social norm immaturity sexual curiosity
+		say likely given psychosocial vulnerability reduced understanding social norm social development offending motivated curiosity context exploring sexuality sexual behaviour
+	Section:19
+		mr staios express opinion capacity successfully address psychological predisposition especially appropriate level support provided alongside risk management strategy risk monitoring
+	Section:20
+		also received report dated 29 january 2018 dr karen scally forensic neuropsychologist
+		assessed intellectual function low average range consistent school reporting tendered part bundle defence material
+	Section:21
+		dr scally noted mild cognitive impairment could resulted number factor balance seems thought likely seemed complication difficulty deficit birth
+		recommended engagement psychologist note currently place
+		identified fact matter contributed offending recommend ongoing offence specific treatment improve insight
+	Section:22
+		counsel ultimately submits relation matter dealt way community correction order without conviction
+		prosecution concede community correction order within range urge conviction recorded
+	Section:23
+		well matter personal referred including prospect rehabilitation regard manifest excellent must also take account relevant sentencing consideration
+	Section:24
+		general deterrence considerable importance matter
+		must seek deter others would engage like conduct
+		court community tolerate offending seriously damage life member community
+	Section:25
+		sentence must manifest community denunciation conduct impose punishment regard course fact child aged 14 15 date offending
+	Section:26
+		considered carefully question conviction regard provision sentencing act addressed counsel day
+		usual course would view disposition open include recording conviction case even weight given offence seriousness fact child aged 14 15 fact accept immature matter raised admitted apologised rehabilitation commenced manifest relevant matter
+		also relevant matter dealt time would dealt childrens court first offender seems almost inevitable conviction would recorded
+	Section:27
+		regard matter referred relevant factor set sentencing act determined appropriate record conviction give opportunity continue regard sustained demonstrated rehabilitation
+	Section:28
+		charge without conviction sentenced placed community correction order 18 month
+		order usual core condition
+		addition perform 125 hour unpaid community work
+		participate program reduce reoffending directed regional manager attend assessment treatment relation mental health directed regional manager
+	Section:29
+		note report recommended supervision
+		specifically determined include condition
+		regard necessary view time devoted advancing career work prospect interest regard rehabilitation
+	Section:30
+		make direction pursuant s48ca sentencing act
+		direct 50 hour treatment may counted towards completion community work hour
+	Section:31
+		pursuant s6aaa sentencing act direct noted record court plea guilty would sentenced 10 month imprisonment cco
+	Section:32
+		finally prosecution make application pursuant s464zf crime act undergo forensic procedure taking mouth andor blood sample accordance subdivision 30a part 3 crime act sample sufficient standard obtained placement database
+	Section:33
+		oppose making order
+		determined make order regard seriousness offending
+		view public interest make order sample retained database
+		inform consent taking mouth scraping supervision authorised member police force blood sample taken police may use reasonable force enable procedure conducted
+	Section:34
+		mr prosecutor need give direction relation attendance
+		got draft order
+	Section:35
+		mr hannan yes honour
+	Section:36
+		honour know police station
+	Section:37
+		mr hannan whole list order doesnt whichever one there none specified
+	Section:38
+		honour put one order find
+		get amended put one
+	Section:39
+		mr hannan mernda
+	Section:40
+		honour
+	Section:41
+		mr thomson mernda nearest police station honour
+	Section:42
+		honour mernda
+		
+		bigger
+	Section:43
+		mr hannan
+	Section:44
+		honour
+	Section:45
+		mr thomson new police station honour
+	Section:46
+		honour cant
+		sorry idea mernda confess
+	Section:47
+		mr hannan epping
+	Section:48
+		honour epping right yes
+		epping 24 hour
+	Section:49
+		mr hannan epping
+	Section:50
+		honour yes epping 24 hour
+	Section:51
+		mr hannan hand triplicate form
+	Section:52
+		honour thank
+		one direction need give moment mr smith
+	Section:53
+		mr hannan order four week starting 28 day today
+	Section:54
+		honour yes
+		pursuant s464zf9 crime act harley smith purpose undergoing said procedure report officer charge epping police station need give address
+		epping epping epping 785 high street epping
+	Section:55
+		period four week commences 28 day date sentence today instituted conviction appeal finally determined conviction forensic sample offence upheld whichever later
+	Section:56
+		simpler term mean four week today period four week start four week present epping police station
+		wont get reminder dont present breach order court dont want
+	Section:57
+		28 day today four week start sure mr thomson take
+		period start youve got four week present epping police station
+	Section:58
+		provided compliant called buccal swab like big cotton bud put inside cheek
+		cooperative process blood sample taken
+		simply swab mouth
+		understand said
+	Section:59
+		offender understand
+	Section:60
+		honour right
+		relation community correction order need tell breach order brought back
+		breach order hard see disposition open term imprisonment
+		stand going gaol absolute compliance order
+	Section:61
+		one direction given note gave way explanation 125 hour unpaid community work
+		directed 50 hour treatment relation either mental health offence specific treatment count towards hour
+		50 hour treatment 75 hour community work complete
+	Section:62
+		community correction ass need attend community correction within two clear working day making order sign minute
+		anything dont understand
+	Section:63
+		offender understand
+	Section:64
+		honour right
+		seat moment
+		need get associate prepare order counsel way explanation length order intentionally 18 month anticipate sex offender program need 18 month complete
+	Section:65
+		yes would counsel check order mr thomson would signed please
+	Section:66
+		mr thomson one order two offence
+	Section:67
+		honour yes
+		one order theyre state fine yes
+		yes finally counsel given nature matter propose apply pseudonym publishing otherwise victim protected published pseudonym
+	Section:68
+		mr thomson yes honour
+	Section:69
+		honour
+		right
+		anything counsel
+	Section:70
+		mr thomson honour
+	Section:71
+		mr hannan honour
+	Section:72
+		honour thank assistance
+		stand please

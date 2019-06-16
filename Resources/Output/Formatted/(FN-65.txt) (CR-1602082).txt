@@ -1,0 +1,261 @@
+FIELD DATA:
+	FILE NAME:
+		65.txt
+	CASE NUMBER:
+		1602082
+	JUDGE NAME:
+		RIDDELL
+	DEFENDANT NAME:
+		ALI ABDO
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		ali abdo pleaded guilty one charge riot
+		maximum penalty offence ten year imprisonment
+	Section:2
+		general fact riot well understood
+		24 october 2016 honour chief kidd sentenced cooffender jonathon luca relation matter adopt honour remark regarding overview event occurred form basis charge
+		follows
+	Section:3
+		30 june 2015 200 300 prisoner melbourne remand centre involved largest riot victoria correctional history
+		evidence indicated protest prisoner 30 june 2015 planned intent disrupting routine prison force authority suspend amend reverse smoking policy
+		total smoking ban due commence victorian prison 1 july 2015
+	Section:4
+		peaceful protest held prisoner mrc day leading riot
+	Section:5
+		riot fence breached
+		prison vehicle including use tractor used cause damage gate fence
+		central movement control cmc stormed twice
+		canteen looted multiple accommodation nonaccommodation unit significantly damaged
+	Section:6
+		damage included used makeshift weapon smash window damage equipment fixture inside unit lighting fire inside outside unit
+	Section:7
+		took 15 hour prison officer police fire brigade personnel restore order prison secure prisoner
+		riot appeared acute state shorter period time approximately 1140 prisoner began congregating chanting tobacco later afternoon cmc breached second time
+		essentially ceased 11 pm
+	Section:8
+		prison officer public servant forced flee ground safety
+		number prison officer reported minor physical injury including inhalation chemical agent thrown back prisoner
+		minor injury occurred physical clash rioting prisoner cmc
+	Section:9
+		staff reported psychological injury recurring nightmare ongoing stress direct result threat fear inflicted prisoner
+	Section:10
+		large number prisoner relocated riot prison facility due large part mrc longer operable
+		11 april 2016 department justice incurred 121 million dollar worth cost relating riot approximately 689 million related repair maintenance mrc
+	Section:11
+		provided read 14 victim impact statement prison officer mrc
+		people performing difficult job whose safety compromised
+		unsurprisingly riot major impact life
+		several suffered sleeplessness flashback
+		work relationship family relationship adversely affected
+		many longer feel safe workplace
+		short psychological impact life considerable
+	Section:12
+		chief judge case luca dpp v luca 2016 vcc 1573 detailed legal principle attach offence riot adopt commentsriot involves assembly people intending assist force necessary pursuit common purposethe offence riot serious offence
+		derives gravity simple fact person concerned acting number using number achieve purpose
+		involves public alarm currently potentially dangerous
+		usually carry inherent danger injury person property boththe level violence used relation person property scale violence factor relevant sentencein assessing culpability individual participant wrong take act individual participant isolation
+		act individual committed isolation fact constitutes gravity offence
+		person participates riot bear responsibility collective damage harm caused
+		sentencing judge nevertheless take account extent offender blame offence part played commission offencegreat weight given consideration general deterrence offence riot
+		sentence must make le likely future others follow joining riot offence riot serious rioter act law enforcement officer execution duty fact riot occurred prison setting confirms importance general deterrence
+		even though authority support proposition deterrence assumes particular importance offending take place prison setting generally concerned prisoner upon prisoner assault rationale behind principle must apply similar force prison riot
+		court permit law jungle take hold prison
+	Section:13
+		undoubtedly riot serious example offence
+		involved large number prisoner
+		persisted many hour caused million dollar damage
+		vigorous attack proper operation prison
+		law enforcement officer confronted item thrown generated high level fear alarm
+	Section:14
+		turn particular involvement
+		personal involvement event see participating nearly five hour total 1207 pm 456 pm least 104 pm approximately four hour actively encouraging cooffenders actively participating
+	Section:15
+		partially disguised item clothing around head face conceal identity well wearing glove
+	Section:16
+		seen dancing around waving clapping cheer offender
+		assisted open gate allow motorised tug vehicle drive
+		beckoned driver tug encouraged drive gate
+		later encouraged driver tractor involved ramming fence
+		walked alongside tractor moved area another
+	Section:17
+		part entered cmc second breach area later day
+		part looting canteen
+	Section:18
+		point second breach cmc came possession long metal pole hit wall though fortunately cause actual damage
+		succeeded however sliding metal pole cmc wall attempted cause damage though unsuccessful
+	Section:19
+		part large group prisoner came cmc towards gatehouse ran towards gate retreating officer forced deploy tear gas
+		time prison officer side fence
+	Section:20
+		even event deployment tear gas later passenger tug joyriding area 4 yard including jumping back vehicle banging roof driven around
+	Section:21
+		comparison others sentenced riot difficult respect
+		offence always le serious example commission offence role played multiple offender
+		difficulty pronounced given large number person involved duration event
+	Section:22
+		prosecution accept however one high level offender involved actually causing major damage involved planning organisation riot
+		accept position
+	Section:23
+		accept also counsel said relative newcomer imprisonment however went along event unfolded demonstrating presence enthusiastic encouragement participation assent event willingness involved
+	Section:24
+		way comparison case luca purpose parity hard say definitively whether culpability actual offence greater lesser mr luca
+		involvement early period riot le involvement later part period riot
+		actually cause damage participation lasted longer time
+	Section:25
+		finer distinction outlined counsel submission exhibited plea taken account
+	Section:26
+		issue parity course take account various level participation offence take account personal circumstance pertinent offender
+		matter benefited mr luca youth relative lack prior offending early plea apply
+	Section:27
+		situation riot general deterrence punishment must loom large taken principle account
+		real issue term sentencing relate specific deterrence prospect rehabilitation face prior criminal record subsequent matter
+	Section:28
+		30 year age
+		oldest twin sibship four
+		described unremarkable stable upbringing still enjoy support family
+		find school easy issue literacy however successfully completed apprenticeship spray painter
+		gainfully employed throughout 20 motor bike accident 2009
+	Section:29
+		one prior court appearance september 2013
+		consolidation number matter relevant matter
+		prior appearance involves driving matter posse use methamphetamine amphetamine cannabis another unknown hallucinogen
+	Section:30
+		particular relevance four charge resisting police three charge assaulting police one charge acting destructive manner police gaol
+	Section:31
+		received cocktail sentence occasion term imprisonment 115 day equated presentence detention community correction order 15 month various condition aimed treatment rehabilitation fine 2000 disqualification licence three year
+		significant first entry criminal justice system time aged 26
+	Section:32
+		release term imprisonment failed take community correction order opportunity
+		fact breached order way noncompliance committing numerous offence
+	Section:33
+		1 june 2015 arrested remanded number outstanding matter
+		one month remand involved riot
+	Section:34
+		dealt breach new offence two appearance sunshine magistrate court september 2015
+		relation breaching community correction order one imposed 2013 resentenced wholly suspended term imprisonment
+	Section:35
+		relation many new offence committed breach order received term imprisonment 210 day 114 day presentence detention noted plus community correction order 18 month
+		therefore soon released custody court intention agreement would commence community correction order
+	Section:36
+		upon release failed comply community correction order also breached suspended sentence
+		breach way noncompliance offending
+	Section:37
+		7 june 2016 failed appear committal mention relation riot matter despite bail
+		15 june 2016 committed series serious offence involving theft car ramming police van driving police officer driving outdoor eating area demolishing chair table
+	Section:38
+		police pursuit northern suburb melbourne citylink police called pursuit king way
+		eventually remanded charge riot august 2016
+	Section:39
+		matter sentenced 200 day imprisonment 7 march 2017
+		200 day declared presentence detention time sentenced
+	Section:40
+		therefore remand solely riot charge since 8 march 2017 therefore accrued 338 day presentence detention attributable matter
+	Section:41
+		although relevant prior conviction matter heard september 2015 march 2017 sentence imposed performance relation clearly relevant prospect rehabilitation
+	Section:42
+		considering rehabilitation accept counsel submission past offending inextricably linked drug use
+		return drug use would constitute serious risk offending
+	Section:43
+		read report nadine howard dated 18 july 2017 apparently prepared purpose bail application
+		counsel given opportunity consider report course plea
+		part reflects outline submission event
+	Section:44
+		experienced traumatic motor bike accident 2009
+		sustained broken femur broken wrist
+		period rehabilitation sustained including spending 18 month wheelchair 16 month crutch
+		lost employment became depressed
+		despite apparently time resorted illicit drug use
+	Section:45
+		precipitating event saw entre illicit drug use breakdown longterm relationship 2013
+		occurred around time literally figuratively getting back foot lengthy period rehabilitation
+		relationship dissolved part partner abortion without telling
+	Section:46
+		although objectively still young man doubt time felt somewhat hopeless future
+	Section:47
+		entry drug use time seen become user methamphetamine cannabis alcohol since event around 2013
+		grip drug well known seems hold took strong one given despite two period imprisonment resorted time released
+	Section:48
+		therefore engaged drug alcohol counselling past psychological counselling
+		struggled anxiety depression custody prescribed antidepressant
+	Section:49
+		light history term rehabilitation prospect guarded best
+		apparently recognise relationship offending drug use
+		matter resist grip addiction upon release
+	Section:50
+		considering prior matter subsequent offending also seem flavour defying authority
+		attitude course part parcel circumstance riot although charge note also failure appear bail serious offence
+	Section:51
+		must also take account fact given opportunity undertake community correction order also placed suspended sentence availed
+		even significant stint custody presumably drugfree period time
+	Section:52
+		accept however offended since june 2016 custody approximately 21 last 37 month
+	Section:53
+		accept counsel say slightly older man new relationship strong desire family provider fianc future child
+		reside fianc family upon release
+	Section:54
+		fortunate support family father youngest brother court plea note father present today
+		also offer employment labourer another brother
+	Section:55
+		mother supportive however situation changed also since incarcerated namely diagnosis breast cancer 12 month ago two heart attack last four month
+		doubt causing anxiety away
+	Section:56
+		provided three drug screen last two month support claim drugfree since remanded august 2016
+	Section:57
+		personal matter shed favourable light factor motivate towards rehabilitation
+	Section:58
+		accept imprisonment onerous period lockdown two month detention riot
+		stated decision luca chief judge benefit course moderated part blame outcome
+	Section:59
+		however told also port phillip prison fire occurred november 2017 understand lockdown 29 november time january 2018 meaning receive visit access telephone time
+	Section:60
+		undertaken several course period incarceration relation employment opportunity importantly view relation healthy lifestyle planning substance use
+	Section:61
+		though youthful offender still reasonably young man future ahead
+	Section:62
+		considering issue totality take account completed entirety sentence imposed 7 march 2017 therefore lost opportunity concurrency allowed sentence riot matter
+		complicated however delay resolution riot charge largely choice late plea guilty entered october 2017
+	Section:63
+		still entitled benefit plea guilty even though delivered later stage
+		case given amount material number potential witness involved trial utilitarian practical benefit real
+		difficult determine much plea guilty reflects true remorse however take account least show remorse acceptance responsibility part offending
+	Section:64
+		believe circumstance case combined sentence imprisonment community correction order appropriate
+		view given matter outlined appropriate sentence one imprisonment nonparole period
+	Section:65
+		could stand please mr abdo
+		one charge riot sentence term 30 month imprisonment
+	Section:66
+		direct period 19 month served eligible parole
+	Section:67
+		declare presentence detention 338 day served attributable sentence
+	Section:68
+		relation s6aaa pleaded guilty relation matter sentence would imposed would four year imprisonment two year nonparole period
+	Section:69
+		mr hayward remind whether order sought
+	Section:70
+		mr hayward order sought
+	Section:71
+		honour right thank completes matter
+		issue counsel
+	Section:72
+		mr hayward
+	Section:73
+		m greener honour plea
+	Section:74
+		honour right thank
+		thank leave bench mr abdo removed thank

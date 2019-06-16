@@ -1,0 +1,227 @@
+FIELD DATA:
+	FILE NAME:
+		99.txt
+	CASE NUMBER:
+		1701290
+	JUDGE NAME:
+		LACAVA
+	DEFENDANT NAME:
+		WILLEM HENNESSEY
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		willem hennessey pleaded guilty one charge armed robbery maximum penalty imprisonment 25 year
+		also pleaded guilty three charge theft maximum penalty charge 10 year imprisonment one charge burglary maximum penalty also 10 year imprisonment one charge handling stolen good maximum penalty 15 year imprisonment one charge prohibited person possessed firearm maximum penalty fine 1200 penalty unit 10 year imprisonment
+	Section:2
+		exception charge 7 relates possession firearm occurred 8 october 2016 remaining offence occurred 8 12 december 2016
+	Section:3
+		admitted lengthy prior criminal history 11 previous court appearance victoria queensland commencing approximately 19 year age
+		importantly offending occurred whilst subject community correction order originally imposed bendigo magistrate court 21 july 2015 string dishonesty drug related offending
+		breached community correction order breach dealt bendigo magistrate court 5 february 2016
+		breach alleged proven resentenced charge aggregate sentence 6 month imprisonment 19 day presentence detention community correction order varied
+		offending sentence occurred short time release prison whilst community correction order
+	Section:4
+		observation prior conviction dishonesty offence one kind another appear drug related
+		also prior conviction drug offence
+		prior conviction queensland offence involving act violence 10 year ago
+	Section:5
+		circumstance offending contained summary prosecution opening tendered evidence read open court prosecutor m mahady
+		accepted counsel mr langton accurate forming proper factual basis upon proceed pas sentence upon
+		necessary set set summary except abbreviated way
+	Section:6
+		shortly 8 december 2016 stole mazda cx9 vehicle house bendigo charge 1
+	Section:7
+		early hour morning 8 december contact coaccused mcloughlin via facebook
+		invited join rob drug dealer ross cash drug
+		mcloughlin agreed picked first drove another drug dealer carr told plan
+		provided quantity drug ice
+		mcloughlin drove melton injected ice
+		handed mcloughlin sawnoff shot gun told plan meet ross gave agreed signal mcloughlin get stolen mazda point shotgun ross demand hand belonging including drug cash
+		mcloughlin said want threatened bash shoot told
+		mcloughlin told never used gun whereupon showed use gun mcloughlin discharged one round practice
+	Section:8
+		met ross partner outside address kurunjang 425
+		ross believed sell ice
+		meeting ross partner lured ross car towards mazda mcloughlin lurked loaded shotgun gave agreed signal mcloughlin exited mazda pointed shotgun ross yelled give everything
+		punched ross face ran towards car
+		ross continued advance towards mcloughlin fired shot hitting ross knee causing fall ground
+	Section:9
+		fled scene mazda whilst mcloughlin escaped vehicle ross arrived
+		left ross scene bleeding heavily arm female companion
+	Section:10
+		mazda later located address bendigo living
+		search address located shotgun cartridge bedroom later search house occupied drug dealer carr located shotgun cartridge
+		forensic testing shotgun found dna evidence could excluded contributed dna
+		charge 7
+	Section:11
+		episode offending 12 december another cooffender coombes stole ford territory outside bendigo town hall
+		charge 3
+	Section:12
+		fitted stolen registration plate ford territory
+		charge 6
+	Section:13
+		owner ford territory left key ignition key enabled gain access house ironbark charge 4 stole number item electronic equipment jewellery
+		charge 5
+	Section:14
+		selfevidently offending charge serious
+		clearly leader principal offender armed robbery charge
+		idea
+		stole provided car used
+		introduced weapon showed mcloughlin use
+		provided ammunition
+		mcloughlin wanted withdraw plan intimidated threatened violence
+		lured ross car mcloughlin gave signal armed robbery commence
+		plan involved threat violence gun
+		whilst accept part plan shoot ross injure nonetheless armed robbery violent one involving use gun opinion putting offending midrange kind offending
+	Section:15
+		mcloughlin pleaded guilty one charge armed robbery one charge recklessly causing serious injury
+		sentenced judge patrick 18 september 2017
+		honour sentenced term imprisonment three half year armed robbery charge measure accumulation received total effective sentence four year imprisonment honour fixed nonparole period two year three month becomes eligible parole
+	Section:16
+		counsel submitted correctly sentencing armed robbery charge must regard parity principle
+		mindful sentence imposed judge patrick upon mcloughlin armed robbery charge
+		however number feature distinguish mcloughlin
+		although like mcloughlin lengthy criminal history deprived difficult upbringing time offending aged 20 aged 21 sentenced youthful offender
+	Section:17
+		older aged 27 time offending approaching 29 year age whilst still relatively young youthful offender
+	Section:18
+		mcloughlin correctly sentenced basis principal offender mastermind armed robbery provided mean plan carry
+	Section:19
+		intimidated threatened mcloughlin offending view played lesser role even though fired shot course armed robbery
+	Section:20
+		judgment justified sense grievance receive higher sentence armed robbery charge imposed cooffender
+		involvement offence mind deserving sterner punishment cooffender
+	Section:21
+		offending charge also serious
+		charge 3 took opportunity steal vehicle belonging volunteer worker left key ignition accessed house charge 4 stole number item told accept subsequently recovered
+		offending designed assist drug habit victim point view doubt traumatic
+		steal car went house entered sanctity home stole
+	Section:22
+		charge 7 also serious matter
+		possessed gun
+		given supplied shotgun ammunition used armed robbery possessed gun legitimate purpose
+	Section:23
+		pleaded guilty charge credit
+		plea guilty saved time cost might two trial
+		initially charged armed robbery shot injured ross joint criminal enterprise basis
+		offered early time plead guilty armed robbery charge charge relating shooting ross proceeded
+		offer first rejected subsequently accepted prosecution
+		treat indicated would plead guilty earliest opportunity
+		entitled reduction sentence reduction reflected sentence shortly pas
+	Section:24
+		treat plea guilty evidence remorse offending
+	Section:25
+		turn matter related background personal circumstance
+		mr langton provided written outline submission marked exhibit 1 relied upon psychological assessment dated 26 december 2017 ian mackinnon admitted evidence exhibit 2
+		mr langton conceded appropriately offending serious available disposition could impose sentence immediate imprisonment fixing nonparole period
+		submitted circumstance allow lengthy period possibly parole get back family
+	Section:26
+		mr mackinnon set much background history mr langton relied upon without specifically going part report
+	Section:27
+		age two parent separated
+		mother said bipolar schizophrenic heroin addict
+		abandoned leaving street young age
+		two halfsisters contact
+	Section:28
+		relationship m morgan gave evidence three young child
+		also two older child previous relationship reside adelaide
+	Section:29
+		little formal education brought wholly unstable upbringing
+		completed year 6 completed course whilst custody previous occasion
+		relevant certificate traffic management according mr mackinnons report work available area released
+	Section:30
+		long history poly substance abuse
+		injected mother heroin age 11 went abuse almost every conceivable type illicit drug
+		accept evidence
+	Section:31
+		written submission mr langton said background could fairly described extremely troubled unstable
+		accept case
+	Section:32
+		also told accept prior remand assaulted suffered head injury hand associate victim armed robbery whilst custody sexually assaulted hand inmate also associated victim
+		moved port phillip prison melbourne remand centre served 431 day presentence detention
+	Section:33
+		mr mackinnon thought intelligence level fell within normal adult range cognitive functioning short long term memory also normal
+		thought suffered long term posttraumatic stress disorder complicated long term history significant developmental trauma anger management associated polysubstance abuse factor
+		also thought suffer depression medicated whilst prison
+		accept evidence
+	Section:34
+		accept submission posttraumatic stress disorder impaired capacity rational judgment time offending
+		fact remains injected ice shortly armed robbery long term drug user
+		offence occurred drug user
+		properly said thinking impaired posttraumatic stress disorder would fact impaired influenced drug
+		view moral culpability offending high case application principle general deterrence ought properly modified reduced
+		drug use explains offending way excuse
+	Section:35
+		expressed remorse mr mackinnon accept remorseful extent much victim sake regret harm offending caused family incarceration
+	Section:36
+		partner m morgan gave evidence behalf
+		told six year three child aged six youngest le 12 month old
+		born whilst custody
+		partner spoke highly father provider love child
+		obvious young age 20 year three child single mother struggling
+		living friend temporary accommodation find hard get
+		accept evidence establish exceptional circumstance caused custody reduce sentence impose
+	Section:37
+		sentencing sentence impose must properly address deterrence general specific
+		many prior conviction offending occurred whilst community correction order
+		specific deterrence must appropriately reflected sentence
+		denunciation offending
+		sentence must also regard prospect rehabilitation ass poor remain drug user outside prison setting
+		told accept used drug whilst prison history suggests without proper treatment difficulty staying away drug outside prison setting
+		sentence impose must reflect punishment
+	Section:38
+		prosecution submitted offending high level justifying term imprisonment fixing nonparole period
+		mr langton disagree said earlier
+		asked fix longer normal period parole
+		regard prior criminal history level offending see reason make order providing early release parole
+		order would dilute purpose total effective sentence impose amount two episode serious offending
+	Section:39
+		charge 1 theft motor vehicle convicted sentenced term imprisonment 1 year
+	Section:40
+		charge 2 armed robbery convicted sentenced term imprisonment 4 half year
+	Section:41
+		charge 3 theft motor vehicle convicted sentenced term imprisonment 1 year
+	Section:42
+		charge 4 burglary convicted sentenced term imprisonment 3 year
+	Section:43
+		charge 5 theft electrical appliance jewellery convicted sentenced term imprisonment 1 year
+	Section:44
+		charge 6 handling stolen good motor vehicle registration plate convicted sentenced term imprisonment 3 month
+	Section:45
+		charge 7 prohibited person posse firearm convicted sentenced term imprisonment 18 month
+	Section:46
+		direct 18 month sentence imposed charge 4 6 month sentence imposed charge 7 cumulate upon sentence imposed charge 2 making total effective sentence six half year
+	Section:47
+		deciding appropriate accumulation taken view offending charge 1 2 viewed one episode offending offending charge 3 4 5 separate episode offending whilst offending charge 7 stand alone
+	Section:48
+		direct serve minimum term 4 year 4 month imprisonment eligible release parole
+	Section:49
+		declare 431 day presentence detention 431 day reckoned already served sentence passed day entered record court deducted administratively
+	Section:50
+		purpose s6aaa sentencing act 1991 state plea guilty charge would imposed total effective sentence 8 year would fixed minimum term five half year imprisonment served would eligible parole
+	Section:51
+		prosecution sought making disposal order forfeiture order opposed signed
+		question arising
+	Section:52
+		m mahady honour
+	Section:53
+		m parker honour
+	Section:54
+		honour well
+		thank
+		thank mr hennessey
+		terminate transmission

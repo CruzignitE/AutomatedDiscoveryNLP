@@ -1,0 +1,232 @@
+FIELD DATA:
+	FILE NAME:
+		61.txt
+	CASE NUMBER:
+		1701128
+	JUDGE NAME:
+		WRAIGHT
+	DEFENDANT NAME:
+		NATHAN JOHN LINCOLN
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		nathan john lincoln pleaded guilty one charge causing injury intentionally one charge causing injury recklessly contrary section 18 crime act 1958
+		maximum penalty 10 year imprisonment 5 year imprisonment respectively
+		also pleaded guilty one summary charge possessing controlled weapon hunting knife without lawful excuse contrary section 6 control weapon act 1990
+		maximum penalty 120 penalty unit imprisonment one year
+	Section:2
+		also admitted criminal recordcircumstances offence
+	Section:3
+		prosecution tendered opening plea may summarised follows
+	Section:4
+		time offending victim gavin ford jason duckworth living 2 thornbill drive werribee
+		also living house karen dodd together 12 year old son jasper
+	Section:5
+		nathan lincoln known
+		previously lived victim jason duckworth known since attended school together
+	Section:6
+		saturday afternoon 5 november 2016 went 2 thornbill drive
+		believed occupant taken clothing property belonging partner skye
+		point arrived house obtained piece wood broken chair leg concealed clothing
+	Section:7
+		gavin ford jasper bedroom located rear house arrived
+		saw walk past outside bedroom window
+	Section:8
+		karen dodd bedroom front house
+		front door closed unlocked
+		heard someone front house went front door
+		standing inside front door
+		entered house walked straight hallway gavin ford bedroom went straight bedroom
+	Section:9
+		gavin ford sitting bed stood
+		fear assaulted mr ford punched side head
+		reached behind back produced broken chair leg
+		hit mr ford top head piece wood causing scalp split start bleeding
+		mr ford put arm front protect hit left arm chair leg causing fracture forearm
+		offending constitutes charge 1 indictment causing injury intentionally
+	Section:10
+		jason duckworth bedroom fiance tabitha cowan
+		heard yelling mr ford bedroom opposite heard m dodd yelling stop stop
+		went looked mr ford bedroom
+		saw standing mr ford holding broken chair leg
+		saw strike mr ford head
+	Section:11
+		mr duckworth jumped back
+		shrugged mr duckworth struck face chair leg using backhand motion
+		blow caused mr duckworth bleed cheekbone
+		saying took stuff
+		left house
+		offending constitutes charge 2 indictment causing injury recklessly
+	Section:12
+		mr ford jasper crawled bedroom window went footpath
+		mr ford saw leaving house heading towards sanderling street werribee
+	Section:13
+		police notified incident 225pm passerby attended five minute later
+		ambulance already attendance mr ford inside treated
+	Section:14
+		mr ford taken royal melbourne hospital ambulance
+		treated two centimetre wound crown head
+		transverse fracture left ulnar bone bruising swelling
+		scalp wound required three stitch
+		splint sling applied forearm
+		discharged follow fracture clinic
+	Section:15
+		23 november 2016 detective senior constable watson observed walking along street werribee area
+		arrested hunting knife located backpack
+		offending constitutes related summary offence possessing controlled weapon also pleaded guilty
+	Section:16
+		arrest taken werribee police station interview
+		answer gave record interview largely corroborate version event constitute prosecution summary plea
+		objective seriousness offending
+	Section:17
+		submitted behalf conduct relation charge one two characterised excessive selfdefence
+		based submitted fact mr ford punched side head struck chair leg
+		prosecution accept acted selfdefence conduct characterised excessive selfdefence
+	Section:18
+		view accept reaction struck side head may response arguably selfdefence response striking mr ford head chair leg armed arriving house causing wound required stitch clearly excessive
+		accept therefore relation first strike characterised excessive selfdefence
+		however stage clearly upper hand mr ford put hand protect attack
+		point hit chair leg left arm causing arm fracture
+		view argued excessive selfdefence extends second strike weapon
+		conduct must considered context clearly grievance one people house attended armed chair leg contemplation confrontation
+	Section:19
+		mr duckworth seen action relation mr ford jumped back presumably prevent fighting
+		reacted striking side face chair leg
+		said conduct relating charge could characterised excessive selfdefence either
+	Section:20
+		one disturbing aspect case occurred house people present witnessed particularly m dodds 12 year old son jasper
+		doubt witness violent action private home would traumatic experience quite frightening present house
+	Section:21
+		opinion despite initial strike mr ford circumstance conduct constitutes relatively serious example offence causing injury intentionally causing injury recklesslypersonal circumstance
+	Section:22
+		tendered behalf plea forensic neuropsychological report prepared dr karen scally neuropsychologist
+		provides extensive detail family background drug alcohol history psychological history
+	Section:23
+		summary 37yearold man born melbourne raised chiefly lancefield victoria
+		twin sister born prematurely suffered deprivation oxygen resulted complication including collapsed right lung failed develop
+		adopted four month age raised farm lancefield youngest sibship six
+	Section:24
+		also diagnosed childhood adhd prescribed drug age nine 13
+		throughout childhood unfortunately suffered abuse trauma
+		suffered physical discipline bullying one brother
+		mother drug user introduced amphetamine around 12 year age injecting drug
+		bullied school intellectual disability given fulltime integration aid
+		expelled local high school attended mount macedon grammar ultimately leaving school age 16
+	Section:25
+		twin sister four stepsiblings none interaction criminal justice system
+	Section:26
+		term drug history began use heroin age 16 late 20
+		took methylamphetamine use
+		clear looking forensic history dating back 1994 drug played part much offending behaviour either directly indirectly
+	Section:27
+		employment history limited shortterm labouring job plumbing carpentry industry
+		last employment disability service werribee 2006 2007
+		disability pension since age 16
+	Section:28
+		dr scally administered number standardised neuropsychological test provides detail result test
+		summary compared peer age cognitive profile characterised moderate reduction attention working memory skill processing speed verbal comprehension verbal intellectual skill phonemic verbal fluency cognitive flexibility
+		also found showed reduced learning curve simple verbal information significantly reduced immediate delayed recall contextual verbal information
+		found poor language skill evident interaction others consistent interpersonal difficulty throughout life
+	Section:29
+		dr scally also found social difficulty appear linked acquired brain injury due combined effect hypoxic episode birth early introduction substance use view interfered development
+		despite found cognitive functioning appears relatively resistant effect chronic substance abuse
+		concludes however significant risk cognitive deterioration return substance use upon release custodysentencing consideration
+	Section:30
+		mr anderson appeared behalf submitted verdin principle one three applied case
+		r v verdin 2007 16 vr 269
+		moral culpability reduced instance result intellectual disability result general deterrence moderated instance
+	Section:31
+		well settled impaired mental functioning time offending may reduce offender moral culpability particularly effect impairing offender ability exercise appropriate judgement make calm rational choice
+		principle applies clearly instance offender longterm intellectual handicap
+		circumstance retributive effect denunciatory aspect sentence appropriate person ordinary capacity often inappropriate situation mentally retarded offender need community
+		muldrock v queen 2011 244 clr 120 54
+	Section:32
+		noted dr scally concludes cognitive social difficulty appear best accounted acquired brain injury due combined effect hypoxic episode birth early introduction substance use interfered development contributed poor skill impulse control
+		opinion verdin principle one three relevance case take account moderating sentence imposed
+	Section:33
+		specific deterrence consideration complex
+		criminal history demonstrates given many opportunity address drug use offending behaviour
+		intellectual disability understand effect drug use indeed resulted leading criminal behaviour ultimately term imprisonment
+		given justice plan past community correction order designed therapeutic punitive however failed address core problem lead criminal behaviour
+		accept however intellectual disability would contribute capacity focus attention adequately addressing issue
+		note also despite cognitive difficulty dr scally observes relatively resistant effect chronic substance abuse
+	Section:34
+		first day trial following negotiation prosecution pleaded guilty two charge plea indictment associated summary charge
+		submitted prosecution agrees negotiation case ongoing since committal sticking point relation fact surrounding commencement offending strike mr ford
+		ultimately submitted behalf settled plea indictment largely represents offered plead guilty earlier stage
+		circumstance despite fact crossexamined witness contested committal hearing accept plea guilty may considered early plea saved community time saved witness trauma stress give evidence trial
+		plea guilty also evidence acceptance responsibility evidence remorse demonstrates willingness facilitate course justicevictim impact statement
+	Section:35
+		two victim impact statement tendered
+		first gavin ford victim relation charge 1
+		second karen dodd present house mother jasper
+	Section:36
+		victim impact statement general term outlined traumatic experience present occurred
+		mr ford case outline physical psychological effect result attack
+		also make reference fact occurred front child 12 time
+		mr ford suffered physical injury gash top head requiring three stitch arm broken transverse fracture left ulnar bone bruising swelling
+	Section:37
+		m dodd conveys reaction witnessing assault mr ford effect son jasper
+		state son jasper suffers intellectual disability time incident shook fear
+		also outline viewed attack horrific
+	Section:38
+		take account victim impact statement acknowledge despite way assault began frightening experience involved witnessed eventprospects rehabilitation
+	Section:39
+		extensive criminal history first recorded appearance magistrate court 1997 burglary theft associated charge resulting community based order
+		order breached
+		follows offence related heroin drug dependence ultimately leading first justice plan 2001
+		number court appearance follow order imposed
+		recent order designed address substance abuse therapeutic order 2013 also contained justice plan
+		order also breached cancelled
+	Section:40
+		circumstance prospect rehabilitation could assessed good
+		fact poor
+		however accept cognitive social difficulty must considered relation offending also impede attempt overcome core problem particularly dependence drug
+		word ability exercise appropriate judgement capacity make calm rational choice also put risk unable fully utilise service provided address offending behaviour
+	Section:41
+		beyond dispute community would benefit able extricate lifestyle court best part adult life
+	Section:42
+		custody year vast evidence relation progress jail accept submission put behalf vulnerable prisoner remained trouble free engaged work program whilst remand produced least one relatively recent urine screen demonstrating drugfree
+	Section:43
+		noted dr scally significant risk cognitive deterioration return substance use upon release custody
+		course recommends engage drug alcohol counselling psychological treatment
+		also considers holistic approach need applied case address issue housing occupational training ongoing case managementsentence
+	Section:44
+		custody 374 day relation matter
+		view appropriate sentence address sentencing consideration combined sentence involving imprisonment community correction order pursuant section 44 sentencing act 1991
+		order type imposed period imprisonment one year le
+	Section:45
+		nathan lincoln charge one indictment causing injury intentionally sentenced 10 month imprisonment
+		relation charge two causing injury recklessly sentenced 4 month imprisonment
+		two month sentence cumulative sentence imposed relation charge one making total effective imprisonment component sentence 12 month
+		relation related summary offence possessing controlled weapon without lawful excuse sentenced one month imprisonment served concurrently sentence imposed charge one two
+	Section:46
+		completion 12 month sentence despite assessed unsuitable community correction order released order period 12 month
+		assessed unsuitable high risk reoffending fact breached number similar order past
+		however release community without supervision without structure deal drug mental health issue would put community greater risk
+	Section:47
+		community correction order imposing therapeutic order
+		already served 12 month custody opinion appropriately address punitive component sentence
+		therefore unpaid community work condition attached order would circumstance unduly punitive
+		community correction order course designed assist dealing core issue relate offending behaviour
+		contain drug mental health treatment condition program reduce risk reoffending
+		also going include judicial monitoring condition
+	Section:48
+		pursuant 18 sentencing act 1991 declare 373 day reckoned period imprisonment already served sentence imposed
+		include today
+	Section:49
+		pursuant 6aaa sentencing act 1991 indicate pleaded guilty would sentenced 18 month imprisonment nonparole period 12 month

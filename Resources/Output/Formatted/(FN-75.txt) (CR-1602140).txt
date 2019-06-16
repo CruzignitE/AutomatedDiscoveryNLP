@@ -1,0 +1,321 @@
+FIELD DATA:
+	FILE NAME:
+		75.txt
+	CASE NUMBER:
+		1602140
+	JUDGE NAME:
+		RYAN
+	DEFENDANT NAME:
+		TONY SMITH
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		tony smith 8 august 2017 came trial charged melbourne 4 august 2015 8 september 2015 conspired together yasser ibrahim diverse others unknown defraud diverse financial institution state victoria
+		maximum penalty offence fifteen year imprisonment
+	Section:2
+		eight day pretrial argument 17 august pleaded guilty indictment
+		remanded bail plea 17 november 2017
+		purpose adjournment could consult treating physician medical expert sydney live family
+	Section:3
+		17 november plea commenced heard part adjourned legal practitioner noncompliance practice note court respect conduct plea
+		crown rightly insisted late service expert report placed disadvantage author report required crossexamination
+		tendered exhibit plea summary prosecution opening plea document 62 page
+	Section:4
+		prior plea commencing counsel m hawkins served document crown disputing much content crown opening exhibit
+		plea adjourned 12 december
+		plea listed two day counsel directed narrow issue dispute crown defence
+		m hawkins directed file submission plea
+		interstate subpoena issued served upon dr elarif general practitioner dr malik psychiatrist
+	Section:5
+		crown case simply stated
+		together coconspirator brotherinlaw yasser ibrahim travelled sydney melbourne used gift card plastic card capable encoded genuine stolen banking information automatic teller machine atm melbourne central business district
+		overt act conspiracy occurred 4 5 6 7 1718 21 23 august 2015 7 8 september 2015
+	Section:6
+		period conspiracy coconspirator obtained 26584 result successful withdrawal atm attempted obtain 22074
+		bare fact however true measure nature conspiracy
+	Section:7
+		4 august conducted total thirteen transaction four occasion two atm 650 pm 745 pm
+		action caught atm closed circuit television cctv
+		later evening caught cctv returning coconspirator ibrahim accommodation 39 lonsdale street melbourne
+	Section:8
+		5 august 209 pm 215 pm conducted eight transaction two atm
+		recorded returning lodging ibrahim later day
+	Section:9
+		6 august 227 pm 234 pm made seven transaction two atm recorded cctv returning accommodation mr ibrahim 549 pm
+	Section:10
+		7 august conducted one transaction atm hsbc bank 188 swanston street 240 pm
+		period 4 7 august attended tried obtain obtain fund atm five occasion
+	Section:11
+		noted banking information contained gift card obtained use skimming device whereby bona fide transaction take place using credit card banking information contained credit card stolen copied scanner thereafter either using scanner andor computer stolen information would placed blank gift card
+	Section:12
+		17 august captured cctv 102 obtaining 1000 hsbc atm swanston street shortly thereafter returned ibrahim accommodation lonsdale street
+		later day 134 pm caught cctv leaving accommodation ibrahim 259 pm 313 pm eleven transaction conducted three atm central business district using gift card encoded information used previously would used future
+	Section:13
+		returned accommodation ibrahim 359 pm
+		430 pm left accommodation ibrahim 713 pm 738 pm eight transaction conducted three atm
+		813 pm ibrahim recorded returning accommodation
+	Section:14
+		18 august ibrahim recorded leaving accommodation 437 pm
+		441 pm 447 pm conducted four transaction two atm returned accommodation ibrahim 1100 pm
+	Section:15
+		19 august ibrahim recorded cctv entering accommodation 957 pm
+	Section:16
+		21 august ibrahim left accommodation 1223 pm
+		1234 pm 322 pm conducted sixteen transaction five atm three hsbc atm
+	Section:17
+		information contained gift card gift card used previous occasion used future
+	Section:18
+		23 august ibrahim left accommodation unilodge lonsdale street 1038
+		1050 1114 eight transaction conducted five atm
+		ibrahim recorded returning accommodation 1258 pm
+		later day ibrahim left returned accommodation two occasion
+	Section:19
+		7 september ibrahim departed sydney arrived melbourne 1035 pm
+		ibrahim recorded returning accommodation lonsdale street
+	Section:20
+		8 september 355 pm 356 pm ibrahim conducted six transaction citibank atm little bourke street melbourne
+		shortly thereafter although recorded within banking record occurring time ibrahim conducted three transaction bendigo bank atm bourke street melbourne
+		later 404 pm 411 pm ibrahim conducted thirtysix transaction hsbc atm swanston street melbourne
+		shortly thereafter 435 pm 438 pm ibrahim conducted seven transaction hsbc atm collins street melbourne
+		later 458 pm 505 pm ibrahim conducted seven transaction citibank atm collins street melbourne
+	Section:21
+		8 september 2015 informant matter detective senior constable jessup viewing cctv footage provided various banking institution showing suspicious transaction atm
+		detective senior constable jessup noted pattern within transaction left office approximately 405 pm conduct surveillance citibank atm 450 collins street melbourne
+		approached atm saw male recognised viewing cctv footage
+		male mr smith
+		appeared keeping lookout mr ibrahim
+		detective senior constable jessup conducted walkpast observed ibrahim atm
+		appropriately detective senior constable jessup called police assistance
+	Section:22
+		whilst waiting assistance detective senior constable jessup observed ibrahim conclude transaction atm walk past collins street made righthand turn queen street
+		detective senior constable jessup followed
+		intersection little bourke queen street ibrahim separated detective senior constable jessup continued follow towards lonsdale street
+		stage lost sight
+		however police attended assist informed seen entering francis hotel lonsdale street
+		detective senior constable jessup searched hotel found toilet attempting discard number card receipt toilet bowl
+		arrested cautioned
+		searched found possession 2900 cash
+		taken back melbourne west police station subsequently interviewed caution
+		initially told detective senior constable jessup attended melbourne one occasion
+		however quickly turned two three four occasion
+		told detective senior constable jessup contact member new south wale police service pressured offending
+	Section:23
+		found possession two phone nokia iphone
+		contained iphone receipt selfstorage locker kennards self storage facility
+		address receipt lessee locker apartment 701 unilodge 39 lonsdale street melbourne address ibrahim stayed throughout time melbourne
+		locker leased ibrahim name since april 2015
+	Section:24
+		eluded arrest 546 pm ibrahim recorded cctv leaving accommodation lonsdale street carrying red black auspolo suitcase
+		approximately 612 pm ibrahim attended kennards self storage facility carrying red black suitcase recorded leaving facility without suitcase
+		later ibrahim returned accommodation left approximately 920 pm laptop bag deposited kennards self storage facility approximately 936 pm
+		ibrahim subsequently returned accommodation lonsdale street believed thereafter left sydney subsequently left australia
+	Section:25
+		police executed warrant kennards self storage facility 10 september 2015 located auspolo suitcase contained amongst thing amount cash card readerwriter four mobile phone including apple iphone nokia phone three notebook computer number hsbc citibank atm receipt two virgin boarding pass ibrahim two jetstar boarding pass ibrahim name number gift card
+	Section:26
+		contained within black laptop bag notebook computer 124 gift card pin number recorded well prepaid visa card
+		found within suitcase laptop bag gift card containing banking information contained gift card used time time various transaction conducted coconspirator ibrahim course conspiracy
+	Section:27
+		15 october 2015 search warrant executed address 385 marion street george hall new south wale
+		located home amongst thing wonder card embosser enduro brand card printer shoebox containing assorted verifone charger
+	Section:28
+		upon arrest found nokia phone iphone possession
+		called voir dire said ibrahim gave iphone
+		also swore phone iphone 6 model phone seized police executed warrant home sydney
+		nokia phone found possession time arrest interrogated showed number text message telephone operated witness irfan bashir
+		mrbashir together mr abid hussain called basha inquiry
+		swore taxi driver approached melbourne airport taxi rank man mr hussain said identified yasseen mr bashir spelt man name yaseen
+		mr hussain identified mr smith photo board yaseen
+		mr bashir identified ibrahim yasseen
+		noted two taxi driver swore one approach made together
+	Section:29
+		messrs hussain bashir swore yasseen yaseen depending respective witness spelt name man approached offered new type eftpos machine used taxi cab
+		represented messrs hussain bashir would financial advantage use machine offered
+		mr bashir swore received text yasseen 23 august 2015 meet yasseens brother city machine could handed
+		mr bashir received text yasseen arrangement made yasseens brother mouner monier meet mr bashir caf seddon
+		two men met mounermonier gave mr bashir two eftpos machine
+		mounermonier gave mr bashir phone number coincides nokia phone found possession mr smith time arrest
+		addition contained within nokia phone text made mr bashir setting meeting seddon
+	Section:30
+		becoming aware existence communication mr bashir police attended mr bashirs home shared witness mr hussain
+		messrs hussain bashirs cooperation police investigator two eftpos machine recovered examined found scanning machine manufactured veriphone
+		scanner brand found within kennards facility searched police
+	Section:31
+		mr bashir identified mr mounermonier shown photo board containing photograph amongst collection twelve photo
+	Section:32
+		tendered exhibit 8 plea information report summary made sergeant mitchell osbourne new south wale police service witness called committal
+		report relates meeting osbourne 18 may 2015
+		report osbourne record told syndicate new south wale using 100 eftpos card skimming device across metropolitan sydney
+		majority device installed taxi taxi driver well aware device capability taxi driver paid 100 per credit card skimmed
+		coincidentally named two men involved fraudulent enterprise yassen muneer
+		coincidence use name similar provided sergeant osbourne striking approach ibrahim taxi driver messrs hussain bashir request use eftpos scanner machine supplied coconspirator
+	Section:33
+		return plea m hawkins narrowed issue contest crown way document headed response prosecution plea
+		m hawkins put issue connection item found kennards storage facility well knowledge content black laptop bag auspolo bag
+	Section:34
+		essence m submitted direct evidence way cctv footage fingerprint dna documentation connected storage facility content particularly content auspolo laptop bag
+		whilst submission fails understand nature offence pleaded guilty overt act circumstance relied upon crown prove involvement
+		together ibrahim used gift card encoded skimmed information genuine credit card
+		together ibrahim offered eftpos machine skimming capacity messrs hussain ibrahim
+		card number encoded onto gift card used ibrahim used number found gift card laptop bag found kennards storage facility skimming device found auspolo suitcase placed kennards facility ibrahim arrested
+	Section:35
+		bag came lonsdale street address lived cowhilst melbourne
+		reasonably open ibrahim took empty bag kennards facility
+		irresistible inference drawn circumstance knew content auspolo laptop bag draw inference criminal standard
+	Section:36
+		important aspect plea conducted behalf mswkins report dr malik called plea appeared way videolink sydney
+		tendered plea exhibit 2 report dr dated 5 december 2017
+		essence relying part report hr dadgostar psychologist dated 10 november 2017 received exhibit 3 plea limited basis relied upon drdr opined suffered dementia overall cognitive decline past five year
+		swore needed accompanied medical appointment
+		discussion wife brother accompanied dr malik room described unable give consistent instruction legal adviser forgetful
+		dr malik opined result suffering dementia described major ncd significantly impacted upon ability understand participate conspiracy level sophistication alleged crown statement fact
+		see transcript t32 l3
+	Section:37
+		drk interviewed ninety minute accurately took instruction wife brother consultation looking one side making eye contact delayed response question looked confused perplexed
+		see t36 l4
+		wife brother mentioned could longer use gps car able make appointment find go attend appointment obliged make arrangement
+		see t36 l18
+	Section:38
+		drmalik described giving limited answer extreme positive speech thought give elaborate long answer two three word best long delay answer question asked dr see t37 l12
+	Section:39
+		dr unaware called mson voir dire given responsive answer question asked evidenceand crossexamination
+		unaware able give evidence respect matter 2017 related conduct 2015
+		dr unaware drove taxi cab sydney 2012 2015
+	Section:40
+		ultimately drwas compelled concede well could point differential case three likely diagnosis neuro cognitive decline major depression pseudo dementia malingering
+		three likely diagnosis
+	Section:41
+		doubt mind third differential diagnosis applies mr
+	Section:42
+		plain together wife brother deliberately misled dr cognitive state order attract lesser sentence might otherwise receive
+	Section:43
+		drelarif general practitioner called way telephone conference gave sworn evidence medium
+		part evidence tendered behalf letter heading haldon street medical centre became exhibit 4 plea
+		summary suffer kartageners syndrome congenital condition normal position organ body reversed
+		addition chronic lung disease
+		drwrote also suffer coronary vessel disease hepatitis
+	Section:44
+		drelarif become regular treating general practitioner 62017 saw occasion complained episode bronchitis
+		thereafter saw 23 august complained tiredness cough
+		28 august consulted dragain complained exacerbation bronchitis referred cardiologist
+		however take opportunity
+		prescribed antibiotic
+		drsaw 7 september
+		complained tightness chest coughing
+		dr elarif diagnosed suffering episode bronchitis prescribed antibiotic
+		drsaw fortnight later 20 september suffering upper respiratory infection prescribed antibiotic way prophylaxis
+		dr saw 26 september exacerbation bronchitis
+		next saw 24 october suffering acute exacerbation chronic lung disease specifically bronchitis
+		27 november saw purpose referring dr respect continuing lung problem
+		finally dr saw 2 december 2017 described consultation related social issue
+		see t82 t86
+	Section:45
+		m hawkins outline submission put child living egypt right lung surgically removed
+		proved contrary fact dr opinion portion right lung removed surgically unable say extent procedure although opinion functioning right lung
+	Section:46
+		respect issue hepatitis bundle medical report tendered exhibit 5 plain treated hepatitis report dr ng dated 14 april 2014 made plain clear hcv infection
+	Section:47
+		letter exhibit 4 dr opined believe goal setting would pose negative effect patient weaken immune system accelerate underlying chronic illness cause life threatening consequence
+	Section:48
+		tested respect statement mrof counsel appeared behalf crown dragreed proposition thatif doesnt get proper care gaol chronic illness might get worse
+		true meaning statement made letter exhibit 4
+		tested respect effect chronic lung disease affect draccepted entirely reliant upon instruction order form opinion respect
+		see t94 l2126
+	Section:49
+		ultimately mrnone principle enunciated r v verdin application
+		whilst true suffer chronic lung disease unless properly treated prison medical staff condition unlikely become life threatening
+	Section:50
+		mr smith 48 year age born 9 june 1969
+		grew giza egypt
+		birth diagnosed kartageners syndrome
+		came australia 1995 brother
+		depending upon exhibit one read either studied accounting egypt two year obtained business degree whilst egypt
+		may qualification recognised australia initially worked security guard drove taxi 2012 2015
+		later involved establishing childcare centre
+	Section:51
+		married twin 11 year old boy
+	Section:52
+		put behalf pressured becoming involved conspiracy pleaded guilty
+		put behalf one stage family life threatened comply request person demanded involvement criminal conspiracy
+		committal called case sergeant mitchell osbourne new south wale police service
+		examined length respect information provided pressure may
+		save instruction counsel assertion made record interview evidence pressure engage unlawful conduct
+	Section:53
+		man without prior conviction
+	Section:54
+		much plea taken evidence relating alleged psychiatric disorder state physical health already referred
+		ultimately submitted behalf community correction order appropriate disposition taking account nature offending matter personal
+		particular submitted appropriate vehicle application general specific deterrence due mental illness suffer
+		plain earlier remark find suffer mental illness accordingly appropriate vehicle application general deterrence
+		whilst true length conspiracy period approximately five week many separate overt act conspiracy act dishonesty view need specifically deterred reoffending
+	Section:55
+		together coconspirator travelled sydney melbourne sole purpose committing crime dishonesty furtherance conspiracy
+		opinion appropriate sentence circumstance one immediate imprisonment
+	Section:56
+		pleaded guilty indictment eight day pretrial argument
+		plea late one
+		plea however utilitarian benefit must given credit
+		however unable discern remorse arising plea guilty
+		prospect rehabilitation guarded
+	Section:57
+		married two child
+		normally reside new south wale
+		imprisoned victoria create difficulty respect seeing family
+		view little flow travelled new south wale victoria purpose conspiracy pleaded guilty
+	Section:58
+		offending sophisticated involved use stolen banking information
+		attempted recruit two taxi driver melbourne purpose scanning credit card
+		type conspiracy pleaded guilty overt act relied upon proof conspiracy use stolen banking information encoded onto gift card fall class crime difficult detect
+		decision detective senior constable jessup act upon suspicion view unlikely would caught
+		similarly detective senior constable jessup choosing follow rather coconspirator unlikely would caught
+	Section:59
+		best taking account objective circumstance offending personal circumstance applying sentencing principle sentence three year imprisonment fix period two year imprisonment time must serve become eligible parole
+	Section:60
+		declare spent sixtytwo day way presentence detention
+	Section:61
+		pursuant s6aaa sentencing act 1991 declare plea guilty would sentenced four year imprisonment nonparole period two half year
+		may seated
+		passing would like compliment investigation respect matter particularly conduct detective senior constable jessup backing judgment
+	Section:62
+		respect ancillary order made restitution order hand copy
+		made forfeiture order disposal order requested hand copy
+		mr smith would please stand
+	Section:63
+		crown made application pursuant s464zf2 crime act undergo forensic procedure
+		case scraping inside mouth
+		granted application seriousness circumstance offending warrant making order granting order public interest
+		must inform time request consent taking mouth scraping supervision authorised member police force sample taken blood sample police may use reasonable force enable forensic procedure conducted
+		understand
+	Section:64
+		offender interpreter yes
+	Section:65
+		honour hand copy order
+		would recover sentencing remark please mr associate
+	Section:66
+		associate yes honour
+	Section:67
+		honour matter
+	Section:68
+		associate honour
+	Section:69
+		honour m hawkins would like thank assistance given compliment respect performance court interest client
+	Section:70
+		m hawkins yes honour
+		appreciate
+		thank honour
+	Section:71
+		honour would remove prisoner please
+		

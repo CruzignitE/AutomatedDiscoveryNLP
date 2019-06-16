@@ -1,0 +1,203 @@
+FIELD DATA:
+	FILE NAME:
+		90.txt
+	CASE NUMBER:
+		1401926
+	JUDGE NAME:
+		MASON
+	DEFENDANT NAME:
+		JAMES WALE
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		honour mrwale 4february 2015 nearly three year ago one charge pleaded guilty 28 2013 drove dangerously causing serious injury
+	Section:2
+		driving occasion involved making righthand turn middle lane red traffic arrow
+	Section:3
+		result action car crossed immediately path another vehicle entered intersection green light
+	Section:4
+		result inevitable collision passenger close friend aged 19 suffered serious life threatening injury placed induced coma ten day discharged family fulltime care 2013
+	Section:5
+		amongst injury victim suffered severe traumatic brain injury consequent enduring cognitive impairment
+	Section:6
+		11 2015 sentenced conviction serve community correction order period two year
+		order imposed condition perform 200 hour unpaid community work together assessment treatment drug abuse dependency mental health assessment treatment program course aimed addressing factor relating offending directed regional manager particular reference road trauma awareness program
+	Section:7
+		14 2017 charge filed alleging breached community correction order imposed 11 2015
+		served summons alleging breach 12 2017 appeared 20 2017 christmas last year
+	Section:8
+		date unrepresented matter adjourned today obtain legal assistance
+	Section:9
+		breach alleged included failing report directed three occasion 2015 failing perform unpaid community work required 38 occasion failing undergo treatment rehabilitation required 15 occasion
+	Section:10
+		detail provided breach report prepared case manager chrissy mckie dated 23 2017
+	Section:11
+		report reveals inception order appeared minimise offending behaviour displayed poor attitude towards sentence regarded order unfair inhibiting ability move forward life
+		attendance sporadic multiple occasion noncompliance
+	Section:12
+		despite noncompliance meeting 30 2015 subsequent attempt correction staff assist discussing engaging alternative community work addressing reason noncompliance sporadic compliance continued
+	Section:13
+		addition failed attend three consecutive appointment drug counselling subsequently exited treatment lack commitment
+		excuse inability attend hopper crossing area variation treatment arranged assist attend provider suited address
+		failed attend three consecutive appointment accordingly exited treatment
+	Section:14
+		due lack engagement selfdisclosed daily cannabis sporadic alcohol use correction referred assessment treatment
+		found suitable complex counselling referred odyssey house
+		failed attend required multiple occasion exited treatment program noncompliance
+	Section:15
+		following commencement order provided mental health plan stipulated engagement psychological counselling address diagnosis mixed anxiety depression well ongoing feeling posttraumatic stress disorder understandably flowing circumstance original offence
+	Section:16
+		result referred consulting psychologist
+		exited service noncompliance
+	Section:17
+		therefore reassessed referred wing wellness hopper crossing well wyndham clinic
+		failed engage service
+		due forthcoming expiration community correction order service unable monitor arranged engagement treatment provider
+	Section:18
+		order expired 10 2017
+	Section:19
+		overall failure comply order significant reflects clear lack motivation unwillingness properly engage order requirement
+	Section:20
+		added fundamental continuing lack compliance sorry circumstance also complete failure view correction brought breach proceeding timely manner
+	Section:21
+		obvious correction supervisor justifiable necessary bring breach proceeding end expiry period order least immediately expiry date
+	Section:22
+		proceeding commenced ten month expiry
+		wholly unsatisfactory amount serious failure department properly implement judicial order amount gross impediment administration justice
+	Section:23
+		community correction order alternative sentencing option court otherwise considering term imprisonment
+		consequently high responsibility manage correction order correction supervisor act efficiently competently productively ensure order court properly fully complied
+	Section:24
+		result delay instituting proceeding fall considered resentencing three year imposition original order four half year date offence
+		lack attention intolerable never repeated
+		community well court entitled outraged proper effect order subverted offender permitted continuously evade full term punishment reformative program
+	Section:25
+		remark forwarded responsible senior management correction victoria community correctional service
+	Section:26
+		returning matter immediately find breach proven basis extensive noncompliance propose resentence
+	Section:27
+		mrwale sentence reflect purpose intention sentence 11 2015 taking account youthfulness aged 18 time offence 19 time original sentencing personal circumstance including substance abuse mental health issue also taking accountathe extent complied original order principally term little half unpaid community work component bthat charged offence date original sentence present date cthat appear matured realistically explained reason previous noncompliance stupidity given opportunity prepared recommit full compliance
+	Section:28
+		msparbhoos benefit explanation given mrwale appeared unrepresented 20 last year
+	Section:29
+		view despite previous lack commitment part would appropriate stage sentence term imprisonment light matter mentioned delay bringing breach attention court
+	Section:30
+		earlier intervention warning court combined perhaps judicial monitoring may effect concentrating effort may otherwise completed order
+	Section:31
+		mrwale consent going resentence community correction order
+		would please stand
+	Section:32
+		charge 1 dangerous driving causing serious injury convicted ordered serve community correction order period time 18 month
+	Section:33
+		community correction order commences today end 28 2019
+	Section:34
+		correction centre attend werribee community correction service 87 synnot street werribee must attend within two clear working day commencement order 4 pm wednesday 31 2018
+	Section:35
+		mandatory term community correction order apply additional condition impose supervision community correction officer perform 50 hour unpaid community work directed regional manager undergo assessment treatment including testing drug abuse dependency directed regional manager undergo mental health assessment treatment
+		may include psychological neuropsychological psychiatric treatment hospital residential facility necessary andyou attend judicial monitoring explain condition shortly
+	Section:36
+		condition designed wholly punitive
+		condition seems necessary also embrace order help
+		fully embrace program open listen people try work course find help
+		fun
+		work work embrace
+	Section:37
+		think smart enough sensible enough despite really described prosecutor gross inability comply original order think
+	Section:38
+		lifeline done really creditable apprenticeship carpentry build good career could business carpentry building could employ 20 people one day
+		possible got apply great springboard rest life provided indulgence think
+	Section:39
+		also imposed special condition attend judicial monitoring
+		mean come back court every often every three four month see going attending course
+		issue
+	Section:40
+		issue getting resource entitled order issue correction deal question performing question whether correction performing
+		follow
+	Section:41
+		order work sometimes people get shunted along may heard say lot people correction overworked understaffed lot work people get lost system
+		happened case
+		happen monitor much
+		also want make sure applying give support
+	Section:42
+		first attendance judicial monitoring 28 2018 10
+	Section:43
+		even though already mandatory term community correction order explained go
+	Section:44
+		mandatory compulsory term thatyou must commit another offence could imprisoned time order force must report receive visit community correction officer must report community correction centre werribee centre within two clear working day order 4pm wednesday week must notify community correction officer change address employment within two clear working day change must leave victoria without first getting permission community correction officer andyou must obey lawful instruction direction community correction officer direction may given either orally writing
+	Section:45
+		understand agree condition mrwale
+	Section:46
+		offender understood agree
+	Section:47
+		honour community correction order sign countersign
+	Section:48
+		offender yep
+	Section:49
+		honour also advise get sick exceptional circumstance order may suspended period time circumstance materially alter may apply variation cancellation order
+		either case must notify werribee community correction centre recommend obtain legal advice thing happen
+	Section:50
+		mean community welfare service help issue life troubling causing difficulty complying communication speak find help thing oppose trying
+	Section:51
+		however fundamentally must warn breach condition order brought back back court one option open cancel new community correction order resentence original charge may also deal breach sending prison three month
+	Section:52
+		still serious risk breach order sent gaol original offence occurred 2013
+		breach show complete unwillingness comply order unlikely result anything saying appropriate sentence circumstance go gaol
+	Section:53
+		offender understood
+	Section:54
+		honour need life
+		understand consequence breaching community correction order
+	Section:55
+		offender yeah understand
+	Section:56
+		honour right
+		ask sign community correction order
+		take seat moment passed counsel
+		leave dock purpose
+	Section:57
+		mr thomas honour separate charge actual breach honour found proven
+	Section:58
+		honour yes
+	Section:59
+		mr thomas read penalty
+	Section:60
+		honour
+	Section:61
+		mr thomas going nonconviction
+	Section:62
+		honour breach offence simply find matter proven
+	Section:63
+		mr thomas sure yes honour thank
+	Section:64
+		community correction order signed acknowledged
+	Section:65
+		mrwale reason model client community service
+	Section:66
+		offender there reason cant
+	Section:67
+		honour right
+		nothing would like able write letter five year time say ive done worked carpentry im building house im repairing house ive ive settled stuff past
+	Section:68
+		offender yeah want write letter
+	Section:69
+		honour going easy
+		temptation challenge work community correction service able get
+		work thats unlikely le likely put way
+	Section:70
+		offender yes
+	Section:71
+		honour right

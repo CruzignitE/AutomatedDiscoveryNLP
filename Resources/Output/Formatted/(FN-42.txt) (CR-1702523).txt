@@ -1,0 +1,194 @@
+FIELD DATA:
+	FILE NAME:
+		42.txt
+	CASE NUMBER:
+		1702523
+	JUDGE NAME:
+		MULLALY
+	DEFENDANT NAME:
+		JAMES SOLOMON
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		james solomon 19 february went old town country tavern wangaratta intending rob gaming venue
+		put stocking face took large knife venue
+		went past four patron using machine
+	Section:2
+		bar yelled give money hitting knife bar
+		fortunately gaming attendant another part facility
+		could see moved away one called 000
+	Section:3
+		quickly realised attempt armed robbery doomed retreated back car
+		filmed cctv seen video behaviour
+		brief 40 second beginning end
+	Section:4
+		month later july 2017 confessed police one attempted armed robbery gaming venue
+		wracked guilt right thing confessing
+		one rare instance genuine remorse prompted accused confess crime confession would solved
+	Section:5
+		pleaded guilty attempted armed robbery earliest possible time
+		benefit plea guilty case dealt
+		cooperation police comprehensive insight conduct revealed record interview continued developed
+	Section:6
+		aspect attempted armed robbery reveal planning intention actual conduct far worst example attempted armed robbery
+		indeed lowest end spectrum
+		one directly confronted put immediate fear
+		bizarre behaviour directed empty space
+	Section:7
+		said police interview quickly felt like goose took
+		nonetheless went plead guilty much relieved prosecution significant burden proving proximate attempt armed robbery
+	Section:8
+		say small matter given due weight sentence shortly announce
+	Section:9
+		said mr solomon patron staff doubt put fear especially weapon
+		reading trauma patron newspaper later brought intense sense guilt remorse
+		said police motivation secure money pay debt including drug dealer
+	Section:10
+		personal circumstance 32 year old
+		single man moved school year 11 workforce impressive work history
+		however selfconfessed addictive personality developed severe problem alcohol drug gambling
+		noted debt due getting drug credit wasting money gambling
+	Section:11
+		however following arrest july 2017 took stock
+		organised go galiamble commencing inpatient program 3 october 2017
+		report galiamble could positive improvement dedication reform positive influence others
+	Section:12
+		doctor treating galiamble wrote dr josephine kingjames suffers 13year history ice alcohol gambling addiction
+		addiction caused significant chaos harm culminating charge well major depressive disorder
+		fortunately since james charged received significant support family knew well residential rehabilitation since beginning october
+		particularly impressed see james real sincerity reform motivation towards change
+		particular urine drug screen clear
+		working intensely psychologist dean janiver
+		working alcoholic anonymous step meeting sponsor
+		real pleasure patient
+		sincerity commitment reform good prognostic indicator
+		prognosis therefore good
+	Section:13
+		another report galiamble read followssince james intake galiamble program james gone beyond expected
+		james continually showed great willingness change consistently go extra mile
+		shown great ability lead client positive change action quickly become integral part st kilda community aboriginal otherwise continually displaying utmost respect politeness positive program involvement
+	Section:14
+		indicates chaired run galiamble aa meeting engaged range program outlined report
+	Section:15
+		mr mark hammersley manager recovery centre writes intend continue participate counselling session gambler anonymous narcotic alcoholic anonymous program completing program credit sought extra meeting got sponsor home group working aa program
+	Section:16
+		counsellor mr smith m sather write applied program even cup tea
+		also clear purposeful working list issue wanted sort time galiamble regaining driver licence dealing current legal matter
+	Section:17
+		note shortly christmas weekend leave family
+		significant given absence contact month leading entry galiamble reported able say thing constructive way door left open continued contact
+	Section:18
+		go say help plan future applied support housing program includes mutual support men many involved aa support program
+		james also talking galiamble staff option merit returning country area staying melbourne close support
+	Section:19
+		many drug screen doctor noted clean
+		mental health plan comprehensive exit plan galiamble
+		step taken sign real reform case good come across
+		community would view support court given significant weight establishing condition facilitate rehabilitation
+	Section:20
+		counsel urged punish community correction order
+		submission supported prosecutor given unusual circumstance offence committed done since commission offence
+		agreed community correction order appropriate penalty punishment last resort prison required case though ordinarily probably would
+	Section:21
+		important court appeal decision state boulton made clear legislative change relating community correction order radically changed sentencing landscape state community correction order considered appropriate serious crime might past attracted gaol term
+		reasoning community correction order could simultaneously punish aid rehabilitation
+	Section:22
+		community correction order particularly appropriate accused ingrained criminal taken step already get away drug criminality
+		mr solomon fit build
+	Section:23
+		community correction order appropriate sentence
+		capable meeting sentencing consideration purpose
+		punishes denounces deters facilitates rehabilitation
+		ordinarily course armed robbery instance attempted armed robbery would result immediate gaol peculiar case
+	Section:24
+		criminal history note subsequent appearance seymour magistrate court september 2017
+		placed community correction order
+		report received community correction done required current community correction order
+		another positive matter supporting sentence case aid rehabilitation community correction order
+	Section:25
+		mr solomon committing crime attempted armed robbery convicted placed community correction order 15 month
+		required following program condition
+	Section:26
+		supervision community correction officer
+	Section:27
+		must 100 hour unpaid community work
+	Section:28
+		must undergo treatment program treatment drug addiction alcohol abuse program directed directed reducing risk reoffending
+	Section:29
+		ordinary condition apply everyone read shortly
+	Section:30
+		pleaded guilty matter found guilty would imposed penalty two year imprisonment minimum nonparole period 18 month
+		order
+	Section:31
+		mr cordy ancillary order honour honour intention 100 hour standalone period unpaid work honour intention attendance program credited
+	Section:32
+		honour thank current situation know mr kennedy
+	Section:33
+		mr kennedy believe completed bulk 120 hour done
+	Section:34
+		honour got 120
+	Section:35
+		mr kennedy yes
+	Section:36
+		honour yes
+	Section:37
+		mr kennedy ask
+	Section:38
+		honour work work could could subtract away time went various program
+	Section:39
+		mr kennedy ask question honour plea
+		thank honour amalgamation appearance attendance rather various treatment place used indistinct
+	Section:40
+		honour thank
+		given intensity work mr solomon done benefit likewise magistrate indicate 100 hour asked unpaid community work via unpaid work attendance various rehabilitative program
+	Section:41
+		mr cordy honour plea
+	Section:42
+		mr kennedy thank honour
+		mr solomon come dock would mind come behind lawyer
+		thank mr solomon
+		community correction order placed go 15 month starting today ending 29 april 2019
+		mandatory condition apply everyone community correction order probably know well community correction order moment
+	Section:43
+		must commit offence could imprisoned time order force important
+		commit another offence come back mercy shown repeated
+		commit another offence certainly period order
+	Section:44
+		another obligation must comply requirement sentencing regulation
+		really take photograph need know start order cooperate
+	Section:45
+		many condition cooperation
+		must report receive visit office correction must report community correction centre within two clear working day
+		moorabbin know got get tomorrow next day
+	Section:46
+		must let community correction officer know two clear working day change address job relevant move away galiamble
+	Section:47
+		must leave victoria without getting permission anywhere border must obey lawful instruction office correction right
+		applies everyone applies must perform 100 hour unpaid community work order hour treatment rehabilitation satisfactorily undertaken counted hour unpaid community work purpose unpaid community work condition
+	Section:48
+		must supervision office correction 15 month need see meet see going
+	Section:49
+		must undergo assessment treatment drug abuse dependency directed must undergo assessment treatment alcohol abuse treatment directed must participate program course address factor relating offending right
+		dovetail hopefully program currently
+		consent sign bring matter end
+	Section:50
+		right say brings matter end mr solomon hanging head thing go wrong back thank
+		mr kennedy thank assistance today could pas thanks m greensil comprehensive preparation plea well galiamble underline say continuing effort men like mr solomon decade really involved continues impress one case give sense hope people come good think work galiamble case
+	Section:51
+		adjourn tomorrow
+	Section:52
+		stage court proceeded another matter

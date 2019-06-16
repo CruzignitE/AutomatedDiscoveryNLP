@@ -1,0 +1,289 @@
+FIELD DATA:
+	FILE NAME:
+		81.txt
+	CASE NUMBER:
+		1701027
+	JUDGE NAME:
+		DEAN
+	DEFENDANT NAME:
+		MAELE MAELELETI MAELEANDREW APINERUAPISAI MAELE
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		maele maele leti maele andrew apineru apisai maele pleaded guilty one charge recklessly causing serious injury contrary s17 crime act 1958
+		maximum penalty offence 15 year imprisonment
+	Section:2
+		also pleaded guilty three charge intentionally causing injury contrary s18 crime act 1958
+		maximum penalty offence ten year imprisonment
+	Section:3
+		committal proceeding conducted case maele maele leti maele submission made whether victim sylvester stephen vears suffered injury purpose s18 crime act
+	Section:4
+		apisai maele pleaded guilty committal mention four charge andrew apineru proceeded way hand brief
+		matter listed court trial resolved direction hearing 18 august 2017
+	Section:5
+		opinion whilst plea three case made first available opportunity nevertheless high value plea spared community cost complex criminal trial witness victim burden giving evidence
+		also accept demonstrate remorse case taken plea account favour mitigation sentence
+	Section:6
+		maele maele leti maele prior conviction subsequent matter outstanding charge
+		andrew apineru one prior court appearance theft outstanding charge relevance sentencing purpose case
+		apisai maele also one outstanding charge also relevance sentencing purpose case
+	Section:7
+		prosecution opening read court tendered evidence offending may summarised follows
+	Section:8
+		18 november 2016 kane dulieu celebrating 24th birthday irish bar knox ozone wantirna south friend including justin stephen ryan vears
+	Section:9
+		dulieu stephen vears decided leave premise approximately 130 walked carpark towards taxi rank 30 metre away
+	Section:10
+		carpark observed duty crowd controller lou lou bar also located knox ozone area
+		crowd controller wrongly believed dulieu friend damaged vehicle owned proprietor lou lou bar
+		damage occurred
+	Section:11
+		four accused drinking lou lou bar associate owner also area carpark
+		ran towards dulieu friend chris wilson denied damaging car anyway
+		dulieu walked taxi rank stephen travis sylvester lou lou bar trying calm situation
+	Section:12
+		area taxi rank maele maele approached stephen without warning slightest provocation punched head
+		stephen fell ground unconscious
+		shortly regaining consciousness punched kicked repeatedly three accused
+	Section:13
+		dulieu punched head behind apineru
+		fell ground unconscious struck head concrete
+		coward punch
+		four accused surrounded punched kicked forcefully lay motionless footpath
+	Section:14
+		sylvester attempted protect dulieu attacked four accused forceful punch kick
+		female friend attempted protect attack
+		vears approached scene yelling approached unconscious friend dulieu
+		attacked accused forceful punch kick
+	Section:15
+		watched cctv footage offending tendered evidence depicts savage cowardly attack four big powerful men without justification whatsoever
+	Section:16
+		punch kick delivered accused significant intensity utterly defenceless victim
+		hesitation describing appalling crime serious example serious offence violence
+		crime fuelled alcohol took place public outside licenced premise
+		victim bear responsibility whatsoever violence inflicted upon four accused court
+	Section:17
+		committing offence four accused fled scene bystander security staff attended seriously injured kane dulieu convulsing choking blood flowing injury
+		eventually conveyed royal melbourne hospital placed intensive care unit induced coma
+		suffered bruising brain fractured cheekbone fractured jaw fractured zygoma together bruising cut face
+		remained hospital three day returned surgery cheekbone
+		right eyebrow required 30 stitch repair
+	Section:18
+		travis sylvester suffered two broken teeth bruising face body
+		teeth require ongoing dental treatment repair
+	Section:19
+		justin stephen suffered bruising pain body punched kicked
+	Section:20
+		ryan vears also suffered bruising abrasion pain punched kicked
+	Section:21
+		received evidence four victim impact statement victim attesting traumatic effect offending upon doubt crime significantly disrupted wellbeing enjoyment life
+	Section:22
+		also accept offending deeply traumatic effect mr dulieus family following admission intensive care unit critical condition
+	Section:23
+		fundamental responsibility court denounce serious crime unequivocal term
+		violence nature place whatsoever society society must protected crime type
+	Section:24
+		stated court appeal dpp v russell 2014 vsca 308random street violence scourge society
+	Section:25
+		well established sentence impose must also calculated deter others offending brutal cowardly destructive way
+		accused must also punished serious crime
+	Section:26
+		opinion specific deterrence also important sentencing consideration case
+		serious crime violence carried intoxicated young men concern fate victim
+		accused must deterred offending manner
+	Section:27
+		turn personal circumstance
+	Section:28
+		maele maele born new zealand 16 december 1989 aged 28
+		permanent resident australia australian citizen
+		resided australia six year
+	Section:29
+		educated year 11 level new zealand trained crowd controller
+		also accredited regard australia working security guard time offending although evening question
+	Section:30
+		opinion elevates moral culpability crime clear cctv footage instigated violence took place
+		instead calming situation inflamed
+		also employed tree lopper reside mother partner six year standing
+	Section:31
+		received evidence number reference speak highly active member 7th day adventist church
+		undertaken anger management course would appear suffer alcohol drug abuse disorder although heavily intoxicated evening question
+	Section:32
+		interviewed investigating police stated poor memory offending ashamed done
+		accept remorseful offending prospect rehabilitation reasonable
+	Section:33
+		also accept face extra burden prison cancellation residency australia possible deportation new zealand
+		family reside intended build life loss doubt weigh upon
+		additional punishment case
+	Section:34
+		leti maele born 13 november 1997 samoa aged 20
+		19 time offending
+		resided new zealand 15 moved australia
+	Section:35
+		reside uncle aunt four child
+		also employed tree lopper
+		young offender principle applicable formulation sentence case wellestablished
+	Section:36
+		azzopardi v queen 2011 35 vr 43 court appeal statedthe general proposition flow authority degree criminality offence requires sentencing object deterrence denunciation punishment protection community become prominent sentencing calculus weight attached youth correspondingly reduced
+		level seriousness criminality increase corresponding reduction mitigating effect offender youth
+		circumstance gravest criminal offending prospect rehabilitation may mitigatory consideration youth viewed extinguished
+	Section:37
+		mogoai v queen 2014 vsca 219 deciding two youthful offender submitted young offender sentenced gaol disposition could avoided court appeal also statedso much may accepted charge recklessly causing serious injury present case serious example serious offence significant physical psychological ramification victim
+		thus appellant youth prospect rehabilitation must extent subjugated sentencing consideration general deterrence
+		winneke acj said wright youth rehabilitation must take back seat specific general deterrence crime wanton unprovoked viciousness involved particularly perpetrator given previous chance
+		kind offending appellant engaged sadly prevalent general deterrence specific deterrence denunciation must given prominence
+	Section:38
+		submitted behalf regard age lack prior criminal history sentence detention youth justice centre appropriate sentence case
+		also submitted would open alternative impose community correction order
+	Section:39
+		whilst accept rehabilitation important consideration case prospect regard quite apart age reasonable opinion seriousness offending mean general deterrence specific deterrence prominent sentencing consideration case
+		accept purpose sentence imposed would met imposition either detention youth justice centre imposition community correction order
+	Section:40
+		20 year age evidence suggests mature age
+		reference olivia maele make clear
+	Section:41
+		also remorseful offending accept prospect rehabilitation reasonable said
+		undertaken anger management course engaged youth support dandenong
+	Section:42
+		ongoing rehabilitation however also dependent addressing drug alcohol abuse
+		also accept prospect deportation weigh heavily upon intended build life australia additional punishment case
+	Section:43
+		andrew apineru born new zealand 2 september 1991 aged 26
+		permanent resident australia arrived new zealand 2013
+		educated year 11 level would appear capable student athlete
+		also talented musician
+	Section:44
+		march 2013 assaulted auckland suffered serious head injury required neurosurgery
+		suffer acquired brain injury received evidence neuropsychological report mr martin jackson setting effect injury cognition
+	Section:45
+		accept impulse control monitoring impaired injury connection offending night question
+		however offending also caused high level intoxication must known excessive alcohol intake advisable regard injury
+	Section:46
+		also clear report mr jackson history binge drinking adverse impact impulse control
+		counsel submitted principle 1 3 5 decision court appeal r v verdin or 2007 16 vr 269 engaged case reason cognitive impairment caused head injury
+		accept modest degree respect principle 1 3 also clear offending significantly alcohol fuelled
+		accept imprisonment also degree greater burden upon reason head injury
+	Section:47
+		character evidentiary material tendered behalf also suggests prospect rehabilitation reasonable accept remorseful done
+	Section:48
+		built life australia partner child reside australian citizen
+		also accept prospect deportation weigh heavily upon additional punishment case
+	Section:49
+		apisai maele born 14 march 1997 new zealand aged 20
+		turn 21 approximately one month
+		young offender principle set case leti maele also engaged case
+	Section:50
+		arrived australia age 12 also permanent resident
+		reside sibling parent also employed tree lopper
+		accept prospect deportation also weigh heavily upon additional punishment case
+	Section:51
+		formal education limited left school year 8
+		despite previously assisted mother work child educator aimed complete diploma child education
+	Section:52
+		received evidence number reference attesting good character attendance 7th day adventist church lynbrook
+	Section:53
+		come law abiding family accept remorseful offending
+		counsel submitted attack four victim punched kicked three
+		whilst mitigate offending significant degree
+	Section:54
+		completed anger management course engaged south east community link moderated alcohol use
+		also accept also remorseful offending
+		prospect rehabilitation may also regarded reasonable
+	Section:55
+		submitted behalf reserved nature reason likely vulnerable adult prison environment
+		counsel submitted circumstance case impose either youth justice centre order community correction order
+	Section:56
+		reason already set reason opinion sentence would meet purpose sentence imposed
+		offending serious also soon turn 21
+	Section:57
+		would stand please
+		result sentence court follows
+	Section:58
+		maele maele charge recklessly causing serious injury convicted sentenced imprisoned three year six month
+	Section:59
+		charge 2 charge intentionally causing serious injury convicted sentenced imprisoned 15 month
+	Section:60
+		charge 3 charge intentionally causing injury convicted sentenced imprisoned 12 month
+	Section:61
+		charge 4 charge intentionally causing injury convicted sentenced imprisoned 12 month
+	Section:62
+		sentence imposed charge 1 base sentence
+		direct three month sentence charge 2 six month sentence charge 3 three month sentence charge 4 served cumulatively cumulatively base sentence
+	Section:63
+		make total effective term imprisonment four year six month
+		direct serve two year nine month becoming eligible release parole
+	Section:64
+		plea guilty would sentenced total effective term imprisonment six year fixed nonparole period four year
+		declare served seven day way presentence detention
+	Section:65
+		leti maele relation charge recklessly causing serious injury convicted sentenced imprisoned two year
+	Section:66
+		relation charge intentionally causing injury charge 2 convicted sentenced imprisoned nine month
+	Section:67
+		relation charge 3 charge intentionally causing injury convicted sentenced imprisoned six month
+	Section:68
+		relation charge 4 charge intentionally causing injury convicted sentenced imprisoned six month
+	Section:69
+		sentence imposed charge recklessly causing serious injury base sentence
+		direct three month sentence charge 2 three month sentence charge 3 three month sentence charge 4 served cumulatively cumulatively sentence imposed charge 1
+	Section:70
+		make total effective term imprisonment two year nine month
+		direct serve 15 month imprisonment becoming eligible release parole
+	Section:71
+		plea guilty would sentenced total effective term imprisonment four year nonparole period two year
+		declare served seven day way presentence detention
+	Section:72
+		andrew apineru relation charge recklessly causing serious injury convicted sentenced imprisoned two year nine month
+	Section:73
+		relation charge 2 charge intentionally causing injury convicted sentenced imprisoned 12 month
+	Section:74
+		relation charge 3 charge intentionally causing injury convicted sentenced imprisoned nine month
+	Section:75
+		relation charge 4 charge intentionally causing injury convicted sentenced imprisoned nine month
+	Section:76
+		sentence imposed charge 1 base sentence
+		direct three month sentence charge 2 three month sentence charge 3 three month sentence charge 4 served cumulatively cumulatively sentence imposed charge 1
+	Section:77
+		make total effective term imprisonment three year six month
+		direct serve two year three month becoming eligible release parole
+	Section:78
+		plea guilty would sentenced total effective term imprisonment five year nonparole period three year three month
+		declare served seven day way presentence detention
+	Section:79
+		apisai maele relation charge recklessly causing serious injury convicted sentenced imprisoned two year
+	Section:80
+		relation charge 2 charge intentionally causing injury convicted sentenced imprisoned nine month
+	Section:81
+		relation charge 3 charge intentionally causing injury convicted sentenced imprisoned six month
+	Section:82
+		relation charge 4 charge intentionally causing injury convicted sentenced imprisoned six month
+	Section:83
+		sentence imposed charge 1 base sentence
+		direct three month sentence charge 2 three month sentence charge 3 three month sentence charge 4 served cumulatively cumulatively sentence imposed charge 1
+	Section:84
+		make total effective term imprisonment two year nine month
+		direct serve 15 month imprisonment becoming eligible release parole
+	Section:85
+		plea guilty would imposed total effective term imprisonment four year nonparole period two year
+		declare served seven day way presentence detention
+	Section:86
+		made s464zf order case
+	Section:87
+		order required
+	Section:88
+		m piggott honour
+	Section:89
+		honour remove prisoner court room please

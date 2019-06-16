@@ -1,0 +1,382 @@
+FIELD DATA:
+	FILE NAME:
+		20.txt
+	CASE NUMBER:
+		1700332
+	JUDGE NAME:
+		GAYNOR
+	DEFENDANT NAME:
+		KRYSTAL REARDON
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		krystal reardon pleaded guilty one charge negligently causing serious injury one charge possessing drug amphetamine mainly methamphetamine one charge trafficking drug dependence methamphetamine
+		addition also pleaded guilty two summary charge uplifted hearing pursuant s145 criminal procedure act
+		driving whilst authorise suspended driving unregistered vehicle
+	Section:2
+		maximum penalty negligently causing serious injury ten year imprisonment
+		maximum penalty possessing drug dependence case five year imprisonment
+		maximum penalty trafficking drug dependence 15 year imprisonment
+		maximum penalty driving whilst authorisation suspended penalty exceeding 30 penalty unit imprisonment four month maximum penalty driving unregistered vehicle 60 penalty unit imprisonment 12 month
+	Section:3
+		fact underlying offending follows way background 15may 2016 issued traffic infringement notice exceeding speed limit 35 kilometre le 40 kilometre
+		offending occurred 16april 2016 time car permit licence suspended six month 15may 2016
+		worth mentioning time learner permit
+		16april speeding time driving without licensed driver
+	Section:4
+		offending subject charge court occurred 102016
+		two day 82016 3 morning intercepted driving stolen car stolen number plate ice pipe found interior car
+		next day victim matter matthew mather time aged 18
+		two attended one stephenbartolo purchasing red 1997 holden vectra informed unregistered vehicle head gasket issue
+		mrremoved plate selling car 500 cash
+	Section:5
+		10 june 2016 119 morning police attended woodgrove shopping centre melton spoke two standing near red car police leaving carpark three minute later attend another call
+		3 mrcar received text message two problem way car running
+		response bartolos hear
+	Section:6
+		930 morning 10 june 2016 two police unmarked car miller road way perform planned arrest saw car without number plate righthand lane beside decided follow intercept believing may stolen
+		following saw car turn left righthand lane miller road activated police light car indicated pull done
+		seen car driven mather passenger seat
+	Section:7
+		question police driver licence said instruction given report police produce driver licence police left discovering end shift fact driver licence learner permit
+		following interception police continue driving car west along old geelong road brooklyn
+		road three lane 80 kilometre per hour speed limit
+		slip road either side
+	Section:8
+		point west mcdonalds road car began yaw unable correct
+		vehicle left road impacted tree southern median strip caused travel opposite direction coming rest nature strip outside house 603 old geelong road brooklyn
+		one brian chute heard car crash outside house ran outside saw driver seat mather passenger seat stage appeared unconscious called ambulance
+		people working nearby building site attended 000 also called paramedic attending scene 10
+	Section:9
+		time one paramedic spoke trying establish whether lost consciousness saying could recall accident could recall driving car used least 2 gram methamphetamine previous night could recall fact taken
+		mrwas extracted front passenger seat metropolitan fire brigade taken alfred hospital life threatening injury
+	Section:10
+		action driving state taken methamphetamine prosecution case fact fallen asleep result possibly rebound fatigue underlie chargeon indictment negligently causing serious injury also underlie summary charge driving whilst authorisation suspended driving unregistered vehicle
+	Section:11
+		also established following analysis collision scene driving 16 kilometre speed limit whilst influence methamphetamine whilst fatigued
+		investigation mobile phone revealed little sleep preceding 50 hour
+		taken alfred hospital treated broken pelvic bone rib
+		blood sample taken 11am revealed 038milligrams methamphetamine 008 milligram amphetamine blood
+	Section:12
+		discharged hospital four day later failed attend follow treatment
+		car searched police discovered pipe used smoke methamphetamine driver door compartment outside pocket handbag also located 200 cash zip case containing scale snap lock bag containing white crystallised substance later analysed methamphetamine
+	Section:13
+		eventually attended police appointment 28 july 2016 record interview conducted
+		told police record interview could remember pulled let go police stopped light could remember
+		agreed knew car unregistered
+		said remembered pulled speeding
+		remember told would suspended relation april year suspension six month
+	Section:14
+		said recall collision speaking police
+		said probably night probably couple hour sleep normal sleep depended whether taken drug
+		said taken drug couple hour collision
+		also said knew taking methamphetamine driving
+		said drug found mathers bought police intercepted car park waiting dealer turn
+	Section:15
+		possession drug underlies chargeon indictment possession drug dependence
+		also told police sold drug friend met altona used pipe found car smoke ice originally 32 point gram bag sold 17 gram 350
+		admission underlie chargeon indictment trafficking drug dependence
+		agreed one else used phone
+	Section:16
+		eventually police carried mechanical examination car determined mechanical fault would contributed collision
+		report dr angela sungaila provided opinion time impact methamphetamine sleep deprivation would caused unable maintain proper control vehicle
+		also made reference rebound fatigue issue refer later sentencing remark
+	Section:17
+		ultimately detective leading senior constable michael hardiman motor vehicle collision squad made report opinion apparent reason made left steering manoeuvre causing vehicle yaw rotating anticlockwise direction towards southern side old geelong road transitioning car spinning skid prior leaving road colliding tree determined vehicle travelling 96 kilometre per hour began yaw
+	Section:18
+		matter resolved 23 february 2017 following negotiation committal mention hearing plea entered
+	Section:19
+		turn injury sustained victim matter
+		medical report compiled dr caroline mcfarlane alfred health noted mr result collision suffered extremely traumatic brain injury requiring surgical intervention
+		state post traumatic amnesia 63 day time underwent multiple surgery
+		report noted mrwas accident seen slower thinking speed difficulty multitasking difficulty problem solving poorer memory
+	Section:20
+		formal testing showed evidence impaired speed processing executive function memory ability consistent severe traumatic injury
+		lost power muscle right side body left side face due brain injury continuing improve continued time making report 2017 display impaired control movement right arm
+		noted continued experience ongoing fatigue injury common noted common issue patient traumatic brain injury face
+	Section:21
+		required time report still take rest break middle day notedit likely matthew continue experience degree fatigue longterm although may improve slightly next 12 month
+	Section:22
+		noted also functional level mrmather independent many aspect domestic life required prompting initiate task
+		needed assistance task shopping could manage finance independently able return work driving
+	Section:23
+		stated likely cognitive change would impact trajectory life coming year unclear much improvement may occur
+		report concludedit opinion matthew injury significant impact life caused lasting impairment cognition particular
+	Section:24
+		dr mcfarlane went say opinion injury could impact capacity maintain full time employment future would likely negatively impact future earning potential would negatively impact interpersonal skill ability independently manage finance longterm
+		felt would require ongoing support multidisciplinary team assist achieve goal future finallythere effect traumatic brain injury matthew remains vulnerable course life post traumatic headache mental health issue seizure increased risk drug alcohol abuse would need medical review lifelong screen secondary complication injury
+	Section:25
+		victim impact statement mr mather said difficulty leaving house depression anxiety selfconscious look could barely write sign name trouble cutting food feeding could longer ride skateboard play sport undertake athletics brain injury life
+		noted still rehabilitation home thatin word affected life multiple way
+	Section:26
+		father victim impact stated family understandably undergone huge stress due unknown impact injury son several operation brain
+		caused interruption whole familyit also stressful seeing matt unhappy body knowing future hold
+	Section:27
+		turn personal circumstance
+		29 year age youngest three child born parent separated baby
+		parent repartnered halfsiblings born since
+		left school partway year 10 repeated barton height high school
+		parent separated remained living mother later teen difficulty went live father found discipline excessive ran away lived two year aunt geelong aunt broadmeadows
+	Section:28
+		leaving school undertook hairdressing apprenticeship continued three half year six month go left aunt living return mother lived far place work never finished apprenticeship
+		became involved partner paul aged 18
+		relationship continued 2015 five child born relationship aged three nine year
+	Section:29
+		relationship two purchased home particular difficulty arose partner began using methamphetamine became emotionally physically violent towards
+		began using marijuana age 16 began using methamphetamine former partner five six year ago
+	Section:30
+		2014 drug use domestic violence difficulty department health human service became involved
+		informed separated partner could retain custody child rather fractured experience within family led believe seek maintain relationship partner ultimately child removed
+		placed permanent care order partner parent
+		partner separated 2015
+	Section:31
+		time offending fortnightly access child
+		aftermath loss child separation longterm partner resulted time chaos
+		noteworthy time never trouble police
+		whilst prior conviction relation matter court concerned became around time involved series offence dealt court rest dealt magistrate court sentencing deferred resolution matter
+	Section:32
+		24 july 2016 following offending court arrested passenger car stolen number plate bag police discovered cannabis knuckle duster
+		time bail relation matter
+		charged charge committing indictable offence whilst bail possessing prohibited weapon possessing drug dependence
+	Section:33
+		relation earlier offending picked stolen vehicle charged handling stolen good possessing proceeds crime related drill set found car driving whilst suspended false number plate
+		19 august 2016 arrested passenger car intercepted police found posse 7 gram ice
+		also charged committing indictable offence whilst bail
+		following arrest problem police station resulting charge acting manner prejudicial maintaining good order police station
+	Section:34
+		also charged failing appear 10 august 2016 relation handling stolen good charge
+		21 september 2016 found car containing stolen number plate also possession prescription pill thought possibly xanax
+		also charged possessing proceeds crime occasion granted bail remained custody 44 day
+	Section:35
+		gone detail surrounding offending relevance issue prospect rehabilitation progress since time involved offending brought court
+		eventually 44 day said released bail went reside mother
+		appears whilst continued use methamphetamine period time use much reduced
+		ultimately ended back gaol august failing appear date court relation charge remained custody ever since
+	Section:36
+		would seem unfortunately often case person whose life control drug use gaol fact assistance
+		working service industry gaol
+		subject twice random drug testing time test clear drug use
+	Section:37
+		matter much settled
+		relationship family particular father understand strained time resolved situation one aim ultimately finish hairdressing apprenticeship reside father stepmother good relationship
+		would appear member family appear court although note older brother brett stage involvement drug use
+	Section:38
+		situation insofar child concerned one court interest ultimately term prospect rehabilitation going ongoing issue
+		psychological report carla lechner essentially point loss child breakdown relationship leading period uncontrolled use methamphetamine continued drive even arrest charge laid relation serious collision involved memory
+	Section:39
+		already stated satisfied time offending using methamphetamine uncontrolled manner offending way odds way previously lived life notwithstanding ice user year
+		conceded outset counsel way court deal charge way term imprisonment immediately served
+	Section:40
+		number submission made scale seriousness place offending
+		say fact someone using methamphetamine level continuing drive time driving influence methamphetamine situation severely sleep deprived hence leading called rebound fatigue prosecution case probably asleep wheel result fatigue arising methamphetamine use dangerous scenario called principle general deterrence sentencing sends message community going behave way expect court respond extremely severe way must apply case kind
+	Section:41
+		use methamphetamine increasing really said rife throughout community
+		course long recognised example driving whilst influence alcohol incredibly dangerous car said lethal weapon
+		effect misuse motor vehicle often almost inevitably end serious damage
+		particular evil driving whilst methamphetamine user add lethal factor sleep deprivation rebound fatigue hence falling asleep wheel
+	Section:42
+		court made clear mitigating factor clean record insofar offending concerned going far le weight scenario
+		situation result driving occasion young man 18 time left debilitating lifelong injury
+		life entirely changed negative way severely result action day
+	Section:43
+		result sensible concession made matter factor underlying ice use behaviour time court respond way term imprisonment immediately served
+		accept reasonable prospect rehabilitation
+		understand fairly chaotic upbringing lot change carers moved one house another despite young woman intelligence capacity
+		able undertake apprenticeship
+		would much happier scenario able complete apprenticeship go forge career hairdresser
+	Section:44
+		would far better age 18 partnered way gone young age large number child endure domestic violence become involved serious drug use essentially went situation lost five child enormous trauma one understand would fall sort spiral despair used drug way
+	Section:45
+		end day led horrific collision imposition appalling injury lifelong injury said 18yearold boy
+		accept remorseful offending
+		take account sentencing early plea guilty entered saved community time expense trial saved victim person difficulty trauma giving evidence court proceeding
+	Section:46
+		referred counsel number authority regard
+	Section:47
+		course difference circumstance underlying case view case contained factual aspect placing serious category would place offending
+		however regard offending falling midrange seriousness offending type serious offending
+	Section:48
+		sentencing also take account fact 2008 maximum penalty charge negligently causing serious injury doubled five year ten year imprisonment
+		also note authority harrison v queen 2015 49 vr 619 stand proposition previously sentencing court charge negligently causing serious injury low
+	Section:49
+		circumstance taken account mitigating circumstance outlined legal imperative applied case kind sentence follows
+		could stand please
+	Section:50
+		charge 1 sentenced three year six month imprisonment
+		charge 2 sentenced term nine month imprisonment
+		charge 3 sentenced term ten month imprisonment
+		charge driving without authorisation sentenced two month imprisonment
+		charge driving unregistered vehicle sentenced three month imprisonment
+		order two month sentence imposed charge 2 3 indictment one month summary offence one month served cumulatively sentence imposed charge 1 giving total effective sentence four year
+		order serve two year sentence becoming eligible parole
+	Section:51
+		sentencing also note counsel sensible submission mitigatory factor case lead sentence longer normal disparity head minimum term
+		seems appropriate response case involving serious offending good rehabilitative prospect balancing exercise required carried court properly achieved
+		comment view placed parole particular emphasis laid upon drug rehabilitation case
+	Section:52
+		seat please
+		thank m reardon
+		ask counsel assistance
+		need attend issue licence way need appear record response driving influence drug charge
+	Section:53
+		m duckett yes honour
+	Section:54
+		honour also need make declaration term time served
+	Section:55
+		m duckett one hundred eightyone day term
+	Section:56
+		honour term sentence declare 181 day already served way presentence detention think mean would 14 month client apply got 14months go apply parole
+		right
+	Section:57
+		offender yes
+	Section:58
+		honour thank
+		yes thank
+		yes m duckett
+	Section:59
+		m duckett honour relation order sought reference s89
+	Section:60
+		honour yes
+	Section:61
+		m duckett s89 sentencing act serious offence le 18 month 89c allows court state may make finding going pull actual section
+	Section:62
+		honour right
+	Section:63
+		m duckett making piece legislation
+		section89c allows subject subs2 relation culpable driving
+	Section:64
+		honour yes
+	Section:65
+		m duckett make mandatory whereas section say may make order s89
+	Section:66
+		honour discretion whether make declaration
+	Section:67
+		m duckett yes whether influence alcohol drug contributed offence
+		actually allows provided prosecution suppose find situation danger duplicity negligently causing serious injury culpable driving fact based upon drug present avoid double punishment course section legislation allows finding simply made either drug alcohol part offending declaration made
+		investigator brought attention course relevant another date future offending involving similar circumstance
+	Section:68
+		honour yes
+	Section:69
+		m duckett sought made
+	Section:70
+		honour might talk m dempsey point
+		
+	Section:71
+		m dempsey honour seek make submission honour given way case made put admission made relation drug use impact
+		obviously matter honour seek
+	Section:72
+		honour right
+		well relation charge 1 licence cancelled essentially m reardon disqualified obtaining licence period 18 month make declaration pursuant s89c1 sentencing act offence committed whilst influence drug contributed offence
+		stand msreardon
+	Section:73
+		m dempsey honour another matter need raise honour
+	Section:74
+		honour sorry yes
+		sorry seat m reardon sorry get
+	Section:75
+		m dempsey sorry honour
+		know pick crown opening drive unregistered vehicle s71a doesnt actually involve penalty imprisonment
+		section submission honour outlined 25 penalty unit
+	Section:76
+		honour yes yes must admit looking actually checked little bell rang back head
+	Section:77
+		m dempsey yes honour
+	Section:78
+		honour unregistered
+	Section:79
+		m dempsey relation s71a person must use unregistered motor vehicle penalty first offence case 25 penalty unit
+		second offence 50 penalty unit would submit honour maximum penalty transferred summary charge use unregistered vehicle 25 penalty unit
+	Section:80
+		honour right
+		well look going change would affect
+	Section:81
+		m duckett subsection
+	Section:82
+		honour yes
+		thank m dempsey picked actually
+	Section:83
+		m dempsey 94 think
+		set summary offence mine indicates maximum penalty 24
+	Section:84
+		honour given
+	Section:85
+		m dempsey youve given three
+	Section:86
+		honour three month relation count
+		right unregistered think maximum maximum penalty work 500
+		500
+	Section:87
+		m dempsey yes get pulled think
+	Section:88
+		honour right make 200 pretty radical change must say
+		sort factored overall make three month sentence imposed charge 2 three month sentence charge hang
+	Section:89
+		m duckett first summary charge honour
+		second one simply fine 200
+	Section:90
+		honour yes see
+		make three month sentence imposed charge 3 cumulative sentence imposed charge 1 still give u six month lead four year
+		make sense
+	Section:91
+		m dempsey yes honour
+	Section:92
+		m duckett yes honour
+		picked mea culpa
+		thank m dempsey save u time track
+	Section:93
+		honour
+		thank much indeed
+		stand please m reardon
+		got 14 month really know bed gain made okay
+		make break time
+		one difficulty always going future lapse back ice use ever come court talking going back front magistrate popovic future keep using come back county court serious got sentence county court
+		going make chance ever avoiding gaol keep getting trouble much harder
+		make sense
+	Section:94
+		make break
+		time said bend build game made get build life could year ago m reardon okay
+		wish well
+		never give court pleasure sentence someone situation need know hit wall coming back hopefully
+		right
+		thank much seat
+	Section:95
+		offender thank
+	Section:96
+		honour anything else need deal
+		got sign order
+	Section:97
+		m duckett order honour need 6aaa declaration made
+	Section:98
+		honour pursuant s6aaa pleaded guilty would sentenced term imprisonment five year minimum term three year
+		also note charge trafficking able laid primarily admission made record interview referred way take particular note remark
+		also ordering supply police police obtain forensic sample
+		need advise resist way taking sample police may use reasonable force order obtain thank
+	Section:99
+		m duckett honour disposal order msmartin fill detail available honour
+	Section:100
+		honour thank much
+		thank counsel assistance
+		problem may ask custody officer okay family say goodbye take m reardon
+		okay bench
+		go
+		family would like sorry could excuse need leave bench say goodbye stand
+		anybody else
+		thank much
+		thank counsel much assistance particularly m dempsey interrupted way apologise
+		written material terrific able thank much indeed
+		yes stand adjourn 930 tomorrow morning
+		thank time

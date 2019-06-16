@@ -1,0 +1,237 @@
+FIELD DATA:
+	FILE NAME:
+		87.txt
+	CASE NUMBER:
+		1700239
+	JUDGE NAME:
+		SEXTON
+	DEFENDANT NAME:
+		VICKY MASTRANGELO
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		vicky mastrangelo 25 october 2017 pleaded guilty charge obtaining property deception maximum sentence 10 year imprisonment
+		65 separate transaction rolled one charge set schedule indictment totalling 28117080
+	Section:2
+		december 2017 case listed deliver sentence counsel requested behalf case adjourned enable psychiatric report obtained
+		agreed report dated 20 december 2017 provided court exhibit 5 today together two exhibit
+		come back report
+	Section:3
+		sentence basis prosecution opening exhibit agreed summary
+	Section:4
+		brief qualified book keeper began working business stan cash superstores november 2013
+		duty included banking invoicing management company account
+		april 2014 five month began employment began stealing employer
+		dishonesty continued two year 7 june 2016
+	Section:5
+		method involved creating duplicating invoice legitimate supplier business amending business account changing supplier bank detail detail bank account
+		particular transaction completed payment made stan cash superstores account instead supplier restored legitimate supplier bank detail employer business account
+	Section:6
+		mark caval one three owner stan cash superstores detailed victim impact statement exhibit b owned particular business two year employed 2014
+		owner expected little short money new business lot capital
+		found business short money every month meant juggling supplier paid first
+		supplier paid business could obtain stock stock available customer would cancel order potentially write bad review online business service
+		short money unable pay account massive implication business
+		mr caval often discussed supplier would paid first result
+	Section:7
+		late 2015 owner attended accountant go previous financial year
+		financial result business low
+		mr caval could work going wrong stressed pressure owner business improve
+	Section:8
+		june 2016 mr caval began preparing document end financial year
+		noticed one two store low bank balance account concerning stock level high creditor payment made
+		raised concern 16 june 2016 knowing stealing company two year asked accusing something
+	Section:9
+		mr caval looked account found number payment made three bank account registered supplier also found account store numerous unauthorised transaction
+		difficult conversation owner suspicion money stolen stolen mr caval spent entire weekend compiling information could take police feeling sick stomach person trusted employee even becoming friend done business people involved
+	Section:10
+		investigation police confirmed sole signatory three bank account discovered mr caval one opened begun offending
+	Section:11
+		serious offending gross breach trust employer amount stolen number transaction period offending took place impact employer satisfied systematic calculated method offending covered track restoring legitimate bank detail lied employer also one occasion supplier telling paid twice fact paid
+	Section:12
+		already referred part impact victim crime business entity owner detail full effect crime set carefully worded powerful statement mr caval heard read court
+		mention personal emotional strain family staff inability fully trust staff member thousand dollar business never recover including money spent accountant trying balance book business facing unknown gst implication
+		impact matter much take account deciding appropriate sentence
+	Section:13
+		law also requires part sentencing exercise take account factor offender favour
+	Section:14
+		first fact pleaded guilty indicated early stage intention
+		entitled taken account favour
+		plea community spared time cost trial
+		result tell sentence intend impose le would imposed found guilty trial
+	Section:15
+		also accept plea guilty court indicates remorse action together expression remorse material received notably two letter one read court counsel received morning exhibit 2 6
+	Section:16
+		next take account done make restitution victim offending owner stan cash superstores
+		contacted lawyer spoken police receiving legal advice entered agreement transfer significant asset home previous employer exhibit 4
+		accept could thought would provide full restitution victim
+		accept attitude expression remorse important factor favour
+		unfortunately owner able fully recoup loss see statement expense income attached victim impact statement exhibit b
+	Section:17
+		next take account committed offence period offending
+		benefit reduced virtue employed position due good character work record position enabled commit offending
+		note also take account reoffended since offending detected
+	Section:18
+		next take account effort made since offending rehabilitate
+		turn necessary outline personal circumstance background also take account
+	Section:19
+		aged 54 year aged 5052 offending
+		born greece came australia parent sibling 1970 aged 7
+		completing form 5 year 10 year business college thereafter held number longterm clerical position period ranging 4 10 year
+		married 1988 late 20
+		difficulty conceiving eventually diagnosed endometriosis resulting surgery
+		attempt conception ivf 199798 unsuccessful ultimately led husband separating 2000 divorcing 2001
+		remarried child
+	Section:20
+		two significant relationship last ending 2012
+		established relationship child last partner contact decreased breakup
+		psychiatric report received today exhibit 6 state report subjected physical emotional abuse later relationship matter referred
+		estrangement mother sister also highlighted psychiatric report confirmed today know nothing case
+	Section:21
+		result matter seems diagnosed severe depression 2013 exhibit 3 letter dr freeman dated 12 october 2017 seems left job held 7 year time
+		received treatment medication prescribed gp saw psychologist
+		according gp 6 month improved stopped treatment
+		mean diagnosed depression 2013 early 2014 considered need treatment
+		early 2014 coincides beginning period offending
+		relapsed early 2016 sent back psychologist june 2016 coincides detection offending mr caval
+		gp report continued treatment 2017 responded well previously medication changed remains review
+		letter received dr freeman morning confirming exhibit 7 letter gp dated 8 february 2018
+	Section:22
+		received letter treating psychologist see letter tatiana tsiaousis undated part exhibit 3 saw ten session june 2016 apparently made progress
+		reported thought depression began unsuccessful ivf cycle early onset menopause noted also referred sudden death father close 2004 well loss employment 2016 contributing stress
+		course lost job 2016 offending
+		psychologist recommended continue medication therapy
+	Section:23
+		psychiatrist saw 27 november 2017 recorded reported anxiety many year psychiatrist expressed view presented worsening symptom anxiety despite medication background multiple psychosocial stressor one possibility going gaol offending
+		reaching view emphasis placed grief father death 2004 worsening anxiety grief due physical emotional abuse relationship inability reconcile mother sister
+		ultimate opinion psychiatrist presented generalised anxiety disorder panic attack unresolved grief context ongoing legal issue social isolation
+	Section:24
+		told plea counsel offending committed order gamble
+		previously player poker machine social level beginning 20112012 2014 still unemployed began spending time gambling eventually spending hour activity three four time week losing track time
+		said earlier seen require treatment 2014 seem explain offending beginning time employed
+		hand depression returned return doctor deal psychological issue
+	Section:25
+		counsel submitted theft large amount money employer exercise greed enrichment using money pay mortgage acquire asset driven desperation gambling
+		however prosecutor submitted motive stealing greed purpose theft fund gambling submitted ultimately stealing allowed gamble use money would raised risk losing home
+	Section:26
+		view use employer money gamble used money keep commitment going mortgage credit card debt latter arising increased gambling habit unemployed
+		return doctor deal psychological issue instead embarked path criminality two year period
+		true enrichment gaining asset directly use stolen fund pay mortgage use employer fund financial detriment enabled continue gamble without impact financial commitment
+	Section:27
+		context turn consider step taken rehabilitate since crime detected
+		first already mentioned finally return gp go back onto antidepressant medication receive psychological counselling
+	Section:28
+		next july 2016 following discovery criminality referred referred gambler help program exhibit 3 letter dated 10 october 2017 archana bhat psychologist ipc health
+		initial assessment considered severe level depression anxiety stress well high sense desperation using gambling escapism
+		engaged 12 session involving range therapy technique well ten week cognitive behaviour therapy group discharged june 2017 following successful completion exhibit 3 certificate ipc health dated july 2017
+		reported gamble throughout attendance program told therapist felt able function better program
+		letter attached certificate completion exhibit 3 state dedicated committed group supported member group achieved step towards personal growth progress week
+	Section:29
+		counsellor first letter court expressed interest helping others avoid situation looking volunteer gambling awareness speaker bureau train former gambler become community educator
+	Section:30
+		time referral gambler help program began attending financial counsellor ipc health
+		october 2017 remained client
+		attended five face face session multiple telephone communication aimed resolving described financial hardship resulting gambling behaviour
+		also linked legal service helped negotiate transfer title home stan cash superstores
+		reported demonstrated commitment meeting financial obligation regularly expressed remorse action exhibit 3 letter dated 12 october 2017 rebecca denny ipc health
+	Section:31
+		counsellor ipc health expressed view positive prognosis based maintaining payment plan seeking financial counselling required using constructive coping strategy instead escapist behaviour seeking active consultation counsellor encounter difficulty actively seeking maintaining current employment offering volunteer help gambler recovery described
+	Section:32
+		stage obtained employment credit officer initial difficulty finding somewhere live moved home following transfer title private rental accommodation financially supporting
+		reluctance involve friend due shame embarrassment committing criminal offence october 2017 confided couple attended court support supported practical way
+		however continued remain selfimposed isolation
+	Section:33
+		october counsel described facing emotional psychological issue
+		however plea perhaps full realisation seriousness offending anxiety worsened seems coping well
+		submission today highlighted isolation including friend mentioned referred last october could support
+		troubling continuous isolation contributed offending gambling isolated
+	Section:34
+		despite basis material consider prospect rehabilitation quite good work professional restore mental health unlikely reoffend
+	Section:35
+		however well matter personal referred including rehabilitation must also take account need general deterrence
+		mean sentence must seek deter others committing similar offence
+		important sentencing objective case involving dishonesty employee
+		previous good character prospect rehabilitation need sentence deter reoffending le important still role play
+	Section:36
+		turn sentence one matter must deal
+		application made intimate forensic sample taken counsel objected
+		satisfied interest justice circumstance order intimate forensic sample namely saliva taken
+		sample may taken doctor nurse authorised person
+		saliva sample taken wiping swab inside mouth
+		must inform change mind police may use reasonable force enable procedure take place
+	Section:37
+		turning sentence counsel submitted community correction order appropriate disposition case would meet sentencing objective
+		assessed found suitable order
+	Section:38
+		prosecutor submitted sentence imprisonment combined community correction order appropriate disposition also submitted community correction order within range available sentence
+	Section:39
+		impose sentence imprisonment consider appropriate disposition
+		counsel submitted would lose current employment limited finding employment subsequent prison term conviction given age
+		also submitted may lose current accommodation
+	Section:40
+		psychiatrist provided opinion term imprisonment would hinder access treatment greatly impact mental state recovery
+		counsel relied reinforce submission made last year take account respect burden term imprisonment would potentially adverse effect
+		prosecution conceded last two point proper take account
+	Section:41
+		summary one hand favour fact prior conviction pleaded guilty early expressed remorse made much reparation possible commenced rehabilitation respect gambling psychological issue found new employment ongoing mental health issue would adversely affect sent prison increase burden imprisonment
+		hand offending serious involving gross breach trust large sum money occurred significant period time
+		weighing factor best decided alternative term imprisonment
+		however factor favour combine short term imprisonment community correction order
+	Section:42
+		although term community correction order probably explained assessment time ago need explain
+	Section:43
+		serving term imprisonment agree released community correction order 2 year
+	Section:44
+		order condition attached every order must report receive visit correction victoria must notify correction victoria change address employment must leave state victoria without permission correction victoria must comply direction given correction victoria
+	Section:45
+		also order comply condition two year
+		special condition must perform 70 hour unpaid community work andyou must undertake assessment treatment mental health condition
+	Section:46
+		also order hour mental health treatment count towards unpaid work hour
+	Section:47
+		m mastrangelo agree condition attached community correction order
+	Section:48
+		offender yes honour
+	Section:49
+		honour ill exceptional circumstance order may suspended period time
+		circumstance change court may change order cancel
+		either case must tell community correction office attending recommend also get legal advice
+	Section:50
+		complete condition order including committing offence brought back resentenced original charge also dealt breach condition
+		happen depend number circumstance aware option limited one limited option imprisonment
+		m mastrangelo understand happen complete order including reoffending
+	Section:51
+		offender yes honour
+	Section:52
+		honour order court charge obtaining property deception convicted sentenced 6 month imprisonment following released community correction order 2 year core condition described
+	Section:53
+		put court record issue respect mental health medication prison authority
+	Section:54
+		finally advise pleaded guilty found guilty trial sentence would imposed would term imprisonment two year minimum 12 month
+	Section:55
+		take seat please need print sign community correction order
+		m clark would go associate case m mastrangelo question
+	Section:56
+		m mastrangelo signed order well force released imprisonment provide copy m clark think best thing
+		order
+		handed forensic sample order
+	Section:57
+		m dipientratonio yes honour checking provided last time
+		nothing honour
+	Section:58
+		honour yes thank
+		yes m mastrangelo may removed

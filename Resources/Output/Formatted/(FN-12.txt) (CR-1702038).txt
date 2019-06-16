@@ -1,0 +1,111 @@
+FIELD DATA:
+	FILE NAME:
+		12.txt
+	CASE NUMBER:
+		1702038
+	JUDGE NAME:
+		MONTGOMERY
+	DEFENDANT NAME:
+		HONG THI LE
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		hong thi le pleaded guilty one charge cultivation narcotic plant commercial quantity plant cannabis l
+	Section:2
+		fact matter set exhibit 1 summary prosecution opening
+		fact disputed counsel
+		repeat fact great detail
+		reader reason refer exhibit place sentence factual context
+	Section:3
+		briefly stated crop sitter cannabis plantation 16 apex street dandenong north
+		lived rear premise bungalow cared plant house property site
+		number plant 167 qualifies commercial quantity
+	Section:4
+		normal type case sophisticated hydronic setup
+		key house located bungalow numerous barrel fertiliser
+	Section:5
+		made admission police saying reward caring plant free accommodation
+		made admission police forensic analysis premise conducted
+		thus unable conclude absence admission whether could prosecuted
+		said police know plant cannabis although course pleading guilty charge
+	Section:6
+		plea guilty entered committal thus described entered earliest opportunity entered prior trial proceeding
+	Section:7
+		entered australia temporarily tourist visa 14 february 2013 expiring 14 may 2013
+		unlawfully since time
+		told deported upon expiry sentence
+		told counsel event expected return vietnam return imminent around time pleading
+	Section:8
+		counsel filed written submission supplemented oral submission
+		taken submission account
+	Section:9
+		amongst matter mitigation counsel relied on1 age
+		53 2 criminal history 3 plea guilty although remark attract full discount time entered 4 detailed personal circumstance set written submission
+		briefly born north central vietnam
+		married two son one australia university
+		son studying university vietnam
+		worked 20 year bookkeeper bank vietnam involved car accident ten year ago
+		seriously injured medical detail tendered
+		counsel tell result stage still suffer headache receiving appropriate medication whilst custody
+		decided come australia support son earn money send home family
+		husband remained vietnam
+		worked fruit picker
+		daughterinlaw came court believe son around court 5 deported 6 time spent gaol difficult first time age
+		also disadvantage speaking english 7 cooperated police way ive described made admission
+		sentencing reason
+	Section:10
+		basis purpose court may impose sentence punishment general deterrence specific general rehabilitation denunciation protection community
+	Section:11
+		sentencing must regard range matter seriousness offending culpability personal circumstance
+		required balance interest community denouncing criminal conduct interest community seek ensure far possible offender rehabilitated society
+		expressed denunciation behaviour
+	Section:12
+		taken account particular1 age 2 criminal history 3 plea guilty way described 4 personal circumstance 5 categorise low level offending quantity involved categorisation role crop sitter 6 considered issue specific deterrence rehabilitation
+		returning vietnam position make comment finding hope age time youll spend gaol sufficient make sure reoffend
+		highly unlikely allowed come back australia
+	Section:13
+		taking matter account sentence term imprisonment two year six month nonparole period one year six month
+	Section:14
+		declare time 200 day already served reckoned part term imprisonment imposed
+	Section:15
+		declare pursuant s6aaa sentencing act pleaded guilty went trial convicted would received sentence order five year nonparole period three
+	Section:16
+		order need make
+	Section:17
+		m pillai term presentence detention honour appeared say
+	Section:18
+		honour 202
+	Section:19
+		m pillai seemed say 200 202 including today
+	Section:20
+		honour said 202
+	Section:21
+		m pillai thought heard 200
+	Section:22
+		honour well meant say 202
+	Section:23
+		m pillai honour plea
+		order honour
+	Section:24
+		honour matter m beech
+	Section:25
+		m beech honour
+	Section:26
+		honour right
+		would take m le thank
+	Section:27
+		adjourn court ten oclock please

@@ -1,0 +1,268 @@
+FIELD DATA:
+	FILE NAME:
+		22.txt
+	CASE NUMBER:
+		1701735
+	JUDGE NAME:
+		GAYNOR
+	DEFENDANT NAME:
+		THANH CHAUTUYEN NGUYEN
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		thanh ne chau tuyen van nguyen pleaded guilty one charge cultivating narcotic plant namely cannabisl commercial quantity
+		fact underlying offending follows
+	Section:2
+		two vietnamese national came australia student visa
+		time offending living australia illegally
+		visa mr chau cancelled 11 may 2015 visa mr nguyen cancelled 15 march 2016
+		25 january 2017 police executed warrant premise 3 sancho drive cranbourne east operational hydroponic setup located comprising 180 cannabis plant
+	Section:3
+		total weight crop 2172 kilogram plant growing various stage maturity
+		entire house set cultivation cannabis five bedroom containing equipment cultivating cannabis three however actually plant growing
+		also seedling cabinet kitchen
+	Section:4
+		plant varied maturity seedling plant six eight week old appeared lounge room inhabited
+	Section:5
+		executing warrant police noticed car drive suspiciously past residence park across street two occupant vehicle
+		two arrested taken dandenong police station engaged record interview police
+	Section:6
+		essentially mr chau made comment relation record interview
+		mr nguyen gave answer made admission
+	Section:7
+		maximum penalty cultivating commercial quantity drug dependence 25 year imprisonment
+		two remanded custody matter listed contested committal 30 august 2017
+	Section:8
+		mr chau entered plea guilty date evidence called whilst mr nguyen proceed committal informant crossexamined matter adjourned partheard provision forensic service statement
+	Section:9
+		statement confirmed dna mr nguyen located item found house entered plea guilty recommencement committal hearing
+	Section:10
+		turn personal circumstance beginning mr chau
+		30 year age born small rural community vietnam
+		second two child born parent
+		parent occupation teacher
+	Section:11
+		however poorly paid occupation although family would technically seen middle class apparently well regarded within community
+		grew two room house area local economy essentially underpinned fishing
+	Section:12
+		older brother died lung cancer age 14 mother unable continue teaching family grew therefore relied one income
+	Section:13
+		completed equivalent year 12 local government school undertook bachelor accountancy nearby university graduated aged 23 worked construction company accountant three year time paid equivalent 350 dollar month income going towards parent
+	Section:14
+		family dream appears case situation mr nguyen sent australia make fortune send monies back financial future family thereby secured realised
+	Section:15
+		therefore family scraped together money paid come australia arriving november 2013
+		idea would undertake business management course holmes institute melbourne
+		plan also work parttime family heard supposedly high wage australia remit money back family
+	Section:16
+		came melbourne took residence share house springvale also occupied mr nguyen
+		unfortunately almost english
+		course start 2014 however interim search work enabled find employment strawberry farm one hour melbourne
+	Section:17
+		involved essentially work 6 6 pm five day week paid 120 dollar per day
+		rent living expense taken account plus money sent back family little left
+	Section:18
+		able find part time work work involving long hour farm work unable begin course
+		worked strawberry farm year obtained employment labourer butcher shop springvale working long hour 6 8 pm six day week paid 650 dollar
+	Section:19
+		november 2016 mother diagnosed thyroid cancer underwent surgery january year
+		underwent six month radiotherapy undertakes ongoing treatment hanoi 300 400 mile family home
+		travel bus train must say week either side treatment
+		put extra pressure financially cost associated treatment prohibitive
+	Section:20
+		april 2016 environmental catastrophe area grew due described gross environmental offending large local steel company whereby toxic discharge sea essentially destroyed local fishing industry
+		net result local economy devastated father wage cut
+	Section:21
+		whilst working butcher shop met customer told east cranbourne cultivation offered position whereby would make property look inhabited occasionally water plant administer fertilizer
+	Section:22
+		paid 6000 dollar activity
+		paid 3000 dollar sent back parent
+		agreed activity relation crop lasted week
+	Section:23
+		difficult time prison
+		held five month mrc undergoing restriction aftermath riot one month port phillip six month fulham
+		essentially visitor limited telephone contact parent
+		expected sentence completed deported vietnam family dream making fortune australia destroyed
+	Section:24
+		turn mr nguyen
+	Section:25
+		middle three child born parent
+		undertook engineering degree vietnam worked year construction family
+		come areaprovince mr chau two know family got money together order send australia hopefully establish employment would secure family fortune future
+	Section:26
+		arrived australia enrolled business study also little english forced undertake first expensive english course
+	Section:27
+		took accommodation share house springvale able find employment strawberry farm laboured long hour little pay found difficult financial position paid rent sent money home
+	Section:28
+		undertook farm work period two year also offered accommodation house plus money attending crop
+		prosecution case criminal activity relation crop lasted week
+	Section:29
+		difficult time gaol
+		isolated depressed
+		done series available course
+		worked sewing laundry work gaol
+		fortnightly call home
+	Section:30
+		situation exacerbated term personal distress financial pressure upon father carpenter serious stroke two year ago owed something region 13000 dollar study undertaken
+		failed english course
+	Section:31
+		turn back mr chau
+	Section:32
+		also engaged cropsitting another house heidelberg around time offending brought court
+		obviously crop lesser magnitude given arrested charged relation address matter dealt magistrate court june 2017 received six month sentence
+	Section:33
+		view sentence regard totality appropriate sentence encompassing set offending face would seem receiving lesser sentence mr nguyen sentence served cumulatively sentence already undertaken end result serving term imprisonment 15 month whereas mr chau serving sentence 12 month comprising time served
+	Section:34
+		note case mr nguyens case two expected deported sentence completed
+		sentencing take account fact neither prior conviction
+		person come respected family criminal history
+	Section:35
+		accept difficult circumstance underlying surrounding offending
+		unrealistic dream accompanied arrival australia failure find work whereby could appropriately support financial pressure upon relation family duty obligation felt towards given sacrifice made send australia first place
+	Section:36
+		note early plea guilty entered
+		accept remorseful offending
+		accept circumstance surrounding arrived australia would unlikely would person would ever appeared court charged criminal conviction
+	Section:37
+		could stand please
+	Section:38
+		mr chau charge cultivating commercial quantity marijuana sentenced nine month imprisonment
+		declare 183 day sentence already served way presentence detention
+		important understand sentence served today overall released mr nguyen
+	Section:39
+		mr nguyen many day psd mr nguyen
+	Section:40
+		m ramsay 365
+	Section:41
+		honour mr nguyen sentenced 365 day imprisonment
+		declare 365 day already served way presentence detention
+		seat gentleman
+	Section:42
+		pursuant s6aaa declare pleaded guilty would sentenced mr chau term imprisonment 20 month minimum term 16 month mr nguyen term 16 month minimum term 12 month
+	Section:43
+		right
+	Section:44
+		mr barker may approach client briefly honour
+	Section:45
+		honour yes
+	Section:46
+		mr barker thank
+	Section:47
+		honour yes
+		done wrong m ramsay
+	Section:48
+		m ramsay nothing
+	Section:49
+		honour think 6aaa declaration bit dodgy must say
+	Section:50
+		m ramsay could sure important
+	Section:51
+		honour think either even yes
+	Section:52
+		m ramsay going remind honour made application ancillary order
+	Section:53
+		honour yes course
+		know s464zf application necessarily
+	Section:54
+		m ramsay instructed
+	Section:55
+		honour
+	Section:56
+		m ramsay instructed ask honour
+	Section:57
+		honour yes course
+		know
+		something like inclined grant
+		either got anything say
+		mean know say going back vietnam might come back
+		thing go wrong s464zf application
+	Section:58
+		mr barker nothing say honour
+	Section:59
+		honour normally necessarily grant hand kind think case like might appropriate
+	Section:60
+		m ramsay mr nguyen
+		mr chau already application put file may
+	Section:61
+		honour
+	Section:62
+		m ramsay well previous
+	Section:63
+		honour think
+	Section:64
+		mr polak believe allowed come back
+	Section:65
+		honour five year think
+	Section:66
+		mr polak least five year
+		got intention coming back
+		concerned would impact deportation fact
+	Section:67
+		honour would affect take swab affect deportation
+	Section:68
+		mr polak likely occur
+	Section:69
+		honour yes hang
+	Section:70
+		mr polak yes
+	Section:71
+		honour right well grant one
+	Section:72
+		m ramsay police already got one mr nguyen
+	Section:73
+		honour well retention
+	Section:74
+		m ramsay retention
+	Section:75
+		honour right
+	Section:76
+		m ramsay asked apply take sample
+	Section:77
+		honour happy retention
+		got send paperwork retention
+	Section:78
+		m ramsay honour plea
+	Section:79
+		honour right
+		otherwise
+	Section:80
+		mr polak well opposed honour
+	Section:81
+		honour good mr polak
+		wise decision
+		right
+		right another forfeiture order
+		fair enough point mr polak
+		thank
+		right
+		sign s464
+	Section:82
+		m ramsay sorry honour arrange sent
+	Section:83
+		honour ancillary order back
+		everything
+		thank counsel much assistance matter adjourn give back photo thank m ramsay
+	Section:84
+		m ramsay honour plea
+	Section:85
+		honour yes thank
+		adjourn
+	Section:86
+		associate 930
+	Section:87
+		honour 930 monday morning
+		thank much

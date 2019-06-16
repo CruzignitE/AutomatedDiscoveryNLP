@@ -1,0 +1,388 @@
+FIELD DATA:
+	FILE NAME:
+		62.txt
+	CASE NUMBER:
+		1701528
+	JUDGE NAME:
+		CARMODY
+	DEFENDANT NAME:
+		ASHLEY HOWARD
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		mr howard 18 december 2017 jury peer found guilty seven charge rape
+		seven charge indictment c1610861
+		jury acquitted charge 5 direction trial judge
+		charge 5 charge indictment alleged actually touched victim anyway
+	Section:2
+		prosecuted found guilty seven charge rape basis statutorily complicit assisting encouraging directing coaccused mr mckean offence rape victim
+		maximum penalty seven charge rape 25 year imprisonment
+		circumstance offending
+	Section:3
+		4 april 2015 attended vicinity community centre cowes
+		accompanied coaccused matthew mckean younger brother andrew mckean
+		three vodka mixed bottle solo
+		also marijuana possession
+	Section:4
+		victim case attended community centre area accompanied young male friend
+		victim unknown friend
+		victim wanted cigarette provided one group
+		young male victim comfortable socialising group matthew mckean much older victim
+		left went home
+		victim remained group smoking cigarette drinking alcohol
+		victim friend boy girl joined group near community centre
+		victim two friend together mckean brother walked area behind nearby shop
+		behind shop member group drank alcohol smoked cannabis
+	Section:5
+		victim intoxicated starting kissing andrew mckean approximately age
+		matthew mckean much older victim
+		time spent drinking alcohol smoking cannabis group six decided leave rear shop walk plover street cowes
+	Section:6
+		mckeans grandmother lived plover street cowes staying house easter weekend 2015
+		mr bill dunn owned premise 18 plover street cowes house two door street mr mckeans grandmother
+	Section:7
+		backyard mr dunns premise garage old disused car
+		mr dunn residing house time
+		rear dunn property disused ford vehicle become crime scene
+	Section:8
+		matthew mckean told member group andrew mckean victim victim two young friend remain backyard dunns premise went retrieved marijuana bong smoking device
+	Section:9
+		returned victim young friend want use bong decided leave property
+		victim stayed got backseat ford vehicle andrew mckean
+		victim andrew mckean kissing hooking word
+		victim want cannabis
+	Section:10
+		matthew mckean started cajoling andrew mckean along line fuck word effect
+		matthew mckean front seat ford
+		andrew mckean want sex victim
+		victim obviously drunk
+		andrew mckean left vehicle went assist grandfather cleaning market cowes
+	Section:11
+		victim remained backseat ford vehicle
+		matthew mckean front seat vehicle
+		respect offending make following finding fact consistent jury verdict guilty charge 1 2 3 4 6 7 8
+	Section:12
+		andrew mckean left car coaccused convinced victim give phone could used torch find item front car
+		matthew mckean climbed rear seat car victim
+		remained front seat vehicle
+	Section:13
+		matthew mckean removed victim underwear engaged sexual assault upon
+		inserted finger vagina charge 1
+		put penis mouth charge 2
+		two rape put penis vagina charge 3
+	Section:14
+		mckean use condom stage
+		mckean inserted finger victim anus charge 4
+		mckean rotated body around put penis victim mouth second time tongue vagina charge 6 7
+		stage victim trouble breathing wanted vomit
+	Section:15
+		mckeans final act insert finger victim vagina either time vomiting car shortly vomited
+		offending charge 8
+	Section:16
+		whole sexual ordeal victim encouraging mckean suggested pull hair slap face process
+		mckean suggested
+		course mr mckeans offending encouraged assisted directed offending
+		word victim egging
+	Section:17
+		course attack matthew mckean victim yelling cry protest
+		whilst physically assaulting victim equally callous towards victim verbal support encouragement gave matthew mckean course repeated rape victim
+		glimmer humanity night told mckean desist allow vomit
+	Section:18
+		accept evidence victim actively encouraging matthew mckean persistent act humiliation sexual gratification detriment victim
+		enjoying humiliation heinous sexual perversion complete disregard welfare wellbeing victim
+		knew 15 year old
+		knew drunk
+		knew diminutive stature
+		knew helpless circumstance assault matthew mckean
+	Section:19
+		yet joined revelry offence mckean
+		watched encouraged suggested hair pulling slapping victim
+		callousness towards victim circumstance offence call punishmentvictim impact statement
+	Section:20
+		case victim mother victim filed victim impact statement
+		victim impact statement exhibit plea
+		victim mother requested victim impact statement read open court
+		shown victim impact statement counsel
+	Section:21
+		victim mother set level fear daughter suffer going alone
+		mother sell house cowes move new premise feel safe house
+		confirms daughter gone confident friendly kind child someone broken fearful
+	Section:22
+		victim also requested victim impact statement read open court
+		set statement result attack quit tafe course year 9 level
+		say leave house alone fearful
+		describes dancer since age four return dancing dance school near met two offender
+		describes nightmare disturbed sleep
+	Section:23
+		importantly go anywhere public unless accompanied male fearful vulnerable
+		state break lot time lost confidence outgoing
+	Section:24
+		offence significant effect young girl critical stage life
+		temporarily halted education year 9 level left living state fear safety wellbeingpersonal circumstance
+	Section:25
+		turn personal circumstance
+	Section:26
+		time offence 20 year old
+		23 time sentence
+		troubled upbringing
+		child biological parent
+		mother alcoholic father drug addict
+		seven parent separated
+	Section:27
+		family relationship marred domestic violence
+		subject violence
+		describe lot pushing shoving argument parent
+		bullied school mother known alcoholic
+	Section:28
+		2009 age 14 mother packed queensland live father tarwin victoria
+		reunion father seven year absence
+		16 year old violent clash father refusal go school
+	Section:29
+		resulted becoming homeless
+		2012 father trouble law resulted 18 month term imprisonment
+		moved back father home leongatha
+	Section:30
+		2013 2014 moved melbourne worked apprentice chef number restaurant
+		started drinking heavily
+		august 2014 returned live mother coffs harbour
+		november 2014 offended mother assaulting threatened harm form stalking
+	Section:31
+		offending predates current charge court
+		subsequently placed good behaviour bond absence offence
+	Section:32
+		previous appearance korumburra childrens court 19 july 2012 aggravated burglary false imprisonment
+		3 october 2013 placed bond offence contravening personal safety order
+	Section:33
+		history violent offending
+		assessed david ball forensic psychologist purpose plea
+		report dated 1 february 2018 exhibit h2 plea
+		dr ball assessed evidence frank mental illness psychotic ideation hallucination delusion
+		stated history substance abuse living fringe society
+	Section:34
+		dr ball noted finished school year 11
+		noted complete apprenticeship commercial cookery trouble finding work wanted work
+		told dr ball emphatically denied offending
+		consistent conduct trial
+		dr ball opines likely follower leader often taking passive role social affair
+		basically fit role seven charge court
+	Section:35
+		mr ball diagnosed fitting diagnostic criterion schizoidpersonality disorder
+		dr ball say condition severe
+		submitted behalf principle verdin enlivened diagnosis
+	Section:36
+		since verdict entered imprisoned awaiting sentence
+		drummond protection unit experienced bullying harassment inmate
+		sentencing consideration
+	Section:37
+		turn sentencing consideration
+	Section:38
+		basic purpose court may impose sentence imprisonment punishment deterrence specific general rehabilitation denunciation action protection community
+	Section:39
+		sentencing must regard range factor seriousness offending culpability personal circumstance victim
+		required balance interest interest community denouncing criminal conduct seeking ensure far possible offender rehabilitated reintegrated society
+	Section:40
+		part governing principle considered sentencing must take account current sentencing practice
+		enquiry directed particularly exclusively kind sentence imposed comparable case statistic time sentence
+	Section:41
+		considered statistic current sentencing practice mindful case must considered light particular circumstance many case would distinguishable case indeed one another
+		course current sentencing practice one consideration take account fixing sentencing
+	Section:42
+		found guilty seven separate charge rape
+		serious offender provision sentencing act 1991 conviction sentence term imprisonment respect charge 1 2 dictate
+		required sexual charge thereafter regard protection community principle purpose sentence imposed
+	Section:43
+		necessary order achieve purpose protecting community empowered s6e sentencing act impose sentence greater proportionate gravity offence
+		mean sentencing task respect charge 3 4 6 7 8 indictment undertaken basis protection community principal purpose sentence imposed
+		achieve purpose sentence may imposed longer proportionate gravity offence considered light objective circumstance
+	Section:44
+		section 6e sentencing act also requires unless otherwise direct respect charge 3 4 6 7 8 indictment sentence impose served cumulatively
+		note prosecution call disproportionate sentencing cumulation contemplated either s6d 6e sentencing act allowing matter outline
+	Section:45
+		view appropriate impose degree cumulation subsequently refer reflecting several event offending
+		otherwise may produce sentence appropriate unjust
+	Section:46
+		counsel submitted offending course conduct cumulation individual charge warranted case
+		accept submission
+		appropriate manner sentence fix penalty individual charge impose cumulation properly reflects offending offence base sentence imposed
+	Section:47
+		total cumulation sentence moderated principle totality crushing sentence imposed upon
+		totality sentence reflect punishment whole criminal behaviour night offence
+	Section:48
+		prior conviction sexual offending
+		prior criminal history involving violence related offending
+		hardly surprising given upbringing parental behaviour towards past
+	Section:49
+		ass prospect rehabilitation fair
+		dr ball state accept jury verdict attend sex offender treatment program assist rehabilitation
+		present vehemently deny offending victim
+		nevertheless past able obtain employment wanted raise prospect rehabilitation upon release prison
+	Section:50
+		delay 6 april 2015 interviewed august 2016 charged sexual offending
+		manner prosecution case changed committal trial another factor case
+		delay fault
+	Section:51
+		nevertheless life hold time interview verdict guilty
+		delay burden taken account fixing totality sentence offending
+	Section:52
+		previously noted counsel submit verdin principle part play sentencing process
+		note diagnosis severe schizoid personality disorder
+	Section:53
+		held protection protection unit whilst remand prior sentence offence
+		anticipated remain classified protected prisoner entire sentence
+		take account serve majority sentence protection fixing total sentence
+	Section:54
+		brought violent family setting subjected violence parent
+		factor caused disruption dislocation formative year
+		background may explain excuse role violent sexual attack victim charge court
+	Section:55
+		offending case serious nature
+		victim offending 15 year old girl
+		offence egregious degrading inhumane treatment victim
+		factor indicative seriousness offending follows1 young age victim
+		15 year old girl child time offence2 supplied alcohol cannabis victim prior offending 3 took secluded place disused car backyard absent owner4 victim vulnerable unable escape defend coaccused5 watched verbally encouraged mckean engage multiple episode sexual assault upon victim 6 encouraged suggested mckean slap pull hair victim course sexual assault
+		act purely gratuitous violence addition sexual assault
+		7 watch mckean egged sexual attack victim sexual gratification perverted gratification
+		offending totally degrade humiliate victim
+	Section:56
+		offending example callous disregard welfare wellbeing young defenceless victim
+	Section:57
+		required report supervised provision sex offender registration act period 15 year
+		order made pursuant statute consideration take account sentencing seven charge rape
+		given copy order conclusion sentencing process
+	Section:58
+		time offending 20 year old year younger cooffender mckean
+		relatively young offender
+		young offender sentencing consideration relevant sentencing disposition promote young offender rehabilitation
+	Section:59
+		approach benefit interest individual offender community whole
+		however case young girl violently raped numerous occasion two offender involved offending degree criminality requires sentencing objective specific general deterrence denunciation punishment protection community become prominent sentencing calculus weight attached youth reduced
+	Section:60
+		short level seriousness criminality increase corresponding reduction mitigating effect offender youth
+	Section:61
+		offending grave nature youth lesser sentencing consideration result
+		nevertheless taken account age moderated totality sentenced
+	Section:62
+		role offending different cooffender mckean
+		engage direct physical sexual offending victim
+		offending one encouraging egging directing mckean criminal act
+		extensive criminal history coaccused mckean
+		first experience imprisonment
+	Section:63
+		totality offending call substantial term imprisonment mark consideration specific general deterrence punishment denunciation offence protection community
+	Section:64
+		fixed nonparole period allows take advantage parole system assist reenter society turn life around serving long term imprisonment someone age
+	Section:65
+		stand please
+	Section:66
+		mr howard sentence follows
+	Section:67
+		respect charge 1 convicted sentenced four year imprisonment
+	Section:68
+		respect charge 2 convicted sentenced five year imprisonment
+	Section:69
+		respect charge 3 convicted sentenced five imprisonment
+		base sentence
+	Section:70
+		respect charge 4 convicted sentenced four year imprisonment
+	Section:71
+		respect charge 6 convicted sentenced five year imprisonment
+	Section:72
+		respect charge 7 convicted sentenced four year imprisonment
+	Section:73
+		respect charge 8 convicted sentenced four year imprisonment
+	Section:74
+		relation cumulation base sentence set charge 3 five year imprisonment
+		sentence following cumulation ordered
+	Section:75
+		respect charge 1 sentence three month
+	Section:76
+		respect charge 2 six month
+	Section:77
+		respect charge 4 three month
+	Section:78
+		respect charge 6 six month
+	Section:79
+		respect charge 7 three month
+	Section:80
+		respect charge 8 three month
+		total effective sentence seven year imprisonment
+		fix nonparole five year imprisonment
+	Section:81
+		declare served 70 day presentence detention
+		order placed sex offender register period 15 year signed disposal order also order provide forensic sample s464zf crime act explain mean mr howard
+	Section:82
+		ordered provide sample forensic sample
+		process authority come take swab mouth
+		comply power use reasonable force obtain one
+		understand said
+	Section:83
+		offender howard really
+	Section:84
+		honour want explain
+	Section:85
+		offender howard yes please
+	Section:86
+		honour certainly
+		made order s464zf crime act
+		authority take forensic sample record dna
+		authorised take sample usually done swab mouth
+		comply empowered use reasonable force obtain sample
+		understand said
+	Section:87
+		offender howard person
+	Section:88
+		honour record dna
+		dna
+		counsel explain
+	Section:89
+		honour well two sex offender register paperwork prepared
+		cover issue member counsel
+	Section:90
+		mr patton yes honour
+	Section:91
+		m cannon yes honour
+	Section:92
+		honour thank
+	Section:93
+		honour yes thanks
+		sex offender register document printed ill ask counsel go explain
+	Section:94
+		mr patton yes honour
+	Section:95
+		m cannon yes honour
+	Section:96
+		offender howard excuse honour mother
+	Section:97
+		honour beg pardon
+	Section:98
+		offender howard havent contact
+	Section:99
+		honour
+	Section:100
+		offender howard since ive custody
+	Section:101
+		honour thank
+		think completes sentencing process
+	Section:102
+		mr mckenry yes honour
+	Section:103
+		honour want thank counsel instructor course proceeding trial plea assistance conduct matter
+		obviously difficult everyone want thank
+	Section:104
+		m cannon honour plea
+	Section:105
+		mr patton honour plea

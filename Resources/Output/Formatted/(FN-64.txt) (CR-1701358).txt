@@ -1,0 +1,150 @@
+FIELD DATA:
+	FILE NAME:
+		64.txt
+	CASE NUMBER:
+		1701358
+	JUDGE NAME:
+		C RYAN
+	DEFENDANT NAME:
+		HAI THANH QUACH
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		hai thanh quach 1 february 2018 came plea respect indictment g10229752 containing two count trafficking drug dependence le commercial quantity
+		drug dependence respect charge 1 methylamphetamine respect charge 2 pseudoephedrine
+	Section:2
+		maximum penalty trafficking drug dependence le commercial quantity 25 year imprisonment
+	Section:3
+		admitted prior criminal history
+	Section:4
+		tendered exhibit read aloud court summary prosecution opening
+		short police investigating number person involved trafficking methylamphetamine
+		21 january 2016 police executed warrant home address located 48021 gram methylamphetamine charge 1 327 gram pseudoephedrine charge2
+		methylamphetamine 82 87 per cent pure located storage area stair house
+		pseudoephedrine 83 84 per cent pure located number place including 263 gram material container oven kitchen
+	Section:5
+		arrested interviewed caution
+		told police put ice wall cavity left another person would name
+		going keep drug person returned day time
+		paid service 7000 found premise borrowed person left drug premise
+		told police material found oven sugar
+		statement reject hand
+	Section:6
+		m ristivojevic counsel appeared behalf acknowledged offending occur within vacuum acquainted target police operation
+		m ristivojevic ultimately submitted offending regarded slightly midrange offending kind
+	Section:7
+		whilst prior conviction drugrelated offence view relevant prior conviction respect firearm violence factual basis conviction set exhibit c extract leap summary held within record victoria police
+	Section:8
+		essence knowing material store methylamphetamine stored material behalf another knew would traffic material
+		regard offending serious example kind
+		rejected utterance police believed pseudoephedrine sugar satisfied aware drug dependence likewise prepared store behalf another knew would traffic material
+	Section:9
+		arrested 21 january 2016 following execution search warrant home remained custody since time
+		date plea custody 742 day
+		informed 6 july 2017 following committal proceeding offered plead count indictment offer rejected crown
+		subsequently bail application october 2017 offer repeated ultimately accepted crown
+	Section:10
+		initially charged trafficking large commercial quantity methylamphetamine crown accept filing indictment unable prove necessary state mind quantity possession order establish serious offence trafficking drug dependence le large commercial quantity
+	Section:11
+		respect methylamphetamine quantity held behalf another nine time commercial quantity whilst respect charge 2 pseudoephedrine amount held excess twice commercial quantity
+	Section:12
+		tendered behalf exhibit 1 summary defence submission exhibit 2 psychological report dated 23 january 2018 mr warren simmons exhibit 3 two reference dated 29 january 2018 daughter sarah lucy quach
+	Section:13
+		49 year age born vietnam
+		completed equivalent year 9 vietnam worked family farm approximately ten year leaving vietnam
+		left vietnam age 18 19 year
+		fled vietnam malaysia refugee sponsored australia six month later older brother
+		australia worked automotive manufacturing industry period five year becoming selfemployed working first wife phuong mother deponent reference contained exhibit 3
+		together wife worked piece worker garment industry period approximately ten year working seven day per week often 12 hour per day
+	Section:14
+		apparent content mr simmons report instruction given counsel good historian term date milestone life
+		many respect date thing occurred matter sequence event dispute
+		daughter lucy currently aged 27 year born aged 22 year
+		sarah 23 year age born 26 year age
+		marriage phuong lasted approximately ten year mutual decision end relationship
+		likelihood downturn clothing industry australia early 1990s brought end business put pressure relationship
+	Section:15
+		two year end first marriage met second wife nga ten year junior
+		daughter born marriage trish 13 year age born aged approximately 36 year
+		relationship nga lasted approximately three year according counsel broke partner gambling problem well addiction illicit drug
+		informed breakdown relationship bitter custody dispute concerning trish took place eventually resulted shared custody
+		however eventually second partner unable care trish adequately became sole custodian daughter
+	Section:16
+		2012 met third partner trinh mother fourth child dylan boy aged four year informed aged two year went custody
+	Section:17
+		present family situation daughter lucy taken responsibility care younger child trish dylan reside together first wife
+	Section:18
+		m ristivojevic behalf rely upon principle set verdin arise report mr simmons
+		accordingly appropriate vehicle application principle general deterrence important sentencing factor sentencing involve trafficking drug dependence le commercial quantity
+	Section:19
+		sentencing regime respect drug dependence quantitybased system
+		however plain community awash methylamphetamine scourge society prevalence trafficking methylamphetamine matter properly taken account exercise sentencing discretion
+	Section:20
+		plain reference written two elder daughter exhibit 3 love respect
+		daughter regard good father looked interest throughout life
+		may involved pernicious trade trafficking drug dependence
+	Section:21
+		pleaded guilty entitled benefit flow plea evidence remorse utilitarian benefit
+	Section:22
+		put behalf result remanded custody imprisoned regional prison made difficult contact child weighed heavily
+		additional time custody held prison regional victoria would mean irregular visit child
+	Section:23
+		conceded counsel must sentenced term imprisonment time spent custody date circumstance constitute minimum term appropriate circumstance
+		agree
+	Section:24
+		offending occur vacuum
+		acquainted target police investigation
+		accepted responsibility storing large amount methylamphetamine pseudoephedrine behalf person known drug trafficker
+		knowledge drug would trafficked future
+		conduct call condign punishment
+	Section:25
+		respect prospect rehabilitation prior criminal history respect possession use unregistered firearm nonprohibited prohibited person combined instant offending cause ass prospect rehabilitation guarded
+	Section:26
+		would please stand
+	Section:27
+		sentence must punish publicly denounce conduct deter others committing kind crime
+		taking account circumstance offence effect together personal circumstance antecedent endeavouring produce sentence reflects promotes purpose sentencing manner appropriate offending sentence followson charge 1 five year imprisonmenton charge 2 two half year imprisonment
+	Section:28
+		order 12 month sentence imposed charge 2 served cumulatively upon sentence imposed charge 1
+		result effective sentence six year imprisonment fix period four year imprisonment period must serve become eligible parole
+	Section:29
+		declare spent 749 day way presentence detention
+	Section:30
+		pursuant s6aaa sentencing act 1991 declare plea guilty would sentenced eight year imprisonment nonparole period five year imprisonment
+	Section:31
+		counsel honour plea
+	Section:32
+		honour would seated please mr quach
+	Section:33
+		crown made application forfeiture order disposal order respect cash drug seized member victoria police made three copy order
+	Section:34
+		mr quach may remain seated
+	Section:35
+		crown made application known forensic sample
+		case scraping inside mouth
+		granted application seriousness circumstance offending warrant order made prior conviction warrant order made granting order public interest
+	Section:36
+		must inform time request taking mouth scraping consent taking mouth scraping supervision authorised member police force sample taken blood sample police may use reasonable force enable forensic procedure conducted
+	Section:37
+		hand three copy order
+	Section:38
+		matter dealt
+	Section:39
+		counsel honour
+	Section:40
+		honour remove prisoner please
+		

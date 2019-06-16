@@ -1,0 +1,246 @@
+FIELD DATA:
+	FILE NAME:
+		58.txt
+	CASE NUMBER:
+		1701226
+	JUDGE NAME:
+		LAWSON
+	DEFENDANT NAME:
+		MARK POLLARD
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		mark pollard pleaded guilty indictment one charge threat kill one charge attempted armed robbery one charge prohibited person carrying firearm
+		offence serious reflected maximum penalty prescribed law 20 year imprisonment attempted armed robbery 10 year respectfully threat kill prohibited person carrying firearm
+	Section:2
+		24 time offending aged 26
+		sentence basis prosecution opening read plea hearing
+	Section:3
+		briefly offending subject charge took place 23 february 2016 7 pm
+		victim phillip bell known
+		met older brother joe bell undertaken employment training approximately 2013
+	Section:4
+		2015 released prison following release developed friendship bell primarily supplied smoked cannabis l regularly
+		whilst prison stored car premise thomson residential suburb east geelong
+	Section:5
+		counsel mr pearson explained generally context offending stated bell previously lent money older brother joe putting pressure help recover money
+		refused consequence relationship bell soured somewhat source tension two
+	Section:6
+		time offending relationship soured greatly bell describes pest nonetheless still continued attend home
+	Section:7
+		around time offending using heavily drug methylamphetamine
+		using half gram methylamphetamine per day
+		mixing drug user longterm relationship broken drifting
+		homeless penniless
+	Section:8
+		offending concern entering bell home armed silver pen firearm approximately 15 centimetre length
+		demanded bell wallet cigarette
+		entry observed bell former girlfriend jean thompson agitated aggressive
+		demanded see bell lounge room sitting couch
+	Section:9
+		gun subject charge possession friend ben ainsworth
+		owned car used another male drive bell house occasion
+		earlier windscreen shot acquired pen pistol event kept car
+	Section:10
+		entered property said bell whilst standing front pointing gun sit fuck
+		said ill shoot subject threat kill charge
+	Section:11
+		know motivated act manner occasion
+		event unfolded quickly
+		bell grabbed axe handle hit numerous time
+		began wrestling eventually left house ran car
+		bell told leave struck windscreen axe handle drove
+		yelled going die tonight
+	Section:12
+		police contacted attended property took statement located various item
+		two day later 25 february 2016 silver pen pistol firearm located bell front garden bed property
+		silver homemade firearm contained 22 round ammunition chamber
+	Section:13
+		arrested 18 february 2016 deemed unfit interviewed
+		ultimately interviewed 20 april 2016 stage denied allegation
+	Section:14
+		pen pistol found property later analysed found contributor dna contained upon
+	Section:15
+		basis establishing prohibited person relates fact sentenced 28 april 2014 firearm offence 6 january 2014 sentenced term imprisonment therefore committed indictable offence undergone imprisonment within last five year therefore qualify prohibited person
+	Section:16
+		procedural history arrested 28 april 2016 remanded custody
+		bailed 8 july 2016 credit bail condition
+		14 july 2016 arrested new offence remanded custody
+		sentenced 27 september 2016 6 month imprisonment new offence offence committed prior 23 february 2016
+	Section:17
+		27 september 2016 geelong magistrate court charge dealt concerned one charge obtain property deception one charge attempt obtain property deception one burglary charge one fail answer bail charge one fail stop vehicle police direction one charge fraud using identity authorised one theft motor vehicle one deal property suspected proceeds crime one commit indictable offence bail final charge learner driver drive vehicle without experienced driver
+	Section:18
+		custody continuous custody since 14 july 2016
+	Section:19
+		regard principle totality formulating appropriate sentence
+		arraigned admitted extensive prior criminal history
+		appearance commence childrens court 10 august 2007 continue adult jurisdiction magistrate court 28 april 2014
+	Section:20
+		particular relevance prior conviction prohibited person possession firearm
+		dealt magistrate court offence earlier occasion 27 august 2013 convicted possession prohibited weapon without exemption approval
+		sentenced one month imprisonment
+	Section:21
+		prior conviction largely dishonesty involving burglary theft handle stolen good
+		also conviction various driving offence offence relating violence person including reckless conduct endangering serious injury 2010 unlawful assault 2012 reckless conduct endangering life 2012 reckless conduct endangering serious injury 2014
+	Section:22
+		year received variety disposition including without conviction adjournment good behaviour bond without conviction fine community based order community correction order partially wholly suspended term imprisonment imprisonment
+		many opportunity afforded past court
+		date taken opportunity
+	Section:23
+		behalf mr pearson made plea mitigation
+		accept told plea hearing difficult tumultuous early life
+		mother longheroin user
+		retained custody separated father aged four
+	Section:24
+		second born two child
+		born geelong
+		raised initially geelong rural new south wale
+		father older brother joe returned live geelong following parent separation
+	Section:25
+		father brother continue live barwon head proposed live work older brother upon eventual release
+	Section:26
+		older brother joe prior criminal history productively employed fullas roof plumber willing able arrange employment upon release
+		past employed state good worker affected drug
+	Section:27
+		childhood marred mother heavy drug use history exposure domestic violence
+		mother history multiple domestic partner witnessed violence childhood
+	Section:28
+		aged ten father ultimately secured custody thereafter returned live victoria
+		limited formal education
+		struggled school
+		diagnosed adhd year 7 8 four year medicated dexamphetamine
+	Section:29
+		longproblem dealing amphetamine life
+	Section:30
+		completed year 10 bellarine high school attempted complete year 11 gordon tafe
+		literate express desire undertake program whilst custody sentenced
+	Section:31
+		son kayden aged four former longterm partner alyssa
+		remains supportive regular contact
+	Section:32
+		family including father brother joe expressed considerable support
+		brother joe regularly visit regular telephone contact provides strong support
+		present plea hearing
+	Section:33
+		noted developed serious drug problem early teenage year
+		commenced smoking cannabis age 13 progressing experimenting ecstasy acid amphetamine thereafter
+	Section:34
+		16 smoking methylamphetamines initially occasional basis within shortyou highly addicted using heavily daily basis continued case time arrest
+	Section:35
+		accept early life disruptive damaging development
+		history made vulnerable drug use early age also explains large extent extensive contact criminal justice system since early childhood
+	Section:36
+		regard principle set bugmy v queen 2013 302 alr 192 majority high court held effect background significant deprivation diminish time serious offending given full weight factor consideration sentencing
+	Section:37
+		noted heavy drug use time offending
+		accept provides real context offending explanation offending mitigating factor
+	Section:38
+		circumstance offending serious involving going armed pen pistol bell home threatening pen pistol menacing manner demanding wallet cigarette
+		agitated aggressive intoxicated
+		action would caused bell former partner m fearful
+	Section:39
+		note bell requested provide victim impact statement none forthcoming
+	Section:40
+		specifically threatened shoot bell time armed
+		offended home entitled feel safe
+		know motivated offending relationship soured time behaviour erratic regard heavy use methylamphetamines time
+	Section:41
+		overall consider moral culpability high
+	Section:42
+		sentencing must emphasise deterrence general specific need strong condemnation
+		protection community also important sentencing consideration
+	Section:43
+		note long time custody reflected behaviour counsel expressed accept bell would frightened agitated state fact arrived firearm
+		wish event never happened
+	Section:44
+		overall consider term imprisonment must imposed reflect gravity offending
+		note necessary avoid double punishment respect attempted armed robbery firearm offence
+	Section:45
+		nevertheless gravity offending serious
+		attempted armed robbery serious example offence
+		given armed brandished firearm whilst drug affected victim bell making demand potential real harm circumstance great
+	Section:46
+		respect firearm offence accepted possession pen pistol category furtherance ongoing criminal activity sentenced basis
+		see berichon v queen 2013 40 vr 490
+	Section:47
+		respect threat kill charge consider serious example offence capacity effect threat possession loaded firearm
+	Section:48
+		sentencing regard mitigating factor
+		firstly plea guilty
+		note entered late stage prior commencement trial
+		nonetheless plea guilty real utility
+		spared witness inconvenience trauma come court give evidence trial also spared state expense trial
+		extent demonstrate acceptance responsibility wrongdoing provides remorse offending
+		facilitated justice sentence discounted accordingly
+	Section:49
+		secondly regard relative youth
+		26 rehabilitation still important sentencing consideration
+	Section:50
+		thirdly regard real significant progress made gaol
+		consider reflects good prospect rehabilitation
+	Section:51
+		since gaol become physically well
+		working billet attending gym regularly
+		importantly evidence drug free since incarceration
+		seven drug screen provided court taken period 31 december 2016 1 january 2018 negative
+		impressive given significant heavy daily use amphetamine
+	Section:52
+		commented plea hearing first time since aged 13 sustained lengthy period abstinence
+		important accomplishment provides good guide prospect rehabilitation
+	Section:53
+		currently best place continue rehabilitation
+		good prospect release real support father brother joe home job go
+		challenge remain drug free upon release continue expressed desire associate known drug peer healthy gainfully employed focussed crime free future
+	Section:54
+		overall considered reasonable prospect rehabilitation
+		also regard expressed willingness engage psychological counselling deal drug issue also personal issue upon release
+	Section:55
+		accept insight offending understand link drug use offending
+		accept genuinely motivated change
+		ultimate rehabilitation assisted providing strong support community upon release drug counselling psychological treatment
+		therefore fixed shorter nonparole period enable consideration earlier release bail supervised enable supported rehabilitation process
+	Section:56
+		formulating appropriate sentence regard gravity offending various matter referred term antecedent mitigating factor together principle totality proportionality
+		must impose punishment
+	Section:57
+		mrthis serious offending term imprisonment served warranted
+	Section:58
+		could please stand announce formal sentence
+	Section:59
+		threat kill charge convicted sentenced 18 month imprisonment
+		attempted armed robbery convicted sentenced 2 year imprisonment
+		respect prohibited person carry firearm convicted sentenced one year imprisonment
+	Section:60
+		charge 2 base sentence thats two year order six month sentence imposed respect charge 1 3 cumulative upon upon sentence imposed charge 2 making total effective 3 year imprisonment
+	Section:61
+		fix nonparole period 18 month imprisonment
+	Section:62
+		make following declaration term predetention
+		declare served 468 day sentence imposed direct entered record court
+	Section:63
+		make following declaration pursuant s6aaa sentencing act 1991 plea guilty would imposed sentence 4 half year imprisonment serve 3 year imprisonment
+	Section:64
+		finally make forfeiture order sought disposal order sought
+		note order opposed
+	Section:65
+		think cover everything gentleman
+	Section:66
+		mr maguire honour yes
+	Section:67
+		honour right order sign like court
+	Section:68
+		right signed order provided crown otherwise adjourn

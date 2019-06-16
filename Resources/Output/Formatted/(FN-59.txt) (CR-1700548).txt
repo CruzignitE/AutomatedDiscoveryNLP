@@ -1,0 +1,193 @@
+FIELD DATA:
+	FILE NAME:
+		59.txt
+	CASE NUMBER:
+		1700548
+	JUDGE NAME:
+		MONTGOMERY
+	DEFENDANT NAME:
+		COLAN OWENS
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		colan owen pleaded guilty one charge riot
+		admitted criminal history lengthy document
+		gap 2015 recent arrest december last year remand
+	Section:2
+		counsel put instruction potential reason alleged offending circumstance matter riot hanging head
+		material enable come conclusion instruction
+	Section:3
+		fourteen victim impact statement tendered read
+		read taken content account
+		reflect concern correction staff personal safety riot
+		fact matter set exhibit 1 prosecution opening
+	Section:4
+		repeat fact great detail
+		part b opening read detailed particularly action relation riot
+		reader reason refer exhibit total context place sentence full factual context
+		apart discussed course plea set summary disputed counsel
+	Section:5
+		briefly stated number protest melbourne remand centre relating ban provision tobacco product 30 june 2015 approximately 200 300 prisoner melbourne remand centre involved largest riot victoria correctional history
+		took 15 hour prison officer police fire brigade personnel restore order prison secure prisoner
+		11 pm rioting prisoner began surrendering
+		large number prisoner relocated prison facility large part mrc longer operable
+	Section:6
+		role matter stated specifically set part b prosecution opening paragraph 5 prosecution submission sentence
+		essence conduct involved driving tug vehicle least edge lit bonfire
+		directed another prisoner one barnes push tug heart fire use another vehicle
+		subsequently front group prisoner attacked cmc however physically join
+	Section:7
+		accept organiser leader riot
+		told psychologist mr jeffrey cummins involved thought would get picked involved
+		course went much passive member rioter spectacular individual act driving tug manner described resulted substantial damage vehicle
+	Section:8
+		sentencing take account action consider scope riot
+		discussed plea chief judge case luca cited court 24 october 2016 set relevant sentencing principle riot
+	Section:9
+		paragraph 15 reason said assessing culpability individual participant wrong take act individual participant isolation
+		act individual committed isolation fact constitutes gravity offence
+		person participates riot bear responsibility collective damage harm caused
+		however sentencing judge nevertheless take account extent offender blame offence part played commission offence
+		adopt chief judge reasoning respect
+	Section:10
+		chief judge acknowledged great weight given consideration general deterrence offence riot sentence must make le likely future others join riot
+		adopt honour categorisation denunciation riot melbourne remand centre expressed paragraph 17 18 reason
+	Section:11
+		honour said repeat riot troubling disturbance high order measured either number participant involved fact rioter acted law enforcement prison officer number personnel required restore order prison secure prison sense complete anarchy breathtaking scale damage loss actually caused
+	Section:12
+		one issue consider sentencing number rioter issue parity
+		looking issue delved minute examination way comparison behaviour rioter
+		case looked useful comparison assist sentencing process
+	Section:13
+		prosecution submitted role comparison example mr luca lesser one
+		court appeal considered question parity particular comparison mr luca case kumas 2017 vsca 287
+		appeal decision honour judge allen court adopt principle set consider parity particular sentencing riot looked luca way court appeal urged
+	Section:14
+		paragraph 39 court said view understandable entirely appropriate sentencing judge looked sentence imposed luca first series offence imposed imposed large number prisoner took part mrc riot
+		indeed order faithful principle parity circumstance judge option
+	Section:15
+		court appeal however made clear particular circumstance rioter important factor sentencing process
+	Section:16
+		behalf mr water filed written submission supplemented orally
+		tended report jeffrey cummins clinical forensic psychologist dated 13 december 2017 two certificate relation managing emotion program managing loss program attended january year whilst custody
+		taken attendance program account considering issue rehabilitation
+	Section:17
+		mitigation mr water relied person background circumstance set detail plea submission mr cummins report
+		briefly stated born shepparton
+		parent separated prior fourth birthday
+		father abusive towards mother
+	Section:18
+		mother repartnered approximately ten year age
+		stepfather became involved
+		sexually abused age 11 family member
+		began using alcohol cannabis early teen subsequently elevated substance abuse alcohol cannabis amphetamine pill around age 16
+		used heroin short time aged 17 18
+	Section:19
+		respect drug issue mr cummins conference doubt whether actually thought drug problem
+		said paragraph 37 opinion level insight overall life current level psychological functioning limited
+		opinion comment psychologically dependent andor psychologically dependent cannabis amphetamine appear quite unrealistic given history provided
+	Section:20
+		paragraph 45 said basis assessment mr owen prognosis guarded
+		opinion probable us illicit drug mean mood regulation although indicated insight matter appears limited
+		diagnosed antisocial personality disorder element borderline personality disorder narcissistic personality disorder
+	Section:21
+		counsel submitted role offending limited role
+	Section:22
+		relation prior history three submitted gap 28 2015 recent problem december last year pointed fact attended two program custody generally custody obtain employment billet
+	Section:23
+		referred issue delay set chronology progress matter court system put pending matter rehabilitation played great part delay
+		delay due fault due progress matter court
+		accept issue matter hanging head since charged
+	Section:24
+		submitted various place whilst custody hardship caused
+		think one due involvement matter ive taken account
+	Section:25
+		importantly entered plea guilty early stage entitles discount save court cost time jury trial show acceptance responsibility behaviour seven submitted reasonable prospect rehabilitation
+	Section:26
+		taken account submission prosecutor particular 1 plea guilty 2 carefully considered issue parity looked case chart case summary counsel provided fact reread reason case ouden putras 3 accept role limited described individualistic spectacular resulted substantial damage vehicle gaol 4 issue delay referred 5 respect prospect rehabilitation guarded looking criminal history looking comment mr cummins made report
+	Section:27
+		basically aged 45 clearly drug issue
+		probably issue relation anger management something life come
+		released gaol would guessing whether able something
+	Section:28
+		taking factor account arrived sentence somewhat clumsily come conclusion 15 half month nonparole period eight half month told express day
+	Section:29
+		469 day nonparole period 257
+		declare pursuant s6aaa sentencing act proceeded trial convicted jury would received sentence least order six year nonparole period four
+		matter need make matter need consider
+	Section:30
+		mr gilligan honour
+	Section:31
+		honour forgot put normal phrasing better put get sentence get sentence
+		basic purpose court may imposed sentence punishment general deterrence deter people committing crime specific deterrence try get mind reoffend rehabilitation denunciation protection community
+	Section:32
+		sentencing must regard range matter seriousness offending culpability personal circumstance victim case many
+		required balance interest community denouncing criminal conduct interest community seek ensure far possible offender rehabilitated society
+		express denunciation behaviour
+		anyone object stick appropriate place sentencing reason
+	Section:33
+		mr gilligan honour
+	Section:34
+		honour right thank
+		take mr owen thanks
+		one
+		one
+	Section:35
+		mr gilligan wish could say honour
+	Section:36
+		honour one monday
+	Section:37
+		mr gilligan abdullah
+	Section:38
+		honour yes bloke broke door
+	Section:39
+		mr gilligan yes
+		wood
+	Section:40
+		honour
+	Section:41
+		mr gilligan yes wood broke door
+	Section:42
+		honour yes
+	Section:43
+		mr gilligan another one part trial turned plea
+	Section:44
+		honour think got
+	Section:45
+		mr gilligan right
+	Section:46
+		honour think judge hannan might
+	Section:47
+		mr gilligan trial know much honour
+		sure monday
+		indistinct matter
+	Section:48
+		honour well listed front moment
+	Section:49
+		mr gilligan right
+	Section:50
+		honour right
+		thank
+		many go
+	Section:51
+		mr gilligan plea think three four trial involving two three head yes ended yet
+	Section:52
+		honour better say
+	Section:53
+		mr gilligan yes thank honour
+	Section:54
+		honour adjourn court till 10 oclock monday

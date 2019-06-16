@@ -1,0 +1,223 @@
+FIELD DATA:
+	FILE NAME:
+		84.txt
+	CASE NUMBER:
+		1702083
+	JUDGE NAME:
+		M.P. BOURKE
+	DEFENDANT NAME:
+		RICKY LONG
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		ricky jeffrey long sentenced one charge aggravated burglary one charge intentionally causing injury one charge threatening kill
+		maximum sentence 25 year imprisonment aggravated burglary ten year imprisonment intentionally causing injury threatening kill
+	Section:2
+		pleaded guilty 7 february
+		interviewed police 9 march 2017
+		admitted offence
+		committal entered plea guilty intentionally causing injury making threat kill guilty aggravated burglary
+		matter came trial 7 february
+		day mr lindner sought sentencing indication hearing s207 criminal procedure act
+		crown consented
+		proceeding indicated would likely impose sentence combining imprisonment community correction order imprisonment component beyond approximate seven month served
+		crown submitted combined sentence imprisonment community correction order within proper range
+	Section:3
+		receive benefit plea guilty cooperation short history proceeding show
+		timing plea bear mind police interview admitted circumstance make aggravated burglary
+		proposed defence trial absolutely clear may informed legal advice
+		mr lindner counsel 7 february
+		plea facilitated interest justice find remorseful
+	Section:4
+		plea hearing also ran 7 february mr odoherty crown tendered written crown opening
+		mr lindner tendered letter drug alcohol counsellor kayla morris dated 6 february 2018 provided written outline plea submission
+		also called give evidence
+		course tendered letter asked sent victim
+		provided prosecution
+	Section:5
+		circumstance offending comprehensively set tendered crown opening exhibit
+		summary may therefore shorter
+		also make finding heard submission referred relevant part depositional material
+	Section:6
+		time offending friend victim kiefer aaron rodriguez year
+		35 25
+		lived separately mildura
+		lived cooffender tyrone simpson also relationship halfsister ashley savage
+	Section:7
+		heard rumour present baseless including kiefer rodriguez sexually involved underage girl
+		7 march 2017 simpson together drinking
+		find day became intoxicated
+		talk rodriguez
+		point evening simpson another man named zagami went rodriguezs flat etiwande avenue
+		zagami involved offending
+	Section:8
+		find went confront rodriguez short physical assault
+		intoxicated affected without real basis would find heard
+		spoken rodriguez allegation week
+		denied
+		door night raised afresh
+		said police became enraged rodriguez seemed responding russian language
+		find affected drink irrational feeling claim friend lost control
+		saw angry attempted keep closing screen door
+		forced way assisted simpson held door open assaulted rodriguez
+		punched numerous time face head
+		went floor frightened urinated
+	Section:9
+		man small stature
+		evidence describe rodriguez similar build
+		left simpson threatened kill
+		shouted person named candice
+		left kiefer rodriguez sought help neighbour walked nearby general store fearing return
+	Section:10
+		paragraph 19 crown opening describes injuriesas result assault aaron meaning rodriguez sustained swelling bruising face wobbly tooth left side laceration interior exterior mouth
+		preliminary ct scan conducted revealing obvious fracture
+	Section:11
+		victim impact statement tendered
+		however clear kiefer rodriguez badly affected
+		visibly distressed speaking police night
+	Section:12
+		36 year old
+		know father raised mother
+		twin brother halfbrother sister
+		family lived mainly mildura area
+		however significant period perth father halfsiblings lived
+		went school mildura perth south australia time mother remarried lived
+		14
+	Section:13
+		left school 15
+		mildura
+		since employed often consistently moving often perth mildura
+		many job
+		included sale assistant labourer factory hand various job construction industry seasonal farm work delivery driver traffic controller
+		seem number heavy machinery skill qualification
+		ambition become chef various time studied commercial cooking
+		returned released bail october last year
+	Section:14
+		met woman perth several year ago relationship
+		two child born 2010 2011
+		partner part american went united state child mid2012
+		returned
+		seen child since
+		large impact began using methylamphetamine
+		used synthetic cannabis since teenager
+	Section:15
+		also since bail release addressed drug use
+		going continue
+		stated letter drug counsellor kayla morris salvocare tendered
+		put drug use anything offending
+	Section:16
+		36 two prior adult court appearance convicted
+		2003 fined without conviction offence including unlawful assault assault weapon
+		mr lindner put circumstance
+		disagreement fight kentucky fried chicken restaurant
+		twin brother also involved
+		weapon chair
+		whilst relevant offending occurred 15 year ago
+		appearance since 2016 possessing methylamphetamine
+		convicted
+	Section:17
+		serious matter
+		kiefer rodriguez attacked hurt badly frightened home
+		make clear justification legitimate basis grievance
+	Section:18
+		relevant important sentencing consideration deterrence particularly general deterrence moral culpability denunciation need proportionate punishment
+		sentence imprisonment necessary
+	Section:19
+		coaccused tyrone simpson received sentence approximately nine month 12 month community correction order
+		approximate period time served
+	Section:20
+		objective factor example lesser role suggest longer sentence
+		also benefit undertaking give evidence
+		would ultimate value prosecution question raised plea hearing
+		despite comparison simpson sentence decided number factor individual case justify sentence served combined community correction order one must onerous imposed upon simpson
+		factor include following
+		1 plea guilty
+		would add earlier said interest justice might seen particularly assisted given difficulty crown calling kiefer rodriguez give evidence trial least circuit
+		plea overcomes problem
+		2 also see genuinely remorseful
+		impressed sincerity evidence supporting important way also stated letter kiefer rodriguez
+		referred earlier
+		find good friendship deeply regret genuine regret desire personally make amends
+		also accept may wish
+		3 thing also significant assessing prospect rehabilitation
+		find high
+		accept remand custody impacted positively upon evidence letter suggest reflected insight
+		criminal record find sparse also relevant
+	Section:21
+		ultimately decided right sentence term imprisonment beyond served community correction order appropriate duration punishment assistance rehabilitation
+		unusual sentence given objective seriousness offending
+		however think justified circumstance case
+		also think better serf interest community return prison
+	Section:22
+		stand please
+		sentence follows
+		charge still charge 1 2 4 presentment sentenced aggregate term imprisonment seven month
+		addition impose community correction order three year duration
+		usual term apply
+		additional term arethat perform 400 hour unpaid community workthat treatment rehabilitation condition related drug usethat treatment rehabilitation condition related participation program directed specific offendingthat supervisioni also direct 100 hour participation rehabilitation program may set 400 hour unpaid work
+	Section:23
+		yes come dock please sit nearmr delorenzo
+	Section:24
+		mr odoherty honour there 6aaa declaration
+	Section:25
+		honour yes sorry yes
+	Section:26
+		mr odoherty there forensic sample order consented
+	Section:27
+		honour yes
+		pleaded guilty would sentenced imprisonment three year minimum term two year
+	Section:28
+		mr odoherty sure declared presentence detention
+	Section:29
+		honour yes sorry
+		declare 217 day presentence detention already served s18 sentencing act
+		repeat s6aaa indication sentence three year minimum term two year
+		arithmetic pretty evident
+		else
+	Section:30
+		mr odoherty 464 forensic sample order consented
+	Section:31
+		honour yes think
+		circumstance make order
+		got attend go mildura police station time four week eight week
+		follow
+		effectively eight week pass well period commences four week today supply sample saliva putting cotton swab inside mouth seen sound intrusive unduly
+		cooperate end
+		sample blood may taken injection reasonable force used
+		reason making order seriousness circumstance offending order imposed bearing mind potential use material inclusion data bank granting order public interest view
+		sign order
+	Section:32
+		right
+		stand
+		need tell community correction order mean
+		run three year
+		usual term arethat come another offence could imprisonedyou must comply regulation best understand mean attend appointment worksite program affected alcohol illegal drug possession illegal drugsyou must report receive visit community correctionsyou must report relevant community correction centre mildura within two day sentenceyou must let community correction know within two day change address jobyou must leave victoria without first getting permission
+		imagine discussed assessment placed close border think sensible arrangement usually madeyou must obey lawful direction community correctionsthe additional condition perform 400 hour unpaid work three yearsi order 100 hour treatment rehabilitation program participation set supervisionthat undergo assessment treatment drug abuse dependencythat participate program address particular factor related offending directed
+	Section:33
+		understand
+		agree
+		right
+		sign sign may go
+		right good thank
+		good
+		thank
+		thank delorenzo
+	Section:34
+		mr delorenzo thank
+	Section:35
+		honour would wait outside copy wait outside think best
+		associate bring copy order

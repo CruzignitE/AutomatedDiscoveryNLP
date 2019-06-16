@@ -1,0 +1,190 @@
+FIELD DATA:
+	FILE NAME:
+		57.txt
+	CASE NUMBER:
+		1701138
+	JUDGE NAME:
+		DAVIS
+	DEFENDANT NAME:
+		JAISON DEO
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		jaison deo pleaded guilty three charge theft
+		maximum penalty charge ten year imprisonment
+	Section:2
+		circumstance offending set full prosecution opening plea exhibit 1 sentence basis fact set document
+		fact may summarised follows
+	Section:3
+		diploma accounting finance since age 20
+		voluntary treasurer clayton preschool 2013
+		18 march 2014 7 october 2016 stole organisation total amount 18144081 way 134 cheque transferred company rock emporium name
+		three charge theft rolled charge comprising 134 incident separated calendar year 2014 2016
+	Section:4
+		fellow committee member local kindergarten parent diverse ethnic background limited english none accounting expertise occupied position one year time
+		reason offending went undetected midjuly 2016 finance manager returned maternity leave discovered kindergarten owed 85000 approved provider license holder bestchance
+		finance manager informed accountant performed role leave chasing since december 2015 financial report relation debt
+		continued steal organisation midjuly early october 2016
+	Section:5
+		late september 2016 finance manager met 2016 secretary secretary began investigation kindergarten finance
+		asked secretary provide financial report early october 2016 stalled said busy
+		20 october 2016 secretary asked provide list creditor pay best chance invoice
+		discovered present cheque pay relevant invoice
+		secretary made enquiry discovered kindergarten longer term deposit
+		lied asked
+		25 october 2015 failed bring document requested secretary committee meeting
+		stalled finance manager demanded 27 october provide financial document last three year
+		next day gave suitcase document bestchance accountant brian mcpherson admitted taking money
+	Section:6
+		9 november 2016 rang finance manager said going make statement police embarrassed would pay back every cent want wife child affected
+	Section:7
+		participated record interview 11 november 2016 admitting theft
+		could give reason stole money
+		told police started hundred dollar kept every week fortnight stealing eating age wish audit done year earlier could come clean
+		indicated intended repay money stolen organised regular repayment
+	Section:8
+		personal circumstance may briefly summarised
+		came australia parent infant
+		38 year old aged 35 37 period offending
+		strange relationship parent accept relationship wife child another man wedlock
+		formed close relationship parent law
+		two child aged eight six year old stepdaughter aged fourteen
+	Section:9
+		motherinlaw died 2014 thereafter father law suffering dementia placed nursing home
+		meeting nursing home expense around 600 per week living home
+		time offending working sale manager earning approximately 75000 per year including allowance condition
+		wife working working parttime earning 400 per week
+		continue work sale manager earn 80000 per annum including car allowance commission
+		fund taken spent ordinary living expense
+		applied vcat order enable bring father law back home live
+		prior conviction
+	Section:10
+		detail concerning personal circumstance psychological condition contained report treating psychologist m penelope karvelis dated 23 october 2017 summarise briefly
+		parent fijian descent two older brother treated strictly father although eldest brother favoured
+		father detached
+		met wife work 22 married opposition parent
+		formed strong emotional bond parent inlaw
+	Section:11
+		completing high school 1999 undertook accounting course swinburne university worked accounting 2001 took sale focused role import trading company
+		lasted 2010
+		selfemployed year started working sale manager 2013
+		continued work company reported psychologist consistently receiving positive performance management feedback
+	Section:12
+		early 2014 motherinlaw diagnosed aggressive cancer
+		died within three month
+		father law already suffering dementia became extremely depressed
+		wife developed extreme anxiety hospitalised number time
+	Section:13
+		told psychologist felt depressed anxious motherinlaws diagnosis reported symptom doctor received treatment
+		told psychologist time offending felt surreal felt lost three significant people life spiralled control
+		told know even time felt unable fix situation
+	Section:14
+		m karvelis opined period untreated depression anxiety led psychological maladjustment desperate attempt gain sense control life establishing financial stability aspect life could control time
+		exhibit b
+	Section:15
+		opined selfreporting time offending experiencing dissociative symptom acting distorted reality
+		noted struggle understand action required consistent psychological intervention gain insight behaviour
+		engaging therapy m karvelis since february 2017 recommended continue therapy
+	Section:16
+		m karvelis considers suffering major depressive disorder generalised anxiety disorder symptom abated somewhat september october 2017 result intense psychological treatment
+		m karvelis stated cooperative psychological treatment attend session punctually gained insight behaviour
+		stated prognosis positive unlikely reoffend
+	Section:17
+		counsel also tendered schedule repayment letter reference wife
+		letter indicated loving husband father stepfather soninlaw devoted member social committee son soccer club
+		attended plea hearing alone counsel
+	Section:18
+		counsel submitted basis m karvelis report six limb verdin r v verdin 2007 16 vr 269 engaged number mitigating factor followsyou cooperated police pleaded guilty earliest opportunityyou good character
+		time offending suffering untreated depression anxietyyour offending motivated greed malice caused poor psychological state dissociative symptom unlikely reoffend reason need general deterrence specific deterrence significantly moderatedyou making regular repaymentsyou actively participating treatment continue receive regular counselling mental state prospect rehabilitation would adversely effected term imprisonment
+	Section:19
+		circumstance submitted community correction order unpaid work condition requirement continue psychological treatment would sufficiently address relevant sentencing consideration
+		counsel also indicated consent making compensation order sought prosecution well making forensic sample order
+	Section:20
+		prosecution expressed number reservation m karvelis report including state document supplied address fact period offending continued work full time sale manager positive performance assessment
+		addition prosecution noted character reference provided wife mention offending suggested may even aware current charge
+		nevertheless circumstance prosecution conceded imposition community correction order open
+	Section:21
+		offending serious constitutes gross breach trust committed childrens kindergarten circumstance voluntary office holder accounting knowledge limited english
+		offended period three year continued offending midjuly 2016 initial enquiry discrepancy began persisted offending even knew investigation commenced organisation finance asked provide record account
+	Section:22
+		pointed counsel mitigating factor
+		turned police cooperated pleaded guilty earliest opportunity
+		community spared time cost trial witness spared need give evidence trial
+		accept plea guilty indicates remorse behaviour
+		note also expressed remorse offending police treating psychologist counsel court
+		addition repaying money kindergarten regular basis since late october 2016 date understand repaid 7505 money stolen
+	Section:23
+		also consented making order sought prosecution relation compensation forensic sample
+	Section:24
+		m karvelis report one treating practitioner rather independent expert
+		state document provided
+		address fact period offending opinion suffering severe depression anxiety dissociative symptom also working fulltime sale manager receiving positive performance review
+		however opinion express unchallenged accept
+		accept period offending suffering psychological disorder reduces moral culpability extent warrant moderation sentencing principle general deterrence specific deterrence
+		also accept given current psychological state prison sentence weigh heavily upon might person normal health
+		accept unlikely reoffend
+	Section:25
+		requested assessment correction suitability undergo community correction order report dated 7 february 2018 assessed suitable undertake community correction order
+		author report noted engage well presented remorseful offending willing undergo mental health treatment rehabilitation participate community work
+		condition recommended proposed impose namely unpaid community work mental health treatment rehabilitation
+	Section:26
+		circumstance consider light objective gravity conduct personal circumstance lengthy community correction order appropriate condition capable satisfying requirement proportionality parsimony punishment affording best prospect rehabilitation
+		propose sentence three year community correction order condition including supervision mental health treatment 300 hour unpaid community work
+	Section:27
+		would please stand mr deo
+		charge 1 2 3 theft convicted placed community correction order period three year
+	Section:28
+		relation community correction order subject supervision required complete 300 hour unpaid community work well mental health assessment treatment
+		direct 50 hour participation counselling may credited hour unpaid community work
+		remind given opportunity order address mental health problem emotional issue clearly connected offending vital engage treatment option provided order minimise risk reoffending
+	Section:29
+		addition condition specifically imposed must also abide term apply community correction order
+		must commit offence period order enforced three year today offence could imprisoned even court would choose impose imprisonment
+		must report receive visit community correction officer
+		must report community correction centre dandenong within two clear working day today 13 february 2018
+		must leave victoria without first getting permission community correction officer must inform community correction office change address live work within 48 hour occurring
+		finally must obey lawful instruction direction community correction officer
+		understand condition imposed general term apply
+	Section:30
+		offender yes
+	Section:31
+		honour consent making order must understand contravening condition attached community correction order except contravention direction secretary offence punishable three month imprisonment
+		contravention community correction order also carry prospect brought back resentenced original offending
+	Section:32
+		consent circumstance imposition community correction order
+	Section:33
+		offender yes
+	Section:34
+		honour indicate pursuant s6aaa sentencing act 1991 vic plea guilty would sentenced two year imprisonment
+	Section:35
+		prosecution also sought order pursuant s464zf crime act 1958 vic relation taking forensic sample note consented order made make order consented regard nature offending consider interest justice order made
+	Section:36
+		making order need inform mr deo signing order requires undertake forensic procedure taking scraping mouth andor blood sample sample sufficient standard obtained placement database
+		advise time request sample made consent taking mouth scraping supervision authorised member police force sample taken blood sample police may use reasonable force enable forensic procedure conducted
+		understand
+	Section:37
+		offender yes
+	Section:38
+		honour lastly make compensation order sought prosecution agreed requiring pay outstanding money clayton preschool incorporated victorian managed insurance agency le repayment already made
+		matter
+	Section:39
+		m cavka honour
+		thank
+	Section:40
+		honour mr snow
+	Section:41
+		mr snow honour

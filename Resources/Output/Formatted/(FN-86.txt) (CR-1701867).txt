@@ -1,0 +1,272 @@
+FIELD DATA:
+	FILE NAME:
+		86.txt
+	CASE NUMBER:
+		1701867
+	JUDGE NAME:
+		MASON
+	DEFENDANT NAME:
+		ADAM NEWMANN
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		honour adam scott newmann pleaded guilty one charge persistent contravention family violence intervention order one charge common assault one charge theft
+	Section:2
+		also pleaded guilty one transferred summary charge entering private place namely affected family member address without express implied authority owner lawful excuse effect trespass
+	Section:3
+		persistent contravention family violence intervention order carry maximum penalty 5 year imprisonment 600 penalty unit
+		assault carry maximum penalty 5 year imprisonment
+		theft carry maximum penalty 10 year imprisonment trespass offence carry maximum penalty 6 month imprisonment 25 penalty unit
+	Section:4
+		born 10 1980 37 year old
+		time offending nine month ago 36 year age
+	Section:5
+		history previous conviction similar offending refer detail later
+	Section:6
+		victim matter previously de facto relationship approximately three half year two child together
+	Section:7
+		victim life lease holder property
+		previously lived address victim never given key property
+	Section:8
+		victim obtained family violence intervention order 2016
+		final order varied 11 2017
+		victim two child protected person order
+		copy order served 12 2017
+	Section:9
+		time offending family violence intervention order current ordered must notcommit family violence protected personsintentionally damage property protected person threaten sofollow protected person keep surveillancego remain within 100m protected person work child attend school childcareget another person anything respondent must ordergo remain premise consumed alcohol used illicit drug 12hour period prior attending home consume alcohol use illicit drug home
+	Section:10
+		circumstance offending set detail prosecution summary exhibited plea
+		incorporate fact sentencing remark
+	Section:11
+		essence conduct represented charge firstly persistent contravention family violence intervention order reference particular e indictmentaattending protected person house drugaffected state 29 2017 bthe next day 30 230 whilst drugaffected convulsing banging protected person door demanding let later morning contacting protected person facebook demanding food blanket returning midday leaving police called later returning house attempting break walking away police called later contacting protected person facebook demanding money threatening tone cthe following day 1 attending protected person home demanding let house
+		police contacted spoke agreed leave home
+		later phoned protected person abused
+		returned house went inside protected person absent
+		returned walked outside spoke car
+		police called left home
+		neighbour heard yelling looking agitated
+		later phoned protected person demanding leave home buy cigarette
+		refused later sent abusive voice message
+		protected person formed view drugaffected
+		dthe following morning 2 attended protected person home banging bedroom window 430 demanding let
+		police called left arrived
+		630 protected person sent message stating going call police every time came house stated house contact
+		long sending message protected person heard noise back room
+		approached kitchen came room
+		act represented trespass charge
+		child floor
+		protected person screamed
+		grabbed around neck held tight
+		struggled breathe could fight
+		conduct represented charge 2 common assault
+		took phone threw protected person sink
+		gathered child ran home
+		running away heard trying get front door
+		protected person ran neighbour house police called
+		left took protected person phone
+		conduct represented charge 3 theft
+		elater morning 2 protected person took child day care centre
+		observed parked within 100 metre centre
+	Section:12
+		recent history repeated offending similar characterin 2012 served 101 day custody respect conviction contravening family violence order recklessly causing injuryin 2014 convicted assault fined 1000in 2014 also convicted contravening family violence intervention order sentenced ninemonth community correction order 75 hour unpaid community workin 2015 breached 2014 assault sentence sentenced community correction order time 37 hour unpaid community workin 2015 convicted unlawful assault time victim current matter sentenced another community correction order time six month 80 hour unpaid community workin 2016 convicted criminal damage contravening family violence safety notice sentenced pay 2000 lasallian foundation continue counselling beleura hospital alcohol addictionin 2016 convicted persistent contravention family violence order offence including theft assault sentenced three month imprisonmentfurthermore although previous conviction current sentencing matter history show 23 2017 convicted contravention family violence order involving current victim sentenced appeal two month imprisonment
+	Section:13
+		overall committed breach family violence contravention order notice four previous occasion including one previous offence persistent contravention family violence order
+		three prior conviction assault since 2014
+	Section:14
+		furthermore offending embraced two different domestic partner received three separate community correction order well gaol term significant monetary penalty
+		deterred offending
+	Section:15
+		spate family violence offending 2012 period eight year offending
+		prior offended almost every year age 15 24 various offence including theft burglary dishonesty offence driving charge
+	Section:16
+		turn personal circumstance
+	Section:17
+		early life difficult
+		mother left family home month old father functioning alcoholic described great firm hand would often beat
+	Section:18
+		left home age 14 essentially away father
+		stage balancing trying find work affording accommodation attending school
+		missing class eventually expelled
+	Section:19
+		worked variety job including panel beating nursery work service station furniture manufacturing eventually finding stable employment abattoir roadwork business restumping house
+		period also studied horticulture
+		capacity apply gainful work
+	Section:20
+		commenced using cannabis age 11 short time use escalated lsd mushroom ecstasy heroin
+		continued using 17 decided cease drug use began regular binge consumption alcohol
+		engaged inpatient withdrawal program beleura clinic month 2015
+	Section:21
+		four principal partner six child overall three
+		frankly admit breakdown relationship inattentive relationship either work alcohol drug use
+	Section:22
+		commenced relationship current victim case approximately three year ago
+		together two child still infant
+		stated relationship going well drug use led relationship breaking
+	Section:23
+		admitted psychiatric unit ballarat hospital 2016 discharged next day
+		diagnosis one adjustment disorder amphetamine use disorder
+		past history anxiety depressive disorder
+		currently prescribed prisquil following diagnosis depression year ago
+	Section:24
+		psychological report mrwarren simmons tendered plea
+		mrsimmons opinion meet dsm5 criterion substance use disorder relevantly alcohol well drug
+		previous diagnosis depression managed therapeutically medication
+	Section:25
+		mrsimmons also postulate childhood meant opportunity observe either marital relationship growing therefore idea form strong bond
+		lack significant mother figure meant really learnt relate woman constructive manner either
+	Section:26
+		consequently treatment concentrating drug alcohol program relationship counselling beneficial
+	Section:27
+		also recently referred mrmatthew staios neuropsychological assessment result observation 2016 brain scan suggested small left frontal lobe injury
+		anticipated scan obtained detailed assessment
+		scan available mrstaios however provided report nonetheless
+	Section:28
+		mrstaios opinion fall low average average range general intellectual functioning deficit speed information processing new learning memory
+		verbal memory characterised unreliable inefficient
+		historical factor personal history together influence alcohol heightened emotional state inconsistent use antidepressant medication decrease ability control impulse resulting lack consequential thinking problemsolving exercising appropriate judgment alternative thinking
+	Section:29
+		mrstaios able provide conclusive opinion regarding enduring nature cognitive state context traumatic brain injury absence availability brain scan however opinion longstanding substance use impacted verbal memory skill depression anxiety may impacted ability learn commit new verbal information memory
+	Section:30
+		mitigation take account submission made counsel includingyour plea guilty time made utilitarian value expression remorseyour good history employment capacity work hardthe effort made whilst custody assist rehabilitation including negative urine sample drug fact effort made consistent sustained throughout many move whilst custodyyour difficult personal history underlying condition long term substance disorder anxiety depression cognitive reduction assessed psychological neuropsychological report tenderedyour capacity committed successfully complete mandated condition appropriate level support letter apology remorse express
+	Section:31
+		counsel submitted circumstance purpose purpose sentence imposed achieved suitably directed community correction order light time already served remand custody
+	Section:32
+		prosecution concedes term imprisonment beyond already served whilst remand together conditioned community correction order outside appropriate sentencing discretion
+		assessed suitable order
+	Section:33
+		notwithstanding mitigating circumstance offending constitutes serious repeated criminal behaviour context domestic violence assault committed front two young child
+		created frightening traumatic incident longlasting psychological effect victim
+		victim impact statement former partner give eloquent testimony nature emotional injury
+		furthermore offended whilst subject family violence intervention order
+		offending aggravated theft victim phone
+	Section:34
+		prevalence type terrorising behaviour disaffected former partner well recognised community would well aware significance
+		great deal public private funding allocated publicise fact neither community court representing community tolerate continuance level domestic violence hitherto experienced
+		alcohol drugaffected time commission offence mitigating factor
+		fact consumed either alcohol drug excuse conduct brings court today
+	Section:35
+		however expressed accept measure mitigation given fact difficult early life longstanding alcohol drug problem prior incident voluntarily engaged one stage rehabilitation program
+		matter also taken account prospect rehabilitation
+	Section:36
+		overall whilst accept support capable managing risk factor guarded prospect rehabilitation ultimately subject capacity maintain conscientious observance necessary achieve rehabilitation
+	Section:37
+		basic purpose court may impose sentence punishment deterrence specific general rehabilitation denunciation protection community
+		sentencing must regard range matter seriousness offending culpability context personal circumstance victim
+		required balance interest community denouncing criminal conduct interest community seeking ensure far possible offender rehabilitated reintegrated society
+	Section:38
+		given close consideration principle expressed court appeal authority boulton boulton or v queen 2014 vsca 342 expression principle subsequent decision court
+		also carefully considered provision sentencing act 1991 particular s5
+	Section:39
+		balance particular circumstance case persuaded purpose purpose sentence imposed achieved sentence involve confinement prison period
+		view objective gravity offending high despite mitigating circumstance justify option
+		view gravity offending requires retributive deterrent purpose punishment custody must take precedence
+	Section:40
+		consider however actual time spent confinement appropriately reduced benefit combination community correction order upon release given community correction order imposed period year condition attached punitive rehabilitative militate disadvantage case imprisonment give opportunity address issue life may contributed offending advantage advantage community
+		give opportunity continue reformative process applied whilst prison period continue prison
+	Section:41
+		accept insight issue appropriate application part together professional assistance relatively extended period prospect rehabilitation
+	Section:42
+		mrnewmann could please stand
+	Section:43
+		charge 1 persistent contravention family violence intervention order convicted sentenced 4 month imprisonment
+	Section:44
+		charge 2 assault convicted sentenced 9 month imprisonment
+	Section:45
+		charge 3 theft convicted sentenced 1 month imprisonment
+	Section:46
+		transferred summary charge entering private place affected family member without authority convicted sentenced 1 month imprisonment
+	Section:47
+		charge 2 base sentence
+	Section:48
+		direct one month sentence imposed charge 1 served cumulatively sentence imposed charge 2
+		sentence otherwise concurrent
+	Section:49
+		total effective sentence 10 month imprisonment
+	Section:50
+		sentence start today
+	Section:51
+		pursuant s184 sentencing act 1991 declare period 258 day including today reckoned time already served sentence direct fact declaration detail noted record court
+	Section:52
+		charge 1 2 3 summary charge also ordered serve community correction order period three year
+	Section:53
+		order commences immediately upon release prison end three year date
+	Section:54
+		correction centre attend morwell community correction service 25 ann street morwell must attend within two clear working day completion imprisonment term
+	Section:55
+		mandatory term community correction order apply additional condition impose supervision community correction officer undergo assessment treatment including testing drug alcohol abuse dependence directed regional manager undergo mental health assessment treatment including limited mental health psychological neuropsychological psychiatric necessary hospital residential facility directed regional manager andyou undergo program course aimed addressing factor relating offending directed regional manager
+	Section:56
+		note ordered perform unpaid community service condition accept period sentence serve prison sufficient deterrentpunishment purpose want restricted employment opportunity might otherwise
+		want enable concentrate rehabilitative course without overwhelmed capacity
+		understand
+	Section:57
+		offender yes honour
+	Section:58
+		honour believe presentence report mandatory term community correction order explained however appropriate briefly summarise clear
+	Section:59
+		mandatory term thatyou must commit another offence could imprisoned time order force period three yearsyou must comply requirement regulation 17 sentencing regulation 2012 essentially set out obligation attendance community correction centre thing attending drug alcoholaffected regulation aboutyou must report receive visit community correction officer must report community correction centre morwell centre within two clear working day order starting already indicated order commences immediately upon release prisonyou must notify community correction officer change address employment within two clear working day change must leave victoria without first getting permission community correction officer andyou must obey lawful instruction direction community correction officer direction may given either orally writing
+	Section:60
+		understand agree condition mrnewmann
+	Section:61
+		offender yes sir
+	Section:62
+		honour become sick exceptional circumstance order may suspended period time circumstance materially alter may apply variation cancellation order
+		either case must notify morwell community correction centre recommend obtain legal advice thing happen
+	Section:63
+		however must warn would much aware breach condition order brought back court
+		one option open cancel community correction order resentence original charge may also deal breach separate offence sending prison three month offence
+	Section:64
+		understand consequence breaching community correction order
+	Section:65
+		offender yeah good
+	Section:66
+		honour im sorry
+		understand consequence breaching order want answer loud clear quite clear understand
+	Section:67
+		offender yes honour understand
+	Section:68
+		honour thank
+		ask sign community correction order shortly
+	Section:69
+		plea hearing crown sought order consented taking forensic sample
+		made order today reason noted order namely seriousness offending warrant making order prior conviction warrant making order order consent granting order public interest
+	Section:70
+		must inform time request consent taking mouth scraping supervision authorised member police force sample taken blood sample police may use reasonable force enable procedure undertaken
+		understand mrnewmann
+	Section:71
+		offender yes honour
+	Section:72
+		honour thank
+		one matter
+	Section:73
+		pursuant s6aaa sentencing act 1991 plea guilty total effective sentence would imposed two half year imprisonment minimum period 18 month served eligibility parole
+	Section:74
+		stage correction order provided mrnewmanns legal representative mrkozlowski pas agrees ask sign please
+	Section:75
+		mr kozlowski yes honour
+	Section:76
+		community correction order signed acknowledged
+	Section:77
+		honour countersigned order
+		anything else either counsel
+	Section:78
+		mr kozlowski honour
+	Section:79
+		honour mrodoherty
+	Section:80
+		mr odoherty honour
+	Section:81
+		honour thank

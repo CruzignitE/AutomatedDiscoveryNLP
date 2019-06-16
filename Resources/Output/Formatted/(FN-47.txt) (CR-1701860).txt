@@ -1,0 +1,277 @@
+FIELD DATA:
+	FILE NAME:
+		47.txt
+	CASE NUMBER:
+		1701860
+	JUDGE NAME:
+		MULLALY
+	DEFENDANT NAME:
+		JOSHUA BOUVAC
+	SENTENCING DOCUMENT:
+		True
+	PUNCTUATION REMOVED:
+		True
+	LOWER CASE:
+		True
+	STOP WORDS REMOVED:
+		True
+	STEMMED:
+		False
+	LEMMATIZED:
+		True
+	CONTAINS ERRORS:
+		False
+SECTIONS:
+	Section:0
+	Section:1
+		joshua bouvac last week pleaded guilty 41 charge indictment 18 related summary charge
+		addition pleaded guilty breaching 12 month community correction order imposed another county court judge 11 july 2016
+		criminal conduct concisely summarised prosecutor written opening read court
+		document tendered plea
+		intend restate detail crime
+		rather ensure written opening attached reason
+	Section:2
+		many crime similar circumstance pattern
+		indicate 12 april 17 june 2017 engaged criminal spree burglary theft dangerous driving dishonest behaviour
+		particularly 31 indictable charge 11 summary offence committed day 3 june arrest 17 june 2017 still intense period majority offence committed six day 8 14 june 2017
+	Section:3
+		large committed serious burglary theft rural home small business
+		stole valuable tool car cash electrical equipment
+		one house burglary stole valuable coin collection jewellery including engagement wedding ring
+		value item excess 10000
+	Section:4
+		two occasion stole firearm locked gun safe
+		one instance 11 gun returned owner upon paying 3300
+		instance although cooperated police two gun remain large
+	Section:5
+		burglary rural property consequent theft particular firearm stored necessarily rural property serious criminality
+		need denunciation deterrence high given danger unregulated weapon street
+	Section:6
+		course crime spree time time seen police stolen borrowed car
+		pursued drove dangerously avoid apprehension
+		one instance passenger narrowly avoided headon collision truck
+		type conduct serious must condemned
+		community need protected thoughtless dangerous driving behaviour
+	Section:7
+		noted crime spree serious offending committed ordinary hardworking vulnerable home owner business owner
+		court must reflect community concern crime
+		corrosive ordinary member community made feel le safe
+	Section:8
+		moral culpability plain outbreak crime could get property cash could feed drug habit
+		explanation familiar one
+		however must plainly understood drug problem provides excuse
+	Section:9
+		indeed previous offending also due drug addiction court could done help imposing community correction order treatment condition directed drug addiction underlying mental health problem
+	Section:10
+		thus knew happened took drug
+		responsibility take opportunity offered avoid chaotic behaviour occurred april may especially june 2017
+	Section:11
+		also important assessment moral culpability well future hold young age time offending
+		21 committed crime
+		turned 22
+	Section:12
+		youth offender always important matter sentencing process
+		ordinarily would give paramount weight establish condition facilitate rehabilitation
+		however gravity many offence taken recent relevant prior criminal history mean rehabilitation must yield sentencing purpose denunciation punishment deterrence others
+	Section:13
+		intend make clear however youth rehabilitation ignored sentencing factor important
+		counsel thorough realistic written oral plea acknowledged much
+	Section:14
+		counsel made clear difficulty grew
+		much background set helpful psychological report m ferrari
+		mother drug user ultimately incarcerated dishonesty offence
+		imprisonment came one instance complete shock came home school gone taken prison
+		continued use drug prison period
+	Section:15
+		began misbehave school sadly experiment drug
+		school difficult suffered adhd compounded mother take medical advice regarding medication
+		result difficulty attention truancy poor behaviour school meant got little education whether alternative school local high school
+	Section:16
+		gained labouring work including panel beating upon finishing school
+		hope get back employment released
+	Section:17
+		one aspect past relationship older woman also struggle drug
+		took responsibility parent child young age
+	Section:18
+		accommodation became problematic 2017
+		life becoming chaotic
+		separated partner thought bad influence
+		couch surfing living car car drug use escalating crime spree began
+	Section:19
+		little early 2017 late 2016 respect community correction order nearly enough
+		disconnected office correction order completely broke
+	Section:20
+		future good support older brother
+		indeed whole family includes number step sibling
+	Section:21
+		psychologist opinion custody displaying sign acute depression anxiety stress positively medication
+		psychological report say offered opinion insight criminality expressed remorse
+		also record interview
+		view treatment mental health problem necessary
+		hoped take drug alcohol mental health counselling upon release
+	Section:22
+		plea guilty low cooperation police arrest early indication plea
+		receive reduction would sentence pleaded guilty
+		cooperation plea said psychologist counsel allows see remorseful
+	Section:23
+		prior criminal history concerning mainly offending recent time including fact community correction order time crime
+	Section:24
+		given large number charge young age principle totality particularly important
+		however remains challenging balance seriousness crime need recognise overall criminality must met single sentence nonparole period
+		total effect remains proportionate crime committed
+	Section:25
+		need cumulation though must necessarily moderated
+		well need use appropriate aggregate sentencing process
+		also take account fact remand time remand attributed sentence imposed magistrate
+	Section:26
+		important overall sentence nonparole period consider justice requires term incarceration young man
+		mentioned given chance another county court judge july 2016 imposed 12 month correction order ten charge similar latest crime
+	Section:27
+		initially said showed capacity willingness engage community correction order life circumstance deteriorated crime spree commenced
+		must resentence offence
+		issue totality loom large
+	Section:28
+		intend resentence original charge county court judge appeal magistrate placed 12 month community correction order make order concurrency cumulation respect overall sentence impose indictment
+		intend impose separate penalty fact breach
+	Section:29
+		mr bouvac sentence announce take time read number
+		end overall sentence made clear nonparole period
+	Section:30
+		committing crime set charge 1 2 3 4 involve theft firearm charge 3 sentenced aggregate term two year four month
+	Section:31
+		charge 15 16 17 20 also involve crime theft firearm sentenced aggregate term two year
+	Section:32
+		charge 5 8 10 13 22 24 26 28 30 33 35 37 39 burglary offence charge 18 attempted burglary charge 6 9 11 19 21 23 25 27 29 31 34 36 40 charge theft charge 12 attempted theft charge 14 obtain property deception charge 32 38 possession drug dependence sentence aggregate term two year three month
+	Section:33
+		charge 7 41 dangerous driving pursued police sentence aggregate term 12 month
+	Section:34
+		aggregate term charge 1 2 3 4 base sentence
+		six month term imposed aggregate term imposed charge 15 16 17 20
+	Section:35
+		sixteen month aggregate term burglary theft attempted theft obtaining property deception possession drug four month aggregate term dangerous driving pursued police cumulative upon cumulative upon base sentence imposed
+	Section:36
+		respect summary offence breach bail offence charge 6 7 aggregate term one month
+	Section:37
+		driving disqualified offence charge 8 12 40 46 59 aggregate sentence six month
+	Section:38
+		summary offence go equipped steal charge 11 22 33 36 39 45 52 58 aggregate sentence four month
+	Section:39
+		dealing proceeds crime charge 63 64 one month aggregate sentence
+	Section:40
+		use methylamphetamines charge 65 convicted fined 100
+	Section:41
+		using unregistered motor vehicle driving charge 56 convicted fined 100
+	Section:42
+		gaol term imposed summary offence concurrent concurrent sentence imposed indictment
+	Section:43
+		original charge received community correction order charge 9 18 matter imposed county court judge sentenced aggregate term four month order two month sentence cumulative upon sentence imposed indictment
+	Section:44
+		give total effective sentence four year eight month
+		order serve three year eligible parole
+	Section:45
+		sentence understand presentence detention calculated
+		indeed sentence undertaken
+	Section:46
+		sentence imposed four year eight month minimum term three year concurrent sentence currently undergoing
+	Section:47
+		pleaded guilty offence found guilty would imposed sentence six year nine month minimum term four year nine month
+	Section:48
+		number order seeking compensation mr bouvac
+		need sign chamber
+		process may take time given number copy
+		become debt owe people sought compensation grant application
+	Section:49
+		anything
+	Section:50
+		mr cordy yes disqualification licence
+	Section:51
+		honour yes sorry
+		minimum term
+	Section:52
+		mr cordy also disposal order deal first
+	Section:53
+		honour yes
+	Section:54
+		mr cordy provided honour
+		term dangerous driving
+	Section:55
+		honour pursued something yes
+	Section:56
+		mr cordy whilst pursued pardon
+	Section:57
+		honour sorry pay much regard
+	Section:58
+		mr cordy carry minimum disqualification le 12 month
+	Section:59
+		honour yes thank
+	Section:60
+		mr cordy must cancel licence
+		fairly straightforward although way honour sentenced mr bouvac respect aggregate sentence creates difficulty number theft motor vehicle charge honour required either cancel suspend respect individual offence
+		work identify honour
+		whether honour make respect think make respect offence course offence involve use motor vehicle
+	Section:61
+		honour
+	Section:62
+		mr cordy honour would give two minute
+	Section:63
+		honour sorry
+	Section:64
+		mr cordyi work individual charge need occur
+	Section:65
+		honour involved car
+		right thank
+		m webster anything
+	Section:66
+		m webster issue honour
+	Section:67
+		honour mathematics add far concerned
+	Section:68
+		m webster yes honour
+	Section:69
+		honour thank
+	Section:70
+		mr cordy charge 2 12 21 require honour either suspend cancel mr bouvacs licence time think fit
+	Section:71
+		honour 7 41 well
+	Section:72
+		mr cordy well 7 41 dangerous driving carry minimum 12 month disqualification
+	Section:73
+		honour thank
+		summary offence driving whilst disqualified requirement
+	Section:74
+		mr cordy requirement respect
+	Section:75
+		honour right thank
+		respect mr bouvacs licence respect charge 2 12 21 make order licence cancelled disqualified driving 12 month respect charge 7 41 licence cancelled disqualified driving 18 month
+		period timed run concurrently
+	Section:76
+		mr cordy honour plea
+	Section:77
+		m webster honour plea
+	Section:78
+		honour anything
+	Section:79
+		mr cordy cover
+	Section:80
+		m webster honour
+	Section:81
+		honour thank
+		mr bouvac removed
+		document signed provided m webster
+	Section:82
+		m webster honour plea
+	Section:83
+		honour compensation document
+	Section:84
+		mr cordy honour plea
+	Section:85
+		honour thank
+		mr bouvac removed
+		m webster mr cordy support mr bouvac example total inadequacy dock court
+		intolerable people including mr bouvac listen
+		distressed distressing family hear
+		lawyer go lot
+		change thing simply changing architecture done
+		critical police go secure court dock back court inadequate modern court proceeding
+		matter raise court service victoria chief judge
+		stand move next matter
