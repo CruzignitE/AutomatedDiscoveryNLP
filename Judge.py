@@ -44,9 +44,11 @@ class Judge:
         # Write name
         l_info = "Name: " + self.name
 
-        # Write case file names
-        for l_case in self.cases:
-            l_info += "\n\t" + l_case.file_name + ".txt"
+        # Write case file names (order numerically)
+        l_file_names = [int(v.file_name.replace('.txt', '')) for v in self.__f_cases]
+        l_file_names.sort(key=lambda x: x, reverse=False)
+        for l_file_name in l_file_names:
+            l_info += "\n\t" + str(l_file_name) + ".txt"
 
         return l_info
 

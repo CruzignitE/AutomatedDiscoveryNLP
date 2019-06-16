@@ -19,6 +19,7 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.stem.wordnet import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
+import ast
 
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -31,6 +32,7 @@ class LegalDoc:
     # Patterns
     __SENTENCING_IDENTIFIER_PATTERN = re.compile(r".+(DATE OF SENTENCE:)", re.S | re.M)
     __EMPTY_LINE_PATTERN = re.compile(r"^[\s\t\n\r]*$")
+    __FILE_SECTION_PATTERN = re.compile(r"Section:[0-9]+")
     __SECTION_PATTERN = re.compile(r"([0-9]+)[.(\s\t]*([A-Z].+)")
     __DOCUMENT_PATTERN = re.compile(
         r"(.+?)" +  # Head
@@ -80,7 +82,8 @@ class LegalDoc:
     # ---- Static fields----
     __s_successful_init_count: int = 0
     __s_failed_init_count: int = 0
-    __s_exception_data: dict = dict()
+    __s_exception_data_dict: dict = dict()
+    __s_legal_doc_dict:  dict = dict()
 
     # ~95% success rate if False but ~20% of LegalDocs will have
     # a generated case number and/or the sections will lack structure.
@@ -92,58 +95,196 @@ class LegalDoc:
     __f_file_name: str
     __f_head: str
     __f_body: List[List[str]]
+    __f_case_number: str
     __f_judge_name: str
     __f_defendant_name: str
-    __f_case_number: str
-    __f_sentencing_document: bool
-    __f_failed_init: bool
-    __f_corpora: List[str]
 
+
+    __f_corpora: List[str]
     # __f_text_tfidf: TF-IDF
 
+    __f_sentencing_document: bool
+    __f_stop_words_removed: bool
+    __f_stemmed: bool
+    __f_lemmatized: bool
+    __f_contains_errors: bool
+
     # ----Constructor----
-    def __init__(self, a_path: str):
-        try:
+    def __init__(self):
+
             # Initialise fields
-            self.__f_path = a_path
+            self.__f_path = "NULL"
             self.__f_file_name = "NULL"
             self.__f_head = "NULL"
             self.__f_body = []
+            self.__f_case_number = "NULL"
             self.__f_judge_name = "NULL"
             self.__f_defendant_name = "NULL"
-            self.__f_case_name = "NULL"
-            self.__f_case_number = "NULL"
-            self.__f_sentencing_document = False
-            self.__f_failed_init = True
+
             self.__f_corpora = []
             self.__f_text_tfidf = None
 
-            # Get file name
-            head, tail = ntpath.split(a_path)
-            self.__f_file_name = (tail or ntpath.basename(head)).replace('.txt', '')
+            self.__f_sentencing_document = False
+            self.__f_stop_words_removed = False
+            self.__f_stemmed = False
+            self.__f_lemmatized = False
+            self.__f_contains_errors = False
 
-            # Read in file
-            l_file = None
-            try:
-                l_file = open(a_path)
-                l_content = l_file.read()
-                l_file.close()
+    # ----Instance methods----
 
-            # Handle file error
-            except IOError:
-                LegalDoc.__note_exception(a_path, "MAJOR ERROR: Unable to read file", True)
-                l_file.close()
-                return
+    # Initialise
+    def initialise(self, a_path: str, load_state: bool):
+        # Initialise path
+        self.__f_path = a_path
 
+        # Get file name
+        head, tail = ntpath.split(self.path)
+        self.__f_file_name = (tail or ntpath.basename(head))
+
+        # Read in file
+        l_file = None
+        try:
+            l_file = open(self.path)
+            l_file_content = l_file.read()
+            l_file.close()
+
+        # Handle file error
+        except IOError:
+            LegalDoc.__note_exception(self.path, "MAJOR ERROR: Unable to read file", True)
+            l_file.close()
+            return False
+
+        # Load state from a formatted file
+        if load_state:
+            if not self.initialise_load_state(l_file_content):
+                return False
+
+        # Generate state from an unformatted file
+        else:
+            if not self.initialise_generate_state(l_file_content):
+                return False
+
+        # Note successful initialisation
+        LegalDoc.__s_successful_init_count += 1
+
+        # Add current LegalDoc to static dictionary of LegalDocs
+        LegalDoc.__s_legal_doc_dict[self.file_name] = self
+
+        # Create judge and add it to static dictionary of judges
+        Judge(self)
+
+        return True
+
+    # Load state from formatted file
+    def initialise_load_state(self, a_file_content):
+        try:
+            l_lines = a_file_content.splitlines()
+            i = 0
+
+            # Verify this is a formatted LegalDOc
+            if l_lines[0] == "FIELD DATA:":
+                i += 1
+
+                # Read in field data
+                while l_lines[i] != "SECTIONS:":
+                    l_line = l_lines[i].strip()
+
+                    # File name
+                    if l_line == "FILE NAME:":
+                        self.__f_file_name = l_lines[i+1].strip()
+                        i += 2
+                        continue
+
+                    # Case number
+                    if l_line == "CASE NUMBER:":
+                        self.__f_case_number = l_lines[i + 1].strip()
+                        i += 2
+                        continue
+
+                    # Judge name
+                    if l_line == "JUDGE NAME:":
+                        self.__f_judge_name = l_lines[i + 1].strip()
+                        i += 2
+                        continue
+
+                    # Defendant name
+                    if l_line == "DEFENDANT NAME:":
+                        self.__f_defendant_name = l_lines[i + 1].strip()
+                        i += 2
+                        continue
+
+                    # Sentencing document
+                    if l_line == "SENTENCING DOCUMENT:":
+                        self.__f_sentencing_document = ast.literal_eval(l_lines[i + 1].strip())
+                        i += 2
+                        continue
+
+                    # Stop words removed
+                    if l_line == "STOP WORDS REMOVED:":
+                        self.__f_sentencing_document = ast.literal_eval(l_lines[i + 1].strip())
+                        i += 2
+                        continue
+
+                    # Stemmed
+                    if l_line == "STEMMED:":
+                        self.__f_sentencing_document = ast.literal_eval(l_lines[i + 1].strip())
+                        i += 2
+                        continue
+
+                    # Stemmed
+                    if l_line == "LEMMATIZED:":
+                        self.__f_sentencing_document = ast.literal_eval(l_lines[i + 1].strip())
+                        i += 2
+                        continue
+
+                    # Contains errors
+                    if l_line == "CONTAINS ERRORS:":
+                        self.__f_sentencing_document = ast.literal_eval(l_lines[i + 1].strip())
+                        i += 2
+                        continue
+
+                    # Skip line
+                    i += 1
+
+                # Read in section data
+                l_section_index = -1
+                i += 1
+                while i < len(l_lines):
+                    l_line = l_lines[i].strip()
+
+                    # Reading a section heading
+                    if LegalDoc.__FILE_SECTION_PATTERN.match(l_line):
+                        l_section_index += 1
+                        self.__f_body.append([])
+
+                    # Reading a section's contents
+                    else:
+                        self.__f_body[l_section_index].append(l_line)
+                    i += 1
+
+            # Create corpora
+            for l_section in self.body:
+                for l_sentence in l_section:
+                    self.__f_corpora += word_tokenize(l_sentence)
+
+            return True
+        except IndexError:
+            LegalDoc.__note_exception(self.path,
+                                      "MAJOR ERROR: Failed to import formatted file, index out of bounds", True)
+            return False
+
+    # Generate state from unformatted file
+    def initialise_generate_state(self, a_file_content):
+        try:
             # Break up document into base components
-            l_document_match = LegalDoc.__DOCUMENT_PATTERN.match(l_content)
+            l_document_match = LegalDoc.__DOCUMENT_PATTERN.match(a_file_content)
             if l_document_match:
                 l_document_groups = l_document_match.groups()
 
             # Handle document parsing error
             else:
-                LegalDoc.__note_exception(a_path, "MAJOR ERROR: Regex cannot parse document", True)
-                return
+                LegalDoc.__note_exception(self.path, "MAJOR ERROR: Regex cannot parse document", True)
+                return False
 
             # Extract head
             self.__f_head = l_document_groups[0]
@@ -151,12 +292,12 @@ class LegalDoc:
             # Extract sentencing identifier
             l_sentencing_identifier_match = LegalDoc.__SENTENCING_IDENTIFIER_PATTERN.match(self.__f_head)
             if l_sentencing_identifier_match:
-                __f_sentencing_document = True
+                self.__f_sentencing_document = True
 
             # Handle non sentencing document
             else:
-                LegalDoc.__note_exception(a_path, "MAJOR ERROR: This is not a sentencing document", True)
-                return
+                LegalDoc.__note_exception(self.path, "MAJOR ERROR: This is not a sentencing document", True)
+                return False
 
             # Extract case number
             l_case_num_match = LegalDoc.__CASE_NUMBER_PATTERN.match(self.__f_head)
@@ -166,17 +307,19 @@ class LegalDoc:
 
             # Generate case number randomly using the path as a seed
             else:
+                self.__f_contains_errors = True
                 l_seed = 0
-                for l_char in a_path:
+                for l_char in self.path:
                     l_seed += ord(l_char)
                 random.seed(l_seed)
                 self.__f_case_number = str(random.randint(1, 9999999))
 
                 # Handle failure to find a case number
                 LegalDoc.__note_exception(
-                    a_path, "ERROR: Unable to find case number", LegalDoc.__f_exit_if_minor_errors)
+                    self.path, "ERROR: Unable to find case number", LegalDoc.__f_exit_if_minor_errors)
+
                 if LegalDoc.__f_exit_if_minor_errors:
-                    return
+                    return False
 
             # Extract defendant's name
             l_defendant_name_match = LegalDoc.__DEFENDANT_NAME_PATTERN.match(self.__f_head)
@@ -185,8 +328,8 @@ class LegalDoc:
 
             # Handle inability to determine defendant's name
             else:
-                LegalDoc.__note_exception(a_path, "MAJOR ERROR: Unable to find defendant's name", True)
-                return
+                LegalDoc.__note_exception(self.path, "MAJOR ERROR: Unable to find defendant's name", True)
+                return False
 
             # Extract judge's name
             l_judge_name_match = LegalDoc.__JUDGE_NAME_PATTERN.match(self.__f_head)
@@ -195,8 +338,8 @@ class LegalDoc:
 
             # Handle inability to determine judge's name
             else:
-                LegalDoc.__note_exception(a_path, "MAJOR ERROR: Unable to find judge's name", True)
-                return
+                LegalDoc.__note_exception(self.path, "MAJOR ERROR: Unable to find judge's name", True)
+                return False
 
             # Extract body
             l_lines = l_document_groups[1].splitlines()  # Body broken down by line
@@ -246,15 +389,16 @@ class LegalDoc:
 
                 # Handle section parsing errors
                 if l_bad_sections:
+                    self.__f_contains_errors = True
                     LegalDoc.__note_exception(
-                        a_path, "ERROR: Bad section(s)", LegalDoc.__f_exit_if_minor_errors)
+                        self.path, "ERROR: Bad section(s)", LegalDoc.__f_exit_if_minor_errors)
                     if LegalDoc.__f_exit_if_minor_errors:
-                        return
+                        return False
 
             # Handle failure to parse document's body
             except (TypeError, AttributeError, IndexError):
-                LegalDoc.__note_exception(a_path, "MAJOR ERROR: Unable to break down body", True)
-                return
+                LegalDoc.__note_exception(self.path, "MAJOR ERROR: Unable to break down body", True)
+                return False
 
             # Break up sections into sentences
             tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
@@ -288,6 +432,7 @@ class LegalDoc:
                             l_filtered_sentences.append(l_filtered_words)
                         l_filtered_sections.append(l_filtered_sentences)
                     self.__f_body = l_filtered_sections
+                    self.__f_stop_words_removed = True
 
                 # Stemming
                 if LegalDoc.APPLY_STEMMING:
@@ -301,6 +446,7 @@ class LegalDoc:
                             l_stemmed_sentences.append(l_stemmed_words)
                         l_stemmed_sections.append(l_stemmed_sentences)
                     self.__f_body = l_stemmed_sections
+                    self.__f_stemmed = True
 
                 # Lemmatization
                 if LegalDoc.APPLY_LEMMATIZATION:
@@ -314,6 +460,7 @@ class LegalDoc:
                             l_lemmatized_sentences.append(l_lemmatized_words)
                         l_lemmatized_sections.append(l_lemmatized_sentences)
                     self.__f_body = l_lemmatized_sections
+                    self.__f_lemmatized = True
 
                 # Create corpora
                 for l_section in self.body:
@@ -336,41 +483,13 @@ class LegalDoc:
                     l_detokenized_sections.append(l_detokenized_sentences)
                 self.__f_body = l_detokenized_sections
 
-            # Note successful initialisation
-            LegalDoc.__s_successful_init_count += 1
-            self.__f_failed_init = False
-
-            # Create judge
-            Judge(self)
+            return True
 
         # Handle miscellaneous errors
         except Exception:
-            LegalDoc.__note_exception(a_path, "MAJOR ERROR: Unspecified error occurred", True)
-            raise
+            LegalDoc.__note_exception(self.path, "MAJOR ERROR: Unspecified error occurred", True)
+            return False
 
-    # ----Method Overrides----
-    # Override str(self) with formatted body output
-    def __str__(self):
-
-        # Write field data
-        l_info = "FILE NAME:\n\t" + self.__f_file_name + ".txt\n"
-        l_info += "CASE NUMBER:\n\t" + self.__f_case_number + '\n'
-        l_info += "JUDGE NAME:\n\t" + self.__f_judge_name + '\n'
-        l_info += "DEFENDANT NAME:\n\t" + self.__f_defendant_name + '\n'
-        l_info += "SECTIONS:" + '\n'
-
-        # Write the section headers
-        for i in range(0, len(self.body)):
-            l_section = self.body[i]
-            l_info += '\t' "Section:" + str(i) + '\n'
-
-            # Write the sentences corresponding to the above section
-            for l_sentence in l_section:
-                l_info += "\t\t" + l_sentence + '\n'
-
-        return l_info
-
-    # ----Instance methods----
     # Save formatting as a txt file
     def write(self):
 
@@ -396,9 +515,40 @@ class LegalDoc:
             l_save_file.close()
             return
 
+
+    # ----Method Overrides----
+    # Override str(self) with formatted body output
+    def __str__(self):
+
+        # Write field data
+        l_info = "FIELD DATA:\n"
+        l_info += "\tFILE NAME:\n\t\t" + self.file_name + "\n"
+        l_info += "\tCASE NUMBER:\n\t\t" + self.case_number + '\n'
+        l_info += "\tJUDGE NAME:\n\t\t" + self.judge_name + '\n'
+        l_info += "\tDEFENDANT NAME:\n\t\t" + self.defendant_name + '\n'
+
+        l_info += "\tSENTENCING DOCUMENT:\n\t\t" + str(self.sentencing_document) + '\n'
+        l_info += "\tSTOP WORDS REMOVED:\n\t\t" + str(self.stop_words_removed) + '\n'
+        l_info += "\tSTEMMED:\n\t\t" + str(self.stemmed) + '\n'
+        l_info += "\tLEMMATIZED:\n\t\t" + str(self.lemmatized) + '\n'
+        l_info += "\tCONTAINS ERRORS:\n\t\t" + str(self.contains_errors) + '\n'
+
+        l_info += "SECTIONS:" + '\n'
+
+        # Write the section headers
+        for i in range(0, len(self.body)):
+            l_section = self.body[i]
+            l_info += '\t' "Section:" + str(i) + '\n'
+
+            # Write the sentences corresponding to the above section
+            for l_sentence in l_section:
+                l_info += "\t\t" + l_sentence + '\n'
+
+        return l_info
+
     # ----Class Methods----
     @classmethod
-    def get_exception_data(cls):
+    def print_exception_data(cls):
 
         # Write general error data
         l_error_data = "Successful initialisations: " + str(cls.__s_successful_init_count) + '\n'
@@ -410,7 +560,7 @@ class LegalDoc:
 
         # For each LegalDoc containing one or more errors
         # l_path is the key, l_errors is the value
-        for l_path, l_errors in cls.__s_exception_data.items():
+        for l_path, l_errors in cls.__s_exception_data_dict.items():
 
             # Write the path of the LegalDoc
             l_error_data += "\t" + l_path + '\n'
@@ -419,18 +569,18 @@ class LegalDoc:
             for l_error in l_errors:
                 l_error_data += "\t\t" + l_error + '\n'
 
-        return l_error_data
+        print(l_error_data)
 
     @classmethod
     def __note_exception(cls, a_path: str, a_exception: str, a_failed_init: bool):
 
         # If the path already exists in the exception dictionary
-        if a_path in cls.__s_exception_data:
-            cls.__s_exception_data[a_path].append(a_exception)
+        if a_path in cls.__s_exception_data_dict:
+            cls.__s_exception_data_dict[a_path].append(a_exception)
 
         # Add the path to the exception dictionary
         else:
-            cls.__s_exception_data[a_path] = [a_exception]
+            cls.__s_exception_data_dict[a_path] = [a_exception]
 
         if a_failed_init:
             # Increment static counter for failed initialisation
@@ -463,30 +613,45 @@ class LegalDoc:
     def body(self):
         return self.__f_body
 
-    # Defendant name
+    # Case number
     @property
-    def defendant_name(self):
-        return self.__f_defendant_name
+    def case_number(self):
+        return self.__f_case_number
 
     # Judge's name
     @property
     def judge_name(self):
         return self.__f_judge_name
 
-    # Case number
+    # Defendant name
     @property
-    def case_number(self):
-        return self.__f_case_number
+    def defendant_name(self):
+        return self.__f_defendant_name
 
-    # Failed initialisation
-    @property
-    def failed_init(self):
-        return self.__f_failed_init
-
-    # Sentencing Document
+    # Sentencing document
     @property
     def sentencing_document(self):
         return self.__f_sentencing_document
+
+    # Stop words removed
+    @property
+    def stop_words_removed(self):
+        return self.__f_stop_words_removed
+
+    # Stemmed
+    @property
+    def stemmed(self):
+        return self.__f_stemmed
+
+    # Lemmatized
+    @property
+    def lemmatized(self):
+        return self.__f_lemmatized
+
+    # Contains errors
+    @property
+    def contains_errors(self):
+        return self.__f_contains_errors
 
     # Corpora
     @property
