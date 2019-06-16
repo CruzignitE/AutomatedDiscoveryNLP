@@ -8,6 +8,7 @@ pip install sacremoses
 import re
 import random
 import ntpath
+import string
 from typing import List
 
 from Judge import Judge
@@ -20,6 +21,7 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.stem.wordnet import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 import ast
+import math
 
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -68,9 +70,11 @@ class LegalDoc:
 
     # Settings
     CLEAN_DATA = True
+    REMOVE_PUNCTUATION = True
     REMOVE_STOP_WORDS = True
     APPLY_STEMMING = False
     APPLY_LEMMATIZATION = True
+    TO_LOWER_CASE = True
 
     # Singletons
     STOP_WORDS = set(stopwords.words("english"))
@@ -99,11 +103,11 @@ class LegalDoc:
     __f_judge_name: str
     __f_defendant_name: str
 
-
-    __f_corpora: List[str]
-    # __f_text_tfidf: TF-IDF
+    __f_corpus: List[str]
 
     __f_sentencing_document: bool
+    __f_punctuation_removed: bool
+    __f_lower_case: bool
     __f_stop_words_removed: bool
     __f_stemmed: bool
     __f_lemmatized: bool
@@ -121,10 +125,11 @@ class LegalDoc:
             self.__f_judge_name = "NULL"
             self.__f_defendant_name = "NULL"
 
-            self.__f_corpora = []
-            self.__f_text_tfidf = None
+            self.__f_corpus = []
 
             self.__f_sentencing_document = False
+            self.__f_punctuation_removed = False
+            self.__f_lower_case = False
             self.__f_stop_words_removed = False
             self.__f_stemmed = False
             self.__f_lemmatized = False
@@ -163,6 +168,11 @@ class LegalDoc:
         else:
             if not self.initialise_generate_state(l_file_content):
                 return False
+            self.__f_punctuation_removed = LegalDoc.REMOVE_PUNCTUATION
+            self.__f_lower_case = LegalDoc.TO_LOWER_CASE
+            self.__f_stop_words_removed = LegalDoc.REMOVE_STOP_WORDS
+            self.__f_stemmed = LegalDoc.APPLY_STEMMING
+            self.__f_lemmatized = LegalDoc.APPLY_LEMMATIZATION
 
         # Note successful initialisation
         LegalDoc.__s_successful_init_count += 1
@@ -219,27 +229,39 @@ class LegalDoc:
                         i += 2
                         continue
 
+                    # Punctuation removed
+                    if l_line == "PUNCTUATION REMOVED:":
+                        self.__f_punctuation_removed = ast.literal_eval(l_lines[i + 1].strip())
+                        i += 2
+                        continue
+
                     # Stop words removed
                     if l_line == "STOP WORDS REMOVED:":
-                        self.__f_sentencing_document = ast.literal_eval(l_lines[i + 1].strip())
+                        self.__f_stop_words_removed = ast.literal_eval(l_lines[i + 1].strip())
+                        i += 2
+                        continue
+
+                    # Lower case
+                    if l_line == "LOWER CASE:":
+                        self.__f_lower_case = ast.literal_eval(l_lines[i + 1].strip())
                         i += 2
                         continue
 
                     # Stemmed
                     if l_line == "STEMMED:":
-                        self.__f_sentencing_document = ast.literal_eval(l_lines[i + 1].strip())
+                        self.__f_stemmed = ast.literal_eval(l_lines[i + 1].strip())
                         i += 2
                         continue
 
-                    # Stemmed
+                    # Lemmatized
                     if l_line == "LEMMATIZED:":
-                        self.__f_sentencing_document = ast.literal_eval(l_lines[i + 1].strip())
+                        self.__f_lemmatized = ast.literal_eval(l_lines[i + 1].strip())
                         i += 2
                         continue
 
                     # Contains errors
                     if l_line == "CONTAINS ERRORS:":
-                        self.__f_sentencing_document = ast.literal_eval(l_lines[i + 1].strip())
+                        self.__f_contains_errors = ast.literal_eval(l_lines[i + 1].strip())
                         i += 2
                         continue
 
@@ -265,7 +287,7 @@ class LegalDoc:
             # Create corpora
             for l_section in self.body:
                 for l_sentence in l_section:
-                    self.__f_corpora += word_tokenize(l_sentence)
+                    self.__f_corpus += word_tokenize(l_sentence)
 
             return True
         except IndexError:
@@ -407,70 +429,79 @@ class LegalDoc:
             for l_section in l_sections:
                 self.body.append(tokenizer.tokenize(l_section))
 
-            # Clean Data
+            # Data cleaning and tokenization
             if LegalDoc.CLEAN_DATA:
 
-                # Tokenize sentences
+                # Tokenize body
                 l_tokenized_sections = []
+
+                # By section
                 for l_section in self.body:
                     l_tokenized_sentences = []
+
+                    # By sentence
                     for l_sentence in l_section:
+
+                        # Remove punctuation
+                        if LegalDoc.REMOVE_PUNCTUATION:
+                            l_sentence = l_sentence.translate(str.maketrans('', '', string.punctuation))
+
+                        # To lower case
+                        if LegalDoc.TO_LOWER_CASE:
+                            l_sentence = l_sentence.lower()
+
+                        # Add tokenized sentences to section
                         l_tokenized_sentences.append(word_tokenize(l_sentence))
+
+                    # Add tokenized sections to sections list
                     l_tokenized_sections.append(l_tokenized_sentences)
                 self.__f_body = l_tokenized_sections
 
-                # Remove stopwords
-                if LegalDoc.REMOVE_STOP_WORDS:
-                    l_filtered_sections = []
-                    for l_section in self.body:
-                        l_filtered_sentences = []
-                        for l_sentence in l_section:
-                            l_filtered_words = []
-                            for l_word in l_sentence:
-                                if l_word not in LegalDoc.STOP_WORDS:
-                                    l_filtered_words.append(l_word)
-                            l_filtered_sentences.append(l_filtered_words)
-                        l_filtered_sections.append(l_filtered_sentences)
-                    self.__f_body = l_filtered_sections
-                    self.__f_stop_words_removed = True
+                # Clean data
+                l_filtered_sections = []
 
-                # Stemming
-                if LegalDoc.APPLY_STEMMING:
-                    l_stemmed_sections = []
-                    for l_section in self.body:
-                        l_stemmed_sentences = []
-                        for l_sentence in l_section:
-                            l_stemmed_words = []
-                            for l_word in l_sentence:
-                                l_stemmed_words.append(LegalDoc.STEMMER.stem(l_word))
-                            l_stemmed_sentences.append(l_stemmed_words)
-                        l_stemmed_sections.append(l_stemmed_sentences)
-                    self.__f_body = l_stemmed_sections
-                    self.__f_stemmed = True
+                # By section
+                for l_section in self.body:
+                    l_filtered_sentences = []
 
-                # Lemmatization
-                if LegalDoc.APPLY_LEMMATIZATION:
-                    l_lemmatized_sections = []
-                    for l_section in self.body:
-                        l_lemmatized_sentences = []
-                        for l_sentence in l_section:
-                            l_lemmatized_words = []
-                            for l_word in l_sentence:
-                                l_lemmatized_words.append(LegalDoc.LEMMATIZER.lemmatize(l_word))
-                            l_lemmatized_sentences.append(l_lemmatized_words)
-                        l_lemmatized_sections.append(l_lemmatized_sentences)
-                    self.__f_body = l_lemmatized_sections
-                    self.__f_lemmatized = True
+                    # By sentence
+                    for l_sentence in l_section:
+                        l_filtered_words = []
+
+                        # By word
+                        for l_word in l_sentence:
+
+                            # Remove stopwords
+                            if l_word in LegalDoc.STOP_WORDS and LegalDoc.REMOVE_STOP_WORDS:
+                                continue
+
+                            # Stemming
+                            if LegalDoc.APPLY_STEMMING:
+                                l_word = LegalDoc.STEMMER.stem(l_word)
+
+                            # Lemmatization
+                            if LegalDoc.APPLY_LEMMATIZATION:
+                                l_word = LegalDoc.LEMMATIZER.lemmatize(l_word)
+
+                            # Add filtered word to sentence
+                            l_filtered_words.append(l_word)
+
+                        # Add filtered sentence to section
+                        l_filtered_sentences.append(l_filtered_words)
+
+                    # Add filtered section to section list
+                    l_filtered_sections.append(l_filtered_sentences)
+                self.__f_body = l_filtered_sections
 
                 # Create corpora
                 for l_section in self.body:
                     for l_sentence in l_section:
                         for l_word in l_sentence:
-                            self.corpora.append(l_word)
+                            self.corpus.append(l_word)
 
                 # Create TF-IDF
                 # Not sure how i'm supposed to use this...
-                self.__f_text_tfidf = LegalDoc.TFIDF_VECTORIZER.fit_transform(self.__f_corpora)
+                self.__f_text_tfidf = LegalDoc.TFIDF_VECTORIZER.fit_transform(self.__f_corpus)
                 # print(LegalDoc.TFIDF_VECTORIZER.get_feature_names())
                 # print(self.__f_text_tfidf.shape)
 
@@ -493,7 +524,7 @@ class LegalDoc:
     # Save formatting as a txt file
     def write(self):
 
-        # Make sure that "CaseName" and  "CaseNumber" do not contain illegal values or are not excessively long
+        # Make sure that "CaseName" and  "CaseNumber" do not contain illegal values and are not excessively long
         l_safe_file_name = re.sub(r'[\\/:"*?<>|]+', "", self.file_name)
         l_safe_file_name = (l_safe_file_name[:25] + '..') if len(l_safe_file_name) > 25 else l_safe_file_name
         l_safe_case_number = re.sub(r'[\\/:"*?<>|]+', "", self.case_number)
@@ -515,7 +546,6 @@ class LegalDoc:
             l_save_file.close()
             return
 
-
     # ----Method Overrides----
     # Override str(self) with formatted body output
     def __str__(self):
@@ -528,6 +558,8 @@ class LegalDoc:
         l_info += "\tDEFENDANT NAME:\n\t\t" + self.defendant_name + '\n'
 
         l_info += "\tSENTENCING DOCUMENT:\n\t\t" + str(self.sentencing_document) + '\n'
+        l_info += "\tPUNCTUATION REMOVED:\n\t\t" + str(self.punctuation_removed) + '\n'
+        l_info += "\tLOWER CASE:\n\t\t" + str(self.lower_case) + '\n'
         l_info += "\tSTOP WORDS REMOVED:\n\t\t" + str(self.stop_words_removed) + '\n'
         l_info += "\tSTEMMED:\n\t\t" + str(self.stemmed) + '\n'
         l_info += "\tLEMMATIZED:\n\t\t" + str(self.lemmatized) + '\n'
@@ -633,6 +665,16 @@ class LegalDoc:
     def sentencing_document(self):
         return self.__f_sentencing_document
 
+    # Punctuation Removed
+    @property
+    def punctuation_removed(self):
+        return self.__f_punctuation_removed
+
+    # Lower case
+    @property
+    def lower_case(self):
+        return self.__f_lower_case
+
     # Stop words removed
     @property
     def stop_words_removed(self):
@@ -653,12 +695,9 @@ class LegalDoc:
     def contains_errors(self):
         return self.__f_contains_errors
 
-    # Corpora
+    # Corpus
     @property
-    def corpora(self):
-        return self.__f_corpora
+    def corpus(self):
+        return self.__f_corpus
 
-    # Text TF-IDF
-    @property
-    def text_tfidf(self):
-        return self.__f_text_tfidf
+

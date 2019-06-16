@@ -5,6 +5,8 @@
 # from pandoc import *
 # import re
 # from array import *
+from sklearn.feature_extraction.text import TfidfVectorizer
+import string
 import nltk
 import sklearn
 import os
@@ -16,15 +18,20 @@ class Main:
 
     # ----Constant Static fields----
     # Settings
-    UNFORMATTED_PATH = "Resources/Input/txt single/"
-    FORMATTED_PATH = "Resources/Output/Formatted single/"
+    UNFORMATTED_PATH = "Resources/Input/txt/"
+    FORMATTED_PATH = "Resources/Output/Formatted/"
     LOAD_FORMATTED = False          # Load formatted files (Fast!)
     LOAD_UNFORMATTED = True         # Load unformatted files (Slow!)
     SAVE_FORMATTED = True           # Save LegalDoc instances as .TXT files after formatting
     PRINT_JUDGE_DATA = True         # Print the list of judges and their associated cases
     PRINT_EXCEPTION_DATA = True     # Print exception data
+    RUN_TEST_CODE = True            # Runs the test method
 
     # ----Class Methods----
+    @classmethod
+    def test(cls):
+        print("Hello World")
+
     # Load all formatted files in the specified directory
     @classmethod
     def load_formatted_files(cls):
@@ -35,8 +42,6 @@ class Main:
             if not l_legal_doc.initialise(cls.FORMATTED_PATH + filename, True):
                 del l_legal_doc
                 continue
-
-            print(l_legal_doc.corpora)
 
     # Load all unformatted files in the specified directory
     @classmethod
@@ -55,7 +60,6 @@ class Main:
                 if cls.SAVE_FORMATTED:
                     l_legal_doc.write()
 
-            print(l_legal_doc.corpora)
 
 # ----Main method----
 def main():
@@ -63,10 +67,10 @@ def main():
     print('The nltk version is {}.'.format(nltk.__version__))
     print('The scikit-learn version is {}.'.format(sklearn.__version__))
 
-    # Testing
-
-
     # Functionality based on settings in Main class
+    if Main.RUN_TEST_CODE:
+        Main.test()
+
     if Main.LOAD_FORMATTED:
         Main.load_formatted_files()
 
