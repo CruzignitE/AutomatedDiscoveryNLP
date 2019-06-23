@@ -8,6 +8,12 @@ class Timer:
 
     # ----Constructor----
     def __init__(self, a_name, a_parent_timer=None):
+
+        """
+        :param str a_name: The name of the method associated with this timer
+        :param Timer a_parent_timer: The timer associated with the method containing this method
+        """
+
         self.__f_name = a_name
         self.__f_parent_timer = a_parent_timer
         self.__f_start = 0
@@ -22,6 +28,11 @@ class Timer:
 
     # ----Instance Methods----
     def start(self):
+
+        """
+        Start the timer
+        """
+
         if self.__stopped:
             self.__f_start = time.time()
             self.__stopped = False
@@ -29,6 +40,11 @@ class Timer:
             raise Exception(self.__f_name + " was started before it was stopped")
 
     def stop(self):
+
+        """
+        Stop the timer, add the elapsed time since starting and increment the run count
+        """
+
         if not self.__stopped:
             self.__f_elapsed += time.time() - self.__f_start
             self.__f_start = 0
@@ -38,15 +54,30 @@ class Timer:
             raise Exception(self.__f_name + " was stopped before it was started")
 
     def calculate_average(self):
+
+        """
+        Calculate the average time between a start and a stop
+        """
+
         if self.__f_run_count is not 0:
             return str(round(self.__f_elapsed / self.__f_run_count, 3)) + "s"
         else:
             return 0
 
     def calculate_percent_of_total(self):
+
+        """
+        Calculate what percentage of the entire program's run time was spent on this timer's method
+        """
+
         return str(round((self.__f_elapsed / Timers.s_main_timer.__f_elapsed) * 100, 3)) + "%"
 
     def calculate_percent_of_parent(self):
+
+        """
+        Calculate what percentage of the parent method's run time was spent on this timer's method
+        """
+
         if self.__f_parent_timer is None:
             return "N/A"
         else:
@@ -77,7 +108,6 @@ class Timer:
             '{: <21}'.format("Percent of Parent:") + \
             "\n" + '{:-<129}'.format("")
 
-
     @classmethod
     def print_all(cls):
 
@@ -95,6 +125,7 @@ class Timer:
             else:
                 raise Exception(l_timer.__f_name + " was not stopped before the end of the program")
         print('{:-<129}'.format(""))
+
 
 class Timers:
 

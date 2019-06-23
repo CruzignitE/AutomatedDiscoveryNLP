@@ -4,16 +4,19 @@ pip install nltk
 pip install scikit-learn
 pip install sacremoses
 '''
-
+import os
 import re
 import random
 import ntpath
 import string
+import contextlib
 import timeit
 from typing import List
 
 from Judge import Judge
 from Timer import Timer, Timers
+
+import Label
 
 from sacremoses import MosesDetokenizer
 import nltk.data
@@ -76,6 +79,7 @@ class LegalDoc:
     SECTION_IDENTIFIER_PATTERN = re.compile(r"(SECTIONSTART[0-9]+:?\s?)")
 
     # Settings
+    ANONYMIZE_NAMES: bool = False
     CLEAN_DATA: bool = False
     REMOVE_PUNCTUATION: bool = False
     REMOVE_STOP_WORDS: bool = False
@@ -410,64 +414,65 @@ class LegalDoc:
         Assigns a random name to everybody else
         """
 
-        # TODO - Timer start
-        Timers.s_anonymize_names_timer.start()
+        if LegalDoc.ANONYMIZE_NAMES:
+            # TODO - Timer start
+            Timers.s_anonymize_names_timer.start()
 
-        # Generate corpus
-        self.generate_corpus_from_sections()
+            # Generate corpus
+            self.generate_corpus_from_sections()
 
-        # TODO - Timer start
-        Timers.s_anonymization_timer.start()
+            # TODO - Timer start
+            Timers.s_anonymization_timer.start()
 
-        # Get list of names
-        l_filtered_corpus = [w for w in self.corpus if w[0].isupper()]
-        # print(l_filtered_corpus)
+            # Get list of names
+            l_filtered_corpus = [w for w in self.corpus if w[0].isupper()]
+            # print(l_filtered_corpus)
 
-        # print(l_filtered_corpus)
-        # l_names = [w for w in LegalDoc.NAMES if w in l_filtered_corpus]
+            # print(l_filtered_corpus)
+            # l_names = [w for w in LegalDoc.NAMES if w in l_filtered_corpus]
 
-        l_names = []
-        for w in l_filtered_corpus:
-            i = LegalDoc.index(LegalDoc.NAMES, w)
-            if i is not None:
-                l_names.append(LegalDoc.NAMES[i])
+            l_names = []
+            for w in l_filtered_corpus:
+                i = LegalDoc.index(LegalDoc.NAMES, w)
+                if i is not None:
+                    l_names.append(LegalDoc.NAMES[i])
 
-        # TODO - Timer stop
-        Timers.s_anonymization_timer.stop()
+            # TODO - Timer stop
+            Timers.s_anonymization_timer.stop()
 
-        # print("Namesxxx: " + str(l_names))
-        # print("All Names: " + str(sorted(LegalDoc.NAMES)))
+            # print("Namesxxx: " + str(l_names))
+            # print("All Names: " + str(sorted(LegalDoc.NAMES)))
 
-        # Create a random name dictionary
-        l_random_names = dict()
-        for l_name in l_names:
-            l_random_index = random.randint(0, len(LegalDoc.NAMES) - 1)
-            l_random_names[l_name] = LegalDoc.NAMES[l_random_index]
+            # Create a random name dictionary
+            l_random_names = dict()
+            for l_name in l_names:
+                l_random_index = random.randint(0, len(LegalDoc.NAMES) - 1)
+                l_random_names[l_name] = LegalDoc.NAMES[l_random_index]
 
-        # Anonymize names
-        for i, l_word in enumerate(self.corpus):
-            try:
-                if l_word in self.defendant_name:
-                    if self.corpus[i-1] == "Defendant":
-                        del self.corpus[i]
-                    else:
-                        self.corpus[i] = "Defendant"
-                elif l_word in self.judge_name:
-                    if self.corpus[i - 1] == "Judge":
-                        del self.corpus[i]
-                    else:
-                        self.corpus[i] = "Judge"
-                elif l_word in l_names and l_word not in LegalDoc.MONTHS:
-                    self.corpus[i] = l_random_names[l_word]
+            # Anonymize names
+            for i, l_word in enumerate(self.corpus):
+                try:
+                    if l_word in self.defendant_name:
+                        if self.corpus[i-1] == "Defendant":
+                            del self.corpus[i]
+                        else:
+                            self.corpus[i] = "Defendant"
+                    elif l_word in self.judge_name:
+                        if self.corpus[i - 1] == "Judge":
+                            del self.corpus[i]
+                        else:
+                            self.corpus[i] = "Judge"
+                    elif l_word in l_names and l_word not in LegalDoc.MONTHS:
+                        self.corpus[i] = l_random_names[l_word]
 
-            except IndexError:
-                print("FAIL")
-                continue
+                except IndexError:
+                    print("FAIL")
+                    continue
 
-        self.generate_sections_from_corpus()
+            self.generate_sections_from_corpus()
 
-        # TODO - Timer stop
-        Timers.s_anonymize_names_timer.stop()
+            # TODO - Timer stop
+            Timers.s_anonymize_names_timer.stop()
 
     def __extract_sentencing_identifier(self):
 
@@ -524,7 +529,7 @@ class LegalDoc:
         Removes initials from the defendant's name
         Ensure the defendant's name is all lower case with the exception of the first letter
         sets the value of "__f_defendant_name" as a set of strings
-        (e.g. "John Smith" becomes {"John", "Smith"}
+        (e.g. "John Smith" becomes {"John", "Smith"})
         :rtype: bool
         :return: Whether the defendant's name was successfully extracted and set
         """
@@ -554,7 +559,7 @@ class LegalDoc:
         Removes initials from the judge's name
         Ensure the judge's name is all lower case with the exception of the first letter
         sets the value of "__f_judge_name" as a set of strings
-        (e.g. "John Smith" becomes {"John", "Smith"}
+        (e.g. "John Smith" becomes {"John", "Smith"})
         :rtype: bool
         :return: Whether the judge's name was successfully extracted and set
         """
@@ -840,7 +845,7 @@ class LegalDoc:
             self.generate_corpus_from_sections()
 
     # Save formatting as a txt file
-    def write(self, a_raw_text=False):
+    def write(self, a_raw_text=False, a_prefix="", a_new_path=""):
 
         """"
         Writes the data in this instance to a .TXT file
@@ -853,21 +858,38 @@ class LegalDoc:
         # Make sure that "CaseName" and  "CaseNumber" do not contain illegal values and are not excessively long
         l_safe_file_name = re.sub(r'[\\/:"*?<>|]+', "", self.file_name)
         l_safe_file_name = (l_safe_file_name[:25] + '..') if len(l_safe_file_name) > 25 else l_safe_file_name
-        l_safe_case_number = re.sub(r'[\\/:"*?<>|]+', "", self.case_number)
-        l_safe_case_number = (l_safe_case_number[:25] + '..') if len(l_safe_case_number) > 25 else l_safe_case_number
+
+        # l_safe_case_number = re.sub(r'[\\/:"*?<>|]+', "", self.case_number)
+        # l_safe_case_number = (l_safe_case_number[:25] + '..') if len(l_safe_case_number) > 25 else l_safe_case_number
+
+        # Add brackets to prefix if specified
+        if a_prefix:
+            a_prefix = "(" + a_prefix + ")"
+
+        # Select path string based on input
+        if a_new_path:
+            l_path = a_new_path
+        else:
+            l_path = "Resources/Output/Formatted/"
+
+        # Make path if it doesn't exist
+        if not os.path.exists(l_path):
+            os.makedirs(l_path)
 
         # Save file
         l_save_file = None
         try:
             l_save_file = open(
-                "Resources/Output/Formatted/"
-                "(FN-" + l_safe_file_name + ") (CR-" + l_safe_case_number + ").txt",
-                "w", encoding="UTF-8")
+                l_path + a_prefix + "(F) " + l_safe_file_name, "w", encoding="UTF-8")
 
+            # Remove section identifiers
             self.strip_section_identifiers(False)
+
+            # Write formatted LegalDoc
             if not a_raw_text:
                 l_save_file.write(self.__str__())
 
+            # Only write body's contents (unformatted)
             else:
                 for l_section in self.body:
                     for l_sentence in l_section:
@@ -929,6 +951,18 @@ class LegalDoc:
         l_error_data += "Success rate: " + \
                         str((cls.s_successful_init_count * 1.0) /
                             ((cls.s_failed_init_count * 1.0) + (cls.s_successful_init_count * 1.0))) + '\n'
+
+        l_error_data += (
+                        "File errors: " + str(LegalDoc.s_file_error) +
+                        "Case errors: " + str(LegalDoc.s_case_error) +
+                        "Judge errors: " + str(LegalDoc.s_judge_error) +
+                        "Defendant errors: " + str(LegalDoc.s_defendant_error) +
+                        "Sentencing errors: " + str(LegalDoc.s_sentencing_error) +
+                        "Section errors: " + str(LegalDoc.s_section_error) +
+                        "Body errors: " + str(LegalDoc.s_body_error) +
+                        "Unknown errors: " + str(LegalDoc.s_unknown_error)
+                        )
+
         l_error_data += "Exceptions: " + '\n'
 
         # For each LegalDoc containing one or more errors
@@ -967,6 +1001,44 @@ class LegalDoc:
         if a_failed_init:
             # Increment static counter for failed initialisation
             cls.s_failed_init_count += 1
+
+    # TODO Work on this method
+    @classmethod
+    def get_docs_by_regex(cls, a_regex):
+
+        """
+        Gets a list of LegalDocs whose bodies' match the provided pattern
+        :param str a_regex: A pattern used to get LegalDocs
+        :return: A list of LegalDocs
+        :rtype: list
+
+        """
+        assert (isinstance(a_regex, re.Pattern))
+
+        l_matching_docs = []
+        l_break = False
+
+        for l_legal_doc in LegalDoc.s_legal_doc_dict.values():
+            l_break = False
+
+            for l_section in l_legal_doc.body:
+                if l_break:
+                    break
+
+                for l_sentence in l_section:
+
+                    # Look for match
+                    l_match = a_regex.match(l_sentence)
+
+                    if l_match:
+                        # TODO Annoying import bug, fix later
+                        if not Label.Label.s_flat_labels_dict[l_legal_doc.file_name]:
+                            l_matching_docs.append(l_legal_doc.file_name)
+                        l_break = True
+                        break
+
+        print(l_matching_docs)
+        print(len(l_matching_docs))
 
     # ----Properties (Read only getters)----
     # Origin path
@@ -1155,3 +1227,15 @@ class LegalDoc:
         if i != len(a_list) and a_list[i] == a_value:
             return i
         return None
+
+    @contextlib.contextmanager
+    def escapable(self):
+        class Escape(RuntimeError): pass
+        class Unblock(object):
+            def escape(self):
+                raise Escape()
+
+        try:
+            yield Unblock()
+        except Escape:
+            pass
