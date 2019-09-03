@@ -883,7 +883,7 @@ class LegalDoc:
                 l_path + a_prefix + "(F) " + l_safe_file_name, "w", encoding="UTF-8")
 
             # Remove section identifiers
-            self.strip_section_identifiers(False)
+            self.strip_section_identifiers(True)
 
             # Write formatted LegalDoc
             if not a_raw_text:
@@ -1004,7 +1004,7 @@ class LegalDoc:
 
     # TODO Work on this method
     @classmethod
-    def get_docs_by_regex(cls, a_regex):
+    def get_docs_by_regex(cls, a_regex, a_filter_labelled):
 
         """
         Gets a list of LegalDocs whose bodies' match the provided pattern
@@ -1032,7 +1032,7 @@ class LegalDoc:
 
                     if l_match:
                         # TODO Annoying import bug, fix later
-                        if not Label.Label.s_flat_labels_dict[l_legal_doc.file_name]:
+                        if not Label.Label.s_flat_labels_dict[l_legal_doc.file_name] or not a_filter_labelled:
                             l_matching_docs.append(l_legal_doc.file_name)
                         l_break = True
                         break
@@ -1228,14 +1228,3 @@ class LegalDoc:
             return i
         return None
 
-    @contextlib.contextmanager
-    def escapable(self):
-        class Escape(RuntimeError): pass
-        class Unblock(object):
-            def escape(self):
-                raise Escape()
-
-        try:
-            yield Unblock()
-        except Escape:
-            pass
