@@ -1,0 +1,481 @@
+{% extends "LandingPage/base.html" %}
+
+{% block content%}
+
+	<div class="content-section">
+		
+		<form method="POST">
+			{% csrf_token %}
+
+		<fieldset class="form-group"> <legend class="border-bottom mb-4">Sentence Retriever</legend>
+			<input type="textarea" name="test1" />
+		</fieldset>
+
+		<div class="form-group">
+			<button class="btn btn-outline-info" type="submit">Calculate</button>
+		</div>
+
+		</form>
+	</div>
+
+
+ 	<article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>Statistical Analysis - Introduction</b></a>
+        </div>
+        <p class="article-content">
+			The dataset has 21 variables. The variable "Sentence Length (days)" is the only quantitative variable and represents the "Dependent Variable".
+			<br />
+			<span>This leaves 20 variables remaining:</span>
+			<div class="row">
+				<div class="col-12 col-md-6"> 
+					<ul class="list-group list-group-horizontal">
+						<li class="list-group-item">Theft</li>
+						<li class="list-group-item">Theft of a motor vehicle</li>
+						<li class="list-group-item">Theft of a firearm</li>
+						<li class="list-group-item">Trafficking in a large commercial quantity of a drug of dependence</li>
+						<li class="list-group-item">Trafficking in a commercial quantity of a drug of dependence</li>
+						<li class="list-group-item">Trafficking in a non-commercial quantity of a drug of dependence</li>
+						<li class="list-group-item">Burglary</li>
+						<li class="list-group-item">Aggravated burglary</li>
+						<li class="list-group-item">Assault (Common Law)</li>
+						<li class="list-group-item">Common assault</li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-6">
+					<ul class="list-group list-group-horizontal">
+						<li class="list-group-item">Assault with weapon or instrument</li>
+						<li class="list-group-item">Incest</li>
+						<li class="list-group-item">No remorse</li>
+						<li class="list-group-item">General deterrence</li>
+						<li class="list-group-item">Specific deterrence</li>
+						<li class="list-group-item">Community protection</li>
+						<li class="list-group-item">No relevant priors</li>
+						<li class="list-group-item">Plea guilty</li>
+						<li class="list-group-item">Remorse</li>
+						<li class="list-group-item">Gambling addiction</li>
+					</ul>
+				</div>
+			</div>
+    	</p>
+      </div>
+    </article>
+
+	<br />
+
+ 	<article class="media content-section">
+      <div class="media-body">
+        <p class="article-content">
+			Amongst these 20 variables, there exist 12 which represent criminal offenses:	
+			<div class="row">
+				<div class="col-12 col-md-6"> 
+					<ul class="list-group list-group-horizontal">
+						<li class="list-group-item">Theft</li>
+						<li class="list-group-item">Theft of a motor vehicle</li>
+						<li class="list-group-item">Theft of a firearm</li>
+						<li class="list-group-item">Trafficking in a large commercial quantity of a drug of dependence</li>
+						<li class="list-group-item">Trafficking in a commercial quantity of a drug of dependence</li>
+						<li class="list-group-item">Trafficking in a non-commercial quantity of a drug of dependence</li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-6">
+					<ul class="list-group list-group-horizontal">
+						<li class="list-group-item">Burglary</li>
+						<li class="list-group-item">Aggravated burglary</li>
+						<li class="list-group-item">Assault (Common Law)</li>
+						<li class="list-group-item">Common assault</li>
+						<li class="list-group-item">Assault with weapon or instrument</li>
+						<li class="list-group-item">Incest</li>
+					</ul>
+				</div>
+			</div>
+    	</p>
+      </div>
+    </article>
+
+	<br />
+
+ 	<article class="media content-section">
+      <div class="media-body">
+        <p class="article-content">
+			And there exist 8 which represent aggravating and mitigating factors:
+			<div class="row">
+			<div class="col-12 col-md-6"> 
+				<ul class="list-group list-group-horizontal">
+					<li class="list-group-item">No relevant priors</li>
+					<li class="list-group-item">Plea guilty</li>
+					<li class="list-group-item">Remorse</li>
+					<li class="list-group-item">Gambling addiction</li>
+				</ul>
+			</div>
+			
+			<div class="col-12 col-md-6"> 
+				<ul class="list-group list-group-horizontal">
+					<li class="list-group-item">No relevant priors</li>
+					<li class="list-group-item">Plea guilty</li>
+					<li class="list-group-item">Remorse</li>
+					<li class="list-group-item">Gambling addiction</li>
+				</ul>
+			</div>
+			</div>
+    	</p>
+      </div>
+    </article>
+
+	<br />
+
+ 	<article class="media content-section">
+      <div class="media-body">
+        <p class="article-content">
+			There are 12 types of crimes
+			There are 8 types of factors
+			There is 1 dependent variable
+
+
+			Possible structures:
+			12 subsets 
+			Each subset represents has data for 1 type of crime
+			Each subset has the Sentence Duration 
+			Each subset has all the factors
+
+			Potential questions:
+			Average duration of sentence = 1037.658
+			Average duration of sentence per crime 
+			Which crimes on average have the highest sentences
+			Which crimes on average have the lowest sentences
+			Do these numbers fall in line with the perceived badness of the crime
+			Average duration of sentence per crime per factor being present or not
+			For each crime group, which factors have the strongest effect on the DV
+			For each crime group, do the 8 factors effect the DV the same way 
+			(as in does factor 1 x crime 1 effect the DV with the same strength as factor 1 x crime 2)
+    	</p>
+      </div>
+    </article>
+
+	<article class="media content-section">
+	  <div class="media-body">
+	    <div class="article-metadata">
+	      <a class="mr-2"><b>R Code</b></a>
+	    </div>
+	    <p class="article-content">
+		<code>
+		<span class="code-comment"># ---------------------------------------------------------------------------------------------------</span>
+		<span class="code-comment"># - Install / Load required packages</span>
+		<span class="code-comment"># ---------------------------------------------------------------------------------------------------</span>
+
+		if(!require(MASS)){install.packages("MASS")}
+		if(!require(rcompanion)){install.packages("rcompanion")}
+		if(!require(car)){install.packages("car")}
+		if(!require(psych)){install.packages("psych")}
+		if(!require(multcompView)){install.packages("multcompView")}
+		if(!require(lsmeans)){install.packages("lsmeans")}
+		if(!require(FSA)){install.packages("FSA")}
+		if(!require(ggplot2)){install.packages("ggplot2")}
+		if(!require(phia)){install.packages("phia")}
+
+
+		<span class="code-comment"># ---------------------------------------------------------------------------------------------------</span>
+		<span class="code-comment"># - Set Up</span>
+		<span class="code-comment"># ---------------------------------------------------------------------------------------------------</span>
+
+		<span class="code-comment"># Set the seed - Allows for a repeatable process</span>
+		set.seed(2007);
+
+		<span class="code-comment"># Load in raw data</span>
+		Raw_Data<-read.csv(file.choose());
+
+		<span class="code-comment"># Make copy of raw data for further processing</span>
+		Data <- Raw_Data;
+		<span class="code-comment"># ---------------------------------------------------------------------------------------------------</span>
+
+
+
+		# ---------------------------------------------------------------------------------------------------
+		# - Stage 1 Data Process
+		# ---------------------------------------------------------------------------------------------------
+
+		# Check summary information:
+		summary(Data);
+
+		# Result: No "NA" values found
+		# Following command if dataset contains "NA" values
+		# Data <- na.omit(Data) 
+
+		# Convert factorial variables into "factors"
+		Data$Theft <- as.factor(Raw_Data$Theft)
+		Data$Theft.of.a.motor.vehicle<-as.factor(Raw_Data$Theft.of.a.motor.vehicle)
+		Data$Theft.of.a.firearm<-as.factor(Raw_Data$Theft.of.a.firearm)
+		Data$Trafficking.in.a.large.commercial.quantity.of.a.drug.of.dependence<-as.factor(Raw_Data$Trafficking.in.a.large.commercial.quantity.of.a.drug.of.dependence)
+		Data$Trafficking.in.a.commercial.quantity.of.a.drug.of.dependence<-as.factor(Raw_Data$Trafficking.in.a.commercial.quantity.of.a.drug.of.dependence)
+		Data$Trafficking.in.a.non.commercial.quantity.of.a.drug.of.dependence<-as.factor(Raw_Data$Trafficking.in.a.non.commercial.quantity.of.a.drug.of.dependence)
+		Data$Burglary<-as.factor(Raw_Data$Burglary)
+		Data$Aggravated.burglary<-as.factor(Raw_Data$Aggravated.burglary)
+		Data$Assault..Common.Law.<-as.factor(Raw_Data$Assault..Common.Law.)
+		Data$Common.assault<-as.factor(Raw_Data$Common.assault)
+		Data$Assault.with.weapon.or.instrument<-as.factor(Raw_Data$Assault.with.weapon.or.instrument)
+		Data$Incest...sexual.penetration.of.own.child.or.lineal.descendant.or.child.of.de.facto.aged.under.18<-as.factor(Raw_Data$Incest...sexual.penetration.of.own.child.or.lineal.descendant.or.child.of.de.facto.aged.under.18)
+		Data$No.remorse<-as.factor(Raw_Data$No.remorse)
+		Data$General.deterrence<-as.factor(Raw_Data$General.deterrence)
+		Data$Specific.deterrence<-as.factor(Raw_Data$Specific.deterrence)
+		Data$Community.protection<-as.factor(Raw_Data$Community.protection)
+		Data$No.relevant.priors<-as.factor(Raw_Data$No.relevant.priors)
+		Data$Plea.guilty<-as.factor(Raw_Data$Plea.guilty)
+		Data$Remorse<-as.factor(Raw_Data$Remorse)
+		Data$Gambling.addiction<-as.factor(Raw_Data$Gambling.addiction)
+
+		# Check that factors are "factor" type - Success
+		summary(Data);
+
+		# More information:
+
+		# Average sentence duration for all crimes: 1037.568
+		mean(Data$Sentence.length..Days.) = 
+
+
+		# Check normality of DV: Strong positve skew
+		plotNormalHistogram(Data$Sentence.length..Days.)
+		qqnorm(Data$Sentence.length..Days., ylab="Sample Quantiles for Sentence Duration (days)")
+		qqline(Data$Sentence.length..Days., col="red")
+		shapiro.test(Data$Sentence.length..Days.)
+
+		# Transformations:
+
+		# Log - Much closer to normal
+		logDuration <- log(Data$Sentence.length..Days.)
+		plotNormalHistogram(logDuration)
+		qqnorm(logDuration, ylab="Sample Quantiles for Sentence Duration (days)")
+		qqline(logDuration, col="red")
+		shapiro.test(logDuration)
+
+		# square root - Closer to normal than raw, less than log
+		sqrtDuration <- sqrt(Data$Sentence.length..Days.)
+		plotNormalHistogram(sqrtDuration)
+		qqnorm(sqrtDuration, ylab="Sample Quantiles for Sentence Duration (days)")
+		qqline(sqrtDuration, col="red")
+		shapiro.test(sqrtDuration)
+
+		# cube - Similar to log
+		cubeDuration = sign(Data$Sentence.length..Days.) * abs(Data$Sentence.length..Days.)^(1/3)
+		plotNormalHistogram(cubeDuration)
+		qqnorm(cubeDuration, ylab="Sample Quantiles for Sentence Duration (days)")
+		qqline(cubeDuration, col="red")
+		shapiro.test(cubeDuration)
+
+		# BoxCox - Much closer to normal
+
+		# Transform Turbidity as a single vector
+		# Try values -6 to 6 by 0.1
+		Box = boxcox(Data$Sentence.length..Days. ~ 1, lambda = seq(-6,6,0.1))
+
+		Cox = data.frame(Box$x, Box$y)            # Create a data frame with the results
+		Cox2 = Cox[with(Cox, order(-Cox$Box.y)),] # Order the new data frame by decreasing y
+		Cox2[1,]                                  # Display the lambda with the greatest
+		lambda = Cox2[1, "Box.x"]                 # Extract that lambda
+		boxcoxDuration = (Data$Sentence.length..Days. ^ lambda - 1)/lambda   # Transform the original data
+
+		plotNormalHistogram(boxcoxDuration)
+		qqnorm(boxcoxDuration, ylab="Sample Quantiles for Sentence Duration (days)")
+		qqline(boxcoxDuration, col="red")
+		shapiro.test(boxcoxDuration)
+
+		# Tukey 
+		tukeyDuration = transformTukey(Data$Sentence.length..Days., plotit=FALSE)
+		plotNormalHistogram(tukeyDuration)
+		qqnorm(tukeyDuration, ylab="Sample Quantiles for Sentence Duration (days)")
+		qqline(tukeyDuration, col="red")
+		shapiro.test(tukeyDuration)
+
+		# Data is very skewed, transformations are able to bring the data to a much 
+		# more normal distribution although all tests fail the shapiro test
+		# There is a lot of literature out there which suggests that normality testing
+		# is not as important as it has been made out to be
+		#
+		#
+		# BEST OPTION FOR COMPLETE DATASET: boxcox, then tukey, then log, then sqrt, then cube
+		#
+		# ---------------------------------------------------------------------------------------------------
+
+
+
+		# ---------------------------------------------------------------------------------------------------
+		# - Create subset: Theft
+		# ---------------------------------------------------------------------------------------------------
+
+		# Variables we are interested in:
+		#   Theft (crime group) 
+		#   Sentence duration (DV)
+		#   Factors (IV's)
+
+		TheftVars <- c(
+		"Theft",
+		"No.remorse",
+		"General.deterrence",
+		"Specific.deterrence",
+		"Community.protection",
+		"No.relevant.priors",
+		"Plea.guilty",
+		"Remorse",
+		"Gambling.addiction",
+		"Sentence.length..Days."
+		);
+
+		# Create subset of dataset 
+		TheftData <- Data[TheftVars];
+
+		# Summary: 106 theft cases, remainder need to be removed
+		summary(TheftData)
+
+		# removes observations that dont relate to theft
+		toBeRemoved<-which(TheftData$Theft==0)
+		TheftData<-TheftData[-toBeRemoved,]
+
+		# Summary: 106 observations in dataset, all relate to theft
+		summary(TheftData)
+
+		# Remove theft variable altogether as uneeded for further analysis
+		# (all observations in this subset are theft crimes)
+		# -1 => remove first column
+		TheftData <- TheftData[-1]
+
+		summary(TheftData)
+		# 1 DV = Sentence Duration (ratio)
+		# 8 IV = Factors with 2 levels
+
+		# Average sentence duration for theft crimes: 681.5943
+		# Average for all crimes = 1037.568 => theft is lower than average for all crimes
+		mean(TheftData$Sentence.length..Days.)
+
+		# Check normality of DV
+
+		# Check normality of DV: Strong positve skew
+		plotNormalHistogram(TheftData$Sentence.length..Days.)
+		qqnorm(TheftData$Sentence.length..Days., ylab="Sample Quantiles for Sentence Duration (days)")
+		qqline(TheftData$Sentence.length..Days., col="red")
+		shapiro.test(TheftData$Sentence.length..Days.)
+
+		# Transformations:
+
+		# Log - Much closer to normal
+		logDuration <- log(TheftData$Sentence.length..Days.)
+		plotNormalHistogram(logDuration)
+		qqnorm(logDuration, ylab="Sample Quantiles for Sentence Duration (days)")
+		qqline(logDuration, col="red")
+		shapiro.test(logDuration)
+
+		# square root - Closer to normal than raw, less than log
+		sqrtDuration <- sqrt(TheftData$Sentence.length..Days.)
+		plotNormalHistogram(sqrtDuration)
+		qqnorm(sqrtDuration, ylab="Sample Quantiles for Sentence Duration (days)")
+		qqline(sqrtDuration, col="red")
+		shapiro.test(sqrtDuration)
+
+		# cube - Similar to log
+		cubeDuration = sign(TheftData$Sentence.length..Days.) * abs(TheftData$Sentence.length..Days.)^(1/3)
+		plotNormalHistogram(cubeDuration)
+		qqnorm(cubeDuration, ylab="Sample Quantiles for Sentence Duration (days)")
+		qqline(cubeDuration, col="red")
+		shapiro.test(cubeDuration)
+
+		# BoxCox - Much closer to normal
+
+		# Transform Sentence Duration as a single vector
+		# Try values -6 to 6 by 0.1
+		Box = boxcox(TheftData$Sentence.length..Days. ~ 1, lambda = seq(-6,6,0.1))
+
+		Cox = data.frame(Box$x, Box$y)            # Create a data frame with the results
+		Cox2 = Cox[with(Cox, order(-Cox$Box.y)),] # Order the new data frame by decreasing y
+		Cox2[1,]                                  # Display the lambda with the greatest
+		lambda = Cox2[1, "Box.x"]                 # Extract that lambda
+		boxcoxDuration = (TheftData$Sentence.length..Days. ^ lambda - 1)/lambda   # Transform the original data
+
+		plotNormalHistogram(boxcoxDuration)
+		qqnorm(boxcoxDuration, ylab="Sample Quantiles for Sentence Duration (days)")
+		qqline(boxcoxDuration, col="red")
+		shapiro.test(boxcoxDuration)
+
+		# Tukey 
+		tukeyDuration = transformTukey(TheftData$Sentence.length..Days., plotit=FALSE)
+		plotNormalHistogram(tukeyDuration)
+		qqnorm(tukeyDuration, ylab="Sample Quantiles for Sentence Duration (days)")
+		qqline(tukeyDuration, col="red")
+		shapiro.test(tukeyDuration)
+
+		# Data is very skewed, transformations can help to an extent
+		# BEST OPTION FOR COMPLETE DATASET: boxcox, then tukey, then log, then sqrt, then cube
+		#
+
+		# Factorial ANOVA: Main Effects, Interaction Effects, and Interaction Plots
+		# With this kind of data, we are usually interested in testing:
+		#     The effect of each factor variable (main effects) 
+		#     The effect of their combination (interaction effect).
+		#
+		#
+
+		model = anova(lm(boxcoxDuration ~  TheftData$No.remorse * 
+		                  TheftData$General.deterrence * 
+		                  TheftData$Specific.deterrence * 
+		                  TheftData$Community.protection * 
+		                  TheftData$No.relevant.priors * 
+		                  TheftData$Plea.guilty * 
+		                  TheftData$Remorse * 
+		                  TheftData$Gambling.addiction))
+
+		model
+
+		model = anova(lm(boxcoxDuration ~  TheftData$No.remorse + 
+		           TheftData$General.deterrence + 
+		           TheftData$Specific.deterrence + 
+		           TheftData$Community.protection  ))
+
+		model
+
+		model = anova(lm(TheftData$Sentence.length..Days. ~  TheftData$No.remorse * 
+		           TheftData$General.deterrence * 
+		           TheftData$Specific.deterrence * 
+		           TheftData$Community.protection * 
+		           TheftData$No.relevant.priors * 
+		           TheftData$Plea.guilty * 
+		           TheftData$Remorse * 
+		           TheftData$Gambling.addiction))
+
+		model
+
+
+		model1 = anova(lm(TheftData$Sentence.length..Days. ~  TheftData$No.remorse + 
+		                  TheftData$General.deterrence +
+		                  TheftData$Specific.deterrence +
+		                  TheftData$Community.protection + 
+		                  TheftData$No.relevant.priors + 
+		                  TheftData$Plea.guilty + 
+		                  TheftData$Remorse + 
+		                  TheftData$Gambling.addiction))
+
+		model1
+
+		model = anova(lm(boxcoxDuration ~ Data$Gambling.addiction +
+		           Data$No.remorse +
+		           Data$General.deterrence +
+		           Data$Specific.deterrence + 
+		           Data$Community.protection +
+		           Data$No.relevant.priors +
+		           Data$Plea.guilty +
+		           Data$Remorse))
+		model
+
+
+
+		Box = boxcox(Data$Sentence.length..Days. ~ 1, lambda = seq(-6,6,0.1))
+
+		Cox = data.frame(Box$x, Box$y)            # Create a data frame with the results
+		Cox2 = Cox[with(Cox, order(-Cox$Box.y)),] # Order the new data frame by decreasing y
+		Cox2[1,]                                  # Display the lambda with the greatest
+		lambda = Cox2[1, "Box.x"]                 # Extract that lambda
+		boxcoxDuration = (Data$Sentence.length..Days. ^ lambda - 1)/lambda   # Transform the original data
+		</code>
+		</p>
+	  </div>
+	</article>
+	<br />
+
+{% endblock content %}

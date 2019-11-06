@@ -1,0 +1,74 @@
+{% extends "LandingPage/base.html" %}
+
+{% block content%}
+    
+<h1>Hand Over Documentation:</h1>
+
+<div class="row">
+  <div class="col">
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata tool-title">
+            <a class="mr-2"><b>Orange</b></a>
+        </div>
+        <p class="article-content">
+            Documentation regarding the orange and the NLP models.
+            <br />
+        </p> 
+        <button class="btn btn-outline-secondary tool-button" onclick="window.location.href='/OrangeDocumentation'">View Orange Docs</button>
+      </div>
+    </article>
+  </div>
+
+    <div class="col">
+        <article class="media content-section">
+        <div class="media-body">
+            <div class="article-metadata tool-title">
+                <a class="mr-2"><b>Statistics</b></a>
+            </div>
+            <p class="article-content">
+                Documentation regarding the statsitical analysis.
+                <br />
+            </p>
+            <button class="btn btn-outline-secondary tool-button" onclick="window.location.href='/StatsDocumentation'">View Statistics Docs</button>
+        </div>
+        </article>
+    </div>
+
+
+    <div class="col">
+        <article class="media content-section">
+        <div class="media-body">
+            <div class="article-metadata tool-title">
+                <a class="mr-2"><b>Website</b></a>
+            </div>
+            <p class="article-content">
+              Documentation regarding the website.
+              <br />  
+            <button class="btn btn-outline-secondary tool-button" onclick="window.location.href='/WebsiteDocumentation'">View Website Docs</button>
+        </div>
+        </article>
+    </div>
+
+
+        <div class="col">
+        <article class="media content-section">
+        <div class="media-body">
+            <div class="article-metadata tool-title">
+                <a class="mr-2"><b>Process</b></a>
+            </div>
+            <p class="article-content">
+              Documentation regarding the whole process / research.
+              <br />
+            </p>
+            <button class="btn btn-outline-secondary tool-button" onclick="window.location.href='/ProcessDocumentation'">View Process Docs</button>
+        </div>
+        </article>
+    </div>
+</div>
+
+
+
+
+
+{% endblock content %}

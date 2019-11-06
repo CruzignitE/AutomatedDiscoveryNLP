@@ -1,0 +1,126 @@
+{% extends "LandingPage/base.html" %}
+{% load static %}
+
+{% block content%}
+  <h1>Orange:</h1>
+
+ 	<article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>What is orange?</b></a>
+        </div>
+        <p class="article-content">
+		Orange is a component-based visual programming software package for data visualization, machine learning, data mining and data analysis. Orange components are called widgets and they range from simple data visualization, subset selection and pre-processing, to empirical evaluation of learning algorithms and predictive modelling.
+        </p>
+      </div>
+    </article>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>What are we using it to accomplish?</b></a>
+        </div>
+        <p class="article-content">
+        	We used Orange for the natural language processing section of the project. Orange was chosen as it is a great interactive data visualization tool that is powerful, but also easy to operate due to Orange’s use of visual programming. We used Orange to pre-process training data, create a support-vector machine model and use that model as a predictor (or classifier) to determine the accuracy of our classifier and auto label unlabelled data in order to classify the data. Orange will then output the classified data into a csv file.
+      </div>
+    </article>
+
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>Our Orange model</b></a>
+        </div>
+        <p class="article-content">
+          <b>Components:</b> 
+
+          <table class="table table-sm table-bordered">
+            <tbody>
+              <tr>
+                <td><b>Import Documents:</b> </td>
+                <td>A widget that retrieves text files from folders and creates a collection of documents called a corpus.</td>
+                <td><b>Corpus Viewer:</b></td>
+                <td>A widget meant for viewing text files (instances of a corpus).</td>
+              </tr>
+              <tr>
+                <th><b>Preprocess Text:</b></th>
+                <td>A widget that splits the text into smaller units (tokens), filters them, runs normalization (stemming, lemmetization), creates n-grams, and tags tokens with part-of-speech labels.</td>
+                <th><b>Word Cloud:</b> </th>
+                <td>A widget that displays tokens in the corpus, their size denoting the frequency of the word in the corpus.</td>
+              </tr>
+              <tr>
+                <th><b>Bag of Words:</b></th>
+                <td>A widget of which its model creates a corpus with word counts for each data instance (document).</td>
+                <th><b>SVM:</b></th>
+                <td>Support Vector Machine (SVM) is a machine learning technique that separates the attribute space with a hyperplane, thus maximizing the margin between the instances of different classes or class values.</td>
+              </tr>
+              <tr>
+                <th><b>Predictions:</b></th>
+                <td>A widget that receives a dataset and one or more predictors (predictive models), and outputs the data and the prediction for the data.</td>
+                <th><b>Data Table:</b></th>
+                <td>A widget that receives one or more datasets in its input and displays them as a spreadsheet.</td>
+              </tr>
+              <tr>
+                <th><b>Save Data:</b></th>
+                <td>A widget that considers a dataset provided in the input channel and saves it to a data file with a specified name.</td>
+              </tr>
+            </tbody>
+          </table>  
+        </p>
+
+        <p>
+          <br />
+          <b>Structure</b>
+          <br />
+
+          <br />
+          <br />
+          The structure of the Orange file begins with the Import Document widget that imports the collection of required text files into a corpus (Train Data).
+          <br />
+          <br /> 
+          The Corpus Viewer is used to ensure that the correct text files were imported. The corpus is then passed into the Pre-process Text widget where the text files were tokenized, normalized and filtered. N-grams are also created in this widget.
+          <br />
+          <br />
+          The Word Cloud widget is used to visually identify the highest recurring token in the entire corpus. The pre-processed corpus is then sent to the Bag of Words widget where it creates a “bag” that contains the word count of each individual document. 
+		      <br />
+          <br />
+          The corpus is then passed to the SVM widget which is a machine learning widget that would maximize the margin between the instances of different values and output a predictor model. The predictor model is used in the Predictions widget. 
+          <br />
+          <br />
+          The Predictions widget will use the predictor model on the newly inputted corpus (Test Data/Unlabelled Data) and it will output predictions on the new corpus (Test Data/Unlabelled Data). The Confusion Matrix widget is used to visually display which specific instances were misclassified. 
+          <br />
+          <br />
+          The Data Table widget is used to display the auto labelling results as a spreadsheet. The Save Data widget is then used to export the spreadsheet to a csv file.
+        </p>
+      </div>
+    </article>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>Map</b></a>
+        </div>
+	    <br/>
+        <div class="row">
+          <div class="col">
+            <img style="width: 100%;" class="mx-auto d-block" src="{% static 'LandingPage/OrangeModel.png' %}" alt='NO_MAP_IMAGE' />        
+          </div>          
+        </div>
+        <br />
+      </div>
+    </article>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>Download</b></a>
+        </div>
+        <br />
+        <p>Download the orange model <a href="{% static 'LandingPage/OrangeModel.png' %}">here</a></p>
+        <br />
+      </div>
+    </article>
+
+
+
+{% endblock content %}

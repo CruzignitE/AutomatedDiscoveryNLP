@@ -1,0 +1,233 @@
+{% extends "LandingPage/base.html" %}
+{% load static %}
+
+{% block content%}
+
+<style type="text/css">
+	.col {
+		margin-bottom: 5px;
+	}	
+
+  .okay {
+    width: 10%;
+  }
+
+</style>
+
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <a class="mr-2"><b>Crimes</b></a>
+    </div>
+    	
+    	<div class="row">
+  			<div class="col">
+  				<button class="btn btn-outline-secondary tool-button test">Theft</button>
+  			</div> 
+
+  			<div class="col">
+  				<button class="btn btn-outline-secondary tool-button test">Theft of a motor vehicle</button>
+  			</div> 
+
+  			<div class="col">
+  				<button class="btn btn-outline-secondary tool-button test">Theft of a firearm</button>
+  			</div>    		
+    	</div>
+
+    	<div class="row">
+  			<div class="col">
+  				<button class="btn btn-outline-secondary tool-button test">Trafficking large commercial quantity</button>
+  			</div> 
+
+  			<div class="col">
+  				<button class="btn btn-outline-secondary tool-button test">Trafficking commercial quantity</button>
+  			</div> 
+
+  			<div class="col">
+  				<button class="btn btn-outline-secondary tool-button test">Trafficking non-commercial quantity</button>
+  			</div>    		
+    	</div>
+
+    	<div class="row">
+  			<div class="col">
+  				<button class="btn btn-outline-secondary tool-button test">Burglary</button>
+  			</div> 
+
+  			<div class="col">
+  				<button class="btn btn-outline-secondary tool-button test">Aggravated burglary</button>
+  			</div> 
+
+  			<div class="col">
+  				<button class="btn btn-outline-secondary tool-button test">Assault (Common Law)</button>
+  			</div>    		
+    	</div>
+
+    	<div class="row">
+  			<div class="col">
+  				<button class="btn btn-outline-secondary tool-button test">Common assault</button>
+  			</div> 
+
+  			<div class="col">
+  				<button class="btn btn-outline-secondary tool-button test">Assault with weapon or instrument</button>
+  			</div> 
+
+  			<div class="col">
+  				<button class="btn btn-outline-secondary tool-button test">Incest</button>
+  			</div>    		
+    	</div>
+  </div>
+</article>
+
+
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <a class="mr-2"><b id="2">Statistics</b></a>
+    </div>
+
+	<br />
+     
+      <table class="table table-sm table-bordered table-hover">
+        <tbody>
+          <tr>
+            <th class="okay">Mean</th>
+            <td class="okay" id="MeanCell">0</td>
+            <th class="okay">Median</th>
+            <td class="okay" id="MedianCell">0</td>
+          </tr>
+          <tr>
+            <th class="okay">Range</th>
+            <td class="okay" id="RangeCell">0</td>
+            <th class="okay">IQR</th>
+            <td class="okay" id="IQRCell">0</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+</article>
+
+
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <a class="mr-2"><b id="3">Factor influence</b></a>
+    </div>
+
+  	<br />
+    
+    <table class="table table-sm table-bordered table-hover">
+        <tbody>
+          <tr>
+            <th class="okay">No remorse</th>
+            <td class="okay" id="NoRemorseCell">0</td>
+            <th class="okay">General deterrence</th>
+            <td class="okay" id="GeneralDetCell">0</td>
+          </tr>
+          <tr>
+            <th class="okay">Specific deterrence</th>
+            <td id="SpecificDetCell">-50</td>
+            <th class="okay">Community protection</th>
+            <td class="okay" id="CommunityCell">+100</td>
+          </tr>
+          <tr>
+            <th class="okay">No relevant priors</th>
+            <td class="okay" id="NoPriorCell">-50</td>
+            <th class="okay">Plea guilty</th>
+            <td class="okay" id="PleaGuiltyCell">+100</td>
+          </tr>
+          <tr>
+            <th class="okay">Remorse</th>
+            <td class="okay" id="RemorseCell">-50</td>
+            <th class="okay">Gambling Addiction</th>
+            <td class="okay" id="GamblingCell">+100</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+</article>
+
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <a class="mr-2"><b id="4">Graphs</b></a>
+    </div>
+
+	<br />
+
+    <div class="row">
+    	<div class="col">
+			<img id="image1" src="{% static 'LandingPage/test.png' %}" alt="NO_GRAPH" /> 
+		</div>
+	
+		<div class="col">
+			<img id="image2" src="{% static 'LandingPage/test.png' %}" alt="NO_GRAPH" /> 
+		</div>
+	
+		<div class="col">
+			<img id="image3" src="{% static 'LandingPage/test.png' %}" alt="NO_GRAPH" /> 
+		</div>
+	</div>
+
+  </div>
+</article>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+  function test(a_SelectedOption) {
+    selectedOption = a_SelectedOption;
+    $('#selected').text(selectedOption);
+    $('#2').text("Statistics for " + selectedOption);
+    $('#3').text("Factor influence on " + selectedOption);
+
+    switch (selectedOption) 
+    {
+      case "Theft":
+        $('#MeanCell').text("420");
+        $('#MedianCell').text("240");
+        $('#RangeCell').text("660");
+        $('#IQRCell').text("9000");
+        $("#image1").attr("src", "{% static 'LandingPage/Theft.png' %}");
+        $("#image2").attr("src", "{% static 'LandingPage/Theft2.png' %}");
+        $("#image3").attr("src", "{% static 'LandingPage/Theft.png' %}");
+      break;
+
+      case "Theft of a firearm":
+        $('#MeanCell').text("40");
+        $('#MedianCell').text("00");
+        $('#RangeCell').text("00");
+        $('#IQRCell').text("900");
+        $("#image1").attr("src", "{% static 'LandingPage/TheftOfFirearm1.png' %}");
+        $("#image2").attr("src", "{% static 'LandingPage/TheftOfFirearm1.png' %}");
+        $("#image3").attr("src", "{% static 'LandingPage/TheftOfFirearm1.png' %}");
+      break;
+
+      case "Theft of a motor vehicle":
+        $('#MeanCell').text("Wut");
+        $('#MedianCell').text("lol");
+        $('#RangeCell').text("yeahnahyeah");
+        $('#IQRCell').text("nahnahnahgoon");
+        $("#image1").attr("src", "{% static 'LandingPage/test.png' %}");
+        $("#image2").attr("src", "{% static 'LandingPage/test.png' %}");
+        $("#image3").attr("src", "{% static 'LandingPage/test.png' %}");
+      break;
+
+      default:
+        alert("Not implemented yet");
+    }
+  }
+
+
+  $(document).ready(function () {
+    $('.test').on('click', function () {
+      var selectedOption = ($(this).text());
+      test(selectedOption)   
+    });
+  });
+</script>
+
+{% endblock content %}

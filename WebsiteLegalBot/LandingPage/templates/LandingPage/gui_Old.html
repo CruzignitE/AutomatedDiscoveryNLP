@@ -1,0 +1,112 @@
+{% extends "LandingPage/base.html" %}
+{% load static %}
+
+{% block content%}
+
+	<h1>GUI:</h1>
+
+
+  <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>Options</b></a>
+        </div>
+        <p class="article-content">
+
+          <div class="row">
+            <div class="col"> 
+
+            <div class="dropdown">
+            <button 
+            class="btn btn-secondary dropdown-toggle" 
+            type="button" 
+            id="dropdownMenuButton" 
+            data-toggle="dropdown" 
+            aria-haspopup="true" 
+            aria-expanded="false">Crimes</button>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="CrimeList">
+              <a class="dropdown-item" href="#">Theft</a>
+              <a class="dropdown-item" href="#">Theft of a motor vehicle </a>
+              <a class="dropdown-item" href="#">Theft of a firearm</a>
+              <a class="dropdown-item" href="#">Trafficking in a large commercial quantity of a drug of dependence </a>
+              <a class="dropdown-item" href="#">Trafficking in a commercial quantity of a drug of dependence</a>
+              <a class="dropdown-item" href="#">Trafficking in a non-commercial quantity of a drug of dependence </a>
+              <a class="dropdown-item" href="#">Burglary  Aggravated burglary Assault (Common Law)</a>
+              <a class="dropdown-item" href="#">Common assault  Assault with weapon or instrument</a>
+              <a class="dropdown-item" href="#">Incest - sexual penetration of own child or lineal descendant or child of de facto aged under 18</a>
+            </div>
+          </div>
+          </div>
+
+          <div class="col"> 
+          <div class="dropdown">
+            <button 
+            class="btn btn-secondary dropdown-toggle" 
+            type="button" 
+            id="dropdownMenuButton" 
+            data-toggle="dropdown" 
+            aria-haspopup="true" 
+            aria-expanded="false">Factors</button>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="FactorList">
+              <a class="dropdown-item" href="#">No remorse</a>
+              <a class="dropdown-item" href="#">General Deterrence</a>
+              <a class="dropdown-item" href="#">Specific Deterrence</a>
+              <a class="dropdown-item" href="#">Community Protection</a>
+              <a class="dropdown-item" href="#">No Relevant priors</a>
+              <a class="dropdown-item" href="#">Plead Guilty</a>
+              <a class="dropdown-item" href="#">Remorse</a>
+              <a class="dropdown-item" href="#">Gambling Addiction</a> 
+            </div>
+          </div>
+          </div>
+
+          </div>
+        </p>
+      </div>
+    </article>
+
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>Display</b></a>
+        </div>
+        <p class="article-content">
+         <span id="selected"> </span>
+        </p>
+      </div>
+    </article>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('#CrimeList a').on('click', function () {
+      var selectedOption = ($(this).text());
+      alert("Selected crime: "+ selectedOption);
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    $('#FactorList a').on('click', function () {
+      var selectedOption = ($(this).text());
+      alert("Selected Factor: "+ selectedOption);
+    });
+  });
+</script>
+
+
+<script>
+   $('.dropdown-menu a').click(function(){
+    $('#selected').text($(this).text());
+  });
+</script>
+
+{% endblock content %}

@@ -1,0 +1,118 @@
+{% extends "LandingPage/base.html" %}
+
+{% block content%}
+   
+<article class="media content-section">
+	<div class="media-body">
+		<div class="article-metadata">
+			<a class="mr-2"><b>What is orange?</b></a>
+		</div>
+		<p class="articleicle-content">
+		Requirements
+		<br />
+		The following languages / environments are required to follow the Legal Bot development process. Installation instructions can be found at the relevant links:
+		<br />●	Python 3.x https://www.python.org/downloads/
+		<br />●	Python Packages (installed through PIP):
+		<br />○	NLTK
+		<br />○	Scikit-learn
+		<br />○	Sacremoses
+		<br />●	Orange version 4.xx https://orange.biolab.si/download/
+		<br />●	R language https://cran.r-project.org/mirrors.html
+		<br />●	RStudio https://rstudio.com/products/rstudio/download/
+		<br />
+		<br />
+		<b>Background</b>
+		<br />
+		The Australasian Legal Information Institute (AustLII) provides free access to over 800,000 transcripts from legal cases in courts throughout Australia and New Zealand.
+		<br />
+		<br />
+		Sentencing decision-making is a complex process as each case contains one or more charges and each individual has their own unique set of aggravating and mitigating factors. Aggravating factors are facts about an offender and their offence which are likely to increase their culpability and overall sentencing outcome, mitigating factors are the opposite and tend to reduce their sentencing outcome. 
+		<br />
+		<br />
+		Examples of mitigating factors include:
+		<br />●	A plea of guilty
+		<br />●	Prior good character
+		<br />
+		<br />
+		Examples of aggravating factors include:
+		<br />●	Lack of remorse
+		<br />●	Relevant prior criminal history
+		<br />
+		<br />
+		For legal professionals, interpreting the effect of aggravating and mitigating factors is a difficult task for various reasons. Firstly, a court transcript is often a lengthy document, thus reading through a document in its entirety and identifying all aggravating and mitigating factors and how they have affected the ultimate sentencing decision is a lengthy process. Additionally, judges, as with all individuals, each hold their own set of thoughts and beliefs and may be prone to biases, for example the offender’s youth may be heavily mitigating on a sentence given by one judge, whereas another judge may not even consider the offender’s age at all. The biggest issue in determining the effects of aggravating and mitigating factors comes from the fact that there is no baseline sentence length for a given charge, which makes weighing the impact of a particular factor an onerous task. 
+		<br />
+		<br />
+		In November 2014 the Sentencing Amendment (Baseline Sentences) Act 2014 was introduced which required Victorian courts to follow a ‘baseline sentence’ for a number of specific crimes. A ‘baseline sentence’ was defined in the Act as “the sentence that the Parliament intends to be the median sentence for sentences imposed for that offence”. However less than a year later, on the 16th of October 2015, the Act was rendered virtually useless when a Victorian Court of Appeal judge asserted “the baseline sentencing provisions are incapable of being given any practical operation”. The Act was officially repealed on 29 November 2017 when the Sentencing Amendment (Sentencing Standards) Act 2017 came into effect.
+		<br />
+		The aforementioned Act created standard sentences, which began operating on 1 February 2018, for the Victorian Courts to follow. A standard sentence is designed to act as a guideline by which judges determine the sentence to impose for a particular crime. Standard sentence is one of many factors a judge must consider in determining a reasonable sentence, other factors include: current sentencing practices, potential aggravating or mitigating factors and the maximum penalty for the specific charge. The standard sentence only takes into account objective factors which affect the seriousness of a crime and represents the middle range of seriousness for a particular offence. Personal factors are eliminated when determining a standard sentence, theoretically eliminating the potential for biases. The Sentencing Advisory Council also claimed that “Factors personal to the offender and the offence are equally important in the sentencing exercise”, thus the weight which standard sentences hold in sentencing decisions is difficult to ascertain.
+		<br />
+		<br />
+		Note: the following process has only been run with transcripts from the County Court of Victoria. Attempting to implement this process with transcripts from other courts may cause issues or lead to unreliable results, therefore alterations should be made where necessary.
+		Parsing Module
+		The process begins with a parsing module which serves to convert and stript the court transcripts of irrelevant information so that they can be used by programming languages and their associated natural language processing and machine learning libraries. Transcripts found on the AustLII database are in the Rich Text Format (RTF), and whilst the format is compatible with document readers across all operating systems, it isn’t particularly useful for parsing in programming languages. Because of this, the primary function of the parsing module is to convert RTF files to the much more useful TXT format, which allows documents to be parsed by Python and most other programming languages.
+		<br />
+		<br />
+		Other functions of the parsing module include (but are not limited to):
+		<br />●	Removing stop words (the most common words in the English language such as “the”, “an” and “was”)
+		<br />●	Removing punctuation
+		<br />●	Stemming and Lemmatization (the process of reducing words to their base form - for example playing, played and plays all become play)
+		<br />●	Converting documents to all lower case letters
+		<br />●	Anonymising sensitive data such as the names of judges and defendants
+		<br />●	Saving and loading of states to avoid files being parsed every time the program is run, resulting in greater efficiency.
+		<br />
+		<br />
+		All of these functions can be turned on or off for further alterations to be made to the process where they are seen to be appropriate.
+		<br />
+		<br />
+		Unfortunately the parsing module is not perfect in its current form as there is no consistent formatting amongst the County Court transcripts. From a sample of 1,041 RTF files, the parsing module had a success rate of ~95%.
+		<br />
+		<br />
+		Completely parsed documents are ready to be labeled, a large number of court transcripts are required for the process to generate useful results. A small sample size may result in greater variability or heavily biased data which could ultimately skew the results of the statistical analysis and increase the impact of outliers.
+		Labeling
+		A small portion of the transcripts contain catchwords in the header of the document which contain keywords that are the themes of a given document. This allows for the use of regular expressions to easily find documents relating to a specific charge. This is useful as charges contained within the document can be misleading, for example a document which contains theft in the body may simply be referring to a mention of the defendant’s previous charge of theft, rather than a charge that the defendant is on trial for.
+		<br />
+		<br />
+		Once an ample number of documents for a given charge have been using the catchwords in the header they may be manually labeled. Manual labelling involves searching through the transcripts to find contextual strings for the following details:
+		<br />●	Mentions of the relevant charge
+		<br />●	Mentions of relevant aggravating / mitigating factors
+		<br />●	Mention of the final sentencing decision
+		<br />
+		<br />
+		These strings are placed in a specially formatted labeling document, in order to be programmatically labeled by the parsing module . Manually labelled contextual strings as well as fully parsed raw texts are then ready to be used in the NLP / Orange model.
+		NLP / Orange Model
+		Once a large enough sample of full texts and contextual samples is available they can then be used for the NLP model. This process is not limited to the Orange and could be applied using another programming language / tool, however Orange was used in our project as it is powerful, yet simple to use. Orange works by using drag-and-drop widgets which correlate to a specific function such as a bag of words or preprocessing text, each widget has its own series of settings to allow for fine tuning of the model and to create maximal performance based on the needs of the model. The ultimate goal of this NLP model is to create a classifier for criminal charges and factors.
+		<br />
+		<br />
+		Our Orange model works by importing all of the required text files into a corpus. Next the corpus is preprocessed where the files were tokenized, normalised and filtered. N-grams are also created at this stage. A word cloud is then created to visualise the tokens which occur most frequently within the corpus. The corpus is then used to create a bag of words which contains the word count of each individual document. This is then passed to an SVM which is a machine learning model that maximises the margin between the instances of different values and output a predictor model. The predictor mode is then used on the newly inputted corpus (Test Data/Unlabelled Data) which will then output predictions on the new corpus (Test Data/Unlabelled Data). The Confusion Matrix widget is used to visually display which specific instances were misclassified. A data table then displays the auto labelling results as a spreadsheet. Finally the data is saved and exported the spreadsheet to a CSV file.
+		<br />
+		<br />
+		Full details of this implementation in Orange, including visual model maps and widget settings used can be read here. (link to orange page on website)
+		Statistics Model
+		<br />
+		<br />
+		The CSV file generated by the Orange model is then used to conduct the statistical analysis portion of the process. The ultimate goal of the statistics model is to identify if and how various aggravating and mitigating factors affect the sentencing decisions made by judges. This clearly indicates that the sentencing outcome is a dependant variable and that the various aggravating and mitigating factors are independent variables. Fundamentally, the analysis determines which of the independent variables have a statistically significant effect on the dependent variable, and of the variables that do, how much of an effect on the dependent variable they have. 
+		<br />
+		<br />
+		Exploration into the ideal measurement for the variables was conducted. For example an aggravating factor such as “relevant priors” can be measured in a number of ways:
+		<br />
+		<br />●	Categories of “showing no remorse”: such as “large amounts of relevant priors”, “moderate amounts of relevant priors” and “small amounts of relevant priors”
+		<br />●	A relevant priors scale: such as 0 = “no relevant priors” and 100 = “ a lot of relevant priors”
+		<br />●	Binary category: such as “the party had relevant priors” or “the party did not have relevant priors”
+		<br />
+		<br />
+		Ultimately it was decided that a binary categorisation of the independent variables was the best approach as the court transcripts only reference whether or not a specific factor was present. Additionally, applying weights to an aggravating or mitigating factor would be an extremely difficult process and would ultimately lead to biases. A specific charge such as “theft of a motor vehicle” is also an independent variable. Multiple sentencing outcomes are possible such as imprisonment, a community corrections order or a fine. We decided that our analysis would only look at sentencing outcomes which resulted in a prison sentence, as including other outcomes would make the analysis far too complex and imprisonment is the most frequently occurring outcome in the sample of criminal charge cases. 
+		<br />
+		<br />
+		All of the independent variables are categorical with 2 levels - present or not present. Whilst the dependent variable, the sentence length (in days) is numerical with a ratio scale of measurement. It was determined that a factorial ANOVA would be the best statistical test to achieve the goals of our model. A factorial ANOVA has 1 dependent variable and 2 or more independent variables and is used to compare means across two or more independent variables. This will theoretically allow us to answer the questions: “which factors influence the sentence given?” or “how does each factor influence the sentence given?”.
+		<br />
+		<br />
+		Originally we used a model which included every factor and every charge which resulted in 20 independent variables all with 2 levels, the issue with this is it leads to 1,048,576 conditions, which is an absurdly large number of individual conditions to consider and a lot of observations for each condition would be needed. This would be almost impossible given the number of county court cases available for us to analyse. A new dataset was created which only contains 1 charge at a time which allowed the ANOVA	test to determine the effect of aggravating and mitigating factors more accurately and resulted much more logical results 
+		<br />
+		<br />
+		An in-depth discussion of the statistical model, including relevant graphs and tables can be read on the stats documentation page.
+		</p>
+	</div>
+</article>	
+
+
+{% endblock content %}

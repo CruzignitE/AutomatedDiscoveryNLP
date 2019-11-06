@@ -1,0 +1,47 @@
+{% extends "LandingPage/base.html" %}
+{% load static %}
+
+{% block content%}
+	<h1>Welcome</h1>
+
+	<article class="media content-section">
+		<p class="article-content">
+			<b>Welcome</b> to the home page of the Legal Bot research project. Here you will find information relating to the project, the project team, the natrual language processing model used to identify information witin legal documents, statistical analysis of said information and discussions about how to move foward.
+		</p>
+    </article>
+
+	<br />
+	<br />
+
+	<div class="row">
+		<div class="col">
+			<a href="{% url 'LegalBot-about' %}"> 
+				<img class="home-menu-option" src="{% static 'LandingPage/AboutUs.png' %}" alt="NO_IMAGE_ABOUT" /> 
+			</a>
+		</div>
+
+		<div class="col">
+			<a href="{% url 'LegalBot-orange' %}"> 
+				<img class="home-menu-option" src="{% static 'LandingPage/Orange.png' %}" alt="NO_IMAGE_ORANGE" /> 
+			</a>
+		</div>
+
+		<div class="col">
+			<a href="{% url 'LegalBot-stats' %}">
+				<img class="home-menu-option" src="{% static 'LandingPage/Stats.png' %}" alt="NO_IMAGE_TOOLS" />
+			</a>
+		</div>
+
+		<div class="col">
+			<a href="{% url 'LegalBot-results' %}"> 
+				<img class="home-menu-option" src="{% static 'LandingPage/NonTech.png' %}" alt="NO_IMAGE_NONTECH" /> 
+			</a>
+		</div>
+
+		<div class="col">
+			<a href="{% url 'LegalBot-docs' %}"> 
+				<img class="home-menu-option" src="{% static 'LandingPage/Documentation.png' %}" alt="NO_IMAGE_DOCS" />
+			</a>
+		</div>
+	</div>
+{% endblock content %}

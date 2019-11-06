@@ -1,0 +1,114 @@
+{% extends "LandingPage/base.html" %}
+{% load static %}
+
+{% block content%}
+
+<h1>Statistics</h1>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>Purpose</b></a>
+        </div>
+        <br />
+        <p>
+          The purpose of the statistical analysis portion of this research project was to "apply off the shelf statiscal and probabilistic machine learning algortihims to quantify the impact of factors on sentence duration". Simply put, the statistic part of the system receives the output of the classifer (which has identified the presences of aggravating and mitigating factors) and the associated sentence duration, analyses the data and then outputs the impact of the these factors on sentence duration. In doing this, some real value can hopefully be associated with the factors and the impactfulness of their effect identified.
+          <br />
+          <br />
+          Our underlying assumption for this is that there exist a base line of sentence duration, and the different aggravating and mitigating factors act as modifiers to this baseline.
+          <br />
+          <br />
+          Determining the best way to frame the dataset and hypotheses was a complex issue as it required legal and stastical understanding. Unfournately, we were lacking in legal expertise and as such tried to fill in the dark spots of knowledge. When examining the nature of the dataset and the factors themselves, factorial anova seemed to be a fitting choice for analysis. 
+          <br />
+          <br />
+          In a nutshell, the different factors, e.g. (not the full set of factors) showing no remorse, pleading guilty, having no relevant priors and having a gambling addiction all represent a factor which each have 2 levels, i.e. the factor is either present, or it was not present. 
+          <br />
+          <br />
+          e.g. Factor: Plea guilty - Levels: 0 = Did plea guilty, 1 = Did not plea guiility
+          <br />
+          <br />
+          Factorial anova is equipped with the tools to handle such data as it is able to determine the impact a group of factors (aggravating and mitigating factors) have on a numeric variable (sentence duration). 
+    	  </p>
+      </div>
+    </article>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>Problems and how to address them in the future</b></a>
+        </div>
+        <br />
+        <p>
+        	The problems we faced included the following ...
+          <br />
+          <br />
+          <b>Our factorial design was initally too large:</b> This lead to problems such as needing an extremely large dataset, and even when using a tiny dataset, the large amount of factors meant computation time was very long / would crash the computer doing the calculation.
+          <br />
+          <br />
+          <b>Our lack of legal understanding:</b> As the project group was not well versed in legal theory and practice, some assumptions had to be made and tested regarding real world sentencing practices, and the model we developing may not have actually represented the real world process at all.
+        	<br />
+        	<br />
+        	To account for these in the future, possible solutions include:
+
+          <ul>
+            <li>Getting insight from legal expert who may be able to shed some light on the nature of sentencing to help us understand and model it better</li>
+            <li>Running the statistical analysis on more powerful computers, or utilise something like Amazon Web Services</li>
+            <li>Using other statistical analysis methods</li>
+            <li>Reconfiguring the nature of the factorial design if continuing to use it</li>
+          </ul>
+    	</p>
+      </div>
+    </article>
+
+ <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>What we achieved: </b></a>
+        </div>
+          <br />
+          <p>
+          We achieved the following results:
+          <br />
+          <br />
+          <b>Original test dataset:</b>
+          <br />
+          <br />
+          Our original test dataset was too small to account for the amount of factors we were taking into account. This large discrepency between the amount of data we had and the amount we needed lead to non sensical results due to various reasons: e.g. 
+          <ul>
+            <li><b>1:</b> Effect of certain factors was never taken into account due to there being no cases with them present</li>
+            <li><b>2:</b> Effect of certain factors was over represented in the dataset leading to a large impact</li>
+            <li><b>3:</b> The various stages of the analysis have assumptions about the dataset that must be met in order for the calculations to be succesful which the dataset did not meet</li>
+          </ul>
+          An example of these non sensical results is the presence of "Theft" in a case reduced a sentence by a few hundred days.
+          <br />
+          <br />
+
+          <b>Second test dataset:</b>
+          <br />
+          <br />
+          The second test dataset sought to take into account the problem mentioned above, that our factorial design was too large which meant any of our results would be invalid. As mentioned earlier, our underlying assumption was that there exist a baseline or average sentence duration, and the factors act as modifiers, so we created a test dataset which only took into account two factors, one aggravating and one mitigating to analyse their effect on sentence duration.
+          <br />
+          <br />
+          The results were much better, with the model accurately being able to identify and quanitfy the impact on sentence duration that the different factors have, but must bare in mind that this accuracy lowered as factor count increased, and is based on our assumption of the legal system, as such this represents a proof of concept.
+          <br />
+          <br />
+      </p>
+      
+      <div class="row">
+      <div class="col">
+      <img class="pics" id="image1" src="{% static 'LandingPage/test.png' %}" alt="NO_GRAPH" /> 
+      </div>
+
+      <div class="col">
+      <img class="pics" id="image2" src="{% static 'LandingPage/test.png' %}" alt="NO_GRAPH" /> 
+      </div>
+
+      <div class="col">
+      <img class="pics" id="image3" src="{% static 'LandingPage/test.png' %}" alt="NO_GRAPH" /> 
+      </div>
+      </div>
+
+      </div>
+    </article>
+
+{% endblock content %}

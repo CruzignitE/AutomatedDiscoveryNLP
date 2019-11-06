@@ -1,0 +1,92 @@
+{% extends "LandingPage/base.html" %}
+{% load static %}
+
+{% block content%}
+
+    <h1>About</h1>
+
+  <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>The Project</b></a>
+        </div>
+        <p class="article-content">
+        The Australasian Legal Information Institute (AustLII) provides a free access online database to Australasian legal material. This includes all criminal, common‐law, and commercial matter cases heard by the County Court of Victoria. Of particular interest is the sentencing document collection that forms the case base of precedence consulted  by lawyers in constructing their arguments and by judges in informing their sentencing decisions. Sentencing law in Australia is a combination of statutory and common law. It entails hundreds of variables and objectives which impact on sentencing outcomes. Judges acknowledge that sentencing is the most complex and least rewarding aspect of  their judicial role. Moreover, sentencing decision‐making is not a structured or stepwise process. Rather it is a discretionary and largely intuitive process whereby courts state the factors that they are taking into account and then prescribe a specific sanction. 
+
+        Given the inherent complexity involved in the decision‐making process, legal  professionals face the difficult task of reliably retrieving and interpreting information. 
+
+        For this reason, this project seeks to develop a software solution, based on natural language processing (NLP), to automatically recognize legal arguments, properties, and relationships in order to “demystify” sentencing decision‐making and identify the  considerations that actually influence sentence decision‐making. In the first stage, the project is concerned with a natural‐language processing tool chain that filters the  relevant terms and encodes this information into a feature matrix (i.e., a data representation digestible by machine learning algorithms). 
+
+        Students have to design and implement the natural‐language processing tool chain, and, in consultation with the host supervisors, develop an automatic classification  process that maps identified concepts to the legal aggravating and mitigating factors.  
+        
+        In the second stage, the project will apply off‐the‐shelf statistical and probabilistic machine learning algorithms in order to identify the relevant factors and quantify their  impact on the sentencing decision‐making process.
+
+        For the purpose of interpretation by a legal expert, the results of this stage will be visualised in a standard Web browser.</p>
+      </div>
+    </article>
+
+    <br />
+
+    <h2>The Project Team:</h2>
+    
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>Sean Anderson</b></a>
+        </div>
+        <p class="article-content">
+          <img class="team-display-pic" src="{% static 'LandingPage/test.png' %}" alt="NO_IMAGE" />
+          I am a computer science student majoring in software design. Additionally, I have some background in calculus, linear algebra and statistics from my  time studying science at the Australian National University as a physics major. I have previous software development experience from when I worked with a consulting firm in developing a software tool to normalise and analyse base station antenna patterns. I am fascinated by machine learning and natural language processing and eagerly await development of this toolchain. Given my background in mathematics and statistics, I hope to be a valuable addition to this project.
+        </p>
+      </div>
+    </article>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>Alexander Tsitsis</b></a>
+        </div>
+        <p class="article-content">
+          <img class="team-display-pic" src="{% static 'LandingPage/test.png' %}" alt="NO_IMAGE" />
+          I am currently undertaking a Bachelor of Computer Science with a double major in Software Development and Data Science. This degree has a primary focus in software development across many platforms (for example developing software for / related to Android, Windows, Databases and Web Development) and various statistical computing practices including machine learning and the underlying statistical models. In my spare time I enjoy learning and working on different AI and emulation projects. I believe the combination of the skills and knowledge I have gained from the majors which I study as well as my keen interest in AI projects will be a good fit for the project.
+        </p>
+      </div>
+    </article>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>Thomas Prantalos</b></a>
+        </div>
+        <p class="article-content">
+          <img class="team-display-pic" src="{% static 'LandingPage/test.png' %}" alt="NO_IMAGE" />
+          I am currently studying a Bachelor of Computer Science with a major in Software Design. Throughout my studies I have gained proficiencies in technical skills such as data structures, design patterns and algorithms as well as software engineering tools such as version control and agile frameworks such as scrum. Machine learning is a field that interests me greatly and I have spent a lot of time researching and learning about it, through which I have gained skills in Python and many of its machine learning packages.
+        </p>
+      </div>
+    </article>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>Matthew Tucci</b></a>
+        </div>
+        <p class="article-content">
+          <img class="team-display-pic" src="{% static 'LandingPage/test.png' %}" alt="NO_IMAGE" />
+          I am currently studying a Bachelor of Computer Science with a major in Data Science and a minor in analytics. I have a background in linear algebra and statistics, and a passion for business intelligence tools as well as data visualisation. I have quite a bit of familiarity with Rstudio, as well as its various analytical packages and visualisation tools. A keen interest of mine involves machine learning algorithms and data mining tools. With prior knowledge of maths and statistics, I am keen to apply my findings to this project.
+        </p>
+      </div>
+    </article>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>Lee Hon Meng</b></a>
+        </div>
+        <p class="article-content">
+          <img class="team-display-pic" src="{% static 'LandingPage/test.png' %}" alt="NO_IMAGE" />
+          I am currently studying a Bachelor of Computer Science, majoring in Software Development. While studying this field, I have learned many different skills, ranging from programming skills to project management tools and practices. Among my fields of interest are project management methodologies and artificial intelligence neural network machine learning, and through studying it, I have gained experience in the Agile Scrum methodology, Python, and Keras Tensorflow. With the above skill set, I am interested to see how well I can apply what I have learned so far.
+        </p>
+      </div>
+    </article>
+
+{% endblock content %}

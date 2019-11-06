@@ -1,0 +1,192 @@
+{% extends "LandingPage/base.html" %}
+
+{% block content%}
+   
+     <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>Why Orange?</b></a>
+        </div>
+        <br />
+        <p>
+          Orange was selected as it is a very powerful tool which is also easy to use. Being easy to use was an important factor due to the projects tight schedule and limited manpower.
+        </p>
+      </div>
+    </article>
+
+
+  <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>What are the Settings?</b></a>
+        </div>
+        <br />
+        <p>
+          The settings of the widgets in our model are as follows:
+          <br />
+          <br />
+          Import Documents: In the included “Orange Setup” folder, we will be using the folders within the file as inputs for the Import Documents widget in this model. The settings are as follows:
+          <br />
+          <br />
+          <table>
+            <thead>
+              <tr>
+                <th>Widget Name</th>
+                <th>Input</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Train Data (Raw + Context)</td>
+              </tr>
+              <tr>
+                <td>Training 1 – Orange Data (Merged)</td>
+              </tr>
+              <tr>
+                <td>Test Data (Raw)</td>
+                <td>Testing 1 – Testing (Raw)</td>
+              </tr>
+              <tr>
+                <td>Unlabelled Data (Raw)</td>
+                <td>Training 2 – Orange Data (Raw)</td>
+              </tr>
+              <tr>
+                <td>Corpus Viewer:</td> 
+                <td>The standard settings of a Corpus Viewer are sufficient.</td>
+              </tr>
+              <tr>
+                <td>Preprocess Text:</td>
+                <td>The Preprocess Text has the following settings applied to it:</td>
+              </tr>      
+              <tr>
+                <td>Name</td>
+                <td>Setting(s)</td>
+              </tr>
+              <tr>
+                <td>Transformation</td>
+                <td>[✓] Lowercase</td>
+                <td>[✓] Remove accents</td>
+              </tr>
+               <!--  <td>Tokenization  [✓] Word & Punctuation</td>
+                <td>Normalization [✓] UDPipe Lemmatizer</td>
+                <td>[✓] UDPipe tokenizer</td>
+                <td>Filtering [✓] Stopwords (English)</td>
+                <td>[✓] Regexp</td>
+                <td>N-grams Range Range: 2 - 3</td>
+                <td>POS Tagger  Disable</td>
+                <td>Word Cloud: The settings for the Word Cloud widget does not require adjustment. The standard settings of a Word Cloud are sufficient.</td>
+                <td>Bag of Words: The Bag of Words has the following settings applied to it:</td>
+                <td>Name  Setting(s)</td>
+                <td>Term Frequency  Sublinear</td>
+                <td>Document Frequency  Smooth IDF</td>
+                <td>Regularization  L2 (Euclidean)</td>
+                <td>SVM: The SVM has the following settings applied to it:</td>
+                <td>Name  Setting(s)</td>
+                <td>SVM Type  [✓] SVM</td>
+                <td>Cost (C): 0.80</td>
+                <td>Regression loss epsilon (ε): 0.10</td>
+                <td>Kernel  [✓] RBF</td>
+                <td>g: auto</td>
+                <td>Optimization Parameters Numerical tolerance: 0.0010</td>
+                <td>[✓] Iteration limit: 100</td>
+                <td>Predictions: The settings for the Predictions widgets do not require adjustment. The standard settings of a Prediction widget are sufficient.</td>
+                <td>Confusion Matrix: The settings for the Confusion Matrix does not require adjustment. The standard settings of a Confusion Matrix are sufficient.</td>
+                <td>Data Table: The settings for the Data Table widget does not require adjustment. The standard settings of a Data Table are sufficient.</td>
+                <td>Save Data: The Save Data has the following settings applied to it:</td>
+                <td>Name  Setting(s)</td>
+                <td>Save Data [✓] Add type annotations to header</td>
+                <td></td>
+                <td>*If the setting’s option is not listed in the Settings listed above, then they are not needed/disabled</td> -->
+              </tr>
+            </tbody>
+          </table>
+
+
+        </p>
+      </div>
+    </article>
+
+   <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>The reason behind the selected Settings?</b></a>
+        </div>
+        <br />
+        <p>
+                    <b>Import Documents</b> 
+          The Train Data widget used Merged documents where both raw and context files are in the same True/False folder. The choice of training files was made because it yielded the highest F1 score in the Predictions test when compared to other versions of training files (context only, raw only, etc). This widget is used to feed the corpus int the Preprocess Text widget.
+          The Test Data widget used Raw documents only. This choice was made because the program (logically) needs to be able to predict and classify Raw documents as context documents are not used in a real-life scenario. This widget is used to feed the corpus into the Model Predictions Test widget.
+          The Unlabelled Data widget used Raw documents as well, the difference between the folder of Raw files used in the Test Data widget and this widget is that there are more Raw files in the folder used in this widget.  This widget is used to feed the corpus into the Model Autolabelling widget.
+          <br />
+          <br />
+          <b>Corpus Viewer</b> 
+          The settings for the Corpus Viewer widgets were not adjusted as the functions of these widgets are mainly to display the imported files within the corpus.
+          <br />
+          <br />
+          <b>Preprocess Text</b> 
+          Transformation had the Lowercase and the Remove accents settings in order to turn all text to lowercase letters and remove all diacritics/accents in the text.
+          Tokenization had the Word & Punctuation setting used in order to split the text by words and at the same time, keep the punctuation symbols.
+          Normalization had the UDPipe Lemmatizer setting along with the UDPipe tokenizer setting in order to apply lemmatization to raw text. Upon researching and performing tests on the model, we found the lemmatization is a better option over stemming for this project. This is because, while both stemming and lemmatization both have the same goal of reducing inflectional forms and occasional derivationally related forms of a word into a more common base form. Stemming is usually a crude heuristic process that cuts off the ends of words  in hopes of achieving its goal, whereas lemmatization performs the actions properly with the use of a vocabulary and morphological analysis of words, usually aiming to remove inflectional endings only, and to return the base or dictionary form of a word – also called a lemma.
+          <br />
+          <br />
+          Filtering had the stopwords and Regexp settings in order to remove stopwords (with English as the sleected language) from the text and to also remove words that match the regular expression – which in this case was set up to remove punctuation.
+          The N-grams range selected was a range of 2 to 3. This is because upon further research into the project, we realized that an n-grams range of 2 to 3 gave better contextual meaning to the tokens for the support vector machine to learn from. This resulted in a better F1 score when compared with the standard n-grams range of 1 to 2.
+          POS Tagger, or part-of-speech tagging was disabled as the team found that this setting was returning lower F1 accuracy scores.
+          <br />
+          <br />
+          <b>Word Cloud</b> 
+          The settings for the Word Cloud widget were not adjusted as the function of this widget is to visually display the tokens (broken up word(s) from preprocessing the text), where the size of the word denotes the frequency of the word in the corpus.
+          <br />
+          <br />
+          <b>Bag of Words</b> 
+          The Term Frequency had the Sublinear setting used as the Binary setting is not suitable for this project, and the Sublinear term frequency provided a better F1 accuracy score than the Count term frequency did.
+          The Document Frequency had the Smooth IDF setting used to add one to document frequencies in order to prevent zero division of the documents.
+          For the Regularization, L2 (Euclidean) was used in order to normalize the vector length to the sum of squares.
+          <br />
+          <br />
+          <b>SVM</b> 
+          The SVM settings that we used has only a minor modification added, which is that we reduced the Cost (C) from 1.00 to 0.80. Cost is a penalty term for loss and applies for classification and regression tasks. We found that reducing the cost helped us achieve a better F1 accuracy score when compared to the standard 1.00 that the SVM initializes with. The other settings in the SVM are the standard settings that are automatically applied when an SVM widget is initialized.
+          <br />
+          <br />
+          <b>Predictions</b> 
+          The settings for the Predictions widgets were not adjusted as the options for the settings were mainly related to what was to be displayed for the user. For our usage, we needed the Predictions widget to display every parameter for the purpose of helping us understand the results of the predictions.
+          <br />
+          <br />
+          <b>Confusion Matrix</b> 
+          The settings for the Confusion Matrix was not adjusted as the function of the Confusion Matrix is to visually display the specific instances that were misclassified by the Model Predictions Test widget.
+          <br />
+          <br />
+          <b>Data Table</b> 
+          The settings for the Data Table widget was not adjusted as the function of the Data Table is to visually display the results of the Model Autolabelling predictions widget’s data.
+          <br />
+          <br />
+          <b>Save Data</b> 
+          The Save Data widget has the Add type annotations to header setting applied to help with the statistical analysis section of the project.
+          <br />
+          <br />
+        </p>
+      </div>
+    </article>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2"><b>How to run the file?</b></a>
+        </div>
+        <p>
+          <ol>
+            <li>Open and select the correct folders for each Import Document widget as shown above</li>
+            <li>Commit the Preprocess Text widget</li>
+            <li>View the results of the Model Predictions Test widget and the Model Autolabelling predictions widget after the training and testing is complete</li>
+            <li>View the misclassified files of the Model Predictions Test in the Confusion Matrix</li>
+            <li>View the results of the Model Autolabelling in the Data Table</li>
+            <li>Select (highlight) the data you wish to export into a csv file</li>
+            <li>Open the Save Data widget and select the “Save” button to export the selected data to a csv file</li> 
+          </ol>
+        </p>
+      </div>
+    </article>
+
+
+{% endblock content %}

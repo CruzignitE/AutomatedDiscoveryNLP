@@ -1,0 +1,2114 @@
+{% extends "LandingPage/base.html" %}
+{% load static %}
+
+{% block content%}
+   
+<style type="text/css">
+  .StatPic {border: solid; border-color: black; border-width: 2px; width: 300px; height: 200px;}
+
+</style>
+
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <a class="mr-2"><b>NOTE: THIS IS STILL UNDER CONSTRUCTION</b></a>
+    </div>
+    <p class="article-content">
+      <p>FULL DOCUMENTATION CAN BE FOUND<a href="{% static 'LandingPage/StatsDoc.pdf' %}"> HERE</a></p>
+    </p>
+  </div>
+</article>
+
+
+
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <a class="mr-2"><b>Dataset - General</b></a>
+    </div>
+    <p class="article-content">
+    The dataset is comprised of 21 variables.
+    The dependent variable is “Sentence Length (days)”
+    The independent variables represent the type of crime committed and mitigating / aggravating factors.
+
+    Given this dataset, we have:
+
+    • 1 DEPENDENT VARIABLE that is NUMERIC – RATIO 
+    • 20 INDEPENDENT VAIRABLES that are CATEGORICAL – 2 Levels
+
+    A summary table of the dataset:
+    </p>
+  </div>
+</article>
+
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <a class="mr-2"><b>Variable Summary:</b></a>
+    </div>
+    <p class="article-content">
+     <div class="row">
+      <div class="col-12 col-md-6"> 
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">Theft</li>
+          <li class="list-group-item">Theft of a motor vehicle</li>
+          <li class="list-group-item">Theft of a firearm</li>
+          <li class="list-group-item">Trafficking in a large commercial quantity of a drug of dependence</li>
+          <li class="list-group-item">Trafficking in a commercial quantity of a drug of dependence</li>
+          <li class="list-group-item">Trafficking in a non-commercial quantity of a drug of dependence</li>
+          <li class="list-group-item">Burglary</li>
+          <li class="list-group-item">Aggravated burglary</li>
+          <li class="list-group-item">Assault (Common Law)</li>
+          <li class="list-group-item">Common assault</li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-6">
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">Assault with weapon or instrument</li>
+          <li class="list-group-item">Incest</li>
+          <li class="list-group-item">No remorse</li>
+          <li class="list-group-item">General deterrence</li>
+          <li class="list-group-item">Specific deterrence</li>
+          <li class="list-group-item">Community protection</li>
+          <li class="list-group-item">No relevant priors</li>
+          <li class="list-group-item">Plea guilty</li>
+          <li class="list-group-item">Remorse</li>
+          <li class="list-group-item">Gambling addiction</li>
+        </ul>
+      </div>
+      </div>
+    </p>
+  </div>
+</article>
+
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <a class="mr-2"><b>Types of Statistical Analysis</b></a>
+    </div>
+    <p class="article-content">
+
+    Given that we have …
+    
+    • 1 DV (Numeric – Ratio)
+    • 20 IV’s (Categorical – 2 levels)
+
+    … we are only able to conduct statistical analysis which accounts for this type of data. 
+
+    The statistical tests available and what they accomplish are as follows (note, each one of these tests may have a unique set of assumptions that must be met in order to use them and have sensical output.
+
+    <article class="media content-section">
+    <div class="media-body">
+    <div class="article-metadata">
+    <a class="mr-2"><b>2 independent sample t-test: (1 DV and 1 IV - 2 levels only)</b></a>
+    </div>
+    <p class="article-content">
+      <u>Description:</u> Can be used to identify a Statistical difference between the means of two groups. In this context the two groups would be the two factor levels for any given IV.  Assumes the DV is interval and normal.
+
+      <u>Example:</u>
+
+      &emsp;• Show Remorse: 
+      &emsp;&emsp;o Group 1 = Yes showed remorse
+      &emsp;&emsp;o Group 2 = No did not show remorse
+
+      &emsp;• Plea guilty: 
+      &emsp;&emsp;o Group 1 = Yes, plead guilty
+      &emsp;&emsp;o Group 2 = No, plead not guilty
+
+      This will allow us to answer the following question:
+
+      “If we look at ONE factor, and ignore all other factors and their potential interaction, is there a difference in the average sentence given when that factor is present or not?”
+
+      <u>Problem(s):</u> 
+
+      • Ignores all factors except for one at a time therefore ignoring any interaction effects
+      • Would require 20 tests to be conducted (one for each IV)
+    </p>
+    </div>
+    </article>
+
+
+    <article class="media content-section">
+    <div class="media-body">
+    <div class="article-metadata">
+    <a class="mr-2"><b>2 independent sample t-test: (1 DV and 1 IV - 2 levels only)</b></a>
+    </div>
+    <p class="article-content">
+      <u>Description:</u>Same as 2 independent sample t-test: (1 DV and 1 IV - 2 levels only) but can account for factors with 3 levels as well
+
+      Assumes DV is interval & normal
+
+      <u>Example:</u>Same as 2 independent sample t-test
+
+      <u>Problem:</u>Same as 2 independent sample t-test
+    </p>
+    </div>
+    </article>
+
+    <article class="media content-section">
+    <div class="media-body">
+    <div class="article-metadata">
+    <a class="mr-2"><b>Factorial ANOVA: (1 DV and 2+ IV’s)</b></a>
+    </div>
+    <p class="article-content">
+      <u>Description:</u>Factorial ANOVA compares means across two or more independent variables.  A one-way ANOVA has one independent variable that splits the sample into two or more groups, whereas the factorial ANOVA has two or more independent variables that split the sample in four or more groups
+
+      <u>Example:</u>
+
+      • Sentence Duration explained through the presence or not of each factor
+
+      This will allow us to answer the following types of questions: “Which factors influence the sentence given” or “How does each factor influence the sentence given?”
+
+      <u>Problem(s):</u>
+
+      • Should the different types of crimes be considered different types of factors?
+
+      &emsp;o If yes, we need a very large amount of data to have a balanced dataset 
+      &emsp;&emsp;- There needs to be observations for all combinations of factors
+      &emsp;&emsp;- There needs to be several of each of these observations
+
+      &emsp; o If no, do we only analyse one crime at a time?
+      &emsp;&emsp;- We would need a lot of observations for each type of crime
+      &emsp;&emsp; - Each type of crime would also need observations for all combinations of factors
+
+      • We have a lot of IV’s which can cause problems such as over fitting or not modelling the data well at all.
+    </p>
+    </div>
+    </article>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+         <a class="mr-2"><b>Other possible tests (only considers 1 DV and 1 IV)</b></a>
+        </div>
+        <p class="article-content">
+          • Wilcoxon-Mann Whitney test
+          • Kruskal Wallis
+          • Paired t-test
+          • Wilcoxon signed ranks test  
+          • One-way repeated measures ANOVA
+          • Friedman test
+
+          Unsure of usefulness as they all pose the same issues as described in the independent samples t test, mainly that they can only take into consideration 1 IV at a time and do not look at the interaction between IV’s
+        </p>
+        </div>
+    </article>
+     
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+         <a class="mr-2"><b>Using other statistical models:</b></a>
+        </div>
+      <p class="article-content">
+        • Decision Tree
+        • Random Forrest
+        • Neural net
+        • Linear Models 
+
+        Can be used for prediction purposes but unsure of usefulness in determining the individual influence of each factor on sentence duration.  
+        </p>
+        </div>
+    </article>  
+    </p>
+  </div>
+</article>
+
+
+
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+     <a class="mr-2"><b>Dataset - Inital Investigation</b></a>
+    </div>
+    <p class="article-content">
+      <article class="media content-section">
+      <div class="media-body">
+      <div class="article-metadata">
+      <a class="mr-2"><b>Summary Statistics</b></a>
+      </div>
+      <p class="article-content">
+      • Mean = 1037.568: 
+      &emsp;&emsp;o The average length of sentence duration is 1037 days for any crime
+
+      • Median = 491: 
+      &emsp;&emsp;o Middle point sentence duration, i.e. 50% of sentence durations are less than 491 days and 50% of sentence durations are more than 491 days
+
+      • Min = 17: 
+      &emsp;&emsp;o Smallest sentence duration.
+
+      • Max = 6658: 
+      &emsp;&emsp;o Longest sentence duration.
+
+      • Range = 6641: 
+      &emsp;&emsp;o Smallest sentence duration is 17 days, largest sentence duration is 6658 days. Thus in the given dataset; the sentences have a spread of 6641 days
+      
+      • Q1 = 188
+      &emsp;&emsp;o Lower 25% of datapoints are below 188.
+
+      • Q3 = 1813
+      &emsp;&emsp;o Upper 25% of datapoints are above 1813.
+
+      • IQR = 1625
+      &emsp;&emsp;o The difference between Q3 and Q1 gives us the range of the middle 50%. The inter quaterile range is 1625 days.
+
+      <b>This already suggests the possibility for some outliers at both ends of the spectrum for sentence duration.</b>
+      </p>
+      </div>
+      </article> 
+
+
+    <article class="media content-section">
+    <div class="media-body">
+    <div class="article-metadata">
+    <a class="mr-2"><b>Dependent Variable Analysis:</b></a>
+    </div>
+    <p class="article-content">
+      The Dependent Variable is <b>SENTENCE DURATION IN DAYS</b>
+      
+      Many of the various statistical analysis procedures require some assumptions to be met regarding the nature of the dependent variable. One of these is the normal distribution of the dependent variable which is discussed here:
+
+      <b>Histogram / QQ Plot / Box Plot of Sentence Duration:</b>
+
+      This histogram shows a strong positive skew which means that the bulk of the sentence durations exist towards the lower end of the axis thus an unsymmetrical / non normally distributed dataset.
+
+      <img class="pics" src="{% static 'LandingPage/NormalHist.png' %}" alt="NO_GRAPH" />
+
+      The QQ plot and QQ Line suggests a similar conclusion as the histogram showing a clear deviation from a normal distribution.
+
+      <img class="pics" src="{% static 'LandingPage/NormalQQ.png' %}" alt="NO_GRAPH" /> 
+
+      The boxplot finally confirms what the previous plots have shown, and    that is a clear group of outliers which are influencing the distribution of the sentence duration heavily. 
+
+      <img class="pics" src="{% static 'LandingPage/NormalBoxPlot.png' %}" alt="NO_GRAPH" /> 
+
+      The boxplot has identified the following entries to be outliers (ID numbers: 147, 207, 279, 330, 730, 869, 925, 933, 935. All these observations have incredibly large sentence durations. 
+
+      <u>There are a few ways to deal with outliers:</u>
+
+      &emsp;&emsp;• Include Outliers: This may lead to DV being too heavily skewed meaning certain statistical tests and models won’t be applicable. 
+      &emsp;&emsp;• Remove Outliers:  This may lead to losing out on important information.
+      &emsp;&emsp;• Recalculate Outliers: Write a new value to all outliers to make them conform to a more normal distribution.
+      &emsp;&emsp;• Transformation All Data: Conducting mathematical operation on observations to normalise dataset.
+
+    </p>
+    </div>
+    </article> 
+
+    <article class="media content-section">
+    <div class="media-body">
+    <div class="article-metadata">
+    <a class="mr-2"><b>Outliers Removed</b></a>
+    </div>
+    <p class="article-content">
+      <div class="row">
+        <div class="col">
+          <img class="StatPic" src="{% static 'LandingPage/OutlierHist.png' %}" alt="NO_GRAPH" />
+        </div>
+        <div class="col">
+          <img class="StatPic" src="{% static 'LandingPage/OutlierQQ.png' %}" alt="NO_GRAPH" />
+        </div>
+      <div>
+    </p>
+    </div>
+    </article> 
+
+
+    <article class="media content-section">
+    <div class="media-body">
+    <div class="article-metadata">
+    <a class="mr-2"><b>Log Transformation (outliers included)</b></a>
+    </div>
+    <p class="article-content">
+      <div class="row">
+        <div class="col">
+          <img class="StatPic" src="{% static 'LandingPage/LogHist.png' %}" alt="NO_GRAPH" />
+        </div>
+        <div class="col">
+          <img class="StatPic" src="{% static 'LandingPage/LogQQ.png' %}" alt="NO_GRAPH" />
+        </div>
+      <div>
+    </p>
+    </div>
+    </article> 
+
+
+    <article class="media content-section">
+    <div class="media-body">
+    <div class="article-metadata">
+    <a class="mr-2"><b>Square (outliers included)</b></a>
+    </div>
+    <p class="article-content">
+      <div class="row">
+        <div class="col">
+          <img class="StatPic" src="{% static 'LandingPage/SquareHist.png' %}" alt="NO_GRAPH" />
+        </div>
+        <div class="col">
+          <img class="StatPic" src="{% static 'LandingPage/SquareQQ.png' %}" alt="NO_GRAPH" />
+        </div>
+      <div>
+    </p>
+    </div>
+    </article> 
+
+
+    <article class="media content-section">
+    <div class="media-body">
+    <div class="article-metadata">
+    <a class="mr-2"><b>Cube (outliers included)</b></a>
+    </div>
+    <p class="article-content">
+      <div class="row">
+        <div class="col">
+          <img class="StatPic" src="{% static 'LandingPage/CubeHist.png' %}" alt="NO_GRAPH" />
+        </div>
+        <div class="col">
+          <img class="StatPic" src="{% static 'LandingPage/CubeQQ.png' %}" alt="NO_GRAPH" />
+        </div>
+      <div>
+    </p>
+    </div>
+    </article> 
+
+
+    <article class="media content-section">
+    <div class="media-body">
+    <div class="article-metadata">
+    <a class="mr-2"><b>Box-Cox (outliers included)</b></a>
+    </div>
+    <p class="article-content">
+      <div class="row">
+        <div class="col">
+          <img class="StatPic" src="{% static 'LandingPage/BoxHist.png' %}" alt="NO_GRAPH" />
+        </div>
+        <div class="col">
+          <img class="StatPic" src="{% static 'LandingPage/BoxQQ.png' %}" alt="NO_GRAPH" />
+        </div>
+      <div>
+    </p>
+    </div>
+    </article> 
+
+
+
+    <article class="media content-section">
+    <div class="media-body">
+    <div class="article-metadata">
+    <a class="mr-2"><b>Tukey (outliers included)</b></a>
+    </div>
+    <p class="article-content">
+      <div class="row">
+        <div class="col">
+          <img class="StatPic" src="{% static 'LandingPage/TukeyHist.png' %}" alt="NO_GRAPH" />
+        </div>
+        <div class="col">
+          <img class="StatPic" src="{% static 'LandingPage/TukeyQQ.png' %}" alt="NO_GRAPH" />
+        </div>
+      <div>
+    </p>
+    </div>
+    </article> 
+
+  <!-- dataset - inital ivnestigation -->
+  </p>
+  </div>
+  </article> 
+
+
+    <article class="media content-section">
+    <div class="media-body">
+    <div class="article-metadata">
+    <a class="mr-2"><b>Summary of Normalisation:</b></a>
+    </div>
+    <p class="article-content">
+      Transformations Improvement but not close enough to normal for parametric testing
+      Raw Data – Removal of Outliers  Improvement but less than transformation
+      Removal of Outliers -> Transformations  Similar situation to only using transformations.
+    </p>
+    </div>
+    </article> 
+
+
+    <article class="media content-section">
+    <div class="media-body">
+    <div class="article-metadata">
+    <a class="mr-2"><b>Statistical Tests and Models</b></a>
+    </div>
+    <p class="article-content">
+      <article class="media content-section">
+      <div class="media-body">
+      <div class="article-metadata">
+      <a class="mr-2"><b>2 independent sample t-test: (1 DV and 1 IV - 2 levels only) / One-way ANOVA: (1 DV and 1 IV – 2/3 levels only)</b></a>
+      </div>
+      <p class="article-content">
+        Have not been conducted as are deemed not useful for our context.
+      </p>
+      </div>
+      </article>
+
+      <article class="media content-section">
+      <div class="media-body">
+      <div class="article-metadata">
+      <a class="mr-2"><b>Factorial ANOVA: (1 DV and 2+ IV’s)</b></a>
+      </div>
+      <p class="article-content">
+        <u>Description:</u> Factorial ANOVA allows for multiple categorical IV’s and 1 continuous DV to be analysed and identify any effects the categorical IV’s may have on the continuous DV.
+
+        <u>Assumptions:</u> Factorial ANOVA relies on several assumptions regarding the distribution of the dependent variable for each level of the independent variables
+         <ol>
+          <li>Normality of the DV distribution: The data in each cell should be approximately normally distributed. Check via histograms, skewness and kurtosis overall and for each cell (i.e. for each group for each DV). This would mean for each IV’s factor level, check the distribution of sentence length duration for normality.</li>
+          <br />
+          <li>Homogeneity of variance: The variance in each cell should be similar. Check via Levene's test or other homogeneity of variance tests which are generally produced as part of the ANOVA statistical output.</li>
+          <br />
+          <li>Sample size: per cell > 20 is preferred; aids robustness to violation of the first two assumptions, and a larger sample size increases power</li>
+          <br />
+          <li>Independent observations: scores on one variable or for one group should not be dependent on another variable or group (usually guaranteed by the design of the study)</li>
+        </ol>
+        
+        <u>Does our data match the assumptions?</u>
+        <br/>
+        <br/>
+        <ol>
+          <li>No - The DV is not normally distributed, removal of outliers and transformations bring it closer to normal but never within a good normal range and very far from perfect. Therefore, it is impossible for it to be normally distributed for each factor level.</li>
+          <br />
+          <li>No - The aggravating and mitigating factors have evenly distributed variances against the sentence duration but not the crimes themselves.</li>
+          <br />
+          <li>No – See problem section below for explanation</li>
+          <br />
+          <li>Maybe – Unsure …</li>
+        </ol>
+      </p>
+      </div>
+      </article>
+
+
+    </p>
+    </div>
+    </article>
+
+
+
+    </p>
+    </div>
+    </article> 
+
+
+    </p>
+    </div>
+</article> 
+
+
+ <article class="media content-section">
+    <div class="media-body">
+    <div class="article-metadata">
+    <a class="mr-2"><b>Results of Factoiral ANOVA</b></a>
+    </div>
+    <p class="article-content">
+      INSERT RESULTS TABLE I MADE EARLIER HERE
+    </p>
+    </div>
+  </article> 
+
+
+
+ <article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <a class="mr-2"><b>Testing</b></a>
+    </div>
+    <br />
+    <p>
+      PLACE HOLDER
+    </p>
+  </div>
+</article>
+
+
+
+
+
+<article class="media content-section">
+<div class="media-body">
+<div class="article-metadata">
+<a class="mr-2"><b>R Code:</b></a>
+</div>
+<p class="article-content">
+ # ---------------------------------------------------------------------------------------------------
+# - Install / Load required packages
+# ---------------------------------------------------------------------------------------------------
+  if(!require(rcompanion)){install.packages("rcompanion")}
+  if(!require(MASS)){install.packages("MASS")}
+  if(!require(car)){install.packages("car")}
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+
+
+# ---------------------------------------------------------------------------------------------------
+# - Set Up
+# ---------------------------------------------------------------------------------------------------
+  
+  # Set the seed - Allows for a repeatable process
+  set.seed(2007);
+
+  # Load in raw data
+  Raw_Data<-read.csv(file.choose());
+  
+  # Make copy of raw data for further processing 
+  dataset <- Raw_Data;
+  
+  # List of columns we wish to convert into "Factors"
+  FactorVariables <- c(
+    "Theft",
+    "TheftVehicle",
+    "TheftFirearm",
+    "TraffickingLargeCommercialDrug",
+    "TraffickingCommercialDrug",
+    "TraffickingNoncommercialDrug",
+    "Burglary",
+    "AggravatedBurglary",
+    "AssaultCommonLaw",
+    "CommonAssault",
+    "AssaultWeapon",
+    "Incest",
+    "NoRemorse",
+    "GeneralDeterrence",
+    "SpecificDeterrence",
+    "CommunityProtection",
+    "NoRelevantPriors",
+    "PleaGuilty",
+    "Remorse",
+    "GamblingAddiction"
+  );
+  
+  # Coerce all columns found in the "FactorVariables" list into factors 
+  dataset[FactorVariables] <- lapply(dataset[FactorVariables], factor);
+  
+  # Removes all "NA" observations from dataset
+  dataset <- na.omit(dataset) ;
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+  
+# ---------------------------------------------------------------------------------------------------
+# - Inital Dataset Analysis
+# ---------------------------------------------------------------------------------------------------
+ 
+  # Summary of all data
+  summary(dataset);
+
+  # Returns the mean, median, quartiles and min / max values of sentence durations
+  summary(dataset$SentenceLengthDays);
+  
+  # Returns the range of sentence durations
+  range(dataset$SentenceLengthDays)[2] - range(dataset$SentenceLengthDays)[1];
+  
+  # Returns the Inter Quartile Range
+  IQR(dataset$SentenceLengthDays);
+  
+  # Plot Dependent Variable (Sentence Duration (days)) to visually inspect 
+  # NOTE: (requires library "rcompanion")
+  plotNormalHistogram(dataset$SentenceLengthDays, xlab = "Sentence Duration");
+  qqnorm(dataset$SentenceLengthDays, ylab="Sample Quantiles for Sentence Duration (days)");
+  qqline(dataset$SentenceLengthDays, col="red");
+  boxplot(dataset$SentenceLengthDays);
+  # Print out the id values of the outliers 
+  which(dataset$SentenceLengthDays %in% boxplot(dataset$SentenceLengthDays)$out);
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+  
+
+# ---------------------------------------------------------------------------------------------------
+# - Distribution Analysis: Transformations
+# ---------------------------------------------------------------------------------------------------
+  
+  
+# Log -----------------------------------------------------------------------------------------------
+  logDuration <- log(dataset$SentenceLengthDays);
+  plotNormalHistogram(logDuration, xlab = "Sentence Duration (log)");
+  qqnorm(logDuration, ylab="Sample Quantiles for Sentence Duration (days)");
+  qqline(logDuration, col="red");
+  boxplot(logDuration);
+  # Print out the id values of the outliers 
+  which(logDuration %in% boxplot(logDuration)$out);
+# ---------------------------------------------------------------------------------------------------
+
+
+# Square --------------------------------------------------------------------------------------------
+  sqrtDuration <- sqrt(dataset$SentenceLengthDays);
+  plotNormalHistogram(sqrtDuration,xlab = "Sentence Duration (square root)");
+  qqnorm(sqrtDuration, ylab="Sample Quantiles for Sentence Duration (days)");
+  qqline(sqrtDuration, col="red");
+  boxplot(sqrtDuration);
+  # Print out the id values of the outliers 
+  which(sqrtDuration %in% boxplot(sqrtDuration)$out);
+# ---------------------------------------------------------------------------------------------------
+  
+    
+# Cube ----------------------------------------------------------------------------------------------
+  cubeDuration = sign(dataset$SentenceLengthDays) * abs(dataset$SentenceLengthDays)^(1/3);
+  plotNormalHistogram(cubeDuration, xlab = "Sentence Duration (cube root)");
+  qqnorm(cubeDuration, ylab="Sample Quantiles for Sentence Duration (days)");
+  qqline(cubeDuration, col="red");
+  boxplot(cubeDuration);
+  # Print out the id values of the outliers 
+  which(cubeDuration %in% boxplot(cubeDuration)$out);
+# ---------------------------------------------------------------------------------------------------
+  
+  
+# BoxCox --------------------------------------------------------------------------------------------
+# Try values -6 to 6 by 0.1
+  # NOTE: Requires library "MASS"
+  Box = boxcox(dataset$SentenceLengthDays ~ 1, lambda = seq(-6,6,0.1));
+  # Create a data frame with the results  
+  Cox = data.frame(Box$x, Box$y);
+  # Order the new data frame by decreasing Y
+  Cox2 = Cox[with(Cox, order(-Cox$Box.y)),];
+  # Display the lambda with the greatest
+  Cox2[1,];
+  # Extract that lambda
+  lambda = Cox2[1, "Box.x"];
+  # Transform the original data
+  boxcoxDuration = (dataset$SentenceLengthDays ^ lambda - 1)/lambda ;  
+  
+  plotNormalHistogram(boxcoxDuration, xlab = "Sentence Duration (Box-Cox)");
+  qqnorm(boxcoxDuration, ylab="Sample Quantiles for Sentence Duration (days)");
+  qqline(boxcoxDuration, col="red");
+  boxplot(boxcoxDuration);
+  # Print out the id values of the outliers 
+  which(boxcoxDuration %in% boxplot(boxcoxDuration)$out);
+# ---------------------------------------------------------------------------------------------------
+  
+
+# Tukey ---------------------------------------------------------------------------------------------
+  tukeyDuration = transformTukey(dataset$SentenceLengthDays, plotit=FALSE);
+  plotNormalHistogram(tukeyDuration, xlab = "Sentence Duration (Tukey)");
+  qqnorm(tukeyDuration, ylab="Sample Quantiles for Sentence Duration (days)");
+  qqline(tukeyDuration, col="red");
+  boxplot(tukeyDuration);
+  # Print out the id values of the outliers 
+  which(tukeyDuration %in% boxplot(tukeyDuration)$out);
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+
+  
+
+
+# ---------------------------------------------------------------------------------------------------
+# - Distribution Analysis: Outliers Removed
+# ---------------------------------------------------------------------------------------------------
+  
+  # Create subset with no outliers
+  # The outliers were identified with the box plot outlier functionality
+  datasetOutliersRemoved <- dataset[-c(147, 207, 279, 330, 730, 869, 925, 933, 935), ];   
+  
+  
+  plotNormalHistogram(datasetOutliersRemoved$SentenceLengthDays, xlab = "Sentence Duration");
+  qqnorm(datasetOutliersRemoved$SentenceLengthDays, ylab="Sample Quantiles for Sentence Duration (days)");
+  qqline(datasetOutliersRemoved$SentenceLengthDays, col="red");
+  boxplot(datasetOutliersRemoved$SentenceLengthDays);
+  # Print out the id values of the outliers 
+  which(datasetOutliersRemoved$SentenceLengthDays %in% boxplot(datasetOutliersRemoved$SentenceLengthDays)$out);
+  
+
+  # Identified the following outliers: 223 561 966
+  # Re-remove
+  datasetOutliersRemoved <- datasetOutliersRemoved[-c(223, 561, 966), ];
+  plotNormalHistogram(datasetOutliersRemoved$SentenceLengthDays, xlab = "Sentence Duration");
+  qqnorm(datasetOutliersRemoved$SentenceLengthDays, ylab="Sample Quantiles for Sentence Duration (days)");
+  qqline(datasetOutliersRemoved$SentenceLengthDays, col="red");
+  boxplot(datasetOutliersRemoved$SentenceLengthDays);
+  # Print out the id values of the outliers 
+  which(datasetOutliersRemoved$SentenceLengthDays %in% boxplot(datasetOutliersRemoved$SentenceLengthDays)$out);
+  
+  # Identified the following outliers: 77 492
+  # Re-remove
+  datasetOutliersRemoved <- datasetOutliersRemoved[-c(77, 492), ];
+  plotNormalHistogram(datasetOutliersRemoved$SentenceLengthDays, xlab = "Sentence Duration");
+  qqnorm(datasetOutliersRemoved$SentenceLengthDays, ylab="Sample Quantiles for Sentence Duration (days)");
+  qqline(datasetOutliersRemoved$SentenceLengthDays, col="red");
+  boxplot(datasetOutliersRemoved$SentenceLengthDays);
+  # Print out the id values of the outliers 
+  which(datasetOutliersRemoved$SentenceLengthDays %in% boxplot(datasetOutliersRemoved$SentenceLengthDays)$out);
+  
+  # No more outliers identified
+  # Final plots
+  plotNormalHistogram(datasetOutliersRemoved$SentenceLengthDays, xlab = "Sentence Duration");
+  qqnorm(datasetOutliersRemoved$SentenceLengthDays, ylab="Sample Quantiles for Sentence Duration (days)");
+  qqline(datasetOutliersRemoved$SentenceLengthDays, col="red");
+  boxplot(datasetOutliersRemoved$SentenceLengthDays);
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+  
+  
+  
+# ---------------------------------------------------------------------------------------------------
+# - Distribution Analysis: Outliers Removed and Transformations
+# ---------------------------------------------------------------------------------------------------
+ 
+  # Log ---------------------------------------------------------------------------------------------
+  logDurationNoOutliers <- log(datasetOutliersRemoved$SentenceLengthDays)
+  plotNormalHistogram(logDurationNoOutliers, xlab = "Sentence Duration No Outliers (log)");
+  
+  qqnorm(logDurationNoOutliers, ylab="Sample Quantiles for Sentence Duration No Outliers (days)");
+  qqline(logDurationNoOutliers, col="red");
+  boxplot(logDurationNoOutliers);
+  # Print out the id values of the outliers 
+  which(logDurationNoOutliers %in% boxplot(logDurationNoOutliers)$out);
+  # -------------------------------------------------------------------------------------------------
+  
+  
+  # Square ------------------------------------------------------------------------------------------
+  sqrtDurationNoOutliers <- sqrt(datasetOutliersRemoved$SentenceLengthDays);
+  plotNormalHistogram(sqrtDurationNoOutliers, xlab = "Sentence Duration No Outliers (square root)");
+  qqnorm(sqrtDurationNoOutliers, ylab="Sample Quantiles for Sentence Duration No Outliers (days)");
+  qqline(sqrtDurationNoOutliers, col="red");
+  boxplot(sqrtDurationNoOutliers);
+  # Print out the id values of the outliers 
+  which(sqrtDurationNoOutliers %in% boxplot(sqrtDurationNoOutliers)$out);
+  # -------------------------------------------------------------------------------------------------
+  
+  
+  # Cube --------------------------------------------------------------------------------------------
+  cubeDurationNoOutliers = sign(datasetOutliersRemoved$SentenceLengthDays) * abs(datasetOutliersRemoved$SentenceLengthDays)^(1/3);
+  plotNormalHistogram(cubeDurationNoOutliers, xlab = "Sentence Duration No Outliers (cube root)");
+  qqnorm(cubeDurationNoOutliers, ylab="Sample Quantiles for Sentence Duration No Outliers (days)");
+  qqline(cubeDurationNoOutliers, col="red");
+  boxplot(cubeDurationNoOutliers);
+  # Print out the id values of the outliers 
+  which(cubeDurationNoOutliers %in% boxplot(cubeDurationNoOutliers)$out);
+  # -------------------------------------------------------------------------------------------------
+  
+  
+  # BoxCox ------------------------------------------------------------------------------------------
+  # Try values -6 to 6 by 0.1
+  # NOTE: Requires library "MASS"
+  BoxNoOutlier = boxcox(datasetOutliersRemoved$SentenceLengthDays ~ 1, lambda = seq(-6,6,0.1));
+  # Create a data frame with the results  
+  CoxNoOutlier = data.frame(BoxNoOutlier$x, BoxNoOutlier$y);         
+  # Order the new data frame by decreasing Y
+  Cox2NoOutlier = CoxNoOutlier[with(CoxNoOutlier, order(-CoxNoOutlier$BoxNoOutlier.y)),];
+  # Display the lambda with the greatest
+  Cox2NoOutlier[1,];                                  
+  # Extract that lambda
+  lambdaNoOutlier = Cox2NoOutlier[1, "BoxNoOutlier.x"];    
+  # Transform the original data
+  boxcoxDurationNoOutliers = (datasetOutliersRemoved$SentenceLengthDays ^ lambdaNoOutlier - 1)/lambdaNoOutlier  ;
+  
+  plotNormalHistogram(boxcoxDurationNoOutliers, xlab = "Sentence Duration No Outliers (Box-Cox)");
+  qqnorm(boxcoxDurationNoOutliers, ylab="Sample Quantiles for Sentence Duration No Outliers (days)");
+  qqline(boxcoxDurationNoOutliers, col="red");
+  boxplot(boxcoxDurationNoOutliers);
+  # Print out the id values of the outliers 
+  which(boxcoxDurationNoOutliers %in% boxplot(boxcoxDurationNoOutliers)$out);
+  # ---------------------------------------------------------------------------------------------------
+  
+  
+  # Tukey ---------------------------------------------------------------------------------------------
+  tukeyDurationNoOutliers = transformTukey(datasetOutliersRemoved$SentenceLengthDays, plotit=FALSE);
+  plotNormalHistogram(tukeyDurationNoOutliers, xlab = "Sentence Duration No Outliers (Tukey)");
+  qqnorm(tukeyDurationNoOutliers, ylab="Sample Quantiles for Sentence Duration No Outliers (days)");
+  qqline(tukeyDurationNoOutliers, col="red");
+  boxplot(tukeyDurationNoOutliers);
+  # Print out the id values of the outliers 
+  which(tukeyDurationNoOutliers %in% boxplot(tukeyDurationNoOutliers)$out);
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+  
+  
+
+# ---------------------------------------------------------------------------------------------------
+# - Model: Factorial ANOVA (1 DV, 2+ IV (2 levels)) - All crimes
+# ---------------------------------------------------------------------------------------------------
+
+# Assumptions: We fail 1/2/3 - Unsure about 4
+  
+# 1.  Normality of the DV distribution:  ------------------------------------------------------------
+# No matter the transformation, or removal of outliers, the dataset not normally distributed
+
+  shapiro.test(dataset$SentenceLengthDays);
+  shapiro.test(datasetOutliersRemoved$SentenceLengthDays);
+  shapiro.test(logDuration);
+  shapiro.test(logDurationNoOutliers);
+  shapiro.test(sqrtDuration);
+  shapiro.test(sqrtDurationNoOutliers);
+  shapiro.test(cubeDuration);
+  shapiro.test(cubeDurationNoOutliers);
+  shapiro.test(boxcoxDuration);
+  shapiro.test(boxcoxDurationNoOutliers);
+  shapiro.test(tukeyDuration);
+  shapiro.test(tukeyDurationNoOutliers);
+# ---------------------------------------------------------------------------------------------------
+  
+# 2.  Homogeneity of variance: ----------------------------------------------------------------------
+  
+  # Fails the test, many of the different types of crimes have unbalance variance in respect to the DV
+  
+  # When checking only the first two crimes, there already exists a difference in variance   
+  leveneTest(dataset$SentenceLengthDays ~  dataset$Theft * dataset$TheftVehicle);
+  
+  # When checking all crimes, there exists a difference in variance
+  leveneTest(dataset$SentenceLengthDays ~  
+    dataset$Theft * 
+    dataset$TheftVehicle *
+    dataset$TheftFirearm *
+    dataset$TraffickingLargeCommercialDrug *
+    dataset$TraffickingCommercialDrug *
+    dataset$TraffickingNoncommercialDrug *
+    dataset$Burglary *
+    dataset$AggravatedBurglary *
+    dataset$AssaultCommonLaw *
+    dataset$CommonAssault *
+    dataset$AssaultWeapon *
+    dataset$Incest);
+  
+  
+  # When checking all crimes against transformed sentence duration
+  # There still exists a difference in variance
+  leveneTest(boxcoxDuration ~  
+    dataset$Theft * 
+    dataset$TheftVehicle *
+    dataset$TheftFirearm *
+    dataset$TraffickingLargeCommercialDrug *
+    dataset$TraffickingCommercialDrug *
+    dataset$TraffickingNoncommercialDrug *
+    dataset$Burglary *
+    dataset$AggravatedBurglary *
+    dataset$AssaultCommonLaw *
+    dataset$CommonAssault *
+    dataset$AssaultWeapon *
+    dataset$Incest);
+
+  # Checking only the aggravating and mitigating factors reveals that 
+  # there is no significant difference in variances between the groups 
+  leveneTest(dataset$SentenceLengthDays ~  
+    dataset$NoRemorse *
+    dataset$GeneralDeterrence *
+    dataset$SpecificDeterrence * 
+    dataset$CommunityProtection *
+    dataset$NoRelevantPriors *
+    dataset$PleaGuilty *
+    dataset$Remorse * 
+    dataset$GamblingAddiction);
+  
+# WARNING DO NOT RUN
+
+# Checking all factors results in R / RStudio / PC crashing 
+#  leveneTest(dataset$SentenceLengthDays ~  
+#  dataset$Theft *
+#  dataset$TheftVehicle *
+#  dataset$TheftFirearm *
+#  dataset$TraffickingLargeCommercialDrug *
+#  dataset$TraffickingCommercialDrug *
+#  dataset$TraffickingNoncommercialDrug *
+#  dataset$Burglary *
+#  dataset$AggravatedBurglary *
+#  dataset$AssaultCommonLaw *
+#  dataset$CommonAssault *
+#  dataset$AssaultWeapon *
+#  dataset$Incest * 
+#  dataset$NoRemorse *
+#  dataset$GeneralDeterrence *
+#  dataset$SpecificDeterrence * 
+#  dataset$CommunityProtection *
+#  dataset$NoRelevantPriors *
+#  dataset$PleaGuilty *
+#  dataset$Remorse * 
+#  dataset$GamblingAddiction);
+# ---------------------------------------------------------------------------------------------------
+  
+    
+# 3.  Sample Size Per Cell >20:  --------------------------------------------------------------------
+  
+  # We do not have enough observations
+  # For a 20 factor ANOVA = 1 million+ unique combinations = 20 million observations
+  # For a 12 factor ANOVA = 4096 unique combinations =  90k+ observations 
+  # This plot shows that there are widely different averages, ranges, outliers, etc 
+  boxplot(dataset$SentenceLengthDays ~ dataset$Theft * dataset$AggravatedBurglary);
+  
+  # Too many to visulaise
+  boxplot(boxcoxDuration ~  
+    dataset$Theft * 
+    dataset$TheftVehicle *
+    dataset$TheftFirearm *
+    dataset$TraffickingLargeCommercialDrug *
+    dataset$TraffickingCommercialDrug *
+    dataset$TraffickingNoncommercialDrug *
+    dataset$Burglary *
+    dataset$AggravatedBurglary *
+    dataset$AssaultCommonLaw *
+    dataset$CommonAssault *
+    dataset$AssaultWeapon *
+    dataset$Incest);
+  
+  # Just theft, shows averages are different, spreads are different and total count are different
+  # This shows that there is uneven cell counts
+  boxplot(boxcoxDuration ~  
+    dataset$Theft * 
+    dataset$TheftVehicle *
+    dataset$TheftFirearm);
+# --------------------------------------------------------------------------------------------------- 
+  
+  
+  
+# 4.  Independent observations:  --------------------------------------------------------------------
+  
+   # Unsure
+  
+# --------------------------------------------------------------------------------------------------- 
+  
+  
+### -------------------------------------------------------------------------------------------------
+### -- MODELS
+### -------------------------------------------------------------------------------------------------
+  
+  # Model: All variables, untransformed DV
+  # Breaks R / RStudio / PC
+  
+  # model = lm(dataset$SentenceLengthDays ~ 
+  #     dataset$Theft *
+  #     dataset$TheftVehicle *
+  #     dataset$TheftFirearm *
+  #     dataset$TraffickingLargeCommercialDrug *
+  #     dataset$TraffickingCommercialDrug *
+  #     dataset$TraffickingNoncommercialDrug *
+  #     dataset$Burglary *
+  #     dataset$AggravatedBurglary *
+  #     dataset$AssaultCommonLaw *
+  #     dataset$CommonAssault *
+  #     dataset$AssaultWeapon *
+  #     dataset$Incest * 
+  #     dataset$NoRemorse *
+  #     dataset$GeneralDeterrence *
+  #     dataset$SpecificDeterrence * 
+  #     dataset$CommunityProtection *
+  #     dataset$NoRelevantPriors *
+  #     dataset$PleaGuilty *
+  #     dataset$Remorse * 
+  #     dataset$GamblingAddiction);
+  # Anova(model, type="II");
+  
+  
+  # Model: Only factors, untransformed DV
+  # Takes long time to calculate, impossible to read results because of formatting
+  model = lm(dataset$SentenceLengthDays ~ 
+     dataset$NoRemorse *
+     dataset$GeneralDeterrence *
+     dataset$SpecificDeterrence * 
+     dataset$CommunityProtection *
+     dataset$NoRelevantPriors *
+     dataset$PleaGuilty *
+     dataset$Remorse * 
+     dataset$GamblingAddiction);
+  Anova(model, type="II");
+  
+  # Model: Main effect only + untransformed data
+  # General deterrence, specific deterrence, no relevant priors, plea guilty and no remorse 
+  # are all significant main effects
+  model = lm(dataset$SentenceLengthDays ~ 
+      dataset$GamblingAddiction +
+      dataset$GeneralDeterrence +
+      dataset$SpecificDeterrence +
+      dataset$CommunityProtection +
+      dataset$NoRelevantPriors +
+      dataset$PleaGuilty +
+      dataset$Remorse +
+      dataset$NoRemorse);
+  Anova(model, type="II");
+  
+
+  # Model: Main effect only + log data
+  # No remorse, no relevant priors, plea guilty siginficant, remorse edge case
+  model = lm(log(dataset$SentenceLengthDays) ~ 
+     dataset$GamblingAddiction +
+     dataset$GeneralDeterrence +
+     dataset$SpecificDeterrence +
+     dataset$CommunityProtection +
+     dataset$NoRelevantPriors +
+     dataset$PleaGuilty +
+     dataset$Remorse +
+     dataset$NoRemorse);
+  Anova(model, type="II");
+    
+  # Model: Main effect only + log data
+  # No remorse, no relevant priors, plea guilty siginficant, remorse edge case
+  # SAME AS ABOVE, BUT AOC over LM as it allows for TukeyHSD function to work
+  model = aov(dataset$SentenceLengthDays ~ 
+    dataset$GamblingAddiction +
+    dataset$GeneralDeterrence +
+    dataset$SpecificDeterrence +
+    dataset$CommunityProtection +
+    dataset$NoRelevantPriors +
+    dataset$PleaGuilty +
+    dataset$Remorse +
+    dataset$NoRemorse)
+  Anova(model, type="II");
+  
+  TukeyHSD(model);
+  
+  #$`dataset$GamblingAddiction`
+  #         diff       lwr      upr     p adj
+  # 1-0 143.2826 -10.53658 297.1019 0.0678592
+  # Gambling addiction present increase sentence duration by 143 days
+  
+  # $`dataset$GeneralDeterrence`
+  #         diff       lwr      upr    p adj
+  # 1-0 42.71709 -112.9429 198.3771 0.590338
+  # Not significant
+  
+  
+  # $`dataset$SpecificDeterrence`
+  #         diff       lwr      upr    p adj
+  # 1-0 59.88219 -91.81181 211.5762 0.438729
+  # Not significant
+  
+  # $`dataset$CommunityProtection`
+  #          diff       lwr      upr     p adj
+  # 1-0 -60.88049 -216.7158 94.95486 0.4434791
+  # Not significant
+  
+  
+  # $`dataset$NoRelevantPriors`
+  #          diff       lwr     upr     p adj
+  # 1-0 -38.73237 -191.1588 113.694 0.6181395
+  # Not significant
+  
+  # $`dataset$PleaGuilty`
+  #          diff       lwr      upr     p adj
+  # 1-0 -135.9033 -291.2168 19.41013 0.0862703
+  # Pleading guilty reduces sentence duration by 135 days
+  
+  # $`dataset$Remorse`
+  #          diff       lwr      upr     p adj
+  # 1-0 -90.11454 -243.4586 63.22948 0.2491042
+  # Not significant
+  
+  
+  # $`dataset$NoRemorse`
+  #         diff      lwr      upr     p adj
+  # 1-0 205.1541 51.49452 358.8137 0.0089277
+  # Showing "No Remorse" increased sentence duration by 205 days
+    
+
+  # Re run with transformed data
+  # => Nothing significant except for No Remorse which increases sentence duration by 0.2 days when transformed 
+  model = aov(log(dataset$SentenceLengthDays) ~ 
+    dataset$GamblingAddiction +
+    dataset$GeneralDeterrence +
+    dataset$SpecificDeterrence +
+    dataset$CommunityProtection +
+    dataset$NoRelevantPriors +
+    dataset$PleaGuilty +
+    dataset$Remorse +
+    dataset$NoRemorse);
+  Anova(model, type="II");
+  
+  TukeyHSD(model);
+  
+  
+  
+  # Main effect only - all variables 
+  # EVERYTHING except for CommonAssault is VERY SIGNIFICANT
+  # Results are non sensical: theft being present decreased sentence duration by 398 days
+    model = aov(dataset$SentenceLengthDays ~ 
+      dataset$Theft +
+      dataset$TheftVehicle +
+      dataset$TheftFirearm +
+      dataset$TraffickingLargeCommercialDrug +
+      dataset$TraffickingCommercialDrug +
+      dataset$TraffickingNoncommercialDrug +
+      dataset$Burglary +
+      dataset$AggravatedBurglary +
+      dataset$AssaultCommonLaw +
+      dataset$CommonAssault +
+      dataset$AssaultWeapon +
+      dataset$Incest + 
+      dataset$NoRemorse +
+      dataset$GeneralDeterrence +
+      dataset$SpecificDeterrence + 
+      dataset$CommunityProtection +
+      dataset$NoRelevantPriors +
+      dataset$PleaGuilty +
+      dataset$Remorse + 
+      dataset$GamblingAddiction);
+  Anova(model, type="II");
+  
+  TukeyHSD(model);
+  
+
+# ---------------------------------------------------------------------------------------------------
+# -- ONLY Theft DATA CASES
+# ---------------------------------------------------------------------------------------------------
+
+# Create Theft data subset
+
+# Columns we wish to include
+TheftDataColumns <- c(
+  "Theft",
+  "NoRemorse",
+  "GeneralDeterrence",
+  "SpecificDeterrence",
+  "CommunityProtection",
+  "NoRelevantPriors",
+  "PleaGuilty",
+  "Remorse",
+  "GamblingAddiction",
+  "SentenceLengthDays");
+
+# Create subset of dataset 
+TheftData <- dataset[TheftDataColumns];
+
+# Summary: 106 theft cases, remainder need to be removed
+summary(TheftData)
+
+# removes observations that dont relate to theft
+toBeRemoved<-which(TheftData$Theft==0)
+TheftData<-TheftData[-toBeRemoved,]
+
+# Summary: 106 observations in dataset, all relate to theft
+summary(TheftData)
+
+# Remove theft variable altogether as uneeded for further analysis
+# (all observations in this subset are theft crimes)
+# -1 => remove first column
+TheftData <- TheftData[-1]  
+
+# Re check 
+summary(TheftData)  
+
+
+# Run analysis only on this theft crime subset
+# Only specific detterence is significant
+# General and community protection are borderline
+  model = aov(TheftData$SentenceLengthDays ~
+  TheftData$NoRemorse +
+  TheftData$GeneralDeterrence +
+  TheftData$SpecificDeterrence + 
+  TheftData$CommunityProtection +
+  TheftData$NoRelevantPriors +
+  TheftData$PleaGuilty +
+  TheftData$Remorse + 
+  TheftData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+
+# Same as above but with transformed DV
+model = aov(log(TheftData$SentenceLengthDays) ~
+              TheftData$NoRemorse +
+              TheftData$GeneralDeterrence +
+              TheftData$SpecificDeterrence + 
+              TheftData$CommunityProtection +
+              TheftData$NoRelevantPriors +
+              TheftData$PleaGuilty +
+              TheftData$Remorse + 
+              TheftData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+
+
+
+
+
+# ---------------------------------------------------------------------------------------------------
+# -- ONLY TheftVehicle DATA CASES
+# ---------------------------------------------------------------------------------------------------
+
+# Create TheftVehicle data subset
+
+# Columns we wish to include
+TheftVehicleDataColumns <- c(
+  "TheftVehicle",
+  "NoRemorse",
+  "GeneralDeterrence",
+  "SpecificDeterrence",
+  "CommunityProtection",
+  "NoRelevantPriors",
+  "PleaGuilty",
+  "Remorse",
+  "GamblingAddiction",
+  "SentenceLengthDays");
+
+# Create subset of dataset 
+TheftVehicleData <- dataset[TheftVehicleDataColumns];
+
+# Summary: 106 TheftVehicle cases, remainder need to be removed
+summary(TheftVehicleData)
+
+# removes observations that dont relate to TheftVehicle
+toBeRemoved<-which(TheftVehicleData$TheftVehicle==0)
+TheftVehicleData<-TheftVehicleData[-toBeRemoved,]
+
+# Summary: 106 observations in dataset, all relate to TheftVehicle
+summary(TheftVehicleData)
+
+# Remove TheftVehicle variable altogether as uneeded for further analysis
+# (all observations in this subset are TheftVehicle crimes)
+# -1 => remove first column
+TheftVehicleData <- TheftVehicleData[-1]  
+
+# Re check 
+summary(TheftVehicleData)  
+
+
+# Run analysis only on this TheftVehicle crime subset
+# Only specific detterence is significant
+# General and community protection are borderline
+model = aov(TheftVehicleData$SentenceLengthDays ~
+              TheftVehicleData$NoRemorse +
+              TheftVehicleData$GeneralDeterrence +
+              TheftVehicleData$SpecificDeterrence + 
+              TheftVehicleData$CommunityProtection +
+              TheftVehicleData$NoRelevantPriors +
+              TheftVehicleData$PleaGuilty +
+              TheftVehicleData$Remorse + 
+              TheftVehicleData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+
+# Same as above but with transformed DV
+model = aov(log(TheftVehicleData$SentenceLengthDays) ~
+              TheftVehicleData$NoRemorse +
+              TheftVehicleData$GeneralDeterrence +
+              TheftVehicleData$SpecificDeterrence + 
+              TheftVehicleData$CommunityProtection +
+              TheftVehicleData$NoRelevantPriors +
+              TheftVehicleData$PleaGuilty +
+              TheftVehicleData$Remorse + 
+              TheftVehicleData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------------------------------
+# -- ONLY TheftFirearm DATA CASES
+# ---------------------------------------------------------------------------------------------------
+
+# Create TheftFirearm data subset
+
+# Columns we wish to include
+TheftFirearmDataColumns <- c(
+  "TheftFirearm",
+  "NoRemorse",
+  "GeneralDeterrence",
+  "SpecificDeterrence",
+  "CommunityProtection",
+  "NoRelevantPriors",
+  "PleaGuilty",
+  "Remorse",
+  "GamblingAddiction",
+  "SentenceLengthDays");
+
+# Create subset of dataset 
+TheftFirearmData <- dataset[TheftFirearmDataColumns];
+
+# Summary: 106 TheftFirearm cases, remainder need to be removed
+summary(TheftFirearmData)
+
+# removes observations that dont relate to TheftFirearm
+toBeRemoved<-which(TheftFirearmData$TheftFirearm==0)
+TheftFirearmData<-TheftFirearmData[-toBeRemoved,]
+
+# Summary: 106 observations in dataset, all relate to TheftFirearm
+summary(TheftFirearmData)
+
+# Remove TheftFirearm variable altogether as uneeded for further analysis
+# (all observations in this subset are TheftFirearm crimes)
+# -1 => remove first column
+TheftFirearmData <- TheftFirearmData[-1]  
+
+# Re check 
+summary(TheftFirearmData)  
+
+
+# Run analysis only on this TheftFirearm crime subset
+# Only specific detterence is significant
+# General and community protection are borderline
+model = aov(TheftFirearmData$SentenceLengthDays ~
+              TheftFirearmData$NoRemorse +
+              TheftFirearmData$GeneralDeterrence +
+              TheftFirearmData$SpecificDeterrence + 
+              TheftFirearmData$CommunityProtection +
+              TheftFirearmData$NoRelevantPriors +
+              TheftFirearmData$PleaGuilty +
+              TheftFirearmData$Remorse + 
+              TheftFirearmData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+
+# Same as above but with transformed DV
+model = aov(log(TheftFirearmData$SentenceLengthDays) ~
+              TheftFirearmData$NoRemorse +
+              TheftFirearmData$GeneralDeterrence +
+              TheftFirearmData$SpecificDeterrence + 
+              TheftFirearmData$CommunityProtection +
+              TheftFirearmData$NoRelevantPriors +
+              TheftFirearmData$PleaGuilty +
+              TheftFirearmData$Remorse + 
+              TheftFirearmData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+
+
+
+# ---------------------------------------------------------------------------------------------------
+# -- ONLY TraffickingLargeCommercialDrug DATA CASES
+# ---------------------------------------------------------------------------------------------------
+
+# Create TraffickingLargeCommercialDrug data subset
+
+# Columns we wish to include
+TraffickingLargeCommercialDrugDataColumns <- c(
+  "TraffickingLargeCommercialDrug",
+  "NoRemorse",
+  "GeneralDeterrence",
+  "SpecificDeterrence",
+  "CommunityProtection",
+  "NoRelevantPriors",
+  "PleaGuilty",
+  "Remorse",
+  "GamblingAddiction",
+  "SentenceLengthDays");
+
+# Create subset of dataset 
+TraffickingLargeCommercialDrugData <- dataset[TraffickingLargeCommercialDrugDataColumns];
+
+# Summary: 106 TraffickingLargeCommercialDrug cases, remainder need to be removed
+summary(TraffickingLargeCommercialDrugData)
+
+# removes observations that dont relate to TraffickingLargeCommercialDrug
+toBeRemoved<-which(TraffickingLargeCommercialDrugData$TraffickingLargeCommercialDrug==0)
+TraffickingLargeCommercialDrugData<-TraffickingLargeCommercialDrugData[-toBeRemoved,]
+
+# Summary: 106 observations in dataset, all relate to TraffickingLargeCommercialDrug
+summary(TraffickingLargeCommercialDrugData)
+
+# Remove TraffickingLargeCommercialDrug variable altogether as uneeded for further analysis
+# (all observations in this subset are TraffickingLargeCommercialDrug crimes)
+# -1 => remove first column
+TraffickingLargeCommercialDrugData <- TraffickingLargeCommercialDrugData[-1]  
+
+# Re check 
+summary(TraffickingLargeCommercialDrugData)  
+
+
+# Run analysis only on this TraffickingLargeCommercialDrug crime subset
+# Everything significant BUT gambling addiction 
+  model = aov(TraffickingLargeCommercialDrugData$SentenceLengthDays ~
+  TraffickingLargeCommercialDrugData$NoRemorse +
+  TraffickingLargeCommercialDrugData$GeneralDeterrence +
+  TraffickingLargeCommercialDrugData$SpecificDeterrence + 
+  TraffickingLargeCommercialDrugData$CommunityProtection +
+  TraffickingLargeCommercialDrugData$NoRelevantPriors +
+  TraffickingLargeCommercialDrugData$PleaGuilty +
+  TraffickingLargeCommercialDrugData$Remorse + 
+  TraffickingLargeCommercialDrugData$GamblingAddiction);
+
+Anova(model, type="II");
+
+
+TukeyHSD(model);
+
+
+# Same as above but with transformed DV
+# Everything significant including gambling addiction
+model = aov(log(TraffickingLargeCommercialDrugData$SentenceLengthDays) ~
+              TraffickingLargeCommercialDrugData$NoRemorse +
+              TraffickingLargeCommercialDrugData$GeneralDeterrence +
+              TraffickingLargeCommercialDrugData$SpecificDeterrence + 
+              TraffickingLargeCommercialDrugData$CommunityProtection +
+              TraffickingLargeCommercialDrugData$NoRelevantPriors +
+              TraffickingLargeCommercialDrugData$PleaGuilty +
+              TraffickingLargeCommercialDrugData$Remorse + 
+              TraffickingLargeCommercialDrugData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+
+
+
+
+# ---------------------------------------------------------------------------------------------------
+# -- ONLY TraffickingCommercialDrug DATA CASES
+# ---------------------------------------------------------------------------------------------------
+
+# Create TraffickingCommercialDrug data subset
+
+# Columns we wish to include
+TraffickingCommercialDrugDataColumns <- c(
+  "TraffickingCommercialDrug",
+  "NoRemorse",
+  "GeneralDeterrence",
+  "SpecificDeterrence",
+  "CommunityProtection",
+  "NoRelevantPriors",
+  "PleaGuilty",
+  "Remorse",
+  "GamblingAddiction",
+  "SentenceLengthDays");
+
+# Create subset of dataset 
+TraffickingCommercialDrugData <- dataset[TraffickingCommercialDrugDataColumns];
+
+# Summary: 106 TraffickingCommercialDrug cases, remainder need to be removed
+summary(TraffickingCommercialDrugData)
+
+# removes observations that dont relate to TraffickingCommercialDrug
+toBeRemoved<-which(TraffickingCommercialDrugData$TraffickingCommercialDrug==0)
+TraffickingCommercialDrugData<-TraffickingCommercialDrugData[-toBeRemoved,]
+
+# Summary: 106 observations in dataset, all relate to TraffickingCommercialDrug
+summary(TraffickingCommercialDrugData)
+
+# Remove TraffickingCommercialDrug variable altogether as uneeded for further analysis
+# (all observations in this subset are TraffickingCommercialDrug crimes)
+# -1 => remove first column
+TraffickingCommercialDrugData <- TraffickingCommercialDrugData[-1]  
+
+# Re check 
+summary(TraffickingCommercialDrugData)  
+
+
+# Run analysis only on this TraffickingCommercialDrug crime subset
+# No remorse, spec det, community prot, plea guilty, remorse = sig
+  model = aov(TraffickingCommercialDrugData$SentenceLengthDays ~
+  TraffickingCommercialDrugData$NoRemorse +
+  TraffickingCommercialDrugData$GeneralDeterrence +
+  TraffickingCommercialDrugData$SpecificDeterrence + 
+  TraffickingCommercialDrugData$CommunityProtection +
+  TraffickingCommercialDrugData$NoRelevantPriors +
+  TraffickingCommercialDrugData$PleaGuilty +
+  TraffickingCommercialDrugData$Remorse + 
+  TraffickingCommercialDrugData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+
+# Same as above but with transformed DV
+model = aov(log(TraffickingCommercialDrugData$SentenceLengthDays) ~
+              TraffickingCommercialDrugData$NoRemorse +
+              TraffickingCommercialDrugData$GeneralDeterrence +
+              TraffickingCommercialDrugData$SpecificDeterrence + 
+              TraffickingCommercialDrugData$CommunityProtection +
+              TraffickingCommercialDrugData$NoRelevantPriors +
+              TraffickingCommercialDrugData$PleaGuilty +
+              TraffickingCommercialDrugData$Remorse + 
+              TraffickingCommercialDrugData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+
+
+
+
+# ---------------------------------------------------------------------------------------------------
+# -- ONLY TraffickingNoncommercialDrug DATA CASES
+# ---------------------------------------------------------------------------------------------------
+
+# Create TraffickingNoncommercialDrug data subset
+
+# Columns we wish to include
+TraffickingNoncommercialDrugDataColumns <- c(
+  "TraffickingNoncommercialDrug",
+  "NoRemorse",
+  "GeneralDeterrence",
+  "SpecificDeterrence",
+  "CommunityProtection",
+  "NoRelevantPriors",
+  "PleaGuilty",
+  "Remorse",
+  "GamblingAddiction",
+  "SentenceLengthDays");
+
+# Create subset of dataset 
+TraffickingNoncommercialDrugData <- dataset[TraffickingNoncommercialDrugDataColumns];
+
+# Summary: 106 TraffickingNoncommercialDrug cases, remainder need to be removed
+summary(TraffickingNoncommercialDrugData)
+
+# removes observations that dont relate to TraffickingNoncommercialDrug
+toBeRemoved<-which(TraffickingNoncommercialDrugData$TraffickingNoncommercialDrug==0)
+TraffickingNoncommercialDrugData<-TraffickingNoncommercialDrugData[-toBeRemoved,]
+
+# Summary: 106 observations in dataset, all relate to TraffickingNoncommercialDrug
+summary(TraffickingNoncommercialDrugData)
+
+# Remove TraffickingNoncommercialDrug variable altogether as uneeded for further analysis
+# (all observations in this subset are TraffickingNoncommercialDrug crimes)
+# -1 => remove first column
+TraffickingNoncommercialDrugData <- TraffickingNoncommercialDrugData[-1]  
+
+# Re check 
+summary(TraffickingNoncommercialDrugData)  
+
+
+# Run analysis only on this TraffickingNoncommercialDrug crime subset
+# Nothing sig
+  model = aov(TraffickingNoncommercialDrugData$SentenceLengthDays ~
+  TraffickingNoncommercialDrugData$NoRemorse +
+  TraffickingNoncommercialDrugData$GeneralDeterrence +
+  TraffickingNoncommercialDrugData$SpecificDeterrence + 
+  TraffickingNoncommercialDrugData$CommunityProtection +
+  TraffickingNoncommercialDrugData$NoRelevantPriors +
+  TraffickingNoncommercialDrugData$PleaGuilty +
+  TraffickingNoncommercialDrugData$Remorse + 
+  TraffickingNoncommercialDrugData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+
+# Same as above but with transformed DV
+model = aov(log(TraffickingNoncommercialDrugData$SentenceLengthDays) ~
+              TraffickingNoncommercialDrugData$NoRemorse +
+              TraffickingNoncommercialDrugData$GeneralDeterrence +
+              TraffickingNoncommercialDrugData$SpecificDeterrence + 
+              TraffickingNoncommercialDrugData$CommunityProtection +
+              TraffickingNoncommercialDrugData$NoRelevantPriors +
+              TraffickingNoncommercialDrugData$PleaGuilty +
+              TraffickingNoncommercialDrugData$Remorse + 
+              TraffickingNoncommercialDrugData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+
+
+
+
+# ---------------------------------------------------------------------------------------------------
+# -- ONLY Burglary DATA CASES
+# ---------------------------------------------------------------------------------------------------
+
+# Create Burglary data subset
+
+# Columns we wish to include
+BurglaryDataColumns <- c(
+  "Burglary",
+  "NoRemorse",
+  "GeneralDeterrence",
+  "SpecificDeterrence",
+  "CommunityProtection",
+  "NoRelevantPriors",
+  "PleaGuilty",
+  "Remorse",
+  "GamblingAddiction",
+  "SentenceLengthDays");
+
+# Create subset of dataset 
+BurglaryData <- dataset[BurglaryDataColumns];
+
+# Summary: 106 Burglary cases, remainder need to be removed
+summary(BurglaryData)
+
+# removes observations that dont relate to Burglary
+toBeRemoved<-which(BurglaryData$Burglary==0)
+BurglaryData<-BurglaryData[-toBeRemoved,]
+
+# Summary: 106 observations in dataset, all relate to Burglary
+summary(BurglaryData)
+
+# Remove Burglary variable altogether as uneeded for further analysis
+# (all observations in this subset are Burglary crimes)
+# -1 => remove first column
+BurglaryData <- BurglaryData[-1]  
+
+# Re check 
+summary(BurglaryData)  
+
+
+# Run analysis only on this Burglary crime subset
+# Only specific detterence is significant
+# General and community protection are borderline
+  model = aov(BurglaryData$SentenceLengthDays ~
+  BurglaryData$NoRemorse +
+  BurglaryData$GeneralDeterrence +
+  BurglaryData$SpecificDeterrence + 
+  BurglaryData$CommunityProtection +
+  BurglaryData$NoRelevantPriors +
+  BurglaryData$PleaGuilty +
+  BurglaryData$Remorse + 
+  BurglaryData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+
+# Same as above but with transformed DV
+model = aov(log(BurglaryData$SentenceLengthDays) ~
+              BurglaryData$NoRemorse +
+              BurglaryData$GeneralDeterrence +
+              BurglaryData$SpecificDeterrence + 
+              BurglaryData$CommunityProtection +
+              BurglaryData$NoRelevantPriors +
+              BurglaryData$PleaGuilty +
+              BurglaryData$Remorse + 
+              BurglaryData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+
+
+
+
+# ---------------------------------------------------------------------------------------------------
+# -- ONLY AggravatedBurglary DATA CASES
+# ---------------------------------------------------------------------------------------------------
+
+# Create AggravatedBurglary data subset
+
+# Columns we wish to include
+AggravatedBurglaryDataColumns <- c(
+  "AggravatedBurglary",
+  "NoRemorse",
+  "GeneralDeterrence",
+  "SpecificDeterrence",
+  "CommunityProtection",
+  "NoRelevantPriors",
+  "PleaGuilty",
+  "Remorse",
+  "GamblingAddiction",
+  "SentenceLengthDays");
+
+# Create subset of dataset 
+AggravatedBurglaryData <- dataset[AggravatedBurglaryDataColumns];
+
+# Summary: 106 AggravatedBurglary cases, remainder need to be removed
+summary(AggravatedBurglaryData)
+
+# removes observations that dont relate to AggravatedBurglary
+toBeRemoved<-which(AggravatedBurglaryData$AggravatedBurglary==0)
+AggravatedBurglaryData<-AggravatedBurglaryData[-toBeRemoved,]
+
+# Summary: 106 observations in dataset, all relate to AggravatedBurglary
+summary(AggravatedBurglaryData)
+
+# Remove AggravatedBurglary variable altogether as uneeded for further analysis
+# (all observations in this subset are AggravatedBurglary crimes)
+# -1 => remove first column
+AggravatedBurglaryData <- AggravatedBurglaryData[-1]  
+
+# Re check 
+summary(AggravatedBurglaryData)  
+
+
+# Run analysis only on this AggravatedBurglary crime subset
+# Only specific detterence is significant
+# General and community protection are borderline
+  model = aov(AggravatedBurglaryData$SentenceLengthDays ~
+  AggravatedBurglaryData$NoRemorse +
+  AggravatedBurglaryData$GeneralDeterrence +
+  AggravatedBurglaryData$SpecificDeterrence + 
+  AggravatedBurglaryData$CommunityProtection +
+  AggravatedBurglaryData$NoRelevantPriors +
+  AggravatedBurglaryData$PleaGuilty +
+  AggravatedBurglaryData$Remorse + 
+  AggravatedBurglaryData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+
+# Same as above but with transformed DV
+model = aov(log(AggravatedBurglaryData$SentenceLengthDays) ~
+              AggravatedBurglaryData$NoRemorse +
+              AggravatedBurglaryData$GeneralDeterrence +
+              AggravatedBurglaryData$SpecificDeterrence + 
+              AggravatedBurglaryData$CommunityProtection +
+              AggravatedBurglaryData$NoRelevantPriors +
+              AggravatedBurglaryData$PleaGuilty +
+              AggravatedBurglaryData$Remorse + 
+              AggravatedBurglaryData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+
+
+# ---------------------------------------------------------------------------------------------------
+# -- ONLY AssaultCommonLaw DATA CASES
+# ---------------------------------------------------------------------------------------------------
+
+# Create AssaultCommonLaw data subset
+
+# Columns we wish to include
+AssaultCommonLawDataColumns <- c(
+  "AssaultCommonLaw",
+  "NoRemorse",
+  "GeneralDeterrence",
+  "SpecificDeterrence",
+  "CommunityProtection",
+  "NoRelevantPriors",
+  "PleaGuilty",
+  "Remorse",
+  "GamblingAddiction",
+  "SentenceLengthDays");
+
+# Create subset of dataset 
+AssaultCommonLawData <- dataset[AssaultCommonLawDataColumns];
+
+# Summary: 106 AssaultCommonLaw cases, remainder need to be removed
+summary(AssaultCommonLawData)
+
+# removes observations that dont relate to AssaultCommonLaw
+toBeRemoved<-which(AssaultCommonLawData$AssaultCommonLaw==0)
+AssaultCommonLawData<-AssaultCommonLawData[-toBeRemoved,]
+
+# Summary: 106 observations in dataset, all relate to AssaultCommonLaw
+summary(AssaultCommonLawData)
+
+# Remove AssaultCommonLaw variable altogether as uneeded for further analysis
+# (all observations in this subset are AssaultCommonLaw crimes)
+# -1 => remove first column
+AssaultCommonLawData <- AssaultCommonLawData[-1]  
+
+# Re check 
+summary(AssaultCommonLawData)  
+
+
+# Run analysis only on this AssaultCommonLaw crime subset
+# Only specific detterence is significant
+# General and community protection are borderline
+  model = aov(AssaultCommonLawData$SentenceLengthDays ~
+  AssaultCommonLawData$NoRemorse +
+  AssaultCommonLawData$GeneralDeterrence +
+  AssaultCommonLawData$SpecificDeterrence + 
+  AssaultCommonLawData$CommunityProtection +
+  AssaultCommonLawData$NoRelevantPriors +
+  AssaultCommonLawData$PleaGuilty +
+  AssaultCommonLawData$Remorse + 
+  AssaultCommonLawData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+
+# Same as above but with transformed DV
+model = aov(log(AssaultCommonLawData$SentenceLengthDays) ~
+              AssaultCommonLawData$NoRemorse +
+              AssaultCommonLawData$GeneralDeterrence +
+              AssaultCommonLawData$SpecificDeterrence + 
+              AssaultCommonLawData$CommunityProtection +
+              AssaultCommonLawData$NoRelevantPriors +
+              AssaultCommonLawData$PleaGuilty +
+              AssaultCommonLawData$Remorse + 
+              AssaultCommonLawData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+
+
+
+
+# ---------------------------------------------------------------------------------------------------
+# -- ONLY CommonAssault DATA CASES
+# ---------------------------------------------------------------------------------------------------
+
+# Create CommonAssault data subset
+
+# Columns we wish to include
+CommonAssaultDataColumns <- c(
+  "CommonAssault",
+  "NoRemorse",
+  "GeneralDeterrence",
+  "SpecificDeterrence",
+  "CommunityProtection",
+  "NoRelevantPriors",
+  "PleaGuilty",
+  "Remorse",
+  "GamblingAddiction",
+  "SentenceLengthDays");
+
+# Create subset of dataset 
+CommonAssaultData <- dataset[CommonAssaultDataColumns];
+
+# Summary: 106 CommonAssault cases, remainder need to be removed
+summary(CommonAssaultData)
+
+# removes observations that dont relate to CommonAssault
+toBeRemoved<-which(CommonAssaultData$CommonAssault==0)
+CommonAssaultData<-CommonAssaultData[-toBeRemoved,]
+
+# Summary: 106 observations in dataset, all relate to CommonAssault
+summary(CommonAssaultData)
+
+# Remove CommonAssault variable altogether as uneeded for further analysis
+# (all observations in this subset are CommonAssault crimes)
+# -1 => remove first column
+CommonAssaultData <- CommonAssaultData[-1]  
+
+# Re check 
+summary(CommonAssaultData)  
+
+
+# Run analysis only on this CommonAssault crime subset
+# Only specific detterence is significant
+# General and community protection are borderline
+  model = aov(CommonAssaultData$SentenceLengthDays ~
+  CommonAssaultData$NoRemorse +
+  CommonAssaultData$GeneralDeterrence +
+  CommonAssaultData$SpecificDeterrence + 
+  CommonAssaultData$CommunityProtection +
+  CommonAssaultData$NoRelevantPriors +
+  CommonAssaultData$PleaGuilty +
+  CommonAssaultData$Remorse + 
+  CommonAssaultData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+
+# Same as above but with transformed DV
+model = aov(log(CommonAssaultData$SentenceLengthDays) ~
+              CommonAssaultData$NoRemorse +
+              CommonAssaultData$GeneralDeterrence +
+              CommonAssaultData$SpecificDeterrence + 
+              CommonAssaultData$CommunityProtection +
+              CommonAssaultData$NoRelevantPriors +
+              CommonAssaultData$PleaGuilty +
+              CommonAssaultData$Remorse + 
+              CommonAssaultData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+
+
+
+
+# ---------------------------------------------------------------------------------------------------
+# -- ONLY AssaultWeapon DATA CASES
+# ---------------------------------------------------------------------------------------------------
+
+# Create AssaultWeapon data subset
+
+# Columns we wish to include
+AssaultWeaponDataColumns <- c(
+  "AssaultWeapon",
+  "NoRemorse",
+  "GeneralDeterrence",
+  "SpecificDeterrence",
+  "CommunityProtection",
+  "NoRelevantPriors",
+  "PleaGuilty",
+  "Remorse",
+  "GamblingAddiction",
+  "SentenceLengthDays");
+
+# Create subset of dataset 
+AssaultWeaponData <- dataset[AssaultWeaponDataColumns];
+
+# Summary: 106 AssaultWeapon cases, remainder need to be removed
+summary(AssaultWeaponData)
+
+# removes observations that dont relate to AssaultWeapon
+toBeRemoved<-which(AssaultWeaponData$AssaultWeapon==0)
+AssaultWeaponData<-AssaultWeaponData[-toBeRemoved,]
+
+# Summary: 106 observations in dataset, all relate to AssaultWeapon
+summary(AssaultWeaponData)
+
+# Remove AssaultWeapon variable altogether as uneeded for further analysis
+# (all observations in this subset are AssaultWeapon crimes)
+# -1 => remove first column
+AssaultWeaponData <- AssaultWeaponData[-1]  
+
+# Re check 
+summary(AssaultWeaponData)  
+
+
+# Run analysis only on this AssaultWeapon crime subset
+# Only specific detterence is significant
+# General and community protection are borderline
+  model = aov(AssaultWeaponData$SentenceLengthDays ~
+  AssaultWeaponData$NoRemorse +
+  AssaultWeaponData$GeneralDeterrence +
+  AssaultWeaponData$SpecificDeterrence + 
+  AssaultWeaponData$CommunityProtection +
+  AssaultWeaponData$NoRelevantPriors +
+  AssaultWeaponData$PleaGuilty +
+  AssaultWeaponData$Remorse + 
+  AssaultWeaponData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+
+# Same as above but with transformed DV
+model = aov(log(AssaultWeaponData$SentenceLengthDays) ~
+              AssaultWeaponData$NoRemorse +
+              AssaultWeaponData$GeneralDeterrence +
+              AssaultWeaponData$SpecificDeterrence + 
+              AssaultWeaponData$CommunityProtection +
+              AssaultWeaponData$NoRelevantPriors +
+              AssaultWeaponData$PleaGuilty +
+              AssaultWeaponData$Remorse + 
+              AssaultWeaponData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+
+
+
+
+# ---------------------------------------------------------------------------------------------------
+# -- ONLY Incest DATA CASES
+# ---------------------------------------------------------------------------------------------------
+
+# Create Incest data subset
+
+# Columns we wish to include
+IncestDataColumns <- c(
+  "Incest",
+  "NoRemorse",
+  "GeneralDeterrence",
+  "SpecificDeterrence",
+  "CommunityProtection",
+  "NoRelevantPriors",
+  "PleaGuilty",
+  "Remorse",
+  "GamblingAddiction",
+  "SentenceLengthDays");
+
+# Create subset of dataset 
+IncestData <- dataset[IncestDataColumns];
+
+# Summary: 106 Incest cases, remainder need to be removed
+summary(IncestData)
+
+# removes observations that dont relate to Incest
+toBeRemoved<-which(IncestData$Incest==0)
+IncestData<-IncestData[-toBeRemoved,]
+
+# Summary: 106 observations in dataset, all relate to Incest
+summary(IncestData)
+
+# Remove Incest variable altogether as uneeded for further analysis
+# (all observations in this subset are Incest crimes)
+# -1 => remove first column
+IncestData <- IncestData[-1]  
+
+# Re check 
+summary(IncestData)  
+
+
+# Run analysis only on this Incest crime subset
+# Only specific detterence is significant
+# General and community protection are borderline
+  model = aov(IncestData$SentenceLengthDays ~
+  IncestData$NoRemorse +
+  IncestData$GeneralDeterrence +
+  IncestData$SpecificDeterrence + 
+  IncestData$CommunityProtection +
+  IncestData$NoRelevantPriors +
+  IncestData$PleaGuilty +
+  IncestData$Remorse + 
+  IncestData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+
+# Same as above but with transformed DV
+model = aov(log(IncestData$SentenceLengthDays) ~
+              IncestData$NoRemorse +
+              IncestData$GeneralDeterrence +
+              IncestData$SpecificDeterrence + 
+              IncestData$CommunityProtection +
+              IncestData$NoRelevantPriors +
+              IncestData$PleaGuilty +
+              IncestData$Remorse + 
+              IncestData$GamblingAddiction);
+
+Anova(model, type="II");
+
+# Nothing is significant 
+TukeyHSD(model);
+
+# ---------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
+
+</p>
+</div>
+</article>
+
+{% endblock content %}

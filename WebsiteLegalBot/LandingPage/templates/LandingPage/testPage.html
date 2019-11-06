@@ -1,0 +1,14 @@
+{% extends "LandingPage/base.html" %}
+{% load static %}
+
+{% block content%}
+
+	{% for data in info %}
+		<p> Sentence Type: {{ data.Sentence }} </p>
+		<p> Sentence Duration: {{ data.Duration }} </p>
+	{% endfor %}
+
+
+	<img src="{% static 'LandingPage/test.png' %}" alt='No Image Found' />
+
+{% endblock content %}
